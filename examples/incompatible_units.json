@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "id": "alpha",
+      "design": "synthetic_example",
+      "method": "alpha",
+      "context": {
+        "baseline_id": "original-example-v1",
+        "device": "abstract_example",
+        "toolchain": "original_fixture",
+        "tool_version": "1.0",
+        "implementation": "abstract_costs",
+        "constraints_id": "example-v1",
+        "timing_corner": "not_applicable_abstract_costs",
+        "workload_id": "synthetic-v1",
+        "source_kind": "synthetic_example"
+      },
+      "metrics": {
+        "area_ratio": {
+          "value": 2.0,
+          "lower": 1.95,
+          "upper": 2.05,
+          "unit": "ratio",
+          "denominator": "original-example-v1:area_ratio",
+          "uncertainty_kind": "rounding"
+        },
+        "cycle_ratio": {
+          "value": 4.0,
+          "lower": 3.95,
+          "upper": 4.05,
+          "unit": "ratio",
+          "denominator": "original-example-v1:cycle_ratio",
+          "uncertainty_kind": "rounding"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/fixture_source.json",
+        "source_sha256": "a50bcc0c0846c4691f5acc62d8a4696d4116cde95dd4ac7a906e513459db99db",
+        "locator": "observations[id=alpha]",
+        "extraction": "original deterministic synthetic fixture"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "no_radiation_claim",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "beta",
+      "design": "synthetic_example",
+      "method": "beta",
+      "context": {
+        "baseline_id": "original-example-v1",
+        "device": "abstract_example",
+        "toolchain": "original_fixture",
+        "tool_version": "1.0",
+        "implementation": "abstract_costs",
+        "constraints_id": "example-v1",
+        "timing_corner": "not_applicable_abstract_costs",
+        "workload_id": "synthetic-v1",
+        "source_kind": "synthetic_example"
+      },
+      "metrics": {
+        "area_ratio": {
+          "value": 2.0,
+          "lower": 1.95,
+          "upper": 2.05,
+          "unit": "generic_cells",
+          "denominator": "original-example-v1:area_ratio",
+          "uncertainty_kind": "rounding"
+        },
+        "cycle_ratio": {
+          "value": 5.0,
+          "lower": 4.95,
+          "upper": 5.05,
+          "unit": "ratio",
+          "denominator": "original-example-v1:cycle_ratio",
+          "uncertainty_kind": "rounding"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/fixture_source.json",
+        "source_sha256": "a50bcc0c0846c4691f5acc62d8a4696d4116cde95dd4ac7a906e513459db99db",
+        "locator": "observations[id=beta]",
+        "extraction": "original deterministic synthetic fixture"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "no_radiation_claim",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "gamma",
+      "design": "synthetic_example",
+      "method": "gamma",
+      "context": {
+        "baseline_id": "original-example-v1",
+        "device": "abstract_example",
+        "toolchain": "original_fixture",
+        "tool_version": "1.0",
+        "implementation": "abstract_costs",
+        "constraints_id": "example-v1",
+        "timing_corner": "not_applicable_abstract_costs",
+        "workload_id": "synthetic-v1",
+        "source_kind": "synthetic_example"
+      },
+      "metrics": {
+        "area_ratio": {
+          "value": 3.0,
+          "lower": 2.95,
+          "upper": 3.05,
+          "unit": "ratio",
+          "denominator": "original-example-v1:area_ratio",
+          "uncertainty_kind": "rounding"
+        },
+        "cycle_ratio": {
+          "value": 3.0,
+          "lower": 2.95,
+          "upper": 3.05,
+          "unit": "ratio",
+          "denominator": "original-example-v1:cycle_ratio",
+          "uncertainty_kind": "rounding"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/fixture_source.json",
+        "source_sha256": "a50bcc0c0846c4691f5acc62d8a4696d4116cde95dd4ac7a906e513459db99db",
+        "locator": "observations[id=gamma]",
+        "extraction": "original deterministic synthetic fixture"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "no_radiation_claim",
+        "evidence_uri": "not_available"
+      }
+    }
+  ]
+}

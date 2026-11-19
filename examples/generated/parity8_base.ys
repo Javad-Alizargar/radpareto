@@ -1,0 +1,9 @@
+read_verilog examples/hdl/parity8.v
+synth -top base -noabc
+check -assert
+stat
+write_json examples/generated/parity8_base.json
+setattr -mod -unset keep_hierarchy
+setattr -unset keep_hierarchy
+flatten
+ltp -noff

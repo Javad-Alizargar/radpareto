@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite the exact software version used. This alpha has no assigned DOI."
+title: "RadPareto evidence-aware resource comparison"
+type: software
+version: 0.1.0a1
+license: MIT
+authors:
+  - name: "RadPareto contributors"

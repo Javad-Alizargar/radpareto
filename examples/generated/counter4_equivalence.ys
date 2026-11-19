@@ -1,0 +1,8 @@
+read_verilog examples/hdl/counter4.v
+hierarchy -top check
+proc
+setattr -mod -unset keep_hierarchy
+setattr -unset keep_hierarchy
+flatten
+opt
+sat -verify -prove ok 1 -seq 12 -set-init-zero

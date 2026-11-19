@@ -1,0 +1,9 @@
+{
+  "description": "Original synthetic costs for testing interval and comparison semantics. No empirical or radiation measurements.",
+  "quantum": 0.1,
+  "observations": [
+    {"id": "alpha", "area_ratio": 2.0, "cycle_ratio": 4.0},
+    {"id": "beta", "area_ratio": 2.0, "cycle_ratio": 5.0},
+    {"id": "gamma", "area_ratio": 3.0, "cycle_ratio": 3.0}
+  ]
+}

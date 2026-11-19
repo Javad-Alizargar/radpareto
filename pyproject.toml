@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "radpareto"
+version = "0.1.0a1"
+description = "Traceable resource comparisons with explicit evidence compatibility checks"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "RadPareto contributors"}]
+dependencies = []
+classifiers = ["Development Status :: 3 - Alpha", "Programming Language :: Python :: 3", "Topic :: Scientific/Engineering"]
+
+[project.scripts]
+radpareto = "radpareto.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

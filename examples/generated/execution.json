@@ -1,0 +1,410 @@
+{
+  "generated_utc": "2026-11-19T16:01:06.402225+00:00",
+  "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+  "python": "3.12.10",
+  "runs": [
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/add4_base.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/add4_base.ys",
+      "script_sha256": "73e312fba26c5138f314f960464e8af6cfd1db503ff393d3479a0f7c719899e7",
+      "log": "examples/generated/add4_base.log",
+      "log_sha256": "34e690fcffa2f6aed6cc3f925460d8533803af9b3c3b9ed17e037075afa8fe87"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/add4_tmr.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/add4_tmr.ys",
+      "script_sha256": "482be56487b3e74febbc3a5322983c8c119c8957b7ddbcfe0126cb0b14ae45f6",
+      "log": "examples/generated/add4_tmr.log",
+      "log_sha256": "02286d3d4d7b7d9142fab06084628fa5e03a5427f4abf19f15a738c2f6b29922"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/add4_equivalence.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/add4_equivalence.ys",
+      "script_sha256": "46da09e554e0f1ca0a19919dd60e616c153ef88c2331c9619973bb19036191b8",
+      "log": "examples/generated/add4_equivalence.log",
+      "log_sha256": "c376170788a03a2de3ff91098f598c71de62981e12c544ee3ad01e22725dd1cf"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/add8_base.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/add8_base.ys",
+      "script_sha256": "203637f32f951f3f1f4bb89f21521b31ab1f9fb362705d1929d1cca8bc560007",
+      "log": "examples/generated/add8_base.log",
+      "log_sha256": "329cff383d564dbe49feb19f9cd16974a43896b4a81e78a9426f3be1e2dd6c03"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/add8_tmr.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/add8_tmr.ys",
+      "script_sha256": "f62c0f3bbc4dc9423f7df29a977c210b37e233fa0ab3bbf8e89aebbe0624961c",
+      "log": "examples/generated/add8_tmr.log",
+      "log_sha256": "63739b8b59a5cffdb5c242420b9a489949d53ef34b35b82599b89b7022761bb1"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/add8_equivalence.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/add8_equivalence.ys",
+      "script_sha256": "6e032fbe3d0583871d0dbf082a8ff855f46c80b8dbf048a8dd973864e519f2e5",
+      "log": "examples/generated/add8_equivalence.log",
+      "log_sha256": "fdecbaa3e3462b3414475d5c9121fded1d067d3f4eb0bfe9f7204d7eccee72a4"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/mux4_base.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/mux4_base.ys",
+      "script_sha256": "fc190cfa4114e980af30ae76b67e0b0cb3b8760226deac2f2572d9e5692c3caf",
+      "log": "examples/generated/mux4_base.log",
+      "log_sha256": "87afcf10a664775f05d4441957b7cd3026ab0483c80349e545b3fad96c21606e"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/mux4_tmr.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/mux4_tmr.ys",
+      "script_sha256": "0e685507f108c4317f3c8e423eec4cc9aec4e52ff59ac13e7518cef651bcea8d",
+      "log": "examples/generated/mux4_tmr.log",
+      "log_sha256": "744fbee7ecce490c548cc3efd7add2bd34ec38098e760ec51e4ca32258bfba45"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/mux4_equivalence.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/mux4_equivalence.ys",
+      "script_sha256": "6dde94f98c9b3b6f88c9faf2df2010573e87c64f6e39012ee267df35c92c44d4",
+      "log": "examples/generated/mux4_equivalence.log",
+      "log_sha256": "db0559ad4ee1145cc7c1c6fe40d2437464e98597a639b7fc07bf21906ce5afcd"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/parity8_base.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/parity8_base.ys",
+      "script_sha256": "8a755e275c163a0fd77ee22f0bc8a3f9d0b7e6ca121c1ca2856c8e24a0774c60",
+      "log": "examples/generated/parity8_base.log",
+      "log_sha256": "75fcc22092392ff84fa960c8344c9bf989d56dd49c81bde2749aec84123dd87e"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/parity8_tmr.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/parity8_tmr.ys",
+      "script_sha256": "60713074123bdfa99b8bd1bcb5fa8cdc5bbd3aaf982193025a913fba3acb278c",
+      "log": "examples/generated/parity8_tmr.log",
+      "log_sha256": "a4f565908dd059350e8507782df3e568b4f5823a357f5714af17dec69630af4f"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/parity8_equivalence.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/parity8_equivalence.ys",
+      "script_sha256": "9e5d9495bbf58c5273d8d1ebba8206e37b2b7603c4af9676a3e3642b15bd04e8",
+      "log": "examples/generated/parity8_equivalence.log",
+      "log_sha256": "cbaff0213abe02d85d86322b1f4b9c21b2d53313ab63209704ba292c3c8a0261"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/counter4_base.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/counter4_base.ys",
+      "script_sha256": "1f338dc3e299b42e58c92b02259adf8b1a5fc08fd301aba3b407228b329f0a92",
+      "log": "examples/generated/counter4_base.log",
+      "log_sha256": "eca69d356fa072f7ab29021f5ed6715ba003f2f7598424464a668eeb39c044be"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/counter4_tmr.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/counter4_tmr.ys",
+      "script_sha256": "6fcae5a30fd1c07c015a8561d858a49f658b40b6480e3d943a561f92bcf4a2db",
+      "log": "examples/generated/counter4_tmr.log",
+      "log_sha256": "74d1bdaeafcfdf0d2eeab663a91d65571d9e09805c49a2dacbd3221e298e5ede"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/counter4_equivalence.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/counter4_equivalence.ys",
+      "script_sha256": "adb1176685a89a983fdbca879f026162a66538898ff44db12fd66b34a5843d83",
+      "log": "examples/generated/counter4_equivalence.log",
+      "log_sha256": "5651df13061b5f2a2b9a99d8856d1f9c3f90286d613b3755583983554db972c2"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/counter8_base.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/counter8_base.ys",
+      "script_sha256": "2e17b345cdf6de51a05aaa978e563578dd282e98005f1fc083f67bb59e4e54e3",
+      "log": "examples/generated/counter8_base.log",
+      "log_sha256": "4c1014d1c1f7e9248f6edeac11e8ceab91781dfaf25437119d2a3e1b1975f6ae"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/counter8_tmr.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/counter8_tmr.ys",
+      "script_sha256": "2f01b9a0218aca303d039c23eacffcf49bc7a5736e68701e8cd55f05778cf960",
+      "log": "examples/generated/counter8_tmr.log",
+      "log_sha256": "2368dfd54685fd2f79df8aa38dd91c4d91f7be142c890f1a0e03f2a384af7362"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/counter8_equivalence.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/counter8_equivalence.ys",
+      "script_sha256": "16f3a2f376c71fc5b6c829dd06d833631867d48fd864d26ea7eafabaa80e872b",
+      "log": "examples/generated/counter8_equivalence.log",
+      "log_sha256": "ff0fc9cd9c5b7b57d2afcf5ab15ef30ed185ab41672ed5fe9d13fb7eaa8bc7ac"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/shift4_base.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/shift4_base.ys",
+      "script_sha256": "3ded629165bd6c105e315df6fa8b8b330efc093e627f35764c369dfb3ea13b61",
+      "log": "examples/generated/shift4_base.log",
+      "log_sha256": "bd9352944e2ce13ce3a925e3b788572d695305e57d25cbbce56fa1fb784a6ab4"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/shift4_tmr.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/shift4_tmr.ys",
+      "script_sha256": "7a4b86b111a9604cdc299ae2ad2eb18ecf7ec6f2e9da3394d8a484458c74583c",
+      "log": "examples/generated/shift4_tmr.log",
+      "log_sha256": "32faeb4823191c50bd1aeaf06b7f49a68ade118e395e088c1b3ab136733aaeaa"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/shift4_equivalence.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/shift4_equivalence.ys",
+      "script_sha256": "9c03c26a53a719f282eeaad82a30e7ca7782d0e1c59ae5fa0237e441c0362705",
+      "log": "examples/generated/shift4_equivalence.log",
+      "log_sha256": "6846f158dc15f7858a1c980bcb278fd1ca564662a61002a66da2fce0178d6a06"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/shift8_base.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/shift8_base.ys",
+      "script_sha256": "8066ac89c2de2b4134e1324e43a85c1d938eec5d98dd3acd5e27b0ef7d337e6a",
+      "log": "examples/generated/shift8_base.log",
+      "log_sha256": "0d708eeb7b3e12040f53c7d93d4203384ea4192df2f03a45ed2ef944b6bbdba0"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/shift8_tmr.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/shift8_tmr.ys",
+      "script_sha256": "fa8236a5203370e570bf1c84f8d864030bcb36c94a6da94168412979dfbfb570",
+      "log": "examples/generated/shift8_tmr.log",
+      "log_sha256": "a8c534d410a2edfd690eecdaafca4df2d74db288fbe2a7adadab752072d120c3"
+    },
+    {
+      "command": [
+        "yowasp-yosys.exe",
+        "-T",
+        "-s",
+        "examples/generated/shift8_equivalence.ys"
+      ],
+      "cwd": ".",
+      "returncode": 0,
+      "script": "examples/generated/shift8_equivalence.ys",
+      "script_sha256": "4514f5aa5cc71072a68bcbf71fea9848126b33e6a465038750864fe6e7cc81f4",
+      "log": "examples/generated/shift8_equivalence.log",
+      "log_sha256": "62c03bbddc34d7af6f152e0c5b5bb8f3dc3cb6e0d8a38597b7524b6ba374b5c4"
+    }
+  ],
+  "checks": [
+    {
+      "design": "add4",
+      "fault_free_equivalence": "passed",
+      "bounded_steps": null,
+      "scope": "all Boolean inputs",
+      "tmr_instance_count": 3,
+      "radiation_effectiveness": "not_tested"
+    },
+    {
+      "design": "add8",
+      "fault_free_equivalence": "passed",
+      "bounded_steps": null,
+      "scope": "all Boolean inputs",
+      "tmr_instance_count": 3,
+      "radiation_effectiveness": "not_tested"
+    },
+    {
+      "design": "mux4",
+      "fault_free_equivalence": "passed",
+      "bounded_steps": null,
+      "scope": "all Boolean inputs",
+      "tmr_instance_count": 3,
+      "radiation_effectiveness": "not_tested"
+    },
+    {
+      "design": "parity8",
+      "fault_free_equivalence": "passed",
+      "bounded_steps": null,
+      "scope": "all Boolean inputs",
+      "tmr_instance_count": 3,
+      "radiation_effectiveness": "not_tested"
+    },
+    {
+      "design": "counter4",
+      "fault_free_equivalence": "passed",
+      "bounded_steps": 12,
+      "scope": "all combinational inputs; initial-zero bounded sequential states",
+      "tmr_instance_count": 3,
+      "radiation_effectiveness": "not_tested"
+    },
+    {
+      "design": "counter8",
+      "fault_free_equivalence": "passed",
+      "bounded_steps": 12,
+      "scope": "all combinational inputs; initial-zero bounded sequential states",
+      "tmr_instance_count": 3,
+      "radiation_effectiveness": "not_tested"
+    },
+    {
+      "design": "shift4",
+      "fault_free_equivalence": "passed",
+      "bounded_steps": 12,
+      "scope": "all combinational inputs; initial-zero bounded sequential states",
+      "tmr_instance_count": 3,
+      "radiation_effectiveness": "not_tested"
+    },
+    {
+      "design": "shift8",
+      "fault_free_equivalence": "passed",
+      "bounded_steps": 12,
+      "scope": "all combinational inputs; initial-zero bounded sequential states",
+      "tmr_instance_count": 3,
+      "radiation_effectiveness": "not_tested"
+    }
+  ],
+  "scope": "generic synthesis and bounded fault-free equivalence only"
+}

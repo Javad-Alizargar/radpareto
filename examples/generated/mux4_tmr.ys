@@ -1,0 +1,9 @@
+read_verilog examples/hdl/mux4.v
+synth -top tmr -noabc
+check -assert
+stat
+write_json examples/generated/mux4_tmr.json
+setattr -mod -unset keep_hierarchy
+setattr -unset keep_hierarchy
+flatten
+ltp -noff

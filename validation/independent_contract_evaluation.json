@@ -1,0 +1,240 @@
+{
+  "scope": "software correctness, original synthetic tests; no human utility or radiation validation",
+  "tests": [
+    {
+      "case": "nominal_front_hand_expected",
+      "passed": true
+    },
+    {
+      "case": "rounded_front_hand_expected",
+      "passed": true
+    },
+    {
+      "case": "rounded_feasibility_uncertain",
+      "passed": true
+    },
+    {
+      "case": "infeasible_gamma",
+      "passed": true
+    },
+    {
+      "case": "no_definitely_feasible_recommendation",
+      "passed": true
+    },
+    {
+      "case": "protection_unknown_refused",
+      "passed": true
+    },
+    {
+      "case": "mismatch_baseline_id",
+      "passed": true
+    },
+    {
+      "case": "mismatch_device",
+      "passed": true
+    },
+    {
+      "case": "mismatch_toolchain",
+      "passed": true
+    },
+    {
+      "case": "mismatch_tool_version",
+      "passed": true
+    },
+    {
+      "case": "mismatch_implementation",
+      "passed": true
+    },
+    {
+      "case": "mismatch_constraints_id",
+      "passed": true
+    },
+    {
+      "case": "mismatch_timing_corner",
+      "passed": true
+    },
+    {
+      "case": "mismatch_workload_id",
+      "passed": true
+    },
+    {
+      "case": "mismatch_source_kind",
+      "passed": true
+    },
+    {
+      "case": "mismatch_unit",
+      "passed": true
+    },
+    {
+      "case": "mismatch_denominator",
+      "passed": true
+    },
+    {
+      "case": "mismatch_uncertainty_kind",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_0",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_1",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_2",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_3",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_4",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_5",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_6",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_7",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_8",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_9",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_10",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_11",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_12",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_13",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_14",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_15",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_16",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_17",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_18",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_19",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_20",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_21",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_22",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_23",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_24",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_25",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_26",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_27",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_28",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_29",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_30",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_31",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_32",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_33",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_34",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_35",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_36",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_37",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_38",
+      "passed": true
+    },
+    {
+      "case": "endpoint_enumeration_39",
+      "passed": true
+    }
+  ],
+  "endpoint_enumeration_cases": 40,
+  "fixture_sha256": "a1ad01c5c0a030d966a8b4c92db2a5ee00a3b63ff3d69a701f0e585ba19b7743",
+  "seed": 71391
+}

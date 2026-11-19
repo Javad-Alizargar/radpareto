@@ -1,0 +1,741 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "id": "add4_base",
+      "design": "add4",
+      "method": "base",
+      "context": {
+        "baseline_id": "original-add4-v1-5c63a1269dbe",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys generic synth -noabc preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "mapped generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean input combinations; state initial zero",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 14,
+          "lower": 14,
+          "upper": 14,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 6,
+          "lower": 6,
+          "upper": 6,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/generated/add4_base.json",
+        "source_sha256": "1a543f45d8eb130c41bba279b56035f1299b898f391ed1643934e1110ae705d5",
+        "locator": "modules.base; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "add4_tmr",
+      "design": "add4",
+      "method": "tmr",
+      "context": {
+        "baseline_id": "original-add4-v1-5c63a1269dbe",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys generic synth -noabc preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "mapped generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean input combinations; state initial zero",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 62,
+          "lower": 62,
+          "upper": 62,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 9,
+          "lower": 9,
+          "upper": 9,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/generated/add4_tmr.json",
+        "source_sha256": "7826d0ea954f277c3419d0a839331e43b23bde3167ee86c7f950b1ae0f6afb54",
+        "locator": "modules.tmr; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "add8_base",
+      "design": "add8",
+      "method": "base",
+      "context": {
+        "baseline_id": "original-add8-v1-f86e7659d163",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys generic synth -noabc preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "mapped generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean input combinations; state initial zero",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 40,
+          "lower": 40,
+          "upper": 40,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 10,
+          "lower": 10,
+          "upper": 10,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/generated/add8_base.json",
+        "source_sha256": "e049d5e88a5ae87547c53e2ec456022d70f959749d6255d6ae8503a1a447f4e2",
+        "locator": "modules.base; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "add8_tmr",
+      "design": "add8",
+      "method": "tmr",
+      "context": {
+        "baseline_id": "original-add8-v1-f86e7659d163",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys generic synth -noabc preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "mapped generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean input combinations; state initial zero",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 160,
+          "lower": 160,
+          "upper": 160,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 13,
+          "lower": 13,
+          "upper": 13,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/generated/add8_tmr.json",
+        "source_sha256": "78492538c8b568913e4ba58c64983f3ae8454e956fd3174d56c9fc0de2a9ad49",
+        "locator": "modules.tmr; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "mux4_base",
+      "design": "mux4",
+      "method": "base",
+      "context": {
+        "baseline_id": "original-mux4-v1-452297ae2bf6",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys generic synth -noabc preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "mapped generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean input combinations; state initial zero",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 4,
+          "lower": 4,
+          "upper": 4,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 1,
+          "lower": 1,
+          "upper": 1,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/generated/mux4_base.json",
+        "source_sha256": "8a5af32b769d867d924ea08fac14930fc167fcd5da43acb74a329fbde0eeb596",
+        "locator": "modules.base; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "mux4_tmr",
+      "design": "mux4",
+      "method": "tmr",
+      "context": {
+        "baseline_id": "original-mux4-v1-452297ae2bf6",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys generic synth -noabc preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "mapped generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean input combinations; state initial zero",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 32,
+          "lower": 32,
+          "upper": 32,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 4,
+          "lower": 4,
+          "upper": 4,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/generated/mux4_tmr.json",
+        "source_sha256": "93ed8f0fdd2ef1aea6cfaf1a1acb5d67880ec2b850dacfbe3afda366bbb3dc1c",
+        "locator": "modules.tmr; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "parity8_base",
+      "design": "parity8",
+      "method": "base",
+      "context": {
+        "baseline_id": "original-parity8-v1-814273df7d09",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys generic synth -noabc preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "mapped generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean input combinations; state initial zero",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 7,
+          "lower": 7,
+          "upper": 7,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 3,
+          "lower": 3,
+          "upper": 3,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/generated/parity8_base.json",
+        "source_sha256": "e695426653ad8d3f75f465a4aa5a5efc91bcf553058aacb8a98d1afac7a8465e",
+        "locator": "modules.base; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "parity8_tmr",
+      "design": "parity8",
+      "method": "tmr",
+      "context": {
+        "baseline_id": "original-parity8-v1-814273df7d09",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys generic synth -noabc preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "mapped generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean input combinations; state initial zero",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 61,
+          "lower": 61,
+          "upper": 61,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 6,
+          "lower": 6,
+          "upper": 6,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/generated/parity8_tmr.json",
+        "source_sha256": "a53a8c9b06a6d21162497fd43ba36b52fc07f1131e16ea1fc147f6e1438e1a05",
+        "locator": "modules.tmr; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "counter4_base",
+      "design": "counter4",
+      "method": "base",
+      "context": {
+        "baseline_id": "original-counter4-v1-2fd8fa1617cf",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys generic synth -noabc preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "mapped generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean input combinations; state initial zero",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 10,
+          "lower": 10,
+          "upper": 10,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 3,
+          "lower": 3,
+          "upper": 3,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/generated/counter4_base.json",
+        "source_sha256": "b80b0e575d8028d348cc5f2434193b3dadb600ed67d8324a8a6f16eaa2c0e2cb",
+        "locator": "modules.base; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "counter4_tmr",
+      "design": "counter4",
+      "method": "tmr",
+      "context": {
+        "baseline_id": "original-counter4-v1-2fd8fa1617cf",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys generic synth -noabc preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "mapped generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean input combinations; state initial zero",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 50,
+          "lower": 50,
+          "upper": 50,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 3,
+          "lower": 3,
+          "upper": 3,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/generated/counter4_tmr.json",
+        "source_sha256": "ab78c978417a65d06f97b723282bef1cdb627c233df46ba8b5818bc4ba33d3d6",
+        "locator": "modules.tmr; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "counter8_base",
+      "design": "counter8",
+      "method": "base",
+      "context": {
+        "baseline_id": "original-counter8-v1-0f334eb9becc",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys generic synth -noabc preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "mapped generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean input combinations; state initial zero",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 24,
+          "lower": 24,
+          "upper": 24,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 5,
+          "lower": 5,
+          "upper": 5,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/generated/counter8_base.json",
+        "source_sha256": "4e957673a5c4a3dfe74d7205df20732c87775e966d01d5eb5242068d7186d958",
+        "locator": "modules.base; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "counter8_tmr",
+      "design": "counter8",
+      "method": "tmr",
+      "context": {
+        "baseline_id": "original-counter8-v1-0f334eb9becc",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys generic synth -noabc preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "mapped generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean input combinations; state initial zero",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 112,
+          "lower": 112,
+          "upper": 112,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 5,
+          "lower": 5,
+          "upper": 5,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/generated/counter8_tmr.json",
+        "source_sha256": "f4d03a043454e514190f06cfc8023e54ec98cf18fdfdc2be32db1456fdce0ade",
+        "locator": "modules.tmr; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "shift4_base",
+      "design": "shift4",
+      "method": "base",
+      "context": {
+        "baseline_id": "original-shift4-v1-7052981c03bd",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys generic synth -noabc preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "mapped generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean input combinations; state initial zero",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 4,
+          "lower": 4,
+          "upper": 4,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 0,
+          "lower": 0,
+          "upper": 0,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/generated/shift4_base.json",
+        "source_sha256": "ec6142f73f5a59289c0af503cab34754e6b5638cda270bfd30da6a02110d70b9",
+        "locator": "modules.base; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "shift4_tmr",
+      "design": "shift4",
+      "method": "tmr",
+      "context": {
+        "baseline_id": "original-shift4-v1-7052981c03bd",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys generic synth -noabc preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "mapped generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean input combinations; state initial zero",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 32,
+          "lower": 32,
+          "upper": 32,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 3,
+          "lower": 3,
+          "upper": 3,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/generated/shift4_tmr.json",
+        "source_sha256": "c07364904578037f12feb6037dab9efd8b0a1632f2b065e77053dc8dc64e4aab",
+        "locator": "modules.tmr; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "shift8_base",
+      "design": "shift8",
+      "method": "base",
+      "context": {
+        "baseline_id": "original-shift8-v1-18bf3491dd2f",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys generic synth -noabc preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "mapped generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean input combinations; state initial zero",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 8,
+          "lower": 8,
+          "upper": 8,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 0,
+          "lower": 0,
+          "upper": 0,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/generated/shift8_base.json",
+        "source_sha256": "b868252030106f26327d61cb503a9b2f79bb15eacfb6e776e393b7f0bb7d4ca1",
+        "locator": "modules.base; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "shift8_tmr",
+      "design": "shift8",
+      "method": "tmr",
+      "context": {
+        "baseline_id": "original-shift8-v1-18bf3491dd2f",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys generic synth -noabc preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "mapped generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean input combinations; state initial zero",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 64,
+          "lower": 64,
+          "upper": 64,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 3,
+          "lower": 3,
+          "upper": 3,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/generated/shift8_tmr.json",
+        "source_sha256": "c20fb554fd019673c48c18e58fc3253f204329f53fa4bf5ead74507914dd37cd",
+        "locator": "modules.tmr; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    }
+  ]
+}

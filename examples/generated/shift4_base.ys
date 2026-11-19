@@ -1,0 +1,9 @@
+read_verilog examples/hdl/shift4.v
+synth -top base -noabc
+check -assert
+stat
+write_json examples/generated/shift4_base.json
+setattr -mod -unset keep_hierarchy
+setattr -unset keep_hierarchy
+flatten
+ltp -noff

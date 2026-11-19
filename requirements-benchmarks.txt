@@ -1,0 +1,5 @@
+click==8.5.1
+platformdirs==4.14.7
+wasmtime==47.0.1
+yowasp-runtime==1.96
+yowasp-yosys==0.71.0.0.post1285
