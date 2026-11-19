@@ -8,7 +8,7 @@ enumeration. This is an alternative software oracle, not an external human
 review or a complete proof for arbitrary inputs. The 46 unit/regression tests
 are run with `python -m unittest discover -s tests -v`.
 
-Original synthetic fixtures are software tests, not observed radiation data. Original HDL fixtures are new executable logic examples, not replicas of Smith's unpublished netlists. Generic synthesis validates an import workflow and logic metrics; it does not validate flash-device timing or physical radiation tolerance.
+Original synthetic fixtures are software tests, not observed radiation data. Original HDL fixtures are new executable logic examples, not replications of Smith's designs. Generic synthesis validates an import workflow and logic metrics; it does not validate flash-device timing or physical radiation tolerance.
 
 The independent validation still needed for publication includes external installation/use, domain review of comparison rules, a meaningful researcher workflow comparison and a verified flash implementation if a flash-specific claim is retained. Passing automated tests does not establish novelty or publication readiness.
 
