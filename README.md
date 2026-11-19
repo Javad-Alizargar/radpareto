@@ -44,4 +44,9 @@ python -m unittest discover -s tests -v
 
 See [comparison semantics](docs/semantics.md), [validation scope](docs/validation.md) and the [original HDL benchmark instructions](docs/open_benchmarks.md) when reproducing the synthesis cases. A separate tool environment is needed for synthesis; the comparison engine itself stays dependency-free.
 
+The [matched contract study](benchmarks/contracts/README.md) includes 60 original
+scenarios and an independently implemented checked pandas reference. Both match
+all expected decisions; this supports reproducible implementation of the stated
+contract, not a claim of a new optimization algorithm or measured human benefit.
+
 This repository contains original code and original demonstration fixtures. Manuscripts, publication artwork, copied papers, credentials and private scientific review files are excluded. A future archived release will receive a verified DOI; none has been assigned to this alpha.

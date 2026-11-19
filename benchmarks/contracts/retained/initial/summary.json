@@ -1,0 +1,102 @@
+{
+  "scope": "constructed software-contract scenarios, not human utility or real-world error prevalence",
+  "software_version": "0.1.0a1",
+  "case_count": 60,
+  "expected_status_counts": {
+    "accepted": 27,
+    "refused": 33
+  },
+  "family_counts": {
+    "nominal": 2,
+    "ties": 2,
+    "cardinality": 1,
+    "ordering": 1,
+    "metric_count": 1,
+    "numeric_domain": 5,
+    "rounding": 1,
+    "interval": 1,
+    "interval_touching": 2,
+    "uncertainty_type": 1,
+    "limits": 3,
+    "limits_boundary": 2,
+    "limits_uncertain": 1,
+    "context_baseline_id": 1,
+    "context_device": 1,
+    "context_toolchain": 1,
+    "context_tool_version": 1,
+    "context_implementation": 1,
+    "context_constraints_id": 1,
+    "context_timing_corner": 1,
+    "context_workload_id": 1,
+    "context_source_kind": 1,
+    "design": 1,
+    "units": 1,
+    "denominator": 1,
+    "uncertainty_kind": 1,
+    "metric_names": 1,
+    "missing_context": 1,
+    "schema_context": 1,
+    "interval_validity": 2,
+    "record_identity": 1,
+    "provenance_schema": 2,
+    "source_kind": 1,
+    "limits_schema": 2,
+    "protection_status": 1,
+    "protection_model": 1,
+    "protection_scope": 1,
+    "protection_evidence": 2,
+    "protection_positive": 1,
+    "context_positive": 1,
+    "units_positive": 1,
+    "denominator_positive": 1,
+    "protection_cost_only": 1,
+    "uncertainty_positive": 1,
+    "provenance_positive": 1,
+    "schema_metric": 1
+  },
+  "methods": {
+    "radpareto": {
+      "cases": 60,
+      "status_correct": 60,
+      "full_decision_correct": 60,
+      "unsafe_acceptance": 0,
+      "false_refusal": 0,
+      "unexpected_exception": 0
+    },
+    "checked_tabular": {
+      "cases": 60,
+      "status_correct": 60,
+      "full_decision_correct": 60,
+      "unsafe_acceptance": 0,
+      "false_refusal": 0,
+      "unexpected_exception": 0
+    },
+    "nominal_ablation": {
+      "cases": 60,
+      "status_correct": 41,
+      "full_decision_correct": 14,
+      "unsafe_acceptance": 19,
+      "false_refusal": 0,
+      "unexpected_exception": 0
+    }
+  },
+  "hashes": {
+    "cases": "781d2a45282a53be1e2115744e89ecc3b60d46e6e93ea20756f50170f78380b4",
+    "baseline": "61453c3ba1a5b90b9926addca4c5accb2b065fb8fa7c34de9e6b68d303e333da",
+    "runner": "677d7ad95adea4cd3ffc8c5eb87b6c1432d1b8811c72f7b367111622e8506c9c",
+    "engine_sources": {
+      "__init__.py": "02cf1ab7081c9f7a8484f6f76564d636a4900128e2c099ffe69849e20156fed3",
+      "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "cli.py": "d93973c45d6f8eeac10156542ff5395512b42985fff8d5eaef1ac156b468a87f",
+      "compare.py": "ea8984a92f856dc248332c9b8bf48503acc926d0819e6a47b0311a7d930fb459",
+      "validation.py": "06113188359003cecbdc3fe10a93502cdd481c1201c715e78ec97310f15d60a7",
+      "yosys.py": "6e181f16ca2ad6a9ea2f2cad0af11dfa096d259f1bd3eba1460666664e26d01b"
+    }
+  },
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "Intel64 Family 6 Model 85 Stepping 7, GenuineIntel",
+    "pandas": "2.2.2"
+  }
+}

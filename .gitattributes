@@ -1,3 +1,4 @@
 # Retain exact experimental bytes so source and output hashes survive checkout.
 examples/** -text -whitespace
 validation/** -text -whitespace
+benchmarks/** -text -whitespace
