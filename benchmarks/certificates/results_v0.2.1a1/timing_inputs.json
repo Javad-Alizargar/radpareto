@@ -1,0 +1,2069 @@
+[
+  {
+    "limits": {
+      "cost_0": 100,
+      "cost_1": 200
+    },
+    "records": 8,
+    "scales": {
+      "cost_0": 1,
+      "cost_1": 1
+    },
+    "source": {
+      "case_id": "timing-chain-8",
+      "metrics": [
+        {
+          "cost_0": {
+            "lower": 10,
+            "upper": 10,
+            "value": 10
+          },
+          "cost_1": {
+            "lower": 20,
+            "upper": 20,
+            "value": 20
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 12,
+            "upper": 12,
+            "value": 12
+          },
+          "cost_1": {
+            "lower": 23,
+            "upper": 23,
+            "value": 23
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 14,
+            "upper": 14,
+            "value": 14
+          },
+          "cost_1": {
+            "lower": 26,
+            "upper": 26,
+            "value": 26
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 16,
+            "upper": 16,
+            "value": 16
+          },
+          "cost_1": {
+            "lower": 29,
+            "upper": 29,
+            "value": 29
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 18,
+            "upper": 18,
+            "value": 18
+          },
+          "cost_1": {
+            "lower": 32,
+            "upper": 32,
+            "value": 32
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 20,
+            "upper": 20,
+            "value": 20
+          },
+          "cost_1": {
+            "lower": 35,
+            "upper": 35,
+            "value": 35
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 22,
+            "upper": 22,
+            "value": 22
+          },
+          "cost_1": {
+            "lower": 38,
+            "upper": 38,
+            "value": 38
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 24,
+            "upper": 24,
+            "value": 24
+          },
+          "cost_1": {
+            "lower": 41,
+            "upper": 41,
+            "value": 41
+          }
+        }
+      ]
+    },
+    "source_sha256": "3547cb2889ebdf414ca9df5e4ed5b3aebf01d8bbc43c6d501afd5d7dd7508269"
+  },
+  {
+    "limits": {
+      "cost_0": 100,
+      "cost_1": 200
+    },
+    "records": 32,
+    "scales": {
+      "cost_0": 1,
+      "cost_1": 1
+    },
+    "source": {
+      "case_id": "timing-chain-32",
+      "metrics": [
+        {
+          "cost_0": {
+            "lower": 10,
+            "upper": 10,
+            "value": 10
+          },
+          "cost_1": {
+            "lower": 20,
+            "upper": 20,
+            "value": 20
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 12,
+            "upper": 12,
+            "value": 12
+          },
+          "cost_1": {
+            "lower": 23,
+            "upper": 23,
+            "value": 23
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 14,
+            "upper": 14,
+            "value": 14
+          },
+          "cost_1": {
+            "lower": 26,
+            "upper": 26,
+            "value": 26
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 16,
+            "upper": 16,
+            "value": 16
+          },
+          "cost_1": {
+            "lower": 29,
+            "upper": 29,
+            "value": 29
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 18,
+            "upper": 18,
+            "value": 18
+          },
+          "cost_1": {
+            "lower": 32,
+            "upper": 32,
+            "value": 32
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 20,
+            "upper": 20,
+            "value": 20
+          },
+          "cost_1": {
+            "lower": 35,
+            "upper": 35,
+            "value": 35
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 22,
+            "upper": 22,
+            "value": 22
+          },
+          "cost_1": {
+            "lower": 38,
+            "upper": 38,
+            "value": 38
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 24,
+            "upper": 24,
+            "value": 24
+          },
+          "cost_1": {
+            "lower": 41,
+            "upper": 41,
+            "value": 41
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 26,
+            "upper": 26,
+            "value": 26
+          },
+          "cost_1": {
+            "lower": 44,
+            "upper": 44,
+            "value": 44
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 28,
+            "upper": 28,
+            "value": 28
+          },
+          "cost_1": {
+            "lower": 47,
+            "upper": 47,
+            "value": 47
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 30,
+            "upper": 30,
+            "value": 30
+          },
+          "cost_1": {
+            "lower": 50,
+            "upper": 50,
+            "value": 50
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 32,
+            "upper": 32,
+            "value": 32
+          },
+          "cost_1": {
+            "lower": 53,
+            "upper": 53,
+            "value": 53
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 34,
+            "upper": 34,
+            "value": 34
+          },
+          "cost_1": {
+            "lower": 56,
+            "upper": 56,
+            "value": 56
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 36,
+            "upper": 36,
+            "value": 36
+          },
+          "cost_1": {
+            "lower": 59,
+            "upper": 59,
+            "value": 59
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 38,
+            "upper": 38,
+            "value": 38
+          },
+          "cost_1": {
+            "lower": 62,
+            "upper": 62,
+            "value": 62
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 40,
+            "upper": 40,
+            "value": 40
+          },
+          "cost_1": {
+            "lower": 65,
+            "upper": 65,
+            "value": 65
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 42,
+            "upper": 42,
+            "value": 42
+          },
+          "cost_1": {
+            "lower": 68,
+            "upper": 68,
+            "value": 68
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 44,
+            "upper": 44,
+            "value": 44
+          },
+          "cost_1": {
+            "lower": 71,
+            "upper": 71,
+            "value": 71
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 46,
+            "upper": 46,
+            "value": 46
+          },
+          "cost_1": {
+            "lower": 74,
+            "upper": 74,
+            "value": 74
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 48,
+            "upper": 48,
+            "value": 48
+          },
+          "cost_1": {
+            "lower": 77,
+            "upper": 77,
+            "value": 77
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 50,
+            "upper": 50,
+            "value": 50
+          },
+          "cost_1": {
+            "lower": 80,
+            "upper": 80,
+            "value": 80
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 52,
+            "upper": 52,
+            "value": 52
+          },
+          "cost_1": {
+            "lower": 83,
+            "upper": 83,
+            "value": 83
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 54,
+            "upper": 54,
+            "value": 54
+          },
+          "cost_1": {
+            "lower": 86,
+            "upper": 86,
+            "value": 86
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 56,
+            "upper": 56,
+            "value": 56
+          },
+          "cost_1": {
+            "lower": 89,
+            "upper": 89,
+            "value": 89
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 58,
+            "upper": 58,
+            "value": 58
+          },
+          "cost_1": {
+            "lower": 92,
+            "upper": 92,
+            "value": 92
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 60,
+            "upper": 60,
+            "value": 60
+          },
+          "cost_1": {
+            "lower": 95,
+            "upper": 95,
+            "value": 95
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 62,
+            "upper": 62,
+            "value": 62
+          },
+          "cost_1": {
+            "lower": 98,
+            "upper": 98,
+            "value": 98
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 64,
+            "upper": 64,
+            "value": 64
+          },
+          "cost_1": {
+            "lower": 101,
+            "upper": 101,
+            "value": 101
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 66,
+            "upper": 66,
+            "value": 66
+          },
+          "cost_1": {
+            "lower": 104,
+            "upper": 104,
+            "value": 104
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 68,
+            "upper": 68,
+            "value": 68
+          },
+          "cost_1": {
+            "lower": 107,
+            "upper": 107,
+            "value": 107
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 70,
+            "upper": 70,
+            "value": 70
+          },
+          "cost_1": {
+            "lower": 110,
+            "upper": 110,
+            "value": 110
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 72,
+            "upper": 72,
+            "value": 72
+          },
+          "cost_1": {
+            "lower": 113,
+            "upper": 113,
+            "value": 113
+          }
+        }
+      ]
+    },
+    "source_sha256": "715cd132e46716b5e8efdfec1b5e6ad4381dff581658a0ac7df5b44b7ea41c1d"
+  },
+  {
+    "limits": {
+      "cost_0": 100,
+      "cost_1": 200
+    },
+    "records": 128,
+    "scales": {
+      "cost_0": 1,
+      "cost_1": 1
+    },
+    "source": {
+      "case_id": "timing-chain-128",
+      "metrics": [
+        {
+          "cost_0": {
+            "lower": 10,
+            "upper": 10,
+            "value": 10
+          },
+          "cost_1": {
+            "lower": 20,
+            "upper": 20,
+            "value": 20
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 12,
+            "upper": 12,
+            "value": 12
+          },
+          "cost_1": {
+            "lower": 23,
+            "upper": 23,
+            "value": 23
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 14,
+            "upper": 14,
+            "value": 14
+          },
+          "cost_1": {
+            "lower": 26,
+            "upper": 26,
+            "value": 26
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 16,
+            "upper": 16,
+            "value": 16
+          },
+          "cost_1": {
+            "lower": 29,
+            "upper": 29,
+            "value": 29
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 18,
+            "upper": 18,
+            "value": 18
+          },
+          "cost_1": {
+            "lower": 32,
+            "upper": 32,
+            "value": 32
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 20,
+            "upper": 20,
+            "value": 20
+          },
+          "cost_1": {
+            "lower": 35,
+            "upper": 35,
+            "value": 35
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 22,
+            "upper": 22,
+            "value": 22
+          },
+          "cost_1": {
+            "lower": 38,
+            "upper": 38,
+            "value": 38
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 24,
+            "upper": 24,
+            "value": 24
+          },
+          "cost_1": {
+            "lower": 41,
+            "upper": 41,
+            "value": 41
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 26,
+            "upper": 26,
+            "value": 26
+          },
+          "cost_1": {
+            "lower": 44,
+            "upper": 44,
+            "value": 44
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 28,
+            "upper": 28,
+            "value": 28
+          },
+          "cost_1": {
+            "lower": 47,
+            "upper": 47,
+            "value": 47
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 30,
+            "upper": 30,
+            "value": 30
+          },
+          "cost_1": {
+            "lower": 50,
+            "upper": 50,
+            "value": 50
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 32,
+            "upper": 32,
+            "value": 32
+          },
+          "cost_1": {
+            "lower": 53,
+            "upper": 53,
+            "value": 53
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 34,
+            "upper": 34,
+            "value": 34
+          },
+          "cost_1": {
+            "lower": 56,
+            "upper": 56,
+            "value": 56
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 36,
+            "upper": 36,
+            "value": 36
+          },
+          "cost_1": {
+            "lower": 59,
+            "upper": 59,
+            "value": 59
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 38,
+            "upper": 38,
+            "value": 38
+          },
+          "cost_1": {
+            "lower": 62,
+            "upper": 62,
+            "value": 62
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 40,
+            "upper": 40,
+            "value": 40
+          },
+          "cost_1": {
+            "lower": 65,
+            "upper": 65,
+            "value": 65
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 42,
+            "upper": 42,
+            "value": 42
+          },
+          "cost_1": {
+            "lower": 68,
+            "upper": 68,
+            "value": 68
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 44,
+            "upper": 44,
+            "value": 44
+          },
+          "cost_1": {
+            "lower": 71,
+            "upper": 71,
+            "value": 71
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 46,
+            "upper": 46,
+            "value": 46
+          },
+          "cost_1": {
+            "lower": 74,
+            "upper": 74,
+            "value": 74
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 48,
+            "upper": 48,
+            "value": 48
+          },
+          "cost_1": {
+            "lower": 77,
+            "upper": 77,
+            "value": 77
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 50,
+            "upper": 50,
+            "value": 50
+          },
+          "cost_1": {
+            "lower": 80,
+            "upper": 80,
+            "value": 80
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 52,
+            "upper": 52,
+            "value": 52
+          },
+          "cost_1": {
+            "lower": 83,
+            "upper": 83,
+            "value": 83
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 54,
+            "upper": 54,
+            "value": 54
+          },
+          "cost_1": {
+            "lower": 86,
+            "upper": 86,
+            "value": 86
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 56,
+            "upper": 56,
+            "value": 56
+          },
+          "cost_1": {
+            "lower": 89,
+            "upper": 89,
+            "value": 89
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 58,
+            "upper": 58,
+            "value": 58
+          },
+          "cost_1": {
+            "lower": 92,
+            "upper": 92,
+            "value": 92
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 60,
+            "upper": 60,
+            "value": 60
+          },
+          "cost_1": {
+            "lower": 95,
+            "upper": 95,
+            "value": 95
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 62,
+            "upper": 62,
+            "value": 62
+          },
+          "cost_1": {
+            "lower": 98,
+            "upper": 98,
+            "value": 98
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 64,
+            "upper": 64,
+            "value": 64
+          },
+          "cost_1": {
+            "lower": 101,
+            "upper": 101,
+            "value": 101
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 66,
+            "upper": 66,
+            "value": 66
+          },
+          "cost_1": {
+            "lower": 104,
+            "upper": 104,
+            "value": 104
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 68,
+            "upper": 68,
+            "value": 68
+          },
+          "cost_1": {
+            "lower": 107,
+            "upper": 107,
+            "value": 107
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 70,
+            "upper": 70,
+            "value": 70
+          },
+          "cost_1": {
+            "lower": 110,
+            "upper": 110,
+            "value": 110
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 72,
+            "upper": 72,
+            "value": 72
+          },
+          "cost_1": {
+            "lower": 113,
+            "upper": 113,
+            "value": 113
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 74,
+            "upper": 74,
+            "value": 74
+          },
+          "cost_1": {
+            "lower": 116,
+            "upper": 116,
+            "value": 116
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 76,
+            "upper": 76,
+            "value": 76
+          },
+          "cost_1": {
+            "lower": 119,
+            "upper": 119,
+            "value": 119
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 78,
+            "upper": 78,
+            "value": 78
+          },
+          "cost_1": {
+            "lower": 122,
+            "upper": 122,
+            "value": 122
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 80,
+            "upper": 80,
+            "value": 80
+          },
+          "cost_1": {
+            "lower": 125,
+            "upper": 125,
+            "value": 125
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 82,
+            "upper": 82,
+            "value": 82
+          },
+          "cost_1": {
+            "lower": 128,
+            "upper": 128,
+            "value": 128
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 84,
+            "upper": 84,
+            "value": 84
+          },
+          "cost_1": {
+            "lower": 131,
+            "upper": 131,
+            "value": 131
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 86,
+            "upper": 86,
+            "value": 86
+          },
+          "cost_1": {
+            "lower": 134,
+            "upper": 134,
+            "value": 134
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 88,
+            "upper": 88,
+            "value": 88
+          },
+          "cost_1": {
+            "lower": 137,
+            "upper": 137,
+            "value": 137
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 90,
+            "upper": 90,
+            "value": 90
+          },
+          "cost_1": {
+            "lower": 140,
+            "upper": 140,
+            "value": 140
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 92,
+            "upper": 92,
+            "value": 92
+          },
+          "cost_1": {
+            "lower": 143,
+            "upper": 143,
+            "value": 143
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 94,
+            "upper": 94,
+            "value": 94
+          },
+          "cost_1": {
+            "lower": 146,
+            "upper": 146,
+            "value": 146
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 96,
+            "upper": 96,
+            "value": 96
+          },
+          "cost_1": {
+            "lower": 149,
+            "upper": 149,
+            "value": 149
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 98,
+            "upper": 98,
+            "value": 98
+          },
+          "cost_1": {
+            "lower": 152,
+            "upper": 152,
+            "value": 152
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 100,
+            "upper": 100,
+            "value": 100
+          },
+          "cost_1": {
+            "lower": 155,
+            "upper": 155,
+            "value": 155
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 102,
+            "upper": 102,
+            "value": 102
+          },
+          "cost_1": {
+            "lower": 158,
+            "upper": 158,
+            "value": 158
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 104,
+            "upper": 104,
+            "value": 104
+          },
+          "cost_1": {
+            "lower": 161,
+            "upper": 161,
+            "value": 161
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 106,
+            "upper": 106,
+            "value": 106
+          },
+          "cost_1": {
+            "lower": 164,
+            "upper": 164,
+            "value": 164
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 108,
+            "upper": 108,
+            "value": 108
+          },
+          "cost_1": {
+            "lower": 167,
+            "upper": 167,
+            "value": 167
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 110,
+            "upper": 110,
+            "value": 110
+          },
+          "cost_1": {
+            "lower": 170,
+            "upper": 170,
+            "value": 170
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 112,
+            "upper": 112,
+            "value": 112
+          },
+          "cost_1": {
+            "lower": 173,
+            "upper": 173,
+            "value": 173
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 114,
+            "upper": 114,
+            "value": 114
+          },
+          "cost_1": {
+            "lower": 176,
+            "upper": 176,
+            "value": 176
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 116,
+            "upper": 116,
+            "value": 116
+          },
+          "cost_1": {
+            "lower": 179,
+            "upper": 179,
+            "value": 179
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 118,
+            "upper": 118,
+            "value": 118
+          },
+          "cost_1": {
+            "lower": 182,
+            "upper": 182,
+            "value": 182
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 120,
+            "upper": 120,
+            "value": 120
+          },
+          "cost_1": {
+            "lower": 185,
+            "upper": 185,
+            "value": 185
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 122,
+            "upper": 122,
+            "value": 122
+          },
+          "cost_1": {
+            "lower": 188,
+            "upper": 188,
+            "value": 188
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 124,
+            "upper": 124,
+            "value": 124
+          },
+          "cost_1": {
+            "lower": 191,
+            "upper": 191,
+            "value": 191
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 126,
+            "upper": 126,
+            "value": 126
+          },
+          "cost_1": {
+            "lower": 194,
+            "upper": 194,
+            "value": 194
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 128,
+            "upper": 128,
+            "value": 128
+          },
+          "cost_1": {
+            "lower": 197,
+            "upper": 197,
+            "value": 197
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 130,
+            "upper": 130,
+            "value": 130
+          },
+          "cost_1": {
+            "lower": 200,
+            "upper": 200,
+            "value": 200
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 132,
+            "upper": 132,
+            "value": 132
+          },
+          "cost_1": {
+            "lower": 203,
+            "upper": 203,
+            "value": 203
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 134,
+            "upper": 134,
+            "value": 134
+          },
+          "cost_1": {
+            "lower": 206,
+            "upper": 206,
+            "value": 206
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 136,
+            "upper": 136,
+            "value": 136
+          },
+          "cost_1": {
+            "lower": 209,
+            "upper": 209,
+            "value": 209
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 138,
+            "upper": 138,
+            "value": 138
+          },
+          "cost_1": {
+            "lower": 212,
+            "upper": 212,
+            "value": 212
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 140,
+            "upper": 140,
+            "value": 140
+          },
+          "cost_1": {
+            "lower": 215,
+            "upper": 215,
+            "value": 215
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 142,
+            "upper": 142,
+            "value": 142
+          },
+          "cost_1": {
+            "lower": 218,
+            "upper": 218,
+            "value": 218
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 144,
+            "upper": 144,
+            "value": 144
+          },
+          "cost_1": {
+            "lower": 221,
+            "upper": 221,
+            "value": 221
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 146,
+            "upper": 146,
+            "value": 146
+          },
+          "cost_1": {
+            "lower": 224,
+            "upper": 224,
+            "value": 224
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 148,
+            "upper": 148,
+            "value": 148
+          },
+          "cost_1": {
+            "lower": 227,
+            "upper": 227,
+            "value": 227
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 150,
+            "upper": 150,
+            "value": 150
+          },
+          "cost_1": {
+            "lower": 230,
+            "upper": 230,
+            "value": 230
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 152,
+            "upper": 152,
+            "value": 152
+          },
+          "cost_1": {
+            "lower": 233,
+            "upper": 233,
+            "value": 233
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 154,
+            "upper": 154,
+            "value": 154
+          },
+          "cost_1": {
+            "lower": 236,
+            "upper": 236,
+            "value": 236
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 156,
+            "upper": 156,
+            "value": 156
+          },
+          "cost_1": {
+            "lower": 239,
+            "upper": 239,
+            "value": 239
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 158,
+            "upper": 158,
+            "value": 158
+          },
+          "cost_1": {
+            "lower": 242,
+            "upper": 242,
+            "value": 242
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 160,
+            "upper": 160,
+            "value": 160
+          },
+          "cost_1": {
+            "lower": 245,
+            "upper": 245,
+            "value": 245
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 162,
+            "upper": 162,
+            "value": 162
+          },
+          "cost_1": {
+            "lower": 248,
+            "upper": 248,
+            "value": 248
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 164,
+            "upper": 164,
+            "value": 164
+          },
+          "cost_1": {
+            "lower": 251,
+            "upper": 251,
+            "value": 251
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 166,
+            "upper": 166,
+            "value": 166
+          },
+          "cost_1": {
+            "lower": 254,
+            "upper": 254,
+            "value": 254
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 168,
+            "upper": 168,
+            "value": 168
+          },
+          "cost_1": {
+            "lower": 257,
+            "upper": 257,
+            "value": 257
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 170,
+            "upper": 170,
+            "value": 170
+          },
+          "cost_1": {
+            "lower": 260,
+            "upper": 260,
+            "value": 260
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 172,
+            "upper": 172,
+            "value": 172
+          },
+          "cost_1": {
+            "lower": 263,
+            "upper": 263,
+            "value": 263
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 174,
+            "upper": 174,
+            "value": 174
+          },
+          "cost_1": {
+            "lower": 266,
+            "upper": 266,
+            "value": 266
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 176,
+            "upper": 176,
+            "value": 176
+          },
+          "cost_1": {
+            "lower": 269,
+            "upper": 269,
+            "value": 269
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 178,
+            "upper": 178,
+            "value": 178
+          },
+          "cost_1": {
+            "lower": 272,
+            "upper": 272,
+            "value": 272
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 180,
+            "upper": 180,
+            "value": 180
+          },
+          "cost_1": {
+            "lower": 275,
+            "upper": 275,
+            "value": 275
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 182,
+            "upper": 182,
+            "value": 182
+          },
+          "cost_1": {
+            "lower": 278,
+            "upper": 278,
+            "value": 278
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 184,
+            "upper": 184,
+            "value": 184
+          },
+          "cost_1": {
+            "lower": 281,
+            "upper": 281,
+            "value": 281
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 186,
+            "upper": 186,
+            "value": 186
+          },
+          "cost_1": {
+            "lower": 284,
+            "upper": 284,
+            "value": 284
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 188,
+            "upper": 188,
+            "value": 188
+          },
+          "cost_1": {
+            "lower": 287,
+            "upper": 287,
+            "value": 287
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 190,
+            "upper": 190,
+            "value": 190
+          },
+          "cost_1": {
+            "lower": 290,
+            "upper": 290,
+            "value": 290
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 192,
+            "upper": 192,
+            "value": 192
+          },
+          "cost_1": {
+            "lower": 293,
+            "upper": 293,
+            "value": 293
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 194,
+            "upper": 194,
+            "value": 194
+          },
+          "cost_1": {
+            "lower": 296,
+            "upper": 296,
+            "value": 296
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 196,
+            "upper": 196,
+            "value": 196
+          },
+          "cost_1": {
+            "lower": 299,
+            "upper": 299,
+            "value": 299
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 198,
+            "upper": 198,
+            "value": 198
+          },
+          "cost_1": {
+            "lower": 302,
+            "upper": 302,
+            "value": 302
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 200,
+            "upper": 200,
+            "value": 200
+          },
+          "cost_1": {
+            "lower": 305,
+            "upper": 305,
+            "value": 305
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 202,
+            "upper": 202,
+            "value": 202
+          },
+          "cost_1": {
+            "lower": 308,
+            "upper": 308,
+            "value": 308
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 204,
+            "upper": 204,
+            "value": 204
+          },
+          "cost_1": {
+            "lower": 311,
+            "upper": 311,
+            "value": 311
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 206,
+            "upper": 206,
+            "value": 206
+          },
+          "cost_1": {
+            "lower": 314,
+            "upper": 314,
+            "value": 314
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 208,
+            "upper": 208,
+            "value": 208
+          },
+          "cost_1": {
+            "lower": 317,
+            "upper": 317,
+            "value": 317
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 210,
+            "upper": 210,
+            "value": 210
+          },
+          "cost_1": {
+            "lower": 320,
+            "upper": 320,
+            "value": 320
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 212,
+            "upper": 212,
+            "value": 212
+          },
+          "cost_1": {
+            "lower": 323,
+            "upper": 323,
+            "value": 323
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 214,
+            "upper": 214,
+            "value": 214
+          },
+          "cost_1": {
+            "lower": 326,
+            "upper": 326,
+            "value": 326
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 216,
+            "upper": 216,
+            "value": 216
+          },
+          "cost_1": {
+            "lower": 329,
+            "upper": 329,
+            "value": 329
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 218,
+            "upper": 218,
+            "value": 218
+          },
+          "cost_1": {
+            "lower": 332,
+            "upper": 332,
+            "value": 332
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 220,
+            "upper": 220,
+            "value": 220
+          },
+          "cost_1": {
+            "lower": 335,
+            "upper": 335,
+            "value": 335
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 222,
+            "upper": 222,
+            "value": 222
+          },
+          "cost_1": {
+            "lower": 338,
+            "upper": 338,
+            "value": 338
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 224,
+            "upper": 224,
+            "value": 224
+          },
+          "cost_1": {
+            "lower": 341,
+            "upper": 341,
+            "value": 341
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 226,
+            "upper": 226,
+            "value": 226
+          },
+          "cost_1": {
+            "lower": 344,
+            "upper": 344,
+            "value": 344
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 228,
+            "upper": 228,
+            "value": 228
+          },
+          "cost_1": {
+            "lower": 347,
+            "upper": 347,
+            "value": 347
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 230,
+            "upper": 230,
+            "value": 230
+          },
+          "cost_1": {
+            "lower": 350,
+            "upper": 350,
+            "value": 350
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 232,
+            "upper": 232,
+            "value": 232
+          },
+          "cost_1": {
+            "lower": 353,
+            "upper": 353,
+            "value": 353
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 234,
+            "upper": 234,
+            "value": 234
+          },
+          "cost_1": {
+            "lower": 356,
+            "upper": 356,
+            "value": 356
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 236,
+            "upper": 236,
+            "value": 236
+          },
+          "cost_1": {
+            "lower": 359,
+            "upper": 359,
+            "value": 359
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 238,
+            "upper": 238,
+            "value": 238
+          },
+          "cost_1": {
+            "lower": 362,
+            "upper": 362,
+            "value": 362
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 240,
+            "upper": 240,
+            "value": 240
+          },
+          "cost_1": {
+            "lower": 365,
+            "upper": 365,
+            "value": 365
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 242,
+            "upper": 242,
+            "value": 242
+          },
+          "cost_1": {
+            "lower": 368,
+            "upper": 368,
+            "value": 368
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 244,
+            "upper": 244,
+            "value": 244
+          },
+          "cost_1": {
+            "lower": 371,
+            "upper": 371,
+            "value": 371
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 246,
+            "upper": 246,
+            "value": 246
+          },
+          "cost_1": {
+            "lower": 374,
+            "upper": 374,
+            "value": 374
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 248,
+            "upper": 248,
+            "value": 248
+          },
+          "cost_1": {
+            "lower": 377,
+            "upper": 377,
+            "value": 377
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 250,
+            "upper": 250,
+            "value": 250
+          },
+          "cost_1": {
+            "lower": 380,
+            "upper": 380,
+            "value": 380
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 252,
+            "upper": 252,
+            "value": 252
+          },
+          "cost_1": {
+            "lower": 383,
+            "upper": 383,
+            "value": 383
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 254,
+            "upper": 254,
+            "value": 254
+          },
+          "cost_1": {
+            "lower": 386,
+            "upper": 386,
+            "value": 386
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 256,
+            "upper": 256,
+            "value": 256
+          },
+          "cost_1": {
+            "lower": 389,
+            "upper": 389,
+            "value": 389
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 258,
+            "upper": 258,
+            "value": 258
+          },
+          "cost_1": {
+            "lower": 392,
+            "upper": 392,
+            "value": 392
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 260,
+            "upper": 260,
+            "value": 260
+          },
+          "cost_1": {
+            "lower": 395,
+            "upper": 395,
+            "value": 395
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 262,
+            "upper": 262,
+            "value": 262
+          },
+          "cost_1": {
+            "lower": 398,
+            "upper": 398,
+            "value": 398
+          }
+        },
+        {
+          "cost_0": {
+            "lower": 264,
+            "upper": 264,
+            "value": 264
+          },
+          "cost_1": {
+            "lower": 401,
+            "upper": 401,
+            "value": 401
+          }
+        }
+      ]
+    },
+    "source_sha256": "c297dd405c6662ac8cb9cd5bbca4cd6eac2ff59b1312acbe5291bcbb206e44fc"
+  }
+]

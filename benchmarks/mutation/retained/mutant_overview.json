@@ -1,0 +1,116 @@
+[
+  {
+    "detected_by_existing_families": false,
+    "detected_families": [],
+    "label": "Ties incorrectly dominate",
+    "non_equivalence_witness_differs": true,
+    "variant": "M01"
+  },
+  {
+    "detected_by_existing_families": true,
+    "detected_families": [
+      "quarter_grid"
+    ],
+    "label": "Weak dominance requires every coordinate strict",
+    "non_equivalence_witness_differs": true,
+    "variant": "M02"
+  },
+  {
+    "detected_by_existing_families": true,
+    "detected_families": [
+      "metamorphic",
+      "targeted_stability"
+    ],
+    "label": "Context mismatch guard disabled",
+    "non_equivalence_witness_differs": true,
+    "variant": "M03"
+  },
+  {
+    "detected_by_existing_families": true,
+    "detected_families": [
+      "quarter_grid"
+    ],
+    "label": "Certain dominance substitutes nominal for lower bound",
+    "non_equivalence_witness_differs": true,
+    "variant": "M04"
+  },
+  {
+    "detected_by_existing_families": true,
+    "detected_families": [
+      "quarter_grid",
+      "certificate_grid",
+      "targeted_stability"
+    ],
+    "label": "Feasible upper-budget equality excluded",
+    "non_equivalence_witness_differs": true,
+    "variant": "M05"
+  },
+  {
+    "detected_by_existing_families": true,
+    "detected_families": [
+      "quarter_grid",
+      "certificate_grid",
+      "targeted_stability"
+    ],
+    "label": "Infeasible lower-budget equality included",
+    "non_equivalence_witness_differs": true,
+    "variant": "M06"
+  },
+  {
+    "detected_by_existing_families": true,
+    "detected_families": [
+      "certificate_grid",
+      "targeted_stability"
+    ],
+    "label": "Two moving endpoints lose factor two",
+    "non_equivalence_witness_differs": true,
+    "variant": "M07"
+  },
+  {
+    "detected_by_existing_families": true,
+    "detected_families": [
+      "certificate_grid",
+      "targeted_stability"
+    ],
+    "label": "Dominance endpoint strictness lost",
+    "non_equivalence_witness_differs": true,
+    "variant": "M08"
+  },
+  {
+    "detected_by_existing_families": true,
+    "detected_families": [
+      "certificate_grid",
+      "targeted_stability"
+    ],
+    "label": "Zero-scale objectives enter division",
+    "non_equivalence_witness_differs": true,
+    "variant": "M09"
+  },
+  {
+    "detected_by_existing_families": true,
+    "detected_families": [
+      "targeted_stability"
+    ],
+    "label": "Integer lower endpoints coerced through float",
+    "non_equivalence_witness_differs": true,
+    "variant": "M10"
+  },
+  {
+    "detected_by_existing_families": true,
+    "detected_families": [
+      "certificate_grid"
+    ],
+    "label": "Infeasible threshold uses upper endpoint",
+    "non_equivalence_witness_differs": true,
+    "variant": "M11"
+  },
+  {
+    "detected_by_existing_families": true,
+    "detected_families": [
+      "targeted_stability"
+    ],
+    "label": "Record-cap off-by-one rejects 128",
+    "non_equivalence_witness_differs": true,
+    "variant": "M12"
+  }
+]

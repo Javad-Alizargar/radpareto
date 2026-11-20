@@ -1,0 +1,55 @@
+{
+  "families": {
+    "by_property": {},
+    "certificate_grid": {
+      "checked": 66960,
+      "detected": true,
+      "mismatches": 1377,
+      "not_assessed_reason": null,
+      "planned": 66960,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    },
+    "metamorphic": {
+      "checked": 0,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": "The family calls compare() only and cannot execute stability.py",
+      "planned": 720,
+      "runtime_error_cases": 0,
+      "unassessed": 720
+    },
+    "quarter_grid": {
+      "checked": 0,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": "The family calls compare() only and cannot execute stability.py",
+      "planned": 1625,
+      "runtime_error_cases": 0,
+      "unassessed": 1625
+    },
+    "targeted_stability": {
+      "checked": 9,
+      "detected": true,
+      "mismatches": 6,
+      "not_assessed_reason": null,
+      "planned": 9,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    }
+  },
+  "finished_utc": "2026-11-20T16:17:08.743352+00:00",
+  "started_utc": "2026-11-20T16:17:06.729804+00:00",
+  "variant": {
+    "after": "gaps[n]/scale[n]",
+    "before": "gaps[n]/(2*scale[n])",
+    "id": "M07",
+    "label": "Two moving endpoints lose factor two",
+    "module": "stability.py",
+    "patch": {
+      "mutant_sha256": "4ad9b35c846f20ee15a86c9f4d9d8c370a4ce2a2f92218e4e28cc4912add64c3",
+      "source_sha256": "6f40072504340ec61af286804b1120eaeaee676be8653f925dcc9872af5302d5"
+    },
+    "witness": "factor_two"
+  }
+}

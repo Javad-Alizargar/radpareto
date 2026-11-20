@@ -1,0 +1,721 @@
+case_id,layout,records,objectives,property,passed,interpretation
+mixed-n3-m2-s20261120,mixed,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m2-s20261120,mixed,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m2-s20261120,mixed,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m2-s20261120,mixed,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n3-m2-s20261120,mixed,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n3-m2-s20261120,mixed,3,2,context_mutation,True,One incompatible device produces context refusal
+mixed-n3-m2-s20261121,mixed,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m2-s20261121,mixed,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m2-s20261121,mixed,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m2-s20261121,mixed,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n3-m2-s20261121,mixed,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n3-m2-s20261121,mixed,3,2,context_mutation,True,One incompatible device produces context refusal
+mixed-n3-m2-s20261122,mixed,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m2-s20261122,mixed,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m2-s20261122,mixed,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m2-s20261122,mixed,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n3-m2-s20261122,mixed,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n3-m2-s20261122,mixed,3,2,context_mutation,True,One incompatible device produces context refusal
+mixed-n3-m2-s20261123,mixed,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m2-s20261123,mixed,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m2-s20261123,mixed,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m2-s20261123,mixed,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n3-m2-s20261123,mixed,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n3-m2-s20261123,mixed,3,2,context_mutation,True,One incompatible device produces context refusal
+mixed-n3-m2-s20261124,mixed,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m2-s20261124,mixed,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m2-s20261124,mixed,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m2-s20261124,mixed,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n3-m2-s20261124,mixed,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n3-m2-s20261124,mixed,3,2,context_mutation,True,One incompatible device produces context refusal
+mixed-n3-m3-s20261120,mixed,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m3-s20261120,mixed,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m3-s20261120,mixed,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m3-s20261120,mixed,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n3-m3-s20261120,mixed,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n3-m3-s20261120,mixed,3,3,context_mutation,True,One incompatible device produces context refusal
+mixed-n3-m3-s20261121,mixed,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m3-s20261121,mixed,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m3-s20261121,mixed,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m3-s20261121,mixed,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n3-m3-s20261121,mixed,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n3-m3-s20261121,mixed,3,3,context_mutation,True,One incompatible device produces context refusal
+mixed-n3-m3-s20261122,mixed,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m3-s20261122,mixed,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m3-s20261122,mixed,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m3-s20261122,mixed,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n3-m3-s20261122,mixed,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n3-m3-s20261122,mixed,3,3,context_mutation,True,One incompatible device produces context refusal
+mixed-n3-m3-s20261123,mixed,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m3-s20261123,mixed,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m3-s20261123,mixed,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m3-s20261123,mixed,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n3-m3-s20261123,mixed,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n3-m3-s20261123,mixed,3,3,context_mutation,True,One incompatible device produces context refusal
+mixed-n3-m3-s20261124,mixed,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m3-s20261124,mixed,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m3-s20261124,mixed,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n3-m3-s20261124,mixed,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n3-m3-s20261124,mixed,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n3-m3-s20261124,mixed,3,3,context_mutation,True,One incompatible device produces context refusal
+mixed-n8-m2-s20261120,mixed,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m2-s20261120,mixed,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m2-s20261120,mixed,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m2-s20261120,mixed,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n8-m2-s20261120,mixed,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n8-m2-s20261120,mixed,8,2,context_mutation,True,One incompatible device produces context refusal
+mixed-n8-m2-s20261121,mixed,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m2-s20261121,mixed,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m2-s20261121,mixed,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m2-s20261121,mixed,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n8-m2-s20261121,mixed,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n8-m2-s20261121,mixed,8,2,context_mutation,True,One incompatible device produces context refusal
+mixed-n8-m2-s20261122,mixed,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m2-s20261122,mixed,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m2-s20261122,mixed,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m2-s20261122,mixed,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n8-m2-s20261122,mixed,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n8-m2-s20261122,mixed,8,2,context_mutation,True,One incompatible device produces context refusal
+mixed-n8-m2-s20261123,mixed,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m2-s20261123,mixed,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m2-s20261123,mixed,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m2-s20261123,mixed,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n8-m2-s20261123,mixed,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n8-m2-s20261123,mixed,8,2,context_mutation,True,One incompatible device produces context refusal
+mixed-n8-m2-s20261124,mixed,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m2-s20261124,mixed,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m2-s20261124,mixed,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m2-s20261124,mixed,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n8-m2-s20261124,mixed,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n8-m2-s20261124,mixed,8,2,context_mutation,True,One incompatible device produces context refusal
+mixed-n8-m3-s20261120,mixed,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m3-s20261120,mixed,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m3-s20261120,mixed,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m3-s20261120,mixed,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n8-m3-s20261120,mixed,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n8-m3-s20261120,mixed,8,3,context_mutation,True,One incompatible device produces context refusal
+mixed-n8-m3-s20261121,mixed,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m3-s20261121,mixed,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m3-s20261121,mixed,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m3-s20261121,mixed,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n8-m3-s20261121,mixed,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n8-m3-s20261121,mixed,8,3,context_mutation,True,One incompatible device produces context refusal
+mixed-n8-m3-s20261122,mixed,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m3-s20261122,mixed,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m3-s20261122,mixed,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m3-s20261122,mixed,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n8-m3-s20261122,mixed,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n8-m3-s20261122,mixed,8,3,context_mutation,True,One incompatible device produces context refusal
+mixed-n8-m3-s20261123,mixed,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m3-s20261123,mixed,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m3-s20261123,mixed,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m3-s20261123,mixed,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n8-m3-s20261123,mixed,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n8-m3-s20261123,mixed,8,3,context_mutation,True,One incompatible device produces context refusal
+mixed-n8-m3-s20261124,mixed,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m3-s20261124,mixed,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m3-s20261124,mixed,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n8-m3-s20261124,mixed,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n8-m3-s20261124,mixed,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n8-m3-s20261124,mixed,8,3,context_mutation,True,One incompatible device produces context refusal
+mixed-n16-m2-s20261120,mixed,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m2-s20261120,mixed,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m2-s20261120,mixed,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m2-s20261120,mixed,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n16-m2-s20261120,mixed,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n16-m2-s20261120,mixed,16,2,context_mutation,True,One incompatible device produces context refusal
+mixed-n16-m2-s20261121,mixed,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m2-s20261121,mixed,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m2-s20261121,mixed,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m2-s20261121,mixed,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n16-m2-s20261121,mixed,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n16-m2-s20261121,mixed,16,2,context_mutation,True,One incompatible device produces context refusal
+mixed-n16-m2-s20261122,mixed,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m2-s20261122,mixed,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m2-s20261122,mixed,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m2-s20261122,mixed,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n16-m2-s20261122,mixed,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n16-m2-s20261122,mixed,16,2,context_mutation,True,One incompatible device produces context refusal
+mixed-n16-m2-s20261123,mixed,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m2-s20261123,mixed,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m2-s20261123,mixed,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m2-s20261123,mixed,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n16-m2-s20261123,mixed,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n16-m2-s20261123,mixed,16,2,context_mutation,True,One incompatible device produces context refusal
+mixed-n16-m2-s20261124,mixed,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m2-s20261124,mixed,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m2-s20261124,mixed,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m2-s20261124,mixed,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n16-m2-s20261124,mixed,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n16-m2-s20261124,mixed,16,2,context_mutation,True,One incompatible device produces context refusal
+mixed-n16-m3-s20261120,mixed,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m3-s20261120,mixed,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m3-s20261120,mixed,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m3-s20261120,mixed,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n16-m3-s20261120,mixed,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n16-m3-s20261120,mixed,16,3,context_mutation,True,One incompatible device produces context refusal
+mixed-n16-m3-s20261121,mixed,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m3-s20261121,mixed,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m3-s20261121,mixed,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m3-s20261121,mixed,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n16-m3-s20261121,mixed,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n16-m3-s20261121,mixed,16,3,context_mutation,True,One incompatible device produces context refusal
+mixed-n16-m3-s20261122,mixed,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m3-s20261122,mixed,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m3-s20261122,mixed,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m3-s20261122,mixed,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n16-m3-s20261122,mixed,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n16-m3-s20261122,mixed,16,3,context_mutation,True,One incompatible device produces context refusal
+mixed-n16-m3-s20261123,mixed,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m3-s20261123,mixed,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m3-s20261123,mixed,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m3-s20261123,mixed,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n16-m3-s20261123,mixed,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n16-m3-s20261123,mixed,16,3,context_mutation,True,One incompatible device produces context refusal
+mixed-n16-m3-s20261124,mixed,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m3-s20261124,mixed,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m3-s20261124,mixed,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+mixed-n16-m3-s20261124,mixed,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+mixed-n16-m3-s20261124,mixed,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+mixed-n16-m3-s20261124,mixed,16,3,context_mutation,True,One incompatible device produces context refusal
+chain-n3-m2-s20261120,chain,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m2-s20261120,chain,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m2-s20261120,chain,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m2-s20261120,chain,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n3-m2-s20261120,chain,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n3-m2-s20261120,chain,3,2,context_mutation,True,One incompatible device produces context refusal
+chain-n3-m2-s20261121,chain,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m2-s20261121,chain,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m2-s20261121,chain,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m2-s20261121,chain,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n3-m2-s20261121,chain,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n3-m2-s20261121,chain,3,2,context_mutation,True,One incompatible device produces context refusal
+chain-n3-m2-s20261122,chain,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m2-s20261122,chain,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m2-s20261122,chain,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m2-s20261122,chain,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n3-m2-s20261122,chain,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n3-m2-s20261122,chain,3,2,context_mutation,True,One incompatible device produces context refusal
+chain-n3-m2-s20261123,chain,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m2-s20261123,chain,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m2-s20261123,chain,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m2-s20261123,chain,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n3-m2-s20261123,chain,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n3-m2-s20261123,chain,3,2,context_mutation,True,One incompatible device produces context refusal
+chain-n3-m2-s20261124,chain,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m2-s20261124,chain,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m2-s20261124,chain,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m2-s20261124,chain,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n3-m2-s20261124,chain,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n3-m2-s20261124,chain,3,2,context_mutation,True,One incompatible device produces context refusal
+chain-n3-m3-s20261120,chain,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m3-s20261120,chain,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m3-s20261120,chain,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m3-s20261120,chain,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n3-m3-s20261120,chain,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n3-m3-s20261120,chain,3,3,context_mutation,True,One incompatible device produces context refusal
+chain-n3-m3-s20261121,chain,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m3-s20261121,chain,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m3-s20261121,chain,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m3-s20261121,chain,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n3-m3-s20261121,chain,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n3-m3-s20261121,chain,3,3,context_mutation,True,One incompatible device produces context refusal
+chain-n3-m3-s20261122,chain,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m3-s20261122,chain,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m3-s20261122,chain,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m3-s20261122,chain,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n3-m3-s20261122,chain,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n3-m3-s20261122,chain,3,3,context_mutation,True,One incompatible device produces context refusal
+chain-n3-m3-s20261123,chain,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m3-s20261123,chain,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m3-s20261123,chain,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m3-s20261123,chain,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n3-m3-s20261123,chain,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n3-m3-s20261123,chain,3,3,context_mutation,True,One incompatible device produces context refusal
+chain-n3-m3-s20261124,chain,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m3-s20261124,chain,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m3-s20261124,chain,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n3-m3-s20261124,chain,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n3-m3-s20261124,chain,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n3-m3-s20261124,chain,3,3,context_mutation,True,One incompatible device produces context refusal
+chain-n8-m2-s20261120,chain,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m2-s20261120,chain,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m2-s20261120,chain,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m2-s20261120,chain,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n8-m2-s20261120,chain,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n8-m2-s20261120,chain,8,2,context_mutation,True,One incompatible device produces context refusal
+chain-n8-m2-s20261121,chain,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m2-s20261121,chain,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m2-s20261121,chain,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m2-s20261121,chain,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n8-m2-s20261121,chain,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n8-m2-s20261121,chain,8,2,context_mutation,True,One incompatible device produces context refusal
+chain-n8-m2-s20261122,chain,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m2-s20261122,chain,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m2-s20261122,chain,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m2-s20261122,chain,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n8-m2-s20261122,chain,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n8-m2-s20261122,chain,8,2,context_mutation,True,One incompatible device produces context refusal
+chain-n8-m2-s20261123,chain,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m2-s20261123,chain,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m2-s20261123,chain,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m2-s20261123,chain,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n8-m2-s20261123,chain,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n8-m2-s20261123,chain,8,2,context_mutation,True,One incompatible device produces context refusal
+chain-n8-m2-s20261124,chain,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m2-s20261124,chain,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m2-s20261124,chain,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m2-s20261124,chain,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n8-m2-s20261124,chain,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n8-m2-s20261124,chain,8,2,context_mutation,True,One incompatible device produces context refusal
+chain-n8-m3-s20261120,chain,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m3-s20261120,chain,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m3-s20261120,chain,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m3-s20261120,chain,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n8-m3-s20261120,chain,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n8-m3-s20261120,chain,8,3,context_mutation,True,One incompatible device produces context refusal
+chain-n8-m3-s20261121,chain,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m3-s20261121,chain,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m3-s20261121,chain,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m3-s20261121,chain,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n8-m3-s20261121,chain,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n8-m3-s20261121,chain,8,3,context_mutation,True,One incompatible device produces context refusal
+chain-n8-m3-s20261122,chain,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m3-s20261122,chain,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m3-s20261122,chain,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m3-s20261122,chain,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n8-m3-s20261122,chain,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n8-m3-s20261122,chain,8,3,context_mutation,True,One incompatible device produces context refusal
+chain-n8-m3-s20261123,chain,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m3-s20261123,chain,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m3-s20261123,chain,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m3-s20261123,chain,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n8-m3-s20261123,chain,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n8-m3-s20261123,chain,8,3,context_mutation,True,One incompatible device produces context refusal
+chain-n8-m3-s20261124,chain,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m3-s20261124,chain,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m3-s20261124,chain,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n8-m3-s20261124,chain,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n8-m3-s20261124,chain,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n8-m3-s20261124,chain,8,3,context_mutation,True,One incompatible device produces context refusal
+chain-n16-m2-s20261120,chain,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m2-s20261120,chain,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m2-s20261120,chain,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m2-s20261120,chain,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n16-m2-s20261120,chain,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n16-m2-s20261120,chain,16,2,context_mutation,True,One incompatible device produces context refusal
+chain-n16-m2-s20261121,chain,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m2-s20261121,chain,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m2-s20261121,chain,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m2-s20261121,chain,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n16-m2-s20261121,chain,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n16-m2-s20261121,chain,16,2,context_mutation,True,One incompatible device produces context refusal
+chain-n16-m2-s20261122,chain,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m2-s20261122,chain,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m2-s20261122,chain,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m2-s20261122,chain,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n16-m2-s20261122,chain,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n16-m2-s20261122,chain,16,2,context_mutation,True,One incompatible device produces context refusal
+chain-n16-m2-s20261123,chain,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m2-s20261123,chain,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m2-s20261123,chain,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m2-s20261123,chain,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n16-m2-s20261123,chain,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n16-m2-s20261123,chain,16,2,context_mutation,True,One incompatible device produces context refusal
+chain-n16-m2-s20261124,chain,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m2-s20261124,chain,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m2-s20261124,chain,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m2-s20261124,chain,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n16-m2-s20261124,chain,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n16-m2-s20261124,chain,16,2,context_mutation,True,One incompatible device produces context refusal
+chain-n16-m3-s20261120,chain,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m3-s20261120,chain,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m3-s20261120,chain,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m3-s20261120,chain,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n16-m3-s20261120,chain,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n16-m3-s20261120,chain,16,3,context_mutation,True,One incompatible device produces context refusal
+chain-n16-m3-s20261121,chain,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m3-s20261121,chain,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m3-s20261121,chain,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m3-s20261121,chain,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n16-m3-s20261121,chain,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n16-m3-s20261121,chain,16,3,context_mutation,True,One incompatible device produces context refusal
+chain-n16-m3-s20261122,chain,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m3-s20261122,chain,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m3-s20261122,chain,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m3-s20261122,chain,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n16-m3-s20261122,chain,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n16-m3-s20261122,chain,16,3,context_mutation,True,One incompatible device produces context refusal
+chain-n16-m3-s20261123,chain,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m3-s20261123,chain,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m3-s20261123,chain,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m3-s20261123,chain,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n16-m3-s20261123,chain,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n16-m3-s20261123,chain,16,3,context_mutation,True,One incompatible device produces context refusal
+chain-n16-m3-s20261124,chain,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m3-s20261124,chain,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m3-s20261124,chain,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+chain-n16-m3-s20261124,chain,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+chain-n16-m3-s20261124,chain,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+chain-n16-m3-s20261124,chain,16,3,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n3-m2-s20261120,tradeoff,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m2-s20261120,tradeoff,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m2-s20261120,tradeoff,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m2-s20261120,tradeoff,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n3-m2-s20261120,tradeoff,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n3-m2-s20261120,tradeoff,3,2,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n3-m2-s20261121,tradeoff,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m2-s20261121,tradeoff,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m2-s20261121,tradeoff,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m2-s20261121,tradeoff,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n3-m2-s20261121,tradeoff,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n3-m2-s20261121,tradeoff,3,2,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n3-m2-s20261122,tradeoff,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m2-s20261122,tradeoff,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m2-s20261122,tradeoff,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m2-s20261122,tradeoff,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n3-m2-s20261122,tradeoff,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n3-m2-s20261122,tradeoff,3,2,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n3-m2-s20261123,tradeoff,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m2-s20261123,tradeoff,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m2-s20261123,tradeoff,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m2-s20261123,tradeoff,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n3-m2-s20261123,tradeoff,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n3-m2-s20261123,tradeoff,3,2,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n3-m2-s20261124,tradeoff,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m2-s20261124,tradeoff,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m2-s20261124,tradeoff,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m2-s20261124,tradeoff,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n3-m2-s20261124,tradeoff,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n3-m2-s20261124,tradeoff,3,2,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n3-m3-s20261120,tradeoff,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m3-s20261120,tradeoff,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m3-s20261120,tradeoff,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m3-s20261120,tradeoff,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n3-m3-s20261120,tradeoff,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n3-m3-s20261120,tradeoff,3,3,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n3-m3-s20261121,tradeoff,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m3-s20261121,tradeoff,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m3-s20261121,tradeoff,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m3-s20261121,tradeoff,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n3-m3-s20261121,tradeoff,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n3-m3-s20261121,tradeoff,3,3,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n3-m3-s20261122,tradeoff,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m3-s20261122,tradeoff,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m3-s20261122,tradeoff,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m3-s20261122,tradeoff,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n3-m3-s20261122,tradeoff,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n3-m3-s20261122,tradeoff,3,3,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n3-m3-s20261123,tradeoff,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m3-s20261123,tradeoff,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m3-s20261123,tradeoff,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m3-s20261123,tradeoff,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n3-m3-s20261123,tradeoff,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n3-m3-s20261123,tradeoff,3,3,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n3-m3-s20261124,tradeoff,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m3-s20261124,tradeoff,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m3-s20261124,tradeoff,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n3-m3-s20261124,tradeoff,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n3-m3-s20261124,tradeoff,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n3-m3-s20261124,tradeoff,3,3,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n8-m2-s20261120,tradeoff,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m2-s20261120,tradeoff,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m2-s20261120,tradeoff,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m2-s20261120,tradeoff,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n8-m2-s20261120,tradeoff,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n8-m2-s20261120,tradeoff,8,2,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n8-m2-s20261121,tradeoff,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m2-s20261121,tradeoff,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m2-s20261121,tradeoff,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m2-s20261121,tradeoff,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n8-m2-s20261121,tradeoff,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n8-m2-s20261121,tradeoff,8,2,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n8-m2-s20261122,tradeoff,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m2-s20261122,tradeoff,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m2-s20261122,tradeoff,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m2-s20261122,tradeoff,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n8-m2-s20261122,tradeoff,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n8-m2-s20261122,tradeoff,8,2,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n8-m2-s20261123,tradeoff,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m2-s20261123,tradeoff,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m2-s20261123,tradeoff,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m2-s20261123,tradeoff,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n8-m2-s20261123,tradeoff,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n8-m2-s20261123,tradeoff,8,2,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n8-m2-s20261124,tradeoff,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m2-s20261124,tradeoff,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m2-s20261124,tradeoff,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m2-s20261124,tradeoff,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n8-m2-s20261124,tradeoff,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n8-m2-s20261124,tradeoff,8,2,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n8-m3-s20261120,tradeoff,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m3-s20261120,tradeoff,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m3-s20261120,tradeoff,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m3-s20261120,tradeoff,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n8-m3-s20261120,tradeoff,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n8-m3-s20261120,tradeoff,8,3,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n8-m3-s20261121,tradeoff,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m3-s20261121,tradeoff,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m3-s20261121,tradeoff,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m3-s20261121,tradeoff,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n8-m3-s20261121,tradeoff,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n8-m3-s20261121,tradeoff,8,3,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n8-m3-s20261122,tradeoff,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m3-s20261122,tradeoff,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m3-s20261122,tradeoff,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m3-s20261122,tradeoff,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n8-m3-s20261122,tradeoff,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n8-m3-s20261122,tradeoff,8,3,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n8-m3-s20261123,tradeoff,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m3-s20261123,tradeoff,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m3-s20261123,tradeoff,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m3-s20261123,tradeoff,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n8-m3-s20261123,tradeoff,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n8-m3-s20261123,tradeoff,8,3,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n8-m3-s20261124,tradeoff,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m3-s20261124,tradeoff,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m3-s20261124,tradeoff,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n8-m3-s20261124,tradeoff,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n8-m3-s20261124,tradeoff,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n8-m3-s20261124,tradeoff,8,3,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n16-m2-s20261120,tradeoff,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m2-s20261120,tradeoff,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m2-s20261120,tradeoff,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m2-s20261120,tradeoff,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n16-m2-s20261120,tradeoff,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n16-m2-s20261120,tradeoff,16,2,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n16-m2-s20261121,tradeoff,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m2-s20261121,tradeoff,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m2-s20261121,tradeoff,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m2-s20261121,tradeoff,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n16-m2-s20261121,tradeoff,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n16-m2-s20261121,tradeoff,16,2,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n16-m2-s20261122,tradeoff,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m2-s20261122,tradeoff,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m2-s20261122,tradeoff,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m2-s20261122,tradeoff,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n16-m2-s20261122,tradeoff,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n16-m2-s20261122,tradeoff,16,2,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n16-m2-s20261123,tradeoff,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m2-s20261123,tradeoff,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m2-s20261123,tradeoff,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m2-s20261123,tradeoff,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n16-m2-s20261123,tradeoff,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n16-m2-s20261123,tradeoff,16,2,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n16-m2-s20261124,tradeoff,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m2-s20261124,tradeoff,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m2-s20261124,tradeoff,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m2-s20261124,tradeoff,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n16-m2-s20261124,tradeoff,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n16-m2-s20261124,tradeoff,16,2,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n16-m3-s20261120,tradeoff,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m3-s20261120,tradeoff,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m3-s20261120,tradeoff,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m3-s20261120,tradeoff,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n16-m3-s20261120,tradeoff,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n16-m3-s20261120,tradeoff,16,3,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n16-m3-s20261121,tradeoff,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m3-s20261121,tradeoff,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m3-s20261121,tradeoff,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m3-s20261121,tradeoff,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n16-m3-s20261121,tradeoff,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n16-m3-s20261121,tradeoff,16,3,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n16-m3-s20261122,tradeoff,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m3-s20261122,tradeoff,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m3-s20261122,tradeoff,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m3-s20261122,tradeoff,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n16-m3-s20261122,tradeoff,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n16-m3-s20261122,tradeoff,16,3,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n16-m3-s20261123,tradeoff,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m3-s20261123,tradeoff,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m3-s20261123,tradeoff,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m3-s20261123,tradeoff,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n16-m3-s20261123,tradeoff,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n16-m3-s20261123,tradeoff,16,3,context_mutation,True,One incompatible device produces context refusal
+tradeoff-n16-m3-s20261124,tradeoff,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m3-s20261124,tradeoff,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m3-s20261124,tradeoff,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+tradeoff-n16-m3-s20261124,tradeoff,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+tradeoff-n16-m3-s20261124,tradeoff,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+tradeoff-n16-m3-s20261124,tradeoff,16,3,context_mutation,True,One incompatible device produces context refusal
+ties-n3-m2-s20261120,ties,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m2-s20261120,ties,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m2-s20261120,ties,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m2-s20261120,ties,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n3-m2-s20261120,ties,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n3-m2-s20261120,ties,3,2,context_mutation,True,One incompatible device produces context refusal
+ties-n3-m2-s20261121,ties,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m2-s20261121,ties,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m2-s20261121,ties,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m2-s20261121,ties,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n3-m2-s20261121,ties,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n3-m2-s20261121,ties,3,2,context_mutation,True,One incompatible device produces context refusal
+ties-n3-m2-s20261122,ties,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m2-s20261122,ties,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m2-s20261122,ties,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m2-s20261122,ties,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n3-m2-s20261122,ties,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n3-m2-s20261122,ties,3,2,context_mutation,True,One incompatible device produces context refusal
+ties-n3-m2-s20261123,ties,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m2-s20261123,ties,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m2-s20261123,ties,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m2-s20261123,ties,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n3-m2-s20261123,ties,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n3-m2-s20261123,ties,3,2,context_mutation,True,One incompatible device produces context refusal
+ties-n3-m2-s20261124,ties,3,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m2-s20261124,ties,3,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m2-s20261124,ties,3,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m2-s20261124,ties,3,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n3-m2-s20261124,ties,3,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n3-m2-s20261124,ties,3,2,context_mutation,True,One incompatible device produces context refusal
+ties-n3-m3-s20261120,ties,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m3-s20261120,ties,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m3-s20261120,ties,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m3-s20261120,ties,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n3-m3-s20261120,ties,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n3-m3-s20261120,ties,3,3,context_mutation,True,One incompatible device produces context refusal
+ties-n3-m3-s20261121,ties,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m3-s20261121,ties,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m3-s20261121,ties,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m3-s20261121,ties,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n3-m3-s20261121,ties,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n3-m3-s20261121,ties,3,3,context_mutation,True,One incompatible device produces context refusal
+ties-n3-m3-s20261122,ties,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m3-s20261122,ties,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m3-s20261122,ties,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m3-s20261122,ties,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n3-m3-s20261122,ties,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n3-m3-s20261122,ties,3,3,context_mutation,True,One incompatible device produces context refusal
+ties-n3-m3-s20261123,ties,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m3-s20261123,ties,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m3-s20261123,ties,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m3-s20261123,ties,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n3-m3-s20261123,ties,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n3-m3-s20261123,ties,3,3,context_mutation,True,One incompatible device produces context refusal
+ties-n3-m3-s20261124,ties,3,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m3-s20261124,ties,3,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m3-s20261124,ties,3,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n3-m3-s20261124,ties,3,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n3-m3-s20261124,ties,3,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n3-m3-s20261124,ties,3,3,context_mutation,True,One incompatible device produces context refusal
+ties-n8-m2-s20261120,ties,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m2-s20261120,ties,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m2-s20261120,ties,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m2-s20261120,ties,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n8-m2-s20261120,ties,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n8-m2-s20261120,ties,8,2,context_mutation,True,One incompatible device produces context refusal
+ties-n8-m2-s20261121,ties,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m2-s20261121,ties,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m2-s20261121,ties,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m2-s20261121,ties,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n8-m2-s20261121,ties,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n8-m2-s20261121,ties,8,2,context_mutation,True,One incompatible device produces context refusal
+ties-n8-m2-s20261122,ties,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m2-s20261122,ties,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m2-s20261122,ties,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m2-s20261122,ties,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n8-m2-s20261122,ties,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n8-m2-s20261122,ties,8,2,context_mutation,True,One incompatible device produces context refusal
+ties-n8-m2-s20261123,ties,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m2-s20261123,ties,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m2-s20261123,ties,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m2-s20261123,ties,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n8-m2-s20261123,ties,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n8-m2-s20261123,ties,8,2,context_mutation,True,One incompatible device produces context refusal
+ties-n8-m2-s20261124,ties,8,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m2-s20261124,ties,8,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m2-s20261124,ties,8,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m2-s20261124,ties,8,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n8-m2-s20261124,ties,8,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n8-m2-s20261124,ties,8,2,context_mutation,True,One incompatible device produces context refusal
+ties-n8-m3-s20261120,ties,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m3-s20261120,ties,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m3-s20261120,ties,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m3-s20261120,ties,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n8-m3-s20261120,ties,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n8-m3-s20261120,ties,8,3,context_mutation,True,One incompatible device produces context refusal
+ties-n8-m3-s20261121,ties,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m3-s20261121,ties,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m3-s20261121,ties,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m3-s20261121,ties,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n8-m3-s20261121,ties,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n8-m3-s20261121,ties,8,3,context_mutation,True,One incompatible device produces context refusal
+ties-n8-m3-s20261122,ties,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m3-s20261122,ties,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m3-s20261122,ties,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m3-s20261122,ties,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n8-m3-s20261122,ties,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n8-m3-s20261122,ties,8,3,context_mutation,True,One incompatible device produces context refusal
+ties-n8-m3-s20261123,ties,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m3-s20261123,ties,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m3-s20261123,ties,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m3-s20261123,ties,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n8-m3-s20261123,ties,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n8-m3-s20261123,ties,8,3,context_mutation,True,One incompatible device produces context refusal
+ties-n8-m3-s20261124,ties,8,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m3-s20261124,ties,8,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m3-s20261124,ties,8,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n8-m3-s20261124,ties,8,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n8-m3-s20261124,ties,8,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n8-m3-s20261124,ties,8,3,context_mutation,True,One incompatible device produces context refusal
+ties-n16-m2-s20261120,ties,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m2-s20261120,ties,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m2-s20261120,ties,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m2-s20261120,ties,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n16-m2-s20261120,ties,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n16-m2-s20261120,ties,16,2,context_mutation,True,One incompatible device produces context refusal
+ties-n16-m2-s20261121,ties,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m2-s20261121,ties,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m2-s20261121,ties,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m2-s20261121,ties,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n16-m2-s20261121,ties,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n16-m2-s20261121,ties,16,2,context_mutation,True,One incompatible device produces context refusal
+ties-n16-m2-s20261122,ties,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m2-s20261122,ties,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m2-s20261122,ties,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m2-s20261122,ties,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n16-m2-s20261122,ties,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n16-m2-s20261122,ties,16,2,context_mutation,True,One incompatible device produces context refusal
+ties-n16-m2-s20261123,ties,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m2-s20261123,ties,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m2-s20261123,ties,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m2-s20261123,ties,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n16-m2-s20261123,ties,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n16-m2-s20261123,ties,16,2,context_mutation,True,One incompatible device produces context refusal
+ties-n16-m2-s20261124,ties,16,2,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m2-s20261124,ties,16,2,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m2-s20261124,ties,16,2,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m2-s20261124,ties,16,2,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n16-m2-s20261124,ties,16,2,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n16-m2-s20261124,ties,16,2,context_mutation,True,One incompatible device produces context refusal
+ties-n16-m3-s20261120,ties,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m3-s20261120,ties,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m3-s20261120,ties,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m3-s20261120,ties,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n16-m3-s20261120,ties,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n16-m3-s20261120,ties,16,3,context_mutation,True,One incompatible device produces context refusal
+ties-n16-m3-s20261121,ties,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m3-s20261121,ties,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m3-s20261121,ties,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m3-s20261121,ties,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n16-m3-s20261121,ties,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n16-m3-s20261121,ties,16,3,context_mutation,True,One incompatible device produces context refusal
+ties-n16-m3-s20261122,ties,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m3-s20261122,ties,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m3-s20261122,ties,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m3-s20261122,ties,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n16-m3-s20261122,ties,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n16-m3-s20261122,ties,16,3,context_mutation,True,One incompatible device produces context refusal
+ties-n16-m3-s20261123,ties,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m3-s20261123,ties,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m3-s20261123,ties,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m3-s20261123,ties,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n16-m3-s20261123,ties,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n16-m3-s20261123,ties,16,3,context_mutation,True,One incompatible device produces context refusal
+ties-n16-m3-s20261124,ties,16,3,permutation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m3-s20261124,ties,16,3,positive_scaling,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m3-s20261124,ties,16,3,translation,True,"All projected decision sets, per-limit classes and eligibility preserved"
+ties-n16-m3-s20261124,ties,16,3,interval_widening,True,Wider boxes cannot create certain dominance or enlarge either definite feasibility class
+ties-n16-m3-s20261124,ties,16,3,limit_relaxation,True,Relaxed upper limits preserve fronts and change definite classes monotonically
+ties-n16-m3-s20261124,ties,16,3,context_mutation,True,One incompatible device produces context refusal

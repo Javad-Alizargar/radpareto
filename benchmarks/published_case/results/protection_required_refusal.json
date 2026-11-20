@@ -1,0 +1,40 @@
+{
+  "status": "refused",
+  "reasons": [
+    {
+      "code": "PROTECTION_UNVERIFIED",
+      "message": "Protection-aware comparison requires explicit model evidence",
+      "record": "BL-DFF"
+    },
+    {
+      "code": "PROTECTION_UNVERIFIED",
+      "message": "Protection-aware comparison requires explicit model evidence",
+      "record": "TMR-DFF"
+    },
+    {
+      "code": "PROTECTION_UNVERIFIED",
+      "message": "Protection-aware comparison requires explicit model evidence",
+      "record": "DF-TMR-DFF-1.28"
+    },
+    {
+      "code": "PROTECTION_UNVERIFIED",
+      "message": "Protection-aware comparison requires explicit model evidence",
+      "record": "DF-TMR-DFF-2.56"
+    },
+    {
+      "code": "PROTECTION_UNVERIFIED",
+      "message": "Protection-aware comparison requires explicit model evidence",
+      "record": "DF-TMR-DFF-5.12"
+    },
+    {
+      "code": "PROTECTION_UNVERIFIED",
+      "message": "Protection-aware comparison requires explicit model evidence",
+      "record": "DCLR-TMR-DFF"
+    }
+  ],
+  "nominal_front": [],
+  "not_certainly_dominated": [],
+  "feasibility": {},
+  "definitely_feasible_nominal_front": [],
+  "warnings": []
+}

@@ -1,0 +1,95 @@
+{
+  "dataset_id": "ma2026-proasic3-tables9-10-public-v1",
+  "source": {
+    "authors": [
+      "Jinlong Ma",
+      "Weike Liu",
+      "Wenxun Wei",
+      "Xin Chen",
+      "Danfeng Qiu",
+      "Zongguang Yu",
+      "Daiyin Zhu"
+    ],
+    "title": "Quantitative Trade-Off Evaluation of Hardened DFFs in 130 nm ProASIC3 Flash-Based FPGAs Under Wide-LET Heavy-Ion Irradiation",
+    "journal": "Electronics",
+    "year": 2026,
+    "volume": 15,
+    "issue": 22,
+    "article": 5390,
+    "published": "2026-11-19",
+    "doi": "10.3390/electronics15225390",
+    "url": "https://www.mdpi.com/2079-9292/15/22/5390",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_evidence": "MDPI publisher rights policy https://www.mdpi.com/authors/rights?authAll=true; journal policy https://www.mdpi.com/journal/Electronics/about; prior bounded audit recorded CC BY footer",
+    "adaptation": "Original numerical transcription of Tables 9 and 10; commas removed from integers, frequency ranges split into endpoints; all printed decimal precision retained as CSV text. Derived period, comparison, budgets and widening are new analyses, not source results."
+  },
+  "locators": {
+    "table9": "HTML Table 9, resource occupancy and per-bit overhead; cached primary extraction lines 1143-1154",
+    "table10": "HTML Table 10, standalone-project timing; cached primary extraction lines 1157-1172",
+    "context": "Sections 2.1, 2.4.1, 2.4.2, 3.2 and 3.3; Table 11 only for tool-version/corner context, not comparative performance",
+    "pdf_pages": null,
+    "pdf_status": "PDF not obtained: publisher /pdf GET returned HTTP 403; web PDF endpoint returned unsupported application/octet-stream. No PDF visual inspection claimed."
+  },
+  "field_units": {
+    "dfn1c1": "instances; also VersaTiles because V_SEQ=1",
+    "comb_versatiles": "VersaTiles per standalone project",
+    "public_versatiles": "one-off VersaTiles per standalone project",
+    "structure_only_versatiles": "VersaTiles for 486 logic bits excluding one-off circuitry",
+    "versatiles_per_bit": "VersaTiles per logic bit",
+    "model_versatiles_per_bit": "VersaTiles per logic bit",
+    "resource_ratio": "dimensionless relative to 11 VersaTiles/bit",
+    "k_dly": "delay-chain stages",
+    "fmax_mean_mhz": "MHz, arithmetic mean of three place-and-route runs",
+    "fmax_min_mhz": "MHz, minimum of three runs",
+    "fmax_max_mhz": "MHz, maximum of three runs",
+    "critical_path_delay_mean_ns": "ns, mean over three runs",
+    "critical_path_slack_mean_at_30mhz_ns": "ns, mean over three runs at 30 MHz"
+  },
+  "context": {
+    "device": "A3PE3000 ProASIC3, 130 nm, FG484",
+    "toolchain": "Libero SoC",
+    "tool_version": "11.8 SP1 (11.8.1.12)",
+    "implementation": "native primitives, one structure per standalone project; post-layout STA with back-annotated delays",
+    "workload": "complete dual 243-bit shift-register test chain (486 logic bits), common 10-stage BUFD upstream-chain design, one calibration ring oscillator per project",
+    "constraints": "30 MHz reference clock (33.333 ns reported); identical project comparison flow",
+    "timing_corner": "worst-case corner, 1.425 V, 125 deg C",
+    "area_variability": "Source states synthesized occupancy identical in three runs; input retains exact reported count, without physical area error bars",
+    "timing_variability": "Observed min-max of three independent place-and-route runs, not confidence intervals or guaranteed future-run enclosures",
+    "excluded": "Merged irradiation-project Table 11 timing, radiation cross-sections, zero-event upper limits and Weibull fit uncertainty are not objectives or interval bounds"
+  },
+  "verification": {
+    "unresolved": [
+      "Exact place-and-route seed values and complete synthesis/settings command lines not available",
+      "Raw HDL, implementation reports and individual run frequencies not obtained",
+      "No independent hardware reproduction",
+      "Protection equivalence is unverified and must not be inferred from cost compatibility"
+    ],
+    "source_access": "Publisher HTML Tables9-10 numerically checked; PDF not available. No original HDL/raw run reports reconstructed."
+  },
+  "analysis_plan_before_run": {
+    "objectives": "Minimize cells=published VersaTiles per logic bit and period_ns=1000/fmax_mean_mhz; endpoints=1000/fmax_max_mhz,1000/fmax_min_mhz",
+    "period_warning": "Reciprocal of mean frequency is neither mean period nor source mean critical-path delay; those quantities are not substituted",
+    "base_scope": "all six published designs, cost only",
+    "secondary_scopes": "TMR-based five designs and SET-suppression four designs are explicitly selected architecture portfolios; they do not assert equal radiation performance or verified coverage",
+    "budget_grid": "cells caps 20,30,40 bracket reported costs 11-37 in round 10-cell tiers; frequency requirements 30,32,40,50 MHz span reported performance. 30 MHz is source reference; 32,40,50 MHz and all cell caps are analyst-selected what-if requirements, not certified device/mission limits",
+    "stability_scales": {
+      "cells": 1,
+      "period_ns": 1
+    },
+    "scale_rationale": "A dimensionless t increases each half-width by t VersaTiles/bit and t ns; simple stated unit sensitivity, not fitted uncertainty, probability or physical variation",
+    "evaluation_t_grid": [
+      0,
+      0.25,
+      0.5,
+      1,
+      2,
+      4,
+      8
+    ],
+    "selected_stability_budget": {
+      "cells": 40,
+      "frequency_mhz": 30
+    }
+  }
+}

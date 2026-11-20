@@ -1,0 +1,119 @@
+{
+  "families": {
+    "by_property": {
+      "context_mutation": {
+        "checked": 120,
+        "detected": false,
+        "mismatches": 0,
+        "not_assessed_reason": null,
+        "planned": 120,
+        "runtime_error_cases": 0,
+        "unassessed": 0
+      },
+      "interval_widening": {
+        "checked": 120,
+        "detected": false,
+        "mismatches": 0,
+        "not_assessed_reason": null,
+        "planned": 120,
+        "runtime_error_cases": 0,
+        "unassessed": 0
+      },
+      "limit_relaxation": {
+        "checked": 120,
+        "detected": false,
+        "mismatches": 0,
+        "not_assessed_reason": null,
+        "planned": 120,
+        "runtime_error_cases": 0,
+        "unassessed": 0
+      },
+      "permutation": {
+        "checked": 120,
+        "detected": false,
+        "mismatches": 0,
+        "not_assessed_reason": null,
+        "planned": 120,
+        "runtime_error_cases": 0,
+        "unassessed": 0
+      },
+      "positive_scaling": {
+        "checked": 120,
+        "detected": false,
+        "mismatches": 0,
+        "not_assessed_reason": null,
+        "planned": 120,
+        "runtime_error_cases": 0,
+        "unassessed": 0
+      },
+      "translation": {
+        "checked": 120,
+        "detected": false,
+        "mismatches": 0,
+        "not_assessed_reason": null,
+        "planned": 120,
+        "runtime_error_cases": 0,
+        "unassessed": 0
+      }
+    },
+    "certificate_grid": {
+      "checked": 66960,
+      "detected": true,
+      "mismatches": 2462,
+      "not_assessed_reason": null,
+      "planned": 66960,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    },
+    "input_nonmutation": {
+      "checked": 840,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": null,
+      "planned": 840,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    },
+    "metamorphic": {
+      "checked": 720,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": null,
+      "planned": 720,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    },
+    "quarter_grid": {
+      "checked": 1625,
+      "detected": true,
+      "mismatches": 71,
+      "not_assessed_reason": null,
+      "planned": 1625,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    },
+    "targeted_stability": {
+      "checked": 9,
+      "detected": true,
+      "mismatches": 2,
+      "not_assessed_reason": null,
+      "planned": 9,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    }
+  },
+  "finished_utc": "2026-11-20T16:17:00.185807+00:00",
+  "started_utc": "2026-11-20T16:16:54.533583+00:00",
+  "variant": {
+    "after": "r[\"metrics\"][n][\"upper\"] < bound",
+    "before": "r[\"metrics\"][n][\"upper\"] <= bound",
+    "id": "M05",
+    "label": "Feasible upper-budget equality excluded",
+    "module": "compare.py",
+    "patch": {
+      "mutant_sha256": "5f452d8d3271c9e158803661b183b2df7d736c613750719a24b60a053703d85a",
+      "source_sha256": "ea8984a92f856dc248332c9b8bf48503acc926d0819e6a47b0311a7d930fb459"
+    },
+    "witness": "feasible_equal"
+  }
+}

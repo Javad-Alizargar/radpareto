@@ -1,0 +1,152 @@
+[
+  {
+    "id": "CONTROL",
+    "label": "Unmodified production",
+    "module": null,
+    "witness": null
+  },
+  {
+    "after": "and any(v <= w for v, w in zip(x, y))",
+    "before": "and any(v < w for v, w in zip(x, y))",
+    "id": "M01",
+    "label": "Ties incorrectly dominate",
+    "module": "compare.py",
+    "patch": {
+      "mutant_sha256": "0d85d37d1cf234a31e7d6bbd2a2d7af14794f894de876ca6e8fdeb0e4b37acf7",
+      "source_sha256": "ea8984a92f856dc248332c9b8bf48503acc926d0819e6a47b0311a7d930fb459"
+    },
+    "witness": "ties"
+  },
+  {
+    "after": "return all(v < w for v, w in zip(x, y))",
+    "before": "return all(v <= w for v, w in zip(x, y))",
+    "id": "M02",
+    "label": "Weak dominance requires every coordinate strict",
+    "module": "compare.py",
+    "patch": {
+      "mutant_sha256": "34487679c67da65d837518c635cccc1b1b7f0cbbb1a3c705cd0b901fb0f4cf91",
+      "source_sha256": "ea8984a92f856dc248332c9b8bf48503acc926d0819e6a47b0311a7d930fb459"
+    },
+    "witness": "weak"
+  },
+  {
+    "after": "if False and r[\"context\"][key] != ref[\"context\"][key]:",
+    "before": "if r[\"context\"][key] != ref[\"context\"][key]:",
+    "id": "M03",
+    "label": "Context mismatch guard disabled",
+    "module": "compare.py",
+    "patch": {
+      "mutant_sha256": "37c73addec1b4c0a71c0ce7dc763fdd67336be6023c8a250524f367acf5c4d84",
+      "source_sha256": "ea8984a92f856dc248332c9b8bf48503acc926d0819e6a47b0311a7d930fb459"
+    },
+    "witness": "context"
+  },
+  {
+    "after": "y = [b[\"metrics\"][n][\"value\"] for n in names]",
+    "before": "y = [b[\"metrics\"][n][\"lower\" if box else \"value\"] for n in names]",
+    "id": "M04",
+    "label": "Certain dominance substitutes nominal for lower bound",
+    "module": "compare.py",
+    "patch": {
+      "mutant_sha256": "b3f8ab06f20ac4967548f6d8b7b52d02856165fa1bb7c9609af3fd1953baffb9",
+      "source_sha256": "ea8984a92f856dc248332c9b8bf48503acc926d0819e6a47b0311a7d930fb459"
+    },
+    "witness": "box_lower"
+  },
+  {
+    "after": "r[\"metrics\"][n][\"upper\"] < bound",
+    "before": "r[\"metrics\"][n][\"upper\"] <= bound",
+    "id": "M05",
+    "label": "Feasible upper-budget equality excluded",
+    "module": "compare.py",
+    "patch": {
+      "mutant_sha256": "5f452d8d3271c9e158803661b183b2df7d736c613750719a24b60a053703d85a",
+      "source_sha256": "ea8984a92f856dc248332c9b8bf48503acc926d0819e6a47b0311a7d930fb459"
+    },
+    "witness": "feasible_equal"
+  },
+  {
+    "after": "r[\"metrics\"][n][\"lower\"] >= bound",
+    "before": "r[\"metrics\"][n][\"lower\"] > bound",
+    "id": "M06",
+    "label": "Infeasible lower-budget equality included",
+    "module": "compare.py",
+    "patch": {
+      "mutant_sha256": "4a2765b3c4765e6b700f6131b8c200bca01f12057d404c1853e5bd960be0aa21",
+      "source_sha256": "ea8984a92f856dc248332c9b8bf48503acc926d0819e6a47b0311a7d930fb459"
+    },
+    "witness": "infeasible_equal"
+  },
+  {
+    "after": "gaps[n]/scale[n]",
+    "before": "gaps[n]/(2*scale[n])",
+    "id": "M07",
+    "label": "Two moving endpoints lose factor two",
+    "module": "stability.py",
+    "patch": {
+      "mutant_sha256": "4ad9b35c846f20ee15a86c9f4d9d8c370a4ce2a2f92218e4e28cc4912add64c3",
+      "source_sha256": "6f40072504340ec61af286804b1120eaeaee676be8653f925dcc9872af5302d5"
+    },
+    "witness": "factor_two"
+  },
+  {
+    "after": "any(gaps[n]-2*scale[n]*threshold >= 0 for n in names)",
+    "before": "any(gaps[n]-2*scale[n]*threshold > 0 for n in names)",
+    "id": "M08",
+    "label": "Dominance endpoint strictness lost",
+    "module": "stability.py",
+    "patch": {
+      "mutant_sha256": "18d3a170c2e028e6e71469cd0a26aa8f8c84ec7fcf8e545e21cb4513ddaaab40",
+      "source_sha256": "6f40072504340ec61af286804b1120eaeaee676be8653f925dcc9872af5302d5"
+    },
+    "witness": "inclusion"
+  },
+  {
+    "after": "for n in names if scale[n] >= 0}",
+    "before": "for n in names if scale[n] > 0}",
+    "id": "M09",
+    "label": "Zero-scale objectives enter division",
+    "module": "stability.py",
+    "patch": {
+      "mutant_sha256": "fec1f8c3ce48f122ce778fefdefdce50fe084fbd482f4434dba9f396218780e8",
+      "source_sha256": "6f40072504340ec61af286804b1120eaeaee676be8653f925dcc9872af5302d5"
+    },
+    "witness": "zero_scale"
+  },
+  {
+    "after": "Fraction(float(r[\"metrics\"][n][\"lower\"]))",
+    "before": "Fraction(r[\"metrics\"][n][\"lower\"])",
+    "id": "M10",
+    "label": "Integer lower endpoints coerced through float",
+    "module": "stability.py",
+    "patch": {
+      "mutant_sha256": "d78f65781c8a1b3b633d8212017e5d18224ea96f2ca410dcf7e041c15eb5fee1",
+      "source_sha256": "6f40072504340ec61af286804b1120eaeaee676be8653f925dcc9872af5302d5"
+    },
+    "witness": "precision"
+  },
+  {
+    "after": "(upper[rid][name]-limit)/scale[name], False",
+    "before": "(lower[rid][name]-limit)/scale[name], False",
+    "id": "M11",
+    "label": "Infeasible threshold uses upper endpoint",
+    "module": "stability.py",
+    "patch": {
+      "mutant_sha256": "3170f83f987fb4b796abb1c434b871d8d103ee9a04bba0ffe8e310cbfe94bfe0",
+      "source_sha256": "6f40072504340ec61af286804b1120eaeaee676be8653f925dcc9872af5302d5"
+    },
+    "witness": "constraint_lower"
+  },
+  {
+    "after": "len(records) >= MAX_STABILITY_RECORDS",
+    "before": "len(records) > MAX_STABILITY_RECORDS",
+    "id": "M12",
+    "label": "Record-cap off-by-one rejects 128",
+    "module": "stability.py",
+    "patch": {
+      "mutant_sha256": "546f53c771e8569422dad0fd6e9b2ff300376b7013f955f416a14dfa18c1ff8c",
+      "source_sha256": "6f40072504340ec61af286804b1120eaeaee676be8653f925dcc9872af5302d5"
+    },
+    "witness": "record_cap"
+  }
+]

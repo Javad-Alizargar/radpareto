@@ -1,0 +1,53 @@
+{
+  "api": "stability",
+  "kwargs": {
+    "limits": {
+      "cost_0": 1
+    },
+    "scales": {
+      "cost_0": 1
+    }
+  },
+  "name": "constraint_lower",
+  "purpose": "Non-equivalence diagnostic excluded from all detection scores",
+  "records": [
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "A",
+      "method": "A",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 2,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 4,
+          "value": 2
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "A",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    }
+  ]
+}

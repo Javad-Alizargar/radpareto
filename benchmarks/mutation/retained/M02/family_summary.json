@@ -1,0 +1,119 @@
+{
+  "families": {
+    "by_property": {
+      "context_mutation": {
+        "checked": 120,
+        "detected": false,
+        "mismatches": 0,
+        "not_assessed_reason": null,
+        "planned": 120,
+        "runtime_error_cases": 0,
+        "unassessed": 0
+      },
+      "interval_widening": {
+        "checked": 120,
+        "detected": false,
+        "mismatches": 0,
+        "not_assessed_reason": null,
+        "planned": 120,
+        "runtime_error_cases": 0,
+        "unassessed": 0
+      },
+      "limit_relaxation": {
+        "checked": 120,
+        "detected": false,
+        "mismatches": 0,
+        "not_assessed_reason": null,
+        "planned": 120,
+        "runtime_error_cases": 0,
+        "unassessed": 0
+      },
+      "permutation": {
+        "checked": 120,
+        "detected": false,
+        "mismatches": 0,
+        "not_assessed_reason": null,
+        "planned": 120,
+        "runtime_error_cases": 0,
+        "unassessed": 0
+      },
+      "positive_scaling": {
+        "checked": 120,
+        "detected": false,
+        "mismatches": 0,
+        "not_assessed_reason": null,
+        "planned": 120,
+        "runtime_error_cases": 0,
+        "unassessed": 0
+      },
+      "translation": {
+        "checked": 120,
+        "detected": false,
+        "mismatches": 0,
+        "not_assessed_reason": null,
+        "planned": 120,
+        "runtime_error_cases": 0,
+        "unassessed": 0
+      }
+    },
+    "certificate_grid": {
+      "checked": 66960,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": null,
+      "planned": 66960,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    },
+    "input_nonmutation": {
+      "checked": 840,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": null,
+      "planned": 840,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    },
+    "metamorphic": {
+      "checked": 720,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": null,
+      "planned": 720,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    },
+    "quarter_grid": {
+      "checked": 1625,
+      "detected": true,
+      "mismatches": 65,
+      "not_assessed_reason": null,
+      "planned": 1625,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    },
+    "targeted_stability": {
+      "checked": 9,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": null,
+      "planned": 9,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    }
+  },
+  "finished_utc": "2026-11-20T16:16:41.553412+00:00",
+  "started_utc": "2026-11-20T16:16:35.520110+00:00",
+  "variant": {
+    "after": "return all(v < w for v, w in zip(x, y))",
+    "before": "return all(v <= w for v, w in zip(x, y))",
+    "id": "M02",
+    "label": "Weak dominance requires every coordinate strict",
+    "module": "compare.py",
+    "patch": {
+      "mutant_sha256": "34487679c67da65d837518c635cccc1b1b7f0cbbb1a3c705cd0b901fb0f4cf91",
+      "source_sha256": "ea8984a92f856dc248332c9b8bf48503acc926d0819e6a47b0311a7d930fb459"
+    },
+    "witness": "weak"
+  }
+}

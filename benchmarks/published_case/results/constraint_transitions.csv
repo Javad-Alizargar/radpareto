@@ -1,0 +1,13 @@
+structure,objective,initial_status,transition_t_decimal,boundary_included,after
+BL-DFF,cells,definitely_feasible,29.0,True,uncertain
+BL-DFF,period_ns,definitely_feasible,15.929316486245028,True,uncertain
+TMR-DFF,cells,definitely_feasible,26.0,True,uncertain
+TMR-DFF,period_ns,definitely_feasible,13.909445836489716,True,uncertain
+DF-TMR-DFF-1.28,cells,definitely_feasible,12.0,True,uncertain
+DF-TMR-DFF-1.28,period_ns,definitely_feasible,8.689437626299966,True,uncertain
+DF-TMR-DFF-2.56,cells,definitely_feasible,10.0,True,uncertain
+DF-TMR-DFF-2.56,period_ns,definitely_feasible,6.55526992287918,True,uncertain
+DF-TMR-DFF-5.12,cells,definitely_feasible,6.0,True,uncertain
+DF-TMR-DFF-5.12,period_ns,definitely_feasible,1.8025119554364402,True,uncertain
+DCLR-TMR-DFF,cells,definitely_feasible,3.0,True,uncertain
+DCLR-TMR-DFF,period_ns,definitely_feasible,10.001555451858767,True,uncertain

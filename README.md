@@ -48,6 +48,14 @@ The [stability guide](docs/stability.md) explains endpoint inclusion, rational J
 
 ## Development and reproduction
 
+Version 0.2.1a1 adds a [published six-design ProASIC3 cost example](benchmarks/published_case/README.md). It reuses attributed resource and three-run timing summaries; it does not reproduce the original hardware or infer radiation protection. At an analyst-selected 32 MHz requirement, one design passes at its mean but has an observed range that crosses the requirement. Reproduce all 72 budget decisions and conditional stability boundaries:
+
+```sh
+python benchmarks/published_case/analyze_case.py --engine-src src --out case-replay
+```
+
+The [bounded mutation study](benchmarks/mutation/README.md) preserves twelve deliberate semantic source defects and an unmodified control. Four selected existing diagnostic families detect eleven defects and miss one non-equivalent tie-handling defect. Its exact frozen sources, operators, inputs, error accounting and survivors support replay; these counts do not estimate unknown real-world defect detection.
+
 ```sh
 python -m unittest discover -s tests -v
 ```
@@ -61,4 +69,4 @@ contract, not a claim of a new optimization algorithm or measured human benefit.
 
 The expanded validation includes 720 metamorphic properties, 1,625 response-surface cells, 66,960 finite certificate/oracle comparisons and [four external HDL configurations](docs/external_benchmarks.md). These are dependent constructed checks, not independent research observations or measured laboratory benefit.
 
-This repository contains original code, original demonstration fixtures and attributed MIT-licensed external HDL. Manuscripts, publication artwork, copied papers, credentials and private scientific review files are excluded. A future archived release will receive a verified DOI; none has been assigned to this alpha.
+This repository contains original code, original demonstration fixtures, a CC BY-attributed numerical transcription and attributed MIT-licensed external HDL. Manuscripts, publication artwork, copied papers, credentials and private scientific review files are excluded. A future archived release will receive a verified DOI; none has been assigned to this alpha.

@@ -1,0 +1,113 @@
+{
+  "families": {
+    "by_property": {
+      "context_mutation": {
+        "checked": 120,
+        "detected": false,
+        "mismatches": 0,
+        "not_assessed_reason": null,
+        "planned": 120,
+        "runtime_error_cases": 0,
+        "unassessed": 0
+      },
+      "interval_widening": {
+        "checked": 120,
+        "detected": false,
+        "mismatches": 0,
+        "not_assessed_reason": null,
+        "planned": 120,
+        "runtime_error_cases": 0,
+        "unassessed": 0
+      },
+      "limit_relaxation": {
+        "checked": 120,
+        "detected": false,
+        "mismatches": 0,
+        "not_assessed_reason": null,
+        "planned": 120,
+        "runtime_error_cases": 0,
+        "unassessed": 0
+      },
+      "permutation": {
+        "checked": 120,
+        "detected": false,
+        "mismatches": 0,
+        "not_assessed_reason": null,
+        "planned": 120,
+        "runtime_error_cases": 0,
+        "unassessed": 0
+      },
+      "positive_scaling": {
+        "checked": 120,
+        "detected": false,
+        "mismatches": 0,
+        "not_assessed_reason": null,
+        "planned": 120,
+        "runtime_error_cases": 0,
+        "unassessed": 0
+      },
+      "translation": {
+        "checked": 120,
+        "detected": false,
+        "mismatches": 0,
+        "not_assessed_reason": null,
+        "planned": 120,
+        "runtime_error_cases": 0,
+        "unassessed": 0
+      }
+    },
+    "certificate_grid": {
+      "checked": 66960,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": null,
+      "planned": 66960,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    },
+    "input_nonmutation": {
+      "checked": 840,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": null,
+      "planned": 840,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    },
+    "metamorphic": {
+      "checked": 720,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": null,
+      "planned": 720,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    },
+    "quarter_grid": {
+      "checked": 1625,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": null,
+      "planned": 1625,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    },
+    "targeted_stability": {
+      "checked": 9,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": null,
+      "planned": 9,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    }
+  },
+  "finished_utc": "2026-11-20T16:16:28.840903+00:00",
+  "started_utc": "2026-11-20T16:16:22.916693+00:00",
+  "variant": {
+    "id": "CONTROL",
+    "label": "Unmodified production",
+    "module": null,
+    "witness": null
+  }
+}

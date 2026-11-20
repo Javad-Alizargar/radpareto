@@ -1,0 +1,55 @@
+{
+  "families": {
+    "by_property": {},
+    "certificate_grid": {
+      "checked": 66960,
+      "detected": true,
+      "mismatches": 35,
+      "not_assessed_reason": null,
+      "planned": 66960,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    },
+    "metamorphic": {
+      "checked": 0,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": "The family calls compare() only and cannot execute stability.py",
+      "planned": 720,
+      "runtime_error_cases": 0,
+      "unassessed": 720
+    },
+    "quarter_grid": {
+      "checked": 0,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": "The family calls compare() only and cannot execute stability.py",
+      "planned": 1625,
+      "runtime_error_cases": 0,
+      "unassessed": 1625
+    },
+    "targeted_stability": {
+      "checked": 9,
+      "detected": true,
+      "mismatches": 4,
+      "not_assessed_reason": null,
+      "planned": 9,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    }
+  },
+  "finished_utc": "2026-11-20T16:17:11.090887+00:00",
+  "started_utc": "2026-11-20T16:17:09.034991+00:00",
+  "variant": {
+    "after": "any(gaps[n]-2*scale[n]*threshold >= 0 for n in names)",
+    "before": "any(gaps[n]-2*scale[n]*threshold > 0 for n in names)",
+    "id": "M08",
+    "label": "Dominance endpoint strictness lost",
+    "module": "stability.py",
+    "patch": {
+      "mutant_sha256": "18d3a170c2e028e6e71469cd0a26aa8f8c84ec7fcf8e545e21cb4513ddaaab40",
+      "source_sha256": "6f40072504340ec61af286804b1120eaeaee676be8653f925dcc9872af5302d5"
+    },
+    "witness": "inclusion"
+  }
+}

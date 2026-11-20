@@ -1,0 +1,4876 @@
+{
+  "api": "stability",
+  "kwargs": {
+    "scales": {
+      "cost_0": 0
+    }
+  },
+  "name": "record_cap",
+  "purpose": "Non-equivalence diagnostic excluded from all detection scores",
+  "records": [
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "0",
+      "method": "0",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "0",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "1",
+      "method": "1",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "1",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "2",
+      "method": "2",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "2",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "3",
+      "method": "3",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "3",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "4",
+      "method": "4",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "4",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "5",
+      "method": "5",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "5",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "6",
+      "method": "6",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "6",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "7",
+      "method": "7",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "7",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "8",
+      "method": "8",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "8",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "9",
+      "method": "9",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "9",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "10",
+      "method": "10",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "10",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "11",
+      "method": "11",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "11",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "12",
+      "method": "12",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "12",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "13",
+      "method": "13",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "13",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "14",
+      "method": "14",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "14",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "15",
+      "method": "15",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "15",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "16",
+      "method": "16",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "16",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "17",
+      "method": "17",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "17",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "18",
+      "method": "18",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "18",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "19",
+      "method": "19",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "19",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "20",
+      "method": "20",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "20",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "21",
+      "method": "21",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "21",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "22",
+      "method": "22",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "22",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "23",
+      "method": "23",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "23",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "24",
+      "method": "24",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "24",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "25",
+      "method": "25",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "25",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "26",
+      "method": "26",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "26",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "27",
+      "method": "27",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "27",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "28",
+      "method": "28",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "28",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "29",
+      "method": "29",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "29",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "30",
+      "method": "30",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "30",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "31",
+      "method": "31",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "31",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "32",
+      "method": "32",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "32",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "33",
+      "method": "33",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "33",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "34",
+      "method": "34",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "34",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "35",
+      "method": "35",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "35",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "36",
+      "method": "36",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "36",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "37",
+      "method": "37",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "37",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "38",
+      "method": "38",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "38",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "39",
+      "method": "39",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "39",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "40",
+      "method": "40",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "40",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "41",
+      "method": "41",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "41",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "42",
+      "method": "42",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "42",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "43",
+      "method": "43",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "43",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "44",
+      "method": "44",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "44",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "45",
+      "method": "45",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "45",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "46",
+      "method": "46",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "46",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "47",
+      "method": "47",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "47",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "48",
+      "method": "48",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "48",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "49",
+      "method": "49",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "49",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "50",
+      "method": "50",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "50",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "51",
+      "method": "51",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "51",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "52",
+      "method": "52",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "52",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "53",
+      "method": "53",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "53",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "54",
+      "method": "54",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "54",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "55",
+      "method": "55",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "55",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "56",
+      "method": "56",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "56",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "57",
+      "method": "57",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "57",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "58",
+      "method": "58",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "58",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "59",
+      "method": "59",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "59",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "60",
+      "method": "60",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "60",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "61",
+      "method": "61",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "61",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "62",
+      "method": "62",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "62",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "63",
+      "method": "63",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "63",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "64",
+      "method": "64",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "64",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "65",
+      "method": "65",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "65",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "66",
+      "method": "66",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "66",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "67",
+      "method": "67",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "67",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "68",
+      "method": "68",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "68",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "69",
+      "method": "69",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "69",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "70",
+      "method": "70",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "70",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "71",
+      "method": "71",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "71",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "72",
+      "method": "72",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "72",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "73",
+      "method": "73",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "73",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "74",
+      "method": "74",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "74",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "75",
+      "method": "75",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "75",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "76",
+      "method": "76",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "76",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "77",
+      "method": "77",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "77",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "78",
+      "method": "78",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "78",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "79",
+      "method": "79",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "79",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "80",
+      "method": "80",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "80",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "81",
+      "method": "81",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "81",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "82",
+      "method": "82",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "82",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "83",
+      "method": "83",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "83",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "84",
+      "method": "84",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "84",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "85",
+      "method": "85",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "85",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "86",
+      "method": "86",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "86",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "87",
+      "method": "87",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "87",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "88",
+      "method": "88",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "88",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "89",
+      "method": "89",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "89",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "90",
+      "method": "90",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "90",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "91",
+      "method": "91",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "91",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "92",
+      "method": "92",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "92",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "93",
+      "method": "93",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "93",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "94",
+      "method": "94",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "94",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "95",
+      "method": "95",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "95",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "96",
+      "method": "96",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "96",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "97",
+      "method": "97",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "97",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "98",
+      "method": "98",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "98",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "99",
+      "method": "99",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "99",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "100",
+      "method": "100",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "100",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "101",
+      "method": "101",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "101",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "102",
+      "method": "102",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "102",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "103",
+      "method": "103",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "103",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "104",
+      "method": "104",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "104",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "105",
+      "method": "105",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "105",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "106",
+      "method": "106",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "106",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "107",
+      "method": "107",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "107",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "108",
+      "method": "108",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "108",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "109",
+      "method": "109",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "109",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "110",
+      "method": "110",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "110",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "111",
+      "method": "111",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "111",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "112",
+      "method": "112",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "112",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "113",
+      "method": "113",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "113",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "114",
+      "method": "114",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "114",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "115",
+      "method": "115",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "115",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "116",
+      "method": "116",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "116",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "117",
+      "method": "117",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "117",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "118",
+      "method": "118",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "118",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "119",
+      "method": "119",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "119",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "120",
+      "method": "120",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "120",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "121",
+      "method": "121",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "121",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "122",
+      "method": "122",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "122",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "123",
+      "method": "123",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "123",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "124",
+      "method": "124",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "124",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "125",
+      "method": "125",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "125",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "126",
+      "method": "126",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "126",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    },
+    {
+      "context": {
+        "baseline_id": "fixture",
+        "constraints_id": "fixture",
+        "device": "abstract",
+        "implementation": "synthetic-costs",
+        "source_kind": "synthetic_example",
+        "timing_corner": "abstract-costs",
+        "tool_version": "1",
+        "toolchain": "direct-endpoints",
+        "workload_id": "fixture"
+      },
+      "design": "review-fixture",
+      "id": "127",
+      "method": "127",
+      "metrics": {
+        "cost_0": {
+          "denominator": "absolute",
+          "lower": 1,
+          "uncertainty_kind": "bounded",
+          "unit": "cost",
+          "upper": 1,
+          "value": 1
+        }
+      },
+      "protection": {
+        "evidence_uri": "unknown",
+        "fault_model": "unknown",
+        "scope": "unknown",
+        "status": "unverified"
+      },
+      "provenance": {
+        "extraction": "Original synthetic review fixture",
+        "locator": "127",
+        "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "source_uri": "test_candidate_review.py"
+      }
+    }
+  ]
+}

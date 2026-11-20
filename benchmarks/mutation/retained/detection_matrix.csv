@@ -1,0 +1,53 @@
+variant,label,family,checked,detected,mismatches,not_assessed_reason,planned,runtime_error_cases,unassessed
+CONTROL,Unmodified production,metamorphic,720,False,0,,720,0,0
+CONTROL,Unmodified production,quarter_grid,1625,False,0,,1625,0,0
+CONTROL,Unmodified production,certificate_grid,66960,False,0,,66960,0,0
+CONTROL,Unmodified production,targeted_stability,9,False,0,,9,0,0
+M01,Ties incorrectly dominate,metamorphic,720,False,0,,720,0,0
+M01,Ties incorrectly dominate,quarter_grid,1625,False,0,,1625,0,0
+M01,Ties incorrectly dominate,certificate_grid,66960,False,0,,66960,0,0
+M01,Ties incorrectly dominate,targeted_stability,9,False,0,,9,0,0
+M02,Weak dominance requires every coordinate strict,metamorphic,720,False,0,,720,0,0
+M02,Weak dominance requires every coordinate strict,quarter_grid,1625,True,65,,1625,0,0
+M02,Weak dominance requires every coordinate strict,certificate_grid,66960,False,0,,66960,0,0
+M02,Weak dominance requires every coordinate strict,targeted_stability,9,False,0,,9,0,0
+M03,Context mismatch guard disabled,metamorphic,720,True,120,,720,0,0
+M03,Context mismatch guard disabled,quarter_grid,1625,False,0,,1625,0,0
+M03,Context mismatch guard disabled,certificate_grid,66960,False,0,,66960,0,0
+M03,Context mismatch guard disabled,targeted_stability,9,True,1,,9,0,0
+M04,Certain dominance substitutes nominal for lower bound,metamorphic,720,False,0,,720,0,0
+M04,Certain dominance substitutes nominal for lower bound,quarter_grid,1625,True,260,,1625,0,0
+M04,Certain dominance substitutes nominal for lower bound,certificate_grid,66960,False,0,,66960,0,0
+M04,Certain dominance substitutes nominal for lower bound,targeted_stability,9,False,0,,9,0,0
+M05,Feasible upper-budget equality excluded,metamorphic,720,False,0,,720,0,0
+M05,Feasible upper-budget equality excluded,quarter_grid,1625,True,71,,1625,0,0
+M05,Feasible upper-budget equality excluded,certificate_grid,66960,True,2462,,66960,0,0
+M05,Feasible upper-budget equality excluded,targeted_stability,9,True,2,,9,0,0
+M06,Infeasible lower-budget equality included,metamorphic,720,False,0,,720,0,0
+M06,Infeasible lower-budget equality included,quarter_grid,1625,True,43,,1625,0,0
+M06,Infeasible lower-budget equality included,certificate_grid,66960,True,2623,,66960,0,0
+M06,Infeasible lower-budget equality included,targeted_stability,9,True,2,,9,0,0
+M07,Two moving endpoints lose factor two,metamorphic,0,False,0,The family calls compare() only and cannot execute stability.py,720,0,720
+M07,Two moving endpoints lose factor two,quarter_grid,0,False,0,The family calls compare() only and cannot execute stability.py,1625,0,1625
+M07,Two moving endpoints lose factor two,certificate_grid,66960,True,1377,,66960,0,0
+M07,Two moving endpoints lose factor two,targeted_stability,9,True,6,,9,0,0
+M08,Dominance endpoint strictness lost,metamorphic,0,False,0,The family calls compare() only and cannot execute stability.py,720,0,720
+M08,Dominance endpoint strictness lost,quarter_grid,0,False,0,The family calls compare() only and cannot execute stability.py,1625,0,1625
+M08,Dominance endpoint strictness lost,certificate_grid,66960,True,35,,66960,0,0
+M08,Dominance endpoint strictness lost,targeted_stability,9,True,4,,9,0,0
+M09,Zero-scale objectives enter division,metamorphic,0,False,0,The family calls compare() only and cannot execute stability.py,720,0,720
+M09,Zero-scale objectives enter division,quarter_grid,0,False,0,The family calls compare() only and cannot execute stability.py,1625,0,1625
+M09,Zero-scale objectives enter division,certificate_grid,58218,True,0,,66960,47,8742
+M09,Zero-scale objectives enter division,targeted_stability,9,True,0,,9,3,0
+M10,Integer lower endpoints coerced through float,metamorphic,0,False,0,The family calls compare() only and cannot execute stability.py,720,0,720
+M10,Integer lower endpoints coerced through float,quarter_grid,0,False,0,The family calls compare() only and cannot execute stability.py,1625,0,1625
+M10,Integer lower endpoints coerced through float,certificate_grid,66960,False,0,,66960,0,0
+M10,Integer lower endpoints coerced through float,targeted_stability,9,True,1,,9,0,0
+M11,Infeasible threshold uses upper endpoint,metamorphic,0,False,0,The family calls compare() only and cannot execute stability.py,720,0,720
+M11,Infeasible threshold uses upper endpoint,quarter_grid,0,False,0,The family calls compare() only and cannot execute stability.py,1625,0,1625
+M11,Infeasible threshold uses upper endpoint,certificate_grid,66960,True,3338,,66960,0,0
+M11,Infeasible threshold uses upper endpoint,targeted_stability,9,False,0,,9,0,0
+M12,Record-cap off-by-one rejects 128,metamorphic,0,False,0,The family calls compare() only and cannot execute stability.py,720,0,720
+M12,Record-cap off-by-one rejects 128,quarter_grid,0,False,0,The family calls compare() only and cannot execute stability.py,1625,0,1625
+M12,Record-cap off-by-one rejects 128,certificate_grid,66960,False,0,,66960,0,0
+M12,Record-cap off-by-one rejects 128,targeted_stability,9,True,1,,9,0,0

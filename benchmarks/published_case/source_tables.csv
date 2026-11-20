@@ -1,0 +1,7 @@
+structure,dfn1c1,comb_versatiles,public_versatiles,structure_only_versatiles,versatiles_per_bit,model_versatiles_per_bit,resource_ratio,k_dly,fmax_mean_mhz,fmax_min_mhz,fmax_max_mhz,critical_path_delay_mean_ns,critical_path_slack_mean_at_30mhz_ns
+BL-DFF,486,4886,26,5346,11,11,1.00,0,59.034,57.458,59.877,16.398,16.387
+TMR-DFF,1458,5370,24,6804,14,14,1.27,0,52.384,51.483,53.183,18.480,14.240
+DF-TMR-DFF-1.28,1458,12174,24,13608,28,28,2.55,2,40.827,40.578,40.975,23.764,8.839
+DF-TMR-DFF-2.56,1458,13146,24,14580,30,30,2.73,4,37.686,37.344,37.982,26.045,6.797
+DF-TMR-DFF-5.12,1458,15090,24,16524,34,34,3.09,8,32.083,31.715,32.698,30.569,2.158
+DCLR-TMR-DFF,1458,16546,22,17982,37,37,3.36,0,43.092,42.860,43.378,22.455,10.126

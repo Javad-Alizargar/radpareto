@@ -1,0 +1,23 @@
+{
+  "by_family_detected_mutants": {
+    "certificate_grid": 6,
+    "metamorphic": 1,
+    "quarter_grid": 4,
+    "targeted_stability": 8
+  },
+  "control_all_families_pass": true,
+  "detected": 11,
+  "diagnostically_non_equivalent": 12,
+  "elapsed_s": 58.005051699467,
+  "excluded_equivalent": 0,
+  "finished_utc": "2026-11-20T16:17:20.856990+00:00",
+  "freeze_sha256": "554cfe17290b47e7e76ef17c02fce03eab2402d35de8b55ab1c391e2c12c044f",
+  "input_hashes_verified": 116,
+  "mutants": 12,
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python": "3.12.10",
+  "scope": "Purposive source defects and selected dependent validation families; no population accuracy or arbitrary-input proof",
+  "survivors": [
+    "M01"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "families": {
+    "by_property": {},
+    "certificate_grid": {
+      "checked": 58218,
+      "detected": true,
+      "mismatches": 0,
+      "not_assessed_reason": null,
+      "planned": 66960,
+      "runtime_error_cases": 47,
+      "unassessed": 8742
+    },
+    "metamorphic": {
+      "checked": 0,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": "The family calls compare() only and cannot execute stability.py",
+      "planned": 720,
+      "runtime_error_cases": 0,
+      "unassessed": 720
+    },
+    "quarter_grid": {
+      "checked": 0,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": "The family calls compare() only and cannot execute stability.py",
+      "planned": 1625,
+      "runtime_error_cases": 0,
+      "unassessed": 1625
+    },
+    "targeted_stability": {
+      "checked": 9,
+      "detected": true,
+      "mismatches": 0,
+      "not_assessed_reason": null,
+      "planned": 9,
+      "runtime_error_cases": 3,
+      "unassessed": 0
+    }
+  },
+  "finished_utc": "2026-11-20T16:17:13.443389+00:00",
+  "started_utc": "2026-11-20T16:17:11.428919+00:00",
+  "variant": {
+    "after": "for n in names if scale[n] >= 0}",
+    "before": "for n in names if scale[n] > 0}",
+    "id": "M09",
+    "label": "Zero-scale objectives enter division",
+    "module": "stability.py",
+    "patch": {
+      "mutant_sha256": "fec1f8c3ce48f122ce778fefdefdce50fe084fbd482f4434dba9f396218780e8",
+      "source_sha256": "6f40072504340ec61af286804b1120eaeaee676be8653f925dcc9872af5302d5"
+    },
+    "witness": "zero_scale"
+  }
+}

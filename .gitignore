@@ -1,5 +1,6 @@
 .venv*/
 study-output*/
+*-replay*/
 __pycache__/
 *.pyc
 *.egg-info/

@@ -1,0 +1,55 @@
+{
+  "families": {
+    "by_property": {},
+    "certificate_grid": {
+      "checked": 66960,
+      "detected": true,
+      "mismatches": 3338,
+      "not_assessed_reason": null,
+      "planned": 66960,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    },
+    "metamorphic": {
+      "checked": 0,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": "The family calls compare() only and cannot execute stability.py",
+      "planned": 720,
+      "runtime_error_cases": 0,
+      "unassessed": 720
+    },
+    "quarter_grid": {
+      "checked": 0,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": "The family calls compare() only and cannot execute stability.py",
+      "planned": 1625,
+      "runtime_error_cases": 0,
+      "unassessed": 1625
+    },
+    "targeted_stability": {
+      "checked": 9,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": null,
+      "planned": 9,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    }
+  },
+  "finished_utc": "2026-11-20T16:17:18.431978+00:00",
+  "started_utc": "2026-11-20T16:17:16.364545+00:00",
+  "variant": {
+    "after": "(upper[rid][name]-limit)/scale[name], False",
+    "before": "(lower[rid][name]-limit)/scale[name], False",
+    "id": "M11",
+    "label": "Infeasible threshold uses upper endpoint",
+    "module": "stability.py",
+    "patch": {
+      "mutant_sha256": "3170f83f987fb4b796abb1c434b871d8d103ee9a04bba0ffe8e310cbfe94bfe0",
+      "source_sha256": "6f40072504340ec61af286804b1120eaeaee676be8653f925dcc9872af5302d5"
+    },
+    "witness": "constraint_lower"
+  }
+}

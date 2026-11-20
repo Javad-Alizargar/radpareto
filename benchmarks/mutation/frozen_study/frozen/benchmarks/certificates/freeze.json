@@ -1,0 +1,13 @@
+{
+  "frozen_utc": "2026-11-20T09:55:25.533797+00:00",
+  "cases": 360,
+  "probes_per_case": 186,
+  "case_probe_decisions": 66960,
+  "generator_sha256": "067a7b12d36e0ffa0af17cc608c30c5b45befae6fa2d83e2238e243185596b62",
+  "hashes": {
+    "cases.json": "65197740a35ec0979bfe1dec8574685bc6a8e4eb7cf38c897b19dd1590d26ae6",
+    "expected.json": "6eba029a26194edb0ff99325c5b04dca020a18dc3597a4dac66dcf4933e83954"
+  },
+  "oracle_method": "Direct exact-rational endpoint inequalities at a fixed grid; no breakpoint formula or certificate implementation inspected",
+  "scope": "Constructed finite-domain check, not formal proof for arbitrary inputs; includes dependent cases/probes"
+}

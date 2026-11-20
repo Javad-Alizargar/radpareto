@@ -1,0 +1,105 @@
+{
+  "python": "3.12.10",
+  "command": [
+    "benchmarks/published_case/analyze_case.py",
+    "--engine-src",
+    "src",
+    "--out",
+    "benchmarks/published_case/results"
+  ],
+  "source_files": {
+    "source_tables.csv": {
+      "sha256": "7a0bc97b49de401352c2e67e6f6105d131c12b87760f8d41f55c336f2a07d441",
+      "bytes": 723
+    },
+    "source_exact.json": {
+      "sha256": "5ba62e4323d4de0ab1d76466273fd704e80887b8dee1e0a837044a2ecfc2fdd5",
+      "bytes": 3278
+    },
+    "source_metadata.json": {
+      "sha256": "69e40dc996b7d1c71478e2abe3d160d991d7c7ddd80c43cc8304abb0fbc5d152",
+      "bytes": 5662
+    }
+  },
+  "analysis_script_sha256": "0fbef1eff93133d76638cc4b1736f21a2c57760b20e2bbf02be659ac7d1f2245",
+  "engine_files": {
+    "__init__.py": "bfdec7893a8e1ea1a53d2702423713f1212928881cd3b343e75e09ff01048090",
+    "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "cli.py": "44aba843eab81ba64436510502eff78e66e49a68cbb160e54ab543a66078406c",
+    "compare.py": "ea8984a92f856dc248332c9b8bf48503acc926d0819e6a47b0311a7d930fb459",
+    "stability.py": "6f40072504340ec61af286804b1120eaeaee676be8653f925dcc9872af5302d5",
+    "validation.py": "06113188359003cecbdc3fe10a93502cdd481c1201c715e78ec97310f15d60a7",
+    "yosys.py": "6e181f16ca2ad6a9ea2f2cad0af11dfa096d259f1bd3eba1460666664e26d01b"
+  },
+  "checks": {
+    "source_hashes_match": true,
+    "csv_equals_exact_json": true,
+    "resource_arithmetic_all_six": true,
+    "rounded_resource_ratios_all_six": true,
+    "comparison_accepted": true,
+    "protection_aware_comparison_refused": true,
+    "independent_dominance_threshold_max_error": 0.0,
+    "tolerance": 1e-12
+  },
+  "limitations": [
+    "Exact place-and-route seed values and complete synthesis/settings command lines not available",
+    "Raw HDL, implementation reports and individual run frequencies not obtained",
+    "No independent hardware reproduction",
+    "Protection equivalence is unverified and must not be inferred from cost compatibility"
+  ],
+  "interval_semantics": "bounded is a computational closed-box representation of observed three-run range only; no coverage guarantee",
+  "results": {
+    "budget_grid.json": {
+      "sha256": "db9f85efc95c705cd4b1ee5cd089e75c67c933368d323f9e509832fb1e8bee85",
+      "bytes": 152174
+    },
+    "budget_outcomes.csv": {
+      "sha256": "f7bd4824455b705df7fb2d42b87fb6d69a9798a88a5387ad346b116287352444",
+      "bytes": 7033
+    },
+    "budget_summary.csv": {
+      "sha256": "3922fa51b192ef432f9a277c2306beb7cf2cbbef236066d2893168ea24ba4736",
+      "bytes": 1240
+    },
+    "comparison.json": {
+      "sha256": "cfef6a7bf94c53ff9f738a84c7b7b94e71d2c05b42089dbf54afdec604d91054",
+      "bytes": 10929
+    },
+    "constraint_transitions.csv": {
+      "sha256": "6b6807036ee17fd514d978f872cd2f33eefa7261af35fc0303737a444dd0c7f8",
+      "bytes": 900
+    },
+    "derived_costs.csv": {
+      "sha256": "ba5694915c088f636439bcf613a2c141b31aff5c04f054ce571ec60b82dbd3b7",
+      "bytes": 1485
+    },
+    "design_selection_table.csv": {
+      "sha256": "a8ba7dc5c19a7f73df51ec36731ebb6b1d25316f3b9bc1d7a0a6269c0a03763d",
+      "bytes": 1263
+    },
+    "dominance_transitions.csv": {
+      "sha256": "ce781c84f330a95b273e6d0e995573811fc9029f6b6cd8930eb80d6f016cf13f",
+      "bytes": 1208
+    },
+    "protection_required_refusal.json": {
+      "sha256": "502070533e73bcb73cf68296bc7124f592063739add58dc045026705dbd82db5",
+      "bytes": 1165
+    },
+    "records.json": {
+      "sha256": "61c4ad0c641fc5bd58ba3f3ee245e2406fe7e35fe8405b36c6eb24e4329b002f",
+      "bytes": 13101
+    },
+    "scope_comparisons.json": {
+      "sha256": "c10539815bf0667a9db67f33fe3d2912f1dbe3eaf7d4766e3691fad44f15ec50",
+      "bytes": 30081
+    },
+    "stability.json": {
+      "sha256": "75bda660d8d11c1e63179e056080505218f528b69c57507e708da47d0ce79024",
+      "bytes": 25535
+    },
+    "widening_grid.csv": {
+      "sha256": "863f54033a179b1363a7a58525f28e8bf8880c50dfa893295f7cb91f888cfee7",
+      "bytes": 1752
+    }
+  }
+}

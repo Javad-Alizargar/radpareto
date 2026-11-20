@@ -1,0 +1,55 @@
+{
+  "families": {
+    "by_property": {},
+    "certificate_grid": {
+      "checked": 66960,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": null,
+      "planned": 66960,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    },
+    "metamorphic": {
+      "checked": 0,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": "The family calls compare() only and cannot execute stability.py",
+      "planned": 720,
+      "runtime_error_cases": 0,
+      "unassessed": 720
+    },
+    "quarter_grid": {
+      "checked": 0,
+      "detected": false,
+      "mismatches": 0,
+      "not_assessed_reason": "The family calls compare() only and cannot execute stability.py",
+      "planned": 1625,
+      "runtime_error_cases": 0,
+      "unassessed": 1625
+    },
+    "targeted_stability": {
+      "checked": 9,
+      "detected": true,
+      "mismatches": 1,
+      "not_assessed_reason": null,
+      "planned": 9,
+      "runtime_error_cases": 0,
+      "unassessed": 0
+    }
+  },
+  "finished_utc": "2026-11-20T16:17:20.564472+00:00",
+  "started_utc": "2026-11-20T16:17:18.750441+00:00",
+  "variant": {
+    "after": "len(records) >= MAX_STABILITY_RECORDS",
+    "before": "len(records) > MAX_STABILITY_RECORDS",
+    "id": "M12",
+    "label": "Record-cap off-by-one rejects 128",
+    "module": "stability.py",
+    "patch": {
+      "mutant_sha256": "546f53c771e8569422dad0fd6e9b2ff300376b7013f955f416a14dfa18c1ff8c",
+      "source_sha256": "6f40072504340ec61af286804b1120eaeaee676be8653f925dcc9872af5302d5"
+    },
+    "witness": "record_cap"
+  }
+}

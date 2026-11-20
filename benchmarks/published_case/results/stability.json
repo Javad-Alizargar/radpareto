@@ -1,0 +1,736 @@
+{
+  "status": "accepted",
+  "reasons": [],
+  "comparison": {
+    "status": "accepted",
+    "reasons": [],
+    "objective_direction": "minimize",
+    "comparison_context": {
+      "context": {
+        "baseline_id": "Ma2026_BL-DFF_11_VersaTiles_per_logic_bit",
+        "constraints_id": "Ma2026_standalone_common_flow_30MHz_reference_33.333ns",
+        "device": "A3PE3000 ProASIC3, 130 nm, FG484",
+        "implementation": "native primitives, one structure per standalone project; post-layout STA with back-annotated delays",
+        "source_kind": "published_table",
+        "timing_corner": "worst-case corner, 1.425 V, 125 deg C",
+        "tool_version": "11.8 SP1 (11.8.1.12)",
+        "toolchain": "Libero SoC",
+        "workload_id": "complete dual 243-bit shift-register test chain (486 logic bits), common 10-stage BUFD upstream-chain design, one calibration ring oscillator per project"
+      },
+      "design": "dual_243_bit_shift_register_486_logic_bits",
+      "metric_semantics": {
+        "cells": {
+          "denominator": "logic_bit_excluding_one_off_project_overhead",
+          "uncertainty_kind": "exact",
+          "unit": "VersaTiles"
+        },
+        "period_ns": {
+          "denominator": "clock_cycle_reciprocal_of_standalone_fmax",
+          "uncertainty_kind": "bounded",
+          "unit": "ns"
+        }
+      }
+    },
+    "record_evidence": {
+      "BL-DFF": {
+        "method": "BL-DFF",
+        "metrics": {
+          "cells": {
+            "value": 11,
+            "lower": 11,
+            "upper": 11,
+            "unit": "VersaTiles",
+            "denominator": "logic_bit_excluding_one_off_project_overhead",
+            "uncertainty_kind": "exact"
+          },
+          "period_ns": {
+            "value": 16.93939085950469,
+            "lower": 16.70090351888037,
+            "upper": 17.404016847088307,
+            "unit": "ns",
+            "denominator": "clock_cycle_reciprocal_of_standalone_fmax",
+            "uncertainty_kind": "bounded"
+          }
+        },
+        "provenance": {
+          "source_uri": "benchmarks/published_case/source_tables.csv",
+          "source_sha256": "7a0bc97b49de401352c2e67e6f6105d131c12b87760f8d41f55c336f2a07d441",
+          "locator": "Tables 9 and 10, row BL-DFF; SHA-256 identifies source_tables.csv original transcription, not publisher bytes",
+          "extraction": "Cell-checked original transcription; period=1000/mean MHz; closed box uses reversed reciprocal observed three-run min-max endpoints; exact source decimals in source_exact.json"
+        },
+        "protection": {
+          "status": "unverified",
+          "fault_model": "not_assessed",
+          "scope": "cost_only_no_protection_equivalence",
+          "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390"
+        }
+      },
+      "TMR-DFF": {
+        "method": "TMR-DFF",
+        "metrics": {
+          "cells": {
+            "value": 14,
+            "lower": 14,
+            "upper": 14,
+            "unit": "VersaTiles",
+            "denominator": "logic_bit_excluding_one_off_project_overhead",
+            "uncertainty_kind": "exact"
+          },
+          "period_ns": {
+            "value": 19.089798411728772,
+            "lower": 18.80300095895305,
+            "upper": 19.42388749684362,
+            "unit": "ns",
+            "denominator": "clock_cycle_reciprocal_of_standalone_fmax",
+            "uncertainty_kind": "bounded"
+          }
+        },
+        "provenance": {
+          "source_uri": "benchmarks/published_case/source_tables.csv",
+          "source_sha256": "7a0bc97b49de401352c2e67e6f6105d131c12b87760f8d41f55c336f2a07d441",
+          "locator": "Tables 9 and 10, row TMR-DFF; SHA-256 identifies source_tables.csv original transcription, not publisher bytes",
+          "extraction": "Cell-checked original transcription; period=1000/mean MHz; closed box uses reversed reciprocal observed three-run min-max endpoints; exact source decimals in source_exact.json"
+        },
+        "protection": {
+          "status": "unverified",
+          "fault_model": "not_assessed",
+          "scope": "cost_only_no_protection_equivalence",
+          "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390"
+        }
+      },
+      "DF-TMR-DFF-1.28": {
+        "method": "DF-TMR-DFF-1.28",
+        "metrics": {
+          "cells": {
+            "value": 28,
+            "lower": 28,
+            "upper": 28,
+            "unit": "VersaTiles",
+            "denominator": "logic_bit_excluding_one_off_project_overhead",
+            "uncertainty_kind": "exact"
+          },
+          "period_ns": {
+            "value": 24.49359492492713,
+            "lower": 24.405125076266017,
+            "upper": 24.64389570703337,
+            "unit": "ns",
+            "denominator": "clock_cycle_reciprocal_of_standalone_fmax",
+            "uncertainty_kind": "bounded"
+          }
+        },
+        "provenance": {
+          "source_uri": "benchmarks/published_case/source_tables.csv",
+          "source_sha256": "7a0bc97b49de401352c2e67e6f6105d131c12b87760f8d41f55c336f2a07d441",
+          "locator": "Tables 9 and 10, row DF-TMR-DFF-1.28; SHA-256 identifies source_tables.csv original transcription, not publisher bytes",
+          "extraction": "Cell-checked original transcription; period=1000/mean MHz; closed box uses reversed reciprocal observed three-run min-max endpoints; exact source decimals in source_exact.json"
+        },
+        "protection": {
+          "status": "unverified",
+          "fault_model": "not_assessed",
+          "scope": "cost_only_no_protection_equivalence",
+          "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390"
+        }
+      },
+      "DF-TMR-DFF-2.56": {
+        "method": "DF-TMR-DFF-2.56",
+        "metrics": {
+          "cells": {
+            "value": 30,
+            "lower": 30,
+            "upper": 30,
+            "unit": "VersaTiles",
+            "denominator": "logic_bit_excluding_one_off_project_overhead",
+            "uncertainty_kind": "exact"
+          },
+          "period_ns": {
+            "value": 26.535052804755082,
+            "lower": 26.32826075509452,
+            "upper": 26.778063410454156,
+            "unit": "ns",
+            "denominator": "clock_cycle_reciprocal_of_standalone_fmax",
+            "uncertainty_kind": "bounded"
+          }
+        },
+        "provenance": {
+          "source_uri": "benchmarks/published_case/source_tables.csv",
+          "source_sha256": "7a0bc97b49de401352c2e67e6f6105d131c12b87760f8d41f55c336f2a07d441",
+          "locator": "Tables 9 and 10, row DF-TMR-DFF-2.56; SHA-256 identifies source_tables.csv original transcription, not publisher bytes",
+          "extraction": "Cell-checked original transcription; period=1000/mean MHz; closed box uses reversed reciprocal observed three-run min-max endpoints; exact source decimals in source_exact.json"
+        },
+        "protection": {
+          "status": "unverified",
+          "fault_model": "not_assessed",
+          "scope": "cost_only_no_protection_equivalence",
+          "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390"
+        }
+      },
+      "DF-TMR-DFF-5.12": {
+        "method": "DF-TMR-DFF-5.12",
+        "metrics": {
+          "cells": {
+            "value": 34,
+            "lower": 34,
+            "upper": 34,
+            "unit": "VersaTiles",
+            "denominator": "logic_bit_excluding_one_off_project_overhead",
+            "uncertainty_kind": "exact"
+          },
+          "period_ns": {
+            "value": 31.169155004207838,
+            "lower": 30.58291026974127,
+            "upper": 31.530821377896896,
+            "unit": "ns",
+            "denominator": "clock_cycle_reciprocal_of_standalone_fmax",
+            "uncertainty_kind": "bounded"
+          }
+        },
+        "provenance": {
+          "source_uri": "benchmarks/published_case/source_tables.csv",
+          "source_sha256": "7a0bc97b49de401352c2e67e6f6105d131c12b87760f8d41f55c336f2a07d441",
+          "locator": "Tables 9 and 10, row DF-TMR-DFF-5.12; SHA-256 identifies source_tables.csv original transcription, not publisher bytes",
+          "extraction": "Cell-checked original transcription; period=1000/mean MHz; closed box uses reversed reciprocal observed three-run min-max endpoints; exact source decimals in source_exact.json"
+        },
+        "protection": {
+          "status": "unverified",
+          "fault_model": "not_assessed",
+          "scope": "cost_only_no_protection_equivalence",
+          "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390"
+        }
+      },
+      "DCLR-TMR-DFF": {
+        "method": "DCLR-TMR-DFF",
+        "metrics": {
+          "cells": {
+            "value": 37,
+            "lower": 37,
+            "upper": 37,
+            "unit": "VersaTiles",
+            "denominator": "logic_bit_excluding_one_off_project_overhead",
+            "uncertainty_kind": "exact"
+          },
+          "period_ns": {
+            "value": 23.20616355704075,
+            "lower": 23.053160588316658,
+            "upper": 23.33177788147457,
+            "unit": "ns",
+            "denominator": "clock_cycle_reciprocal_of_standalone_fmax",
+            "uncertainty_kind": "bounded"
+          }
+        },
+        "provenance": {
+          "source_uri": "benchmarks/published_case/source_tables.csv",
+          "source_sha256": "7a0bc97b49de401352c2e67e6f6105d131c12b87760f8d41f55c336f2a07d441",
+          "locator": "Tables 9 and 10, row DCLR-TMR-DFF; SHA-256 identifies source_tables.csv original transcription, not publisher bytes",
+          "extraction": "Cell-checked original transcription; period=1000/mean MHz; closed box uses reversed reciprocal observed three-run min-max endpoints; exact source decimals in source_exact.json"
+        },
+        "protection": {
+          "status": "unverified",
+          "fault_model": "not_assessed",
+          "scope": "cost_only_no_protection_equivalence",
+          "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390"
+        }
+      }
+    },
+    "nominal_front": [
+      "BL-DFF"
+    ],
+    "not_certainly_dominated": [
+      "BL-DFF"
+    ],
+    "front_scope": "all_input_records_before_limits",
+    "feasibility": {
+      "BL-DFF": {
+        "status": "definitely_feasible",
+        "per_limit": {
+          "cells": "definitely_feasible",
+          "period_ns": "definitely_feasible"
+        }
+      },
+      "TMR-DFF": {
+        "status": "definitely_feasible",
+        "per_limit": {
+          "cells": "definitely_feasible",
+          "period_ns": "definitely_feasible"
+        }
+      },
+      "DF-TMR-DFF-1.28": {
+        "status": "definitely_feasible",
+        "per_limit": {
+          "cells": "definitely_feasible",
+          "period_ns": "definitely_feasible"
+        }
+      },
+      "DF-TMR-DFF-2.56": {
+        "status": "definitely_feasible",
+        "per_limit": {
+          "cells": "definitely_feasible",
+          "period_ns": "definitely_feasible"
+        }
+      },
+      "DF-TMR-DFF-5.12": {
+        "status": "definitely_feasible",
+        "per_limit": {
+          "cells": "definitely_feasible",
+          "period_ns": "definitely_feasible"
+        }
+      },
+      "DCLR-TMR-DFF": {
+        "status": "definitely_feasible",
+        "per_limit": {
+          "cells": "definitely_feasible",
+          "period_ns": "definitely_feasible"
+        }
+      }
+    },
+    "definitely_feasible_nominal_front": [
+      "BL-DFF"
+    ],
+    "limits": {
+      "cells": 40,
+      "period_ns": 33.333333333333336
+    },
+    "warnings": [
+      "All objectives are minimized; maximize-type metrics must be explicitly transformed before import.",
+      "Source URI and SHA-256 are declared provenance; this engine does not retrieve or authenticate source files.",
+      "Cost/time frontiers do not establish radiation superiority, physical reliability, or mission qualification.",
+      "Interval results are conditional on the supplied closed bounds; they are not statistical guarantees.",
+      "Cost-only comparison: protection equivalence is not assessed, including when records declare verification."
+    ]
+  },
+  "model": {
+    "parameter": "t >= 0",
+    "lower": "max(0, lower - t*scale)",
+    "upper": "upper + t*scale",
+    "scales": {
+      "cells": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "period_ns": {
+        "numerator": "1",
+        "denominator": "1"
+      }
+    },
+    "arithmetic": "Exact rational arithmetic on represented Python integers/binary floats; rational JSON components are decimal strings",
+    "record_limit": 128,
+    "assumption": "Scales are explicit user assumptions, not measured uncertainty or confidence levels"
+  },
+  "dominance_certificates": [
+    {
+      "dominant_id": "BL-DFF",
+      "dominated_id": "TMR-DFF",
+      "transition_t": {
+        "numerator": "196889510152853",
+        "denominator": "281474976710656"
+      },
+      "initial_relation_includes_boundary": true,
+      "limiting_objectives": [
+        "period_ns"
+      ],
+      "initial_separations": {
+        "cells": {
+          "numerator": "3",
+          "denominator": "1"
+        },
+        "period_ns": {
+          "numerator": "196889510152853",
+          "denominator": "140737488355328"
+        }
+      },
+      "interpretation": "Initially certain dominance holds before the transition and at it only when inclusion is true; null means no finite transition."
+    },
+    {
+      "dominant_id": "BL-DFF",
+      "dominated_id": "DF-TMR-DFF-1.28",
+      "transition_t": {
+        "numerator": "985318387878289",
+        "denominator": "281474976710656"
+      },
+      "initial_relation_includes_boundary": true,
+      "limiting_objectives": [
+        "period_ns"
+      ],
+      "initial_separations": {
+        "cells": {
+          "numerator": "17",
+          "denominator": "1"
+        },
+        "period_ns": {
+          "numerator": "985318387878289",
+          "denominator": "140737488355328"
+        }
+      },
+      "interpretation": "Initially certain dominance holds before the transition and at it only when inclusion is true; null means no finite transition."
+    },
+    {
+      "dominant_id": "BL-DFF",
+      "dominated_id": "DF-TMR-DFF-2.56",
+      "transition_t": {
+        "numerator": "1255975673083131",
+        "denominator": "281474976710656"
+      },
+      "initial_relation_includes_boundary": true,
+      "limiting_objectives": [
+        "period_ns"
+      ],
+      "initial_separations": {
+        "cells": {
+          "numerator": "19",
+          "denominator": "1"
+        },
+        "period_ns": {
+          "numerator": "1255975673083131",
+          "denominator": "140737488355328"
+        }
+      },
+      "interpretation": "Initially certain dominance holds before the transition and at it only when inclusion is true; null means no finite transition."
+    },
+    {
+      "dominant_id": "BL-DFF",
+      "dominated_id": "DF-TMR-DFF-5.12",
+      "transition_t": {
+        "numerator": "927382179803365",
+        "denominator": "140737488355328"
+      },
+      "initial_relation_includes_boundary": true,
+      "limiting_objectives": [
+        "period_ns"
+      ],
+      "initial_separations": {
+        "cells": {
+          "numerator": "23",
+          "denominator": "1"
+        },
+        "period_ns": {
+          "numerator": "927382179803365",
+          "denominator": "70368744177664"
+        }
+      },
+      "interpretation": "Initially certain dominance holds before the transition and at it only when inclusion is true; null means no finite transition."
+    },
+    {
+      "dominant_id": "BL-DFF",
+      "dominated_id": "DCLR-TMR-DFF",
+      "transition_t": {
+        "numerator": "795046301498699",
+        "denominator": "281474976710656"
+      },
+      "initial_relation_includes_boundary": true,
+      "limiting_objectives": [
+        "period_ns"
+      ],
+      "initial_separations": {
+        "cells": {
+          "numerator": "26",
+          "denominator": "1"
+        },
+        "period_ns": {
+          "numerator": "795046301498699",
+          "denominator": "140737488355328"
+        }
+      },
+      "interpretation": "Initially certain dominance holds before the transition and at it only when inclusion is true; null means no finite transition."
+    },
+    {
+      "dominant_id": "TMR-DFF",
+      "dominated_id": "DF-TMR-DFF-1.28",
+      "transition_t": {
+        "numerator": "350523432914541",
+        "denominator": "140737488355328"
+      },
+      "initial_relation_includes_boundary": true,
+      "limiting_objectives": [
+        "period_ns"
+      ],
+      "initial_separations": {
+        "cells": {
+          "numerator": "14",
+          "denominator": "1"
+        },
+        "period_ns": {
+          "numerator": "350523432914541",
+          "denominator": "70368744177664"
+        }
+      },
+      "interpretation": "Initially certain dominance holds before the transition and at it only when inclusion is true; null means no finite transition."
+    },
+    {
+      "dominant_id": "TMR-DFF",
+      "dominated_id": "DF-TMR-DFF-2.56",
+      "transition_t": {
+        "numerator": "242926037758481",
+        "denominator": "70368744177664"
+      },
+      "initial_relation_includes_boundary": true,
+      "limiting_objectives": [
+        "period_ns"
+      ],
+      "initial_separations": {
+        "cells": {
+          "numerator": "16",
+          "denominator": "1"
+        },
+        "period_ns": {
+          "numerator": "242926037758481",
+          "denominator": "35184372088832"
+        }
+      },
+      "interpretation": "Initially certain dominance holds before the transition and at it only when inclusion is true; null means no finite transition."
+    },
+    {
+      "dominant_id": "TMR-DFF",
+      "dominated_id": "DF-TMR-DFF-5.12",
+      "transition_t": {
+        "numerator": "1570492837557523",
+        "denominator": "281474976710656"
+      },
+      "initial_relation_includes_boundary": true,
+      "limiting_objectives": [
+        "period_ns"
+      ],
+      "initial_separations": {
+        "cells": {
+          "numerator": "20",
+          "denominator": "1"
+        },
+        "period_ns": {
+          "numerator": "1570492837557523",
+          "denominator": "140737488355328"
+        }
+      },
+      "interpretation": "Initially certain dominance holds before the transition and at it only when inclusion is true; null means no finite transition."
+    },
+    {
+      "dominant_id": "TMR-DFF",
+      "dominated_id": "DCLR-TMR-DFF",
+      "transition_t": {
+        "numerator": "127693694862373",
+        "denominator": "70368744177664"
+      },
+      "initial_relation_includes_boundary": true,
+      "limiting_objectives": [
+        "period_ns"
+      ],
+      "initial_separations": {
+        "cells": {
+          "numerator": "23",
+          "denominator": "1"
+        },
+        "period_ns": {
+          "numerator": "127693694862373",
+          "denominator": "35184372088832"
+        }
+      },
+      "interpretation": "Initially certain dominance holds before the transition and at it only when inclusion is true; null means no finite transition."
+    },
+    {
+      "dominant_id": "DF-TMR-DFF-1.28",
+      "dominated_id": "DF-TMR-DFF-2.56",
+      "transition_t": {
+        "numerator": "474106612675255",
+        "denominator": "562949953421312"
+      },
+      "initial_relation_includes_boundary": true,
+      "limiting_objectives": [
+        "period_ns"
+      ],
+      "initial_separations": {
+        "cells": {
+          "numerator": "2",
+          "denominator": "1"
+        },
+        "period_ns": {
+          "numerator": "474106612675255",
+          "denominator": "281474976710656"
+        }
+      },
+      "interpretation": "Initially certain dominance holds before the transition and at it only when inclusion is true; null means no finite transition."
+    },
+    {
+      "dominant_id": "DF-TMR-DFF-1.28",
+      "dominated_id": "DF-TMR-DFF-5.12",
+      "transition_t": {
+        "numerator": "1671683985722453",
+        "denominator": "562949953421312"
+      },
+      "initial_relation_includes_boundary": true,
+      "limiting_objectives": [
+        "period_ns"
+      ],
+      "initial_separations": {
+        "cells": {
+          "numerator": "6",
+          "denominator": "1"
+        },
+        "period_ns": {
+          "numerator": "1671683985722453",
+          "denominator": "281474976710656"
+        }
+      },
+      "interpretation": "Initially certain dominance holds before the transition and at it only when inclusion is true; null means no finite transition."
+    },
+    {
+      "dominant_id": "DF-TMR-DFF-2.56",
+      "dominated_id": "DF-TMR-DFF-5.12",
+      "transition_t": {
+        "numerator": "1070969181105453",
+        "denominator": "562949953421312"
+      },
+      "initial_relation_includes_boundary": true,
+      "limiting_objectives": [
+        "period_ns"
+      ],
+      "initial_separations": {
+        "cells": {
+          "numerator": "4",
+          "denominator": "1"
+        },
+        "period_ns": {
+          "numerator": "1070969181105453",
+          "denominator": "281474976710656"
+        }
+      },
+      "interpretation": "Initially certain dominance holds before the transition and at it only when inclusion is true; null means no finite transition."
+    }
+  ],
+  "constraint_certificates": [
+    {
+      "record_id": "BL-DFF",
+      "objective": "cells",
+      "initial_status": "definitely_feasible",
+      "transition_t": {
+        "numerator": "29",
+        "denominator": "1"
+      },
+      "initial_status_includes_boundary": true,
+      "status_after_transition": "uncertain"
+    },
+    {
+      "record_id": "BL-DFF",
+      "objective": "period_ns",
+      "initial_status": "definitely_feasible",
+      "transition_t": {
+        "numerator": "560462998372811",
+        "denominator": "35184372088832"
+      },
+      "initial_status_includes_boundary": true,
+      "status_after_transition": "uncertain"
+    },
+    {
+      "record_id": "TMR-DFF",
+      "objective": "cells",
+      "initial_status": "definitely_feasible",
+      "transition_t": {
+        "numerator": "26",
+        "denominator": "1"
+      },
+      "initial_status_includes_boundary": true,
+      "status_after_transition": "uncertain"
+    },
+    {
+      "record_id": "TMR-DFF",
+      "objective": "period_ns",
+      "initial_status": "definitely_feasible",
+      "transition_t": {
+        "numerator": "1957580471442037",
+        "denominator": "140737488355328"
+      },
+      "initial_status_includes_boundary": true,
+      "status_after_transition": "uncertain"
+    },
+    {
+      "record_id": "DF-TMR-DFF-1.28",
+      "objective": "cells",
+      "initial_status": "definitely_feasible",
+      "transition_t": {
+        "numerator": "12",
+        "denominator": "1"
+      },
+      "initial_status_includes_boundary": true,
+      "status_after_transition": "uncertain"
+    },
+    {
+      "record_id": "DF-TMR-DFF-1.28",
+      "objective": "period_ns",
+      "initial_status": "definitely_feasible",
+      "transition_t": {
+        "numerator": "2445859253491481",
+        "denominator": "281474976710656"
+      },
+      "initial_status_includes_boundary": true,
+      "status_after_transition": "uncertain"
+    },
+    {
+      "record_id": "DF-TMR-DFF-2.56",
+      "objective": "cells",
+      "initial_status": "definitely_feasible",
+      "transition_t": {
+        "numerator": "10",
+        "denominator": "1"
+      },
+      "initial_status_includes_boundary": true,
+      "status_after_transition": "uncertain"
+    },
+    {
+      "record_id": "DF-TMR-DFF-2.56",
+      "objective": "period_ns",
+      "initial_status": "definitely_feasible",
+      "transition_t": {
+        "numerator": "1845144448874481",
+        "denominator": "281474976710656"
+      },
+      "initial_status_includes_boundary": true,
+      "status_after_transition": "uncertain"
+    },
+    {
+      "record_id": "DF-TMR-DFF-5.12",
+      "objective": "cells",
+      "initial_status": "definitely_feasible",
+      "transition_t": {
+        "numerator": "6",
+        "denominator": "1"
+      },
+      "initial_status_includes_boundary": true,
+      "status_after_transition": "uncertain"
+    },
+    {
+      "record_id": "DF-TMR-DFF-5.12",
+      "objective": "period_ns",
+      "initial_status": "definitely_feasible",
+      "transition_t": {
+        "numerator": "507362010677151",
+        "denominator": "281474976710656"
+      },
+      "initial_status_includes_boundary": true,
+      "status_after_transition": "uncertain"
+    },
+    {
+      "record_id": "DCLR-TMR-DFF",
+      "objective": "cells",
+      "initial_status": "definitely_feasible",
+      "transition_t": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "initial_status_includes_boundary": true,
+      "status_after_transition": "uncertain"
+    },
+    {
+      "record_id": "DCLR-TMR-DFF",
+      "objective": "period_ns",
+      "initial_status": "definitely_feasible",
+      "transition_t": {
+        "numerator": "2815187587882281",
+        "denominator": "281474976710656"
+      },
+      "initial_status_includes_boundary": true,
+      "status_after_transition": "uncertain"
+    }
+  ],
+  "warnings": [
+    "Certificates apply only to the declared common per-objective additive widening model.",
+    "No correlation, statistical probability, physical protection or optimum guarantee is inferred.",
+    "Null transition means no finite transition for the initial relation/class; pair omission means no initial certain dominance.",
+    "Decode rational numerator/denominator strings with exact integer arithmetic; decimal renderings are not authoritative thresholds."
+  ]
+}

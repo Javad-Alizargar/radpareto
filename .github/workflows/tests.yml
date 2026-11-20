@@ -20,6 +20,7 @@ jobs:
       - run: python scripts/verify_retained_artifacts.py
       - run: radpareto validate examples/rounded_costs.json
       - run: radpareto batch examples/generated/evidence.json
+      - run: python benchmarks/published_case/analyze_case.py --engine-src src --out case-replay
   generic-synthesis:
     runs-on: ubuntu-latest
     steps:
@@ -45,3 +46,11 @@ jobs:
       - run: python scripts/evaluate_properties.py --cases benchmarks/properties/cases.json --engine-root . --output property-output
       - run: python scripts/evaluate_certificates.py --oracle benchmarks/certificates --engine-root . --output certificate-output
       - run: python -c "import json; r=json.load(open('study-output/summary.json')); assert r['case_count']==60; assert r['hashes']['cases']=='781d2a45282a53be1e2115744e89ecc3b60d46e6e93ea20756f50170f78380b4'; assert all(r['methods'][m]['full_decision_correct']==60 for m in ['radpareto','checked_tabular'])"
+  mutation-replay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python benchmarks/mutation/replay.py --output mutation-replay

@@ -1,0 +1,18 @@
+{
+  "status": "source frozen before analysis",
+  "files": {
+    "source_tables.csv": {
+      "sha256": "7a0bc97b49de401352c2e67e6f6105d131c12b87760f8d41f55c336f2a07d441",
+      "bytes": 723
+    },
+    "source_exact.json": {
+      "sha256": "5ba62e4323d4de0ab1d76466273fd704e80887b8dee1e0a837044a2ecfc2fdd5",
+      "bytes": 3278
+    },
+    "source_metadata.json": {
+      "sha256": "69e40dc996b7d1c71478e2abe3d160d991d7c7ddd80c43cc8304abb0fbc5d152",
+      "bytes": 5662
+    }
+  },
+  "release_note": "Public metadata removes private audit paths; numerical CSV/JSON unchanged. Frozen before public replay."
+}

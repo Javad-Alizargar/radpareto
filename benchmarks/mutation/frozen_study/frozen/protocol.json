@@ -1,0 +1,21 @@
+{
+  "study_id": "bounded-source-mutation-v1",
+  "purpose": "Measure which declared validation families detect a bounded, deliberately selected set of semantic source defects; identify surviving defects and blind spots.",
+  "selection": "The investigator inspected production source, existing tests, and frozen case descriptions before selecting operators. Operators are purposive and informed by contract boundaries, not randomly sampled real-world defects. None of the mutant outcomes was observed before the freeze.",
+  "variants": 12,
+  "control": "Unmodified complete production Python package, copied into the same isolated layout as mutants.",
+  "mutation_application": "Each mutant replaces exactly one unique source anchor in one copied module. No production source is altered. All copied Python files and exact patch text are hashed before any evaluation.",
+  "families": {
+    "metamorphic": "All 120 previously frozen property cases and all six transformations: 720 dependent property instances. Existing evaluator used unchanged. Results split by property. Input nonmutation checks retained separately.",
+    "quarter_grid": "All 1625 previously frozen quarter-grid cells. Existing independent integer-coordinate oracle and evaluator used unchanged.",
+    "certificate_grid": "All 360 previously frozen certificate cases and all 186 probes each, totaling 66960 dependent case-probe decisions. Existing frozen expected.json is authoritative; existing rows_from_case/predict helpers are reused. Each failed case retains a first concrete mismatch. An exception at case construction produces one error case and 186 unassessed probes; it is not counted as 186 incorrect predictions.",
+    "targeted_stability": "All nine methods from existing tests/test_stability.py, unchanged. The counting unit is a unittest method, including existing internal loops; no count inflation from those loops. Failure tracebacks retained. No new tests are added to the scored suite."
+  },
+  "scope_rule": "Comparison-only property and quarter-grid families are not run for stability.py-only mutations because they cannot import or call changed code. These cells are explicitly not assessed, not passes. All other families run for every variant; no-detection does not imply relevant assertions or adequate input coverage.",
+  "detection": "A mutant is detected by a family if an existing assertion/oracle comparison fails or the mutant raises an unexpected exception. Record mismatches and runtime errors separately. The unmodified control must pass all families; otherwise interpretation is blocked.",
+  "denominator": "All 12 syntactically valid seeded mutants remain in the union detection denominator, including survivors and mutants outside a family's domain. Remove only a demonstrably equivalent mutant with a retained proof; no such removal is planned. Cross-family failure proportions are not comparable accuracy estimates because the counting units differ.",
+  "activation_witnesses": "Each operator includes a predeclared small input showing the intended semantic effect. Witnesses are run after the existing-suite evaluation and compared against the unmodified control solely to distinguish non-equivalent mutants from ineffective patches. They are excluded from every detection score. A surviving non-equivalent mutant remains a survivor and motivates future coverage rather than retrospective test tuning.",
+  "execution": "Freeze command first; run command refuses source/input/harness hash drift. Each variant executes in a fresh subprocess with only its isolated src first on sys.path. No timing benchmark is repeated. No outcome-driven sampling, patch repair, or operator replacement is permitted within this freeze.",
+  "precision": "Exact equality for discrete decisions and rational numerator/denominator output. No numerical tolerance is applied.",
+  "limitations": "Finite constructed dependent cases, informed operator selection, selected modules, and a selected existing test file. This is not a proof, fault-population accuracy estimate, independent preregistration, or evidence about radiation reliability. Existing broad core/adversarial tests are outside this bounded experiment, so a survivor is a blind spot in the four selected families rather than in the complete project test suite."
+}

@@ -1,0 +1,7 @@
+structure,cells,period_ns,all_six_cost_front,set_architecture_scope_cost_front,cap40_freq30mhz,cap40_freq32mhz,cap30_freq40mhz,cap40_freq40mhz,cap40_freq50mhz,first_feasibility_transition_t_cap40_freq30,limiting_objective
+BL-DFF,11,16.93939085950469,True,False,definitely_feasible,definitely_feasible,definitely_feasible,definitely_feasible,definitely_feasible,15.929316486245028,period_ns
+TMR-DFF,14,19.089798411728772,False,False,definitely_feasible,definitely_feasible,definitely_feasible,definitely_feasible,definitely_feasible,13.909445836489716,period_ns
+DF-TMR-DFF-1.28,28,24.49359492492713,False,True,definitely_feasible,definitely_feasible,definitely_feasible,definitely_feasible,definitely_infeasible,8.689437626299966,period_ns
+DF-TMR-DFF-2.56,30,26.535052804755082,False,False,definitely_feasible,definitely_feasible,definitely_infeasible,definitely_infeasible,definitely_infeasible,6.55526992287918,period_ns
+DF-TMR-DFF-5.12,34,31.169155004207838,False,False,definitely_feasible,uncertain,definitely_infeasible,definitely_infeasible,definitely_infeasible,1.8025119554364402,period_ns
+DCLR-TMR-DFF,37,23.20616355704075,False,True,definitely_feasible,definitely_feasible,definitely_infeasible,definitely_feasible,definitely_infeasible,3.0,cells
