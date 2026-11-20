@@ -1,0 +1,9 @@
+{
+  "source_kind": "original_synthetic_fixture",
+  "central_coordinates": [[20, 40], [22, 50], [30, 30]],
+  "coordinate_unit": "synthetic_cost",
+  "dilation_numerator_range": [0, 24],
+  "limit_numerator_range": [76, 140],
+  "common_denominator": 4,
+  "interpretation": "Prescribed what-if bounds, not measured uncertainty or physical FPGA data. Frozen before evaluator execution."
+}

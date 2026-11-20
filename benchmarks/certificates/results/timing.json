@@ -1,0 +1,164 @@
+{
+  "excluded": "Startup/imports,input creation,JSON serialization; output bytes measured separately",
+  "implementation_sha256": "6f40072504340ec61af286804b1120eaeaee676be8653f925dcc9872af5302d5",
+  "included": "Complete stability API including eligibility/comparison and rational certificates",
+  "observations": [
+    {
+      "elapsed_ms": 2.2826,
+      "elapsed_ns": 2282600,
+      "records": 8,
+      "repeat": 0
+    },
+    {
+      "elapsed_ms": 2.2937,
+      "elapsed_ns": 2293700,
+      "records": 8,
+      "repeat": 1
+    },
+    {
+      "elapsed_ms": 2.2666,
+      "elapsed_ns": 2266600,
+      "records": 8,
+      "repeat": 2
+    },
+    {
+      "elapsed_ms": 2.2736,
+      "elapsed_ns": 2273600,
+      "records": 8,
+      "repeat": 3
+    },
+    {
+      "elapsed_ms": 2.2677,
+      "elapsed_ns": 2267700,
+      "records": 8,
+      "repeat": 4
+    },
+    {
+      "elapsed_ms": 2.281,
+      "elapsed_ns": 2281000,
+      "records": 8,
+      "repeat": 5
+    },
+    {
+      "elapsed_ms": 2.2848,
+      "elapsed_ns": 2284800,
+      "records": 8,
+      "repeat": 6
+    },
+    {
+      "elapsed_ms": 19.6079,
+      "elapsed_ns": 19607900,
+      "records": 32,
+      "repeat": 0
+    },
+    {
+      "elapsed_ms": 19.1462,
+      "elapsed_ns": 19146200,
+      "records": 32,
+      "repeat": 1
+    },
+    {
+      "elapsed_ms": 19.0601,
+      "elapsed_ns": 19060100,
+      "records": 32,
+      "repeat": 2
+    },
+    {
+      "elapsed_ms": 19.123,
+      "elapsed_ns": 19123000,
+      "records": 32,
+      "repeat": 3
+    },
+    {
+      "elapsed_ms": 18.734,
+      "elapsed_ns": 18734000,
+      "records": 32,
+      "repeat": 4
+    },
+    {
+      "elapsed_ms": 19.0895,
+      "elapsed_ns": 19089500,
+      "records": 32,
+      "repeat": 5
+    },
+    {
+      "elapsed_ms": 19.1105,
+      "elapsed_ns": 19110500,
+      "records": 32,
+      "repeat": 6
+    },
+    {
+      "elapsed_ms": 254.2383,
+      "elapsed_ns": 254238300,
+      "records": 128,
+      "repeat": 0
+    },
+    {
+      "elapsed_ms": 257.8432,
+      "elapsed_ns": 257843200,
+      "records": 128,
+      "repeat": 1
+    },
+    {
+      "elapsed_ms": 428.8991,
+      "elapsed_ns": 428899100,
+      "records": 128,
+      "repeat": 2
+    },
+    {
+      "elapsed_ms": 311.9583,
+      "elapsed_ns": 311958300,
+      "records": 128,
+      "repeat": 3
+    },
+    {
+      "elapsed_ms": 286.5332,
+      "elapsed_ns": 286533200,
+      "records": 128,
+      "repeat": 4
+    },
+    {
+      "elapsed_ms": 314.5568,
+      "elapsed_ns": 314556800,
+      "records": 128,
+      "repeat": 5
+    },
+    {
+      "elapsed_ms": 449.6112,
+      "elapsed_ns": 449611200,
+      "records": 128,
+      "repeat": 6
+    }
+  ],
+  "platform": "Windows-10-10.0.19045-SP0",
+  "processor": "Intel64 Family 6 Model 85 Stepping 7, GenuineIntel",
+  "python": "3.12.10",
+  "repeats": 7,
+  "summary": [
+    {
+      "compact_json_bytes": 24265,
+      "max_ms": 2.2937,
+      "median_ms": 2.281,
+      "min_ms": 2.2666,
+      "pair_certificates": 28,
+      "records": 8
+    },
+    {
+      "compact_json_bytes": 255871,
+      "max_ms": 19.6079,
+      "median_ms": 19.1105,
+      "min_ms": 18.734,
+      "pair_certificates": 496,
+      "records": 32
+    },
+    {
+      "compact_json_bytes": 3689605,
+      "max_ms": 449.6112,
+      "median_ms": 311.9583,
+      "min_ms": 254.2383,
+      "pair_certificates": 8128,
+      "records": 128
+    }
+  ],
+  "warmups": 2
+}

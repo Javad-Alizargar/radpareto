@@ -1,0 +1,16 @@
+{
+  "case_probe_decisions": 66960,
+  "cases": 360,
+  "evaluator_sha256": "30b37c03535080d97e5fcfe39de306aa33455ccc92b14e62f8c749bf1c398cd0",
+  "failures": 0,
+  "implementation_sha256": "6f40072504340ec61af286804b1120eaeaee676be8653f925dcc9872af5302d5",
+  "matching_decisions": 66960,
+  "oracle_hashes": {
+    "cases.json": "65197740a35ec0979bfe1dec8574685bc6a8e4eb7cf38c897b19dd1590d26ae6",
+    "expected.json": "6eba029a26194edb0ff99325c5b04dca020a18dc3597a4dac66dcf4933e83954"
+  },
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python": "3.12.10",
+  "scope": "Exact predictions vs a frozen finite endpoint grid; dependent constructed cases, no arbitrary-input proof",
+  "software_version": "0.2.0a1"
+}

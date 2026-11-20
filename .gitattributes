@@ -2,3 +2,6 @@
 examples/** -text -whitespace
 validation/** -text -whitespace
 benchmarks/** -text -whitespace
+src/**/*.py -text -whitespace
+scripts/*.py -text -whitespace
+tests/*.py -text -whitespace

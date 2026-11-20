@@ -1,0 +1,60 @@
+{
+  "base_cases": 120,
+  "by_property": {
+    "context_mutation": {
+      "checked": 120,
+      "passed": 120
+    },
+    "interval_widening": {
+      "checked": 120,
+      "passed": 120
+    },
+    "limit_relaxation": {
+      "checked": 120,
+      "passed": 120
+    },
+    "permutation": {
+      "checked": 120,
+      "passed": 120
+    },
+    "positive_scaling": {
+      "checked": 120,
+      "passed": 120
+    },
+    "translation": {
+      "checked": 120,
+      "passed": 120
+    }
+  },
+  "case_sha256": "f2d0f956816a8a6fc3bf75f1c43ac05c4a057f937d13be4178b30f8217ca1154",
+  "engine_sources": {
+    "__init__.py": "d27ab9eabc1b96b6455a74b5c0c3f484586059c8910b6372b5be952f491a8d91",
+    "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "cli.py": "44aba843eab81ba64436510502eff78e66e49a68cbb160e54ab543a66078406c",
+    "compare.py": "ea8984a92f856dc248332c9b8bf48503acc926d0819e6a47b0311a7d930fb459",
+    "stability.py": "6f40072504340ec61af286804b1120eaeaee676be8653f925dcc9872af5302d5",
+    "validation.py": "06113188359003cecbdc3fe10a93502cdd481c1201c715e78ec97310f15d60a7",
+    "yosys.py": "6e181f16ca2ad6a9ea2f2cad0af11dfa096d259f1bd3eba1460666664e26d01b"
+  },
+  "evaluator_sha256": "f5520924a0967dc34cb147a014b3c8e538a4822b969b39b910482712f57652c1",
+  "nonmutation_calls": 840,
+  "nonmutation_passes": 840,
+  "platform": "Windows-10-10.0.19045-SP0",
+  "property_instances": 720,
+  "property_passes": 720,
+  "python": "3.12.10",
+  "response_surface_agreement": 1625,
+  "response_surface_cells": 1625,
+  "response_surface_class_totals": {
+    "definitely_feasible": 2481,
+    "definitely_infeasible": 888,
+    "uncertain": 1506
+  },
+  "response_surface_retained_counts": {
+    "2": 325,
+    "3": 1300
+  },
+  "response_surface_source_sha256": "c6f578bc322f82e402bff2d4d1f857b27ecbf54c377429ff3e781ab6a0b32a4f",
+  "scope": "Dependent constructed properties and exact grid agreement, not population accuracy or empirical radiation uncertainty",
+  "software_version": "0.2.0a1"
+}

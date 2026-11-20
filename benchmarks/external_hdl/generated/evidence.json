@@ -1,0 +1,373 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "id": "priority_encoder4_base",
+      "design": "priority_encoder4",
+      "method": "base",
+      "context": {
+        "baseline_id": "external-priority_encoder4-dd1806979a84",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys synth -noabc; dffunmap; techmap; opt_clean; preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean inputs; sequential check limited to 12 initial-zero steps",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 9,
+          "lower": 9,
+          "upper": 9,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 4,
+          "lower": 4,
+          "upper": 4,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "benchmarks/external_hdl/generated/priority_encoder4_base.json",
+        "source_sha256": "2e037c1c718f0fc5afd483a4f5f2890e6693aa2fdbc46a299948346bb83511c9",
+        "locator": "modules.base; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "priority_encoder4_tmr",
+      "design": "priority_encoder4",
+      "method": "tmr",
+      "context": {
+        "baseline_id": "external-priority_encoder4-dd1806979a84",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys synth -noabc; dffunmap; techmap; opt_clean; preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean inputs; sequential check limited to 12 initial-zero steps",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 62,
+          "lower": 62,
+          "upper": 62,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 7,
+          "lower": 7,
+          "upper": 7,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "benchmarks/external_hdl/generated/priority_encoder4_tmr.json",
+        "source_sha256": "8f190313ba64d35c2b5fdcbe20f9f868bcc72c3a4be666cb7f3ba54fe64a0609",
+        "locator": "modules.tmr; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "priority_encoder8_base",
+      "design": "priority_encoder8",
+      "method": "base",
+      "context": {
+        "baseline_id": "external-priority_encoder8-f7158d115b06",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys synth -noabc; dffunmap; techmap; opt_clean; preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean inputs; sequential check limited to 12 initial-zero steps",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 24,
+          "lower": 24,
+          "upper": 24,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 6,
+          "lower": 6,
+          "upper": 6,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "benchmarks/external_hdl/generated/priority_encoder8_base.json",
+        "source_sha256": "fe81fc72f657f5fa7a5cd22c4ff13a4a1f95417002249e7fd8baa4d4addf985b",
+        "locator": "modules.base; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "priority_encoder8_tmr",
+      "design": "priority_encoder8",
+      "method": "tmr",
+      "context": {
+        "baseline_id": "external-priority_encoder8-f7158d115b06",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys synth -noabc; dffunmap; techmap; opt_clean; preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean inputs; sequential check limited to 12 initial-zero steps",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 132,
+          "lower": 132,
+          "upper": 132,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 9,
+          "lower": 9,
+          "upper": 9,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "benchmarks/external_hdl/generated/priority_encoder8_tmr.json",
+        "source_sha256": "c55b84bb4c20b17b726b2eabe2bc1bb81cddf485ce4b67062fd326c200f0ac86",
+        "locator": "modules.tmr; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "arbiter4_base",
+      "design": "arbiter4",
+      "method": "base",
+      "context": {
+        "baseline_id": "external-arbiter4-c2ec6f799ba6",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys synth -noabc; dffunmap; techmap; opt_clean; preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean inputs; sequential check limited to 12 initial-zero steps",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 25,
+          "lower": 25,
+          "upper": 25,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 5,
+          "lower": 5,
+          "upper": 5,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "benchmarks/external_hdl/generated/arbiter4_base.json",
+        "source_sha256": "57e6b11b59756e062c48cb9baa0fb81ca4011a1082b39b99f166c7d6b3f18d41",
+        "locator": "modules.base; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "arbiter4_tmr",
+      "design": "arbiter4",
+      "method": "tmr",
+      "context": {
+        "baseline_id": "external-arbiter4-c2ec6f799ba6",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys synth -noabc; dffunmap; techmap; opt_clean; preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean inputs; sequential check limited to 12 initial-zero steps",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 110,
+          "lower": 110,
+          "upper": 110,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 5,
+          "lower": 5,
+          "upper": 5,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "benchmarks/external_hdl/generated/arbiter4_tmr.json",
+        "source_sha256": "c0ba7d0745bdfef21aa45aa16a259c32f6016c65a48ee1128e73a5f885987996",
+        "locator": "modules.tmr; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "arbiter8_base",
+      "design": "arbiter8",
+      "method": "base",
+      "context": {
+        "baseline_id": "external-arbiter8-65e076e0a02b",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys synth -noabc; dffunmap; techmap; opt_clean; preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean inputs; sequential check limited to 12 initial-zero steps",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 50,
+          "lower": 50,
+          "upper": 50,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 7,
+          "lower": 7,
+          "upper": 7,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "benchmarks/external_hdl/generated/arbiter8_base.json",
+        "source_sha256": "927d340145307ab1ccd5a87a39d6cb6e90c699103b47de3c047dd7b10a7fd2a0",
+        "locator": "modules.base; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "arbiter8_tmr",
+      "design": "arbiter8",
+      "method": "tmr",
+      "context": {
+        "baseline_id": "external-arbiter8-65e076e0a02b",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys synth -noabc; dffunmap; techmap; opt_clean; preserved hierarchy",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "generic one-bit primitives; no place-and-route",
+        "constraints_id": "preserve-replicas-v1-no-physical-constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all Boolean inputs; sequential check limited to 12 initial-zero steps",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 210,
+          "lower": 210,
+          "upper": 210,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 7,
+          "lower": 7,
+          "upper": 7,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "benchmarks/external_hdl/generated/arbiter8_tmr.json",
+        "source_sha256": "43bb12e7662c71ce6293cccbc1c1d355f6d31c0264640768a8eaa7be052ca6aa",
+        "locator": "modules.tmr; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    }
+  ]
+}

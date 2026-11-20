@@ -1,0 +1,7557 @@
+[
+  {
+    "case_id": "N01",
+    "family": "nominal",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N01",
+    "family": "nominal",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N01",
+    "family": "nominal",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N02",
+    "family": "nominal",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N02",
+    "family": "nominal",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N02",
+    "family": "nominal",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N03",
+    "family": "ties",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N03",
+    "family": "ties",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N03",
+    "family": "ties",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N04",
+    "family": "ties",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N04",
+    "family": "ties",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N04",
+    "family": "ties",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N05",
+    "family": "cardinality",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N05",
+    "family": "cardinality",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N05",
+    "family": "cardinality",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N06",
+    "family": "ordering",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "c": "definitely_feasible",
+        "b": "definitely_feasible",
+        "a": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "c": "definitely_feasible",
+        "b": "definitely_feasible",
+        "a": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N06",
+    "family": "ordering",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "c": "definitely_feasible",
+        "b": "definitely_feasible",
+        "a": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "c": "definitely_feasible",
+        "b": "definitely_feasible",
+        "a": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N06",
+    "family": "ordering",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "c": "definitely_feasible",
+        "b": "definitely_feasible",
+        "a": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N07",
+    "family": "metric_count",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N07",
+    "family": "metric_count",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N07",
+    "family": "metric_count",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b",
+        "c"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N08",
+    "family": "numeric_domain",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N08",
+    "family": "numeric_domain",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N08",
+    "family": "numeric_domain",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N09",
+    "family": "numeric_domain",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N09",
+    "family": "numeric_domain",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N09",
+    "family": "numeric_domain",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N10",
+    "family": "rounding",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N10",
+    "family": "rounding",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N10",
+    "family": "rounding",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "c"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N11",
+    "family": "interval",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N11",
+    "family": "interval",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N11",
+    "family": "interval",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "c"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "c"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N12",
+    "family": "interval_touching",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N12",
+    "family": "interval_touching",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N12",
+    "family": "interval_touching",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N13",
+    "family": "interval_touching",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N13",
+    "family": "interval_touching",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N13",
+    "family": "interval_touching",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N14",
+    "family": "uncertainty_type",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N14",
+    "family": "uncertainty_type",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "N14",
+    "family": "uncertainty_type",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "F01",
+    "family": "limits",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_infeasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_infeasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "F01",
+    "family": "limits",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_infeasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_infeasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "F01",
+    "family": "limits",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_infeasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "F02",
+    "family": "limits_boundary",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "F02",
+    "family": "limits_boundary",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "F02",
+    "family": "limits_boundary",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "F03",
+    "family": "limits_uncertain",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "uncertain",
+        "c": "definitely_infeasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "uncertain",
+        "c": "definitely_infeasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "F03",
+    "family": "limits_uncertain",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "uncertain",
+        "c": "definitely_infeasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "uncertain",
+        "c": "definitely_infeasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "F03",
+    "family": "limits_uncertain",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "c"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b",
+        "c"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "uncertain",
+        "c": "definitely_infeasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "c"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "F04",
+    "family": "limits",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "F04",
+    "family": "limits",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "F04",
+    "family": "limits",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "F05",
+    "family": "limits",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {
+        "a": "definitely_infeasible",
+        "b": "definitely_infeasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {
+        "a": "definitely_infeasible",
+        "b": "definitely_infeasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "F05",
+    "family": "limits",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {
+        "a": "definitely_infeasible",
+        "b": "definitely_infeasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {
+        "a": "definitely_infeasible",
+        "b": "definitely_infeasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "F05",
+    "family": "limits",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {
+        "a": "definitely_infeasible",
+        "b": "definitely_infeasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "F06",
+    "family": "limits_boundary",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_infeasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_infeasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "F06",
+    "family": "limits_boundary",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_infeasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_infeasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "F06",
+    "family": "limits_boundary",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": [
+        "a"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_infeasible",
+        "c": "definitely_infeasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "C01",
+    "family": "context_baseline_id",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "CONTEXT_MISMATCH",
+        "message": "Comparison context differs",
+        "record": "b",
+        "reference": "a",
+        "field": "baseline_id"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C01",
+    "family": "context_baseline_id",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: context or design differs"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C01",
+    "family": "context_baseline_id",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "accepted",
+    "status_correct": false,
+    "full_decision_correct": false,
+    "unsafe_acceptance": true,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "status",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "C02",
+    "family": "context_device",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "CONTEXT_MISMATCH",
+        "message": "Comparison context differs",
+        "record": "b",
+        "reference": "a",
+        "field": "device"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C02",
+    "family": "context_device",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: context or design differs"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C02",
+    "family": "context_device",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "accepted",
+    "status_correct": false,
+    "full_decision_correct": false,
+    "unsafe_acceptance": true,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "status",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "C03",
+    "family": "context_toolchain",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "CONTEXT_MISMATCH",
+        "message": "Comparison context differs",
+        "record": "b",
+        "reference": "a",
+        "field": "toolchain"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C03",
+    "family": "context_toolchain",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: context or design differs"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C03",
+    "family": "context_toolchain",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "accepted",
+    "status_correct": false,
+    "full_decision_correct": false,
+    "unsafe_acceptance": true,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "status",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "C04",
+    "family": "context_tool_version",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "CONTEXT_MISMATCH",
+        "message": "Comparison context differs",
+        "record": "b",
+        "reference": "a",
+        "field": "tool_version"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C04",
+    "family": "context_tool_version",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: context or design differs"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C04",
+    "family": "context_tool_version",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "accepted",
+    "status_correct": false,
+    "full_decision_correct": false,
+    "unsafe_acceptance": true,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "status",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "C05",
+    "family": "context_implementation",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "CONTEXT_MISMATCH",
+        "message": "Comparison context differs",
+        "record": "b",
+        "reference": "a",
+        "field": "implementation"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C05",
+    "family": "context_implementation",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: context or design differs"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C05",
+    "family": "context_implementation",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "accepted",
+    "status_correct": false,
+    "full_decision_correct": false,
+    "unsafe_acceptance": true,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "status",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "C06",
+    "family": "context_constraints_id",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "CONTEXT_MISMATCH",
+        "message": "Comparison context differs",
+        "record": "b",
+        "reference": "a",
+        "field": "constraints_id"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C06",
+    "family": "context_constraints_id",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: context or design differs"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C06",
+    "family": "context_constraints_id",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "accepted",
+    "status_correct": false,
+    "full_decision_correct": false,
+    "unsafe_acceptance": true,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "status",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "C07",
+    "family": "context_timing_corner",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "CONTEXT_MISMATCH",
+        "message": "Comparison context differs",
+        "record": "b",
+        "reference": "a",
+        "field": "timing_corner"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C07",
+    "family": "context_timing_corner",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: context or design differs"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C07",
+    "family": "context_timing_corner",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "accepted",
+    "status_correct": false,
+    "full_decision_correct": false,
+    "unsafe_acceptance": true,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "status",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "C08",
+    "family": "context_workload_id",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "CONTEXT_MISMATCH",
+        "message": "Comparison context differs",
+        "record": "b",
+        "reference": "a",
+        "field": "workload_id"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C08",
+    "family": "context_workload_id",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: context or design differs"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C08",
+    "family": "context_workload_id",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "accepted",
+    "status_correct": false,
+    "full_decision_correct": false,
+    "unsafe_acceptance": true,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "status",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "C09",
+    "family": "context_source_kind",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "CONTEXT_MISMATCH",
+        "message": "Comparison context differs",
+        "record": "b",
+        "reference": "a",
+        "field": "source_kind"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C09",
+    "family": "context_source_kind",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: context or design differs"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C09",
+    "family": "context_source_kind",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "accepted",
+    "status_correct": false,
+    "full_decision_correct": false,
+    "unsafe_acceptance": true,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "status",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "C10",
+    "family": "design",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "DESIGN_MISMATCH",
+        "message": "Different designs cannot share a cost frontier",
+        "record": "b",
+        "reference": "a"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C10",
+    "family": "design",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: context or design differs"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C10",
+    "family": "design",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "accepted",
+    "status_correct": false,
+    "full_decision_correct": false,
+    "unsafe_acceptance": true,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "status",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "C11",
+    "family": "units",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "METRIC_SEMANTICS_MISMATCH",
+        "message": "Metric semantics differ",
+        "record": "b",
+        "metric": "cost",
+        "field": "unit"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C11",
+    "family": "units",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: objective semantics differ"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C11",
+    "family": "units",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "accepted",
+    "status_correct": false,
+    "full_decision_correct": false,
+    "unsafe_acceptance": true,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "status",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "C12",
+    "family": "denominator",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "METRIC_SEMANTICS_MISMATCH",
+        "message": "Metric semantics differ",
+        "record": "b",
+        "metric": "cost",
+        "field": "denominator"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C12",
+    "family": "denominator",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: objective semantics differ"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C12",
+    "family": "denominator",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "accepted",
+    "status_correct": false,
+    "full_decision_correct": false,
+    "unsafe_acceptance": true,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "status",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "C13",
+    "family": "uncertainty_kind",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "METRIC_SEMANTICS_MISMATCH",
+        "message": "Metric semantics differ",
+        "record": "b",
+        "metric": "cost",
+        "field": "uncertainty_kind"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C13",
+    "family": "uncertainty_kind",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: objective semantics differ"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C13",
+    "family": "uncertainty_kind",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "accepted",
+    "status_correct": false,
+    "full_decision_correct": false,
+    "unsafe_acceptance": true,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "status",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "C14",
+    "family": "metric_names",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "METRIC_SET_MISMATCH",
+        "message": "Objective names differ",
+        "record": "b"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C14",
+    "family": "metric_names",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: objective names differ"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C14",
+    "family": "metric_names",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: objective names differ"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C15",
+    "family": "missing_context",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "UNKNOWN_CONTEXT",
+        "message": "Required context is unknown",
+        "record": "a",
+        "field": "device"
+      },
+      {
+        "code": "UNKNOWN_CONTEXT",
+        "message": "Required context is unknown",
+        "record": "b",
+        "field": "device"
+      },
+      {
+        "code": "UNKNOWN_CONTEXT",
+        "message": "Required context is unknown",
+        "record": "c",
+        "field": "device"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C15",
+    "family": "missing_context",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: required context is unknown"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "C15",
+    "family": "missing_context",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "accepted",
+    "status_correct": false,
+    "full_decision_correct": false,
+    "unsafe_acceptance": true,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "status",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "I01",
+    "family": "schema_context",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "MISSING_FIELD",
+        "path": "records[1].context",
+        "message": "timing_corner"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I01",
+    "family": "schema_context",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1].context: required fields differ"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I01",
+    "family": "schema_context",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1].context: required fields differ"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I02",
+    "family": "numeric_domain",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "INVALID_NUMBER",
+        "path": "records[1].metrics.cost.value",
+        "message": "Expected a finite nonnegative real number"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I02",
+    "family": "numeric_domain",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1].metrics.cost.value: finite nonnegative number required"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I02",
+    "family": "numeric_domain",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1].metrics.cost.value: finite nonnegative number required"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I03",
+    "family": "numeric_domain",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "INVALID_NUMBER",
+        "path": "records[1].metrics.cost.value",
+        "message": "Expected a finite nonnegative real number, not a boolean"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I03",
+    "family": "numeric_domain",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1].metrics.cost.value: finite nonnegative number required"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I03",
+    "family": "numeric_domain",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1].metrics.cost.value: finite nonnegative number required"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I04",
+    "family": "interval_validity",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "INVALID_INTERVAL",
+        "path": "records[1].metrics.cost",
+        "message": "Require lower <= value <= upper"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I04",
+    "family": "interval_validity",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1]: central value outside bounds"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I04",
+    "family": "interval_validity",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1]: central value outside bounds"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I05",
+    "family": "interval_validity",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "NONEXACT_INTERVAL",
+        "path": "records[1].metrics.cost",
+        "message": "Exact values require identical endpoints"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I05",
+    "family": "interval_validity",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1]: exact metric has nonzero width"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I05",
+    "family": "interval_validity",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1]: exact metric has nonzero width"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I06",
+    "family": "record_identity",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "DUPLICATE_ID",
+        "path": "records[1].id",
+        "message": "a"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I06",
+    "family": "record_identity",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records: duplicate id"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I06",
+    "family": "record_identity",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records: duplicate id"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I07",
+    "family": "provenance_schema",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "MISSING_FIELD",
+        "path": "records[1].provenance",
+        "message": "locator"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I07",
+    "family": "provenance_schema",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1].provenance: required fields differ"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I07",
+    "family": "provenance_schema",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1].provenance: required fields differ"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I08",
+    "family": "provenance_schema",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "INVALID_SHA256",
+        "path": "records[1].provenance.source_sha256",
+        "message": "Expected 64 lower-case hexadecimal characters"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I08",
+    "family": "provenance_schema",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1]: invalid source hash"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I08",
+    "family": "provenance_schema",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1]: invalid source hash"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I09",
+    "family": "source_kind",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "INVALID_SOURCE_KIND",
+        "path": "records[1].context.source_kind",
+        "message": "Unsupported evidence source kind"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I09",
+    "family": "source_kind",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1]: unknown source kind"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I09",
+    "family": "source_kind",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1]: unknown source kind"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I10",
+    "family": "limits_schema",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "UNKNOWN_LIMIT_METRIC",
+        "message": "Limit refers to an absent objective",
+        "metric": "temperature"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I10",
+    "family": "limits_schema",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "options: limit objective absent"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I10",
+    "family": "limits_schema",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "options: limit objective absent"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I11",
+    "family": "limits_schema",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "INVALID_NUMBER",
+        "path": "limits.cost",
+        "message": "Expected a finite nonnegative real number"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I11",
+    "family": "limits_schema",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "limit cost: finite nonnegative number required"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I11",
+    "family": "limits_schema",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "limit cost: finite nonnegative number required"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "R01",
+    "family": "protection_status",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "PROTECTION_UNVERIFIED",
+        "message": "Protection-aware comparison requires explicit model evidence",
+        "record": "a"
+      },
+      {
+        "code": "PROTECTION_UNVERIFIED",
+        "message": "Protection-aware comparison requires explicit model evidence",
+        "record": "b"
+      },
+      {
+        "code": "PROTECTION_UNVERIFIED",
+        "message": "Protection-aware comparison requires explicit model evidence",
+        "record": "c"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "R01",
+    "family": "protection_status",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: protection evidence is unverified or missing"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "R01",
+    "family": "protection_status",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "accepted",
+    "status_correct": false,
+    "full_decision_correct": false,
+    "unsafe_acceptance": true,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "status",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "R02",
+    "family": "protection_model",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "PROTECTION_CONTEXT_MISMATCH",
+        "message": "Protection evidence conditions differ",
+        "record": "b",
+        "field": "fault_model"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "R02",
+    "family": "protection_model",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: protection model, scope or evidence differs"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "R02",
+    "family": "protection_model",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "accepted",
+    "status_correct": false,
+    "full_decision_correct": false,
+    "unsafe_acceptance": true,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "status",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "R03",
+    "family": "protection_scope",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "PROTECTION_CONTEXT_MISMATCH",
+        "message": "Protection evidence conditions differ",
+        "record": "b",
+        "field": "scope"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "R03",
+    "family": "protection_scope",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: protection model, scope or evidence differs"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "R03",
+    "family": "protection_scope",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "accepted",
+    "status_correct": false,
+    "full_decision_correct": false,
+    "unsafe_acceptance": true,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "status",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "R04",
+    "family": "protection_evidence",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "PROTECTION_CONTEXT_MISMATCH",
+        "message": "Protection evidence conditions differ",
+        "record": "b",
+        "field": "evidence_uri"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "R04",
+    "family": "protection_evidence",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: protection model, scope or evidence differs"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "R04",
+    "family": "protection_evidence",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "accepted",
+    "status_correct": false,
+    "full_decision_correct": false,
+    "unsafe_acceptance": true,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "status",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "R05",
+    "family": "protection_evidence",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": [],
+      "not_certainly_dominated": [],
+      "definitely_feasible_nominal_front": [],
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "PROTECTION_UNVERIFIED",
+        "message": "Protection-aware comparison requires explicit model evidence",
+        "record": "a"
+      },
+      {
+        "code": "PROTECTION_UNVERIFIED",
+        "message": "Protection-aware comparison requires explicit model evidence",
+        "record": "b"
+      },
+      {
+        "code": "PROTECTION_UNVERIFIED",
+        "message": "Protection-aware comparison requires explicit model evidence",
+        "record": "c"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "R05",
+    "family": "protection_evidence",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "comparison: protection evidence is unverified or missing"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "R05",
+    "family": "protection_evidence",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "accepted",
+    "status_correct": false,
+    "full_decision_correct": false,
+    "unsafe_acceptance": true,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "status",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "R06",
+    "family": "protection_positive",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "R06",
+    "family": "protection_positive",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "R06",
+    "family": "protection_positive",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "P01",
+    "family": "context_positive",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "P01",
+    "family": "context_positive",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "P01",
+    "family": "context_positive",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "P02",
+    "family": "units_positive",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "P02",
+    "family": "units_positive",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "P02",
+    "family": "units_positive",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "P03",
+    "family": "denominator_positive",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "P03",
+    "family": "denominator_positive",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "P03",
+    "family": "denominator_positive",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "P04",
+    "family": "protection_cost_only",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "P04",
+    "family": "protection_cost_only",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "P04",
+    "family": "protection_cost_only",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "P05",
+    "family": "uncertainty_positive",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "P05",
+    "family": "uncertainty_positive",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "P05",
+    "family": "uncertainty_positive",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "P06",
+    "family": "provenance_positive",
+    "method": "radpareto",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "P06",
+    "family": "provenance_positive",
+    "method": "checked_tabular",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "P06",
+    "family": "provenance_positive",
+    "method": "nominal_ablation",
+    "expected_status": "accepted",
+    "actual_status": "accepted",
+    "status_correct": true,
+    "full_decision_correct": false,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "not_certainly_dominated;feasibility;definitely_feasible_nominal_front",
+    "expected": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": [
+        "a",
+        "b"
+      ],
+      "definitely_feasible_nominal_front": [
+        "a",
+        "b"
+      ],
+      "feasibility": {
+        "a": "definitely_feasible",
+        "b": "definitely_feasible",
+        "c": "definitely_feasible"
+      }
+    },
+    "actual": {
+      "status": "accepted",
+      "nominal_front": [
+        "a",
+        "b"
+      ],
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [],
+    "exception": null
+  },
+  {
+    "case_id": "I12",
+    "family": "schema_metric",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "MISSING_FIELD",
+        "path": "records[1].metrics.cost",
+        "message": "value"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I12",
+    "family": "schema_metric",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1].metrics.cost: required fields differ"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I12",
+    "family": "schema_metric",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1].metrics.cost: required fields differ"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I13",
+    "family": "numeric_domain",
+    "method": "radpareto",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "INVALID_NUMBER",
+        "path": "records[1].metrics.cost.value",
+        "message": "Expected a finite nonnegative real number, not a boolean"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I13",
+    "family": "numeric_domain",
+    "method": "checked_tabular",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1].metrics.cost.value: finite nonnegative number required"
+      }
+    ],
+    "exception": null
+  },
+  {
+    "case_id": "I13",
+    "family": "numeric_domain",
+    "method": "nominal_ablation",
+    "expected_status": "refused",
+    "actual_status": "refused",
+    "status_correct": true,
+    "full_decision_correct": true,
+    "unsafe_acceptance": false,
+    "false_refusal": false,
+    "unexpected_exception": false,
+    "mismatched_fields": "",
+    "expected": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "actual": {
+      "status": "refused",
+      "nominal_front": null,
+      "not_certainly_dominated": null,
+      "definitely_feasible_nominal_front": null,
+      "feasibility": {}
+    },
+    "reasons": [
+      {
+        "code": "REFERENCE_CONTRACT",
+        "message": "records[1].metrics.cost.value: finite nonnegative number required"
+      }
+    ],
+    "exception": null
+  }
+]

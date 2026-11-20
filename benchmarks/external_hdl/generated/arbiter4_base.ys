@@ -1,0 +1,12 @@
+read_verilog benchmarks/external_hdl/vendor/priority_encoder.v benchmarks/external_hdl/vendor/arbiter.v benchmarks/external_hdl/wrappers/arbiter4.v
+synth -top base -noabc
+dffunmap
+techmap
+opt_clean
+check -assert
+stat
+write_json benchmarks/external_hdl/generated/arbiter4_base.json
+setattr -mod -unset keep_hierarchy
+setattr -unset keep_hierarchy
+flatten
+ltp -noff

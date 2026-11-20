@@ -1,0 +1,514 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2026  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)
+
+-- Executing script file `benchmarks/external_hdl/generated/arbiter4_equivalence.ys' --
+
+1. Executing Verilog-2005 frontend: benchmarks/external_hdl/vendor/priority_encoder.v
+Parsing Verilog input from `benchmarks/external_hdl/vendor/priority_encoder.v' to AST representation.
+Generating RTLIL representation for module `\priority_encoder'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: benchmarks/external_hdl/vendor/arbiter.v
+Parsing Verilog input from `benchmarks/external_hdl/vendor/arbiter.v' to AST representation.
+Generating RTLIL representation for module `\arbiter'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: benchmarks/external_hdl/wrappers/arbiter4.v
+Parsing Verilog input from `benchmarks/external_hdl/wrappers/arbiter4.v' to AST representation.
+Generating RTLIL representation for module `\core_arbiter4'.
+Generating RTLIL representation for module `\base'.
+Generating RTLIL representation for module `\tmr'.
+Generating RTLIL representation for module `\check'.
+Successfully finished Verilog frontend.
+
+4. Executing HIERARCHY pass (managing design hierarchy).
+
+4.1. Analyzing design hierarchy..
+Top module:  \check
+Used module:     \tmr
+Used module:         \core_arbiter4
+Used module:             \arbiter
+Used module:                 \priority_encoder
+Used module:     \base
+Parameter \WIDTH = 4
+Parameter \LSB_HIGH_PRIORITY = 0
+
+4.2. Executing AST frontend in derive mode using pre-parsed AST for module `\priority_encoder'.
+Parameter \WIDTH = 4
+Parameter \LSB_HIGH_PRIORITY = 0
+Generating RTLIL representation for module `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder'.
+Parameter \WIDTH = 4
+Parameter \LSB_HIGH_PRIORITY = 0
+Found cached RTLIL representation for module `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder'.
+Parameter \PORTS = 4
+Parameter \ARB_TYPE_ROUND_ROBIN = 0
+Parameter \ARB_BLOCK = 0
+Parameter \ARB_BLOCK_ACK = 1
+Parameter \ARB_LSB_HIGH_PRIORITY = 0
+
+4.3. Executing AST frontend in derive mode using pre-parsed AST for module `\arbiter'.
+Parameter \PORTS = 4
+Parameter \ARB_TYPE_ROUND_ROBIN = 0
+Parameter \ARB_BLOCK = 0
+Parameter \ARB_BLOCK_ACK = 1
+Parameter \ARB_LSB_HIGH_PRIORITY = 0
+Generating RTLIL representation for module `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter'.
+
+4.4. Analyzing design hierarchy..
+Top module:  \check
+Used module:     \tmr
+Used module:         \core_arbiter4
+Used module:             $paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter
+Used module:                 \priority_encoder
+Used module:     \base
+Parameter \WIDTH = 4
+Parameter \LSB_HIGH_PRIORITY = 0
+Found cached RTLIL representation for module `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder'.
+Parameter \WIDTH = 4
+Parameter \LSB_HIGH_PRIORITY = 0
+Found cached RTLIL representation for module `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder'.
+
+4.5. Analyzing design hierarchy..
+Top module:  \check
+Used module:     \tmr
+Used module:         \core_arbiter4
+Used module:             $paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter
+Used module:                 $paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder
+Used module:     \base
+
+4.6. Analyzing design hierarchy..
+Top module:  \check
+Used module:     \tmr
+Used module:         \core_arbiter4
+Used module:             $paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter
+Used module:                 $paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder
+Used module:     \base
+Removing unused module `\arbiter'.
+Removing unused module `\priority_encoder'.
+Removed 2 unused modules.
+Mapping positional arguments of cell check.testdut (tmr).
+Mapping positional arguments of cell check.refdut (base).
+Mapping positional arguments of cell tmr.replica2 (core_arbiter4).
+Mapping positional arguments of cell tmr.replica1 (core_arbiter4).
+Mapping positional arguments of cell tmr.replica0 (core_arbiter4).
+Mapping positional arguments of cell base.dut (core_arbiter4).
+
+5. Executing PROC pass (convert processes to netlists).
+
+5.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 1 empty switch in `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:100$proc$43'.
+Cleaned up 1 empty switch.
+
+5.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 3 switch rules as full_case in process $benchmarks/external_hdl/vendor/arbiter.v:100$proc$43 in module $paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.
+Removed a total of 0 dead cases.
+
+5.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 14 assignments to connections.
+
+5.4. Executing PROC_INIT pass (extract init attributes).
+Found init rule in `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:83$proc$54'.
+  Set init value: \mask_reg = 4'0000
+Found init rule in `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:62$proc$53'.
+  Set init value: \grant_encoded_reg = 2'00
+Found init rule in `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:61$proc$52'.
+  Set init value: \grant_valid_reg = 1'0
+Found init rule in `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:60$proc$51'.
+  Set init value: \grant_reg = 4'0000
+
+5.5. Executing PROC_ARST pass (detect async resets in processes).
+
+5.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~4 debug messages>
+
+5.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:83$proc$54'.
+Creating decoders for process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:62$proc$53'.
+Creating decoders for process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:61$proc$52'.
+Creating decoders for process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:60$proc$51'.
+Creating decoders for process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:145$proc$50'.
+     1/4: $0\mask_reg[3:0]
+     2/4: $0\grant_encoded_reg[1:0]
+     3/4: $0\grant_valid_reg[0:0]
+     4/4: $0\grant_reg[3:0]
+Creating decoders for process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:100$proc$43'.
+     1/12: $4\grant_encoded_next[1:0]
+     2/12: $4\grant_next[3:0]
+     3/12: $4\grant_valid_next[0:0]
+     4/12: $3\grant_encoded_next[1:0]
+     5/12: $3\grant_valid_next[0:0]
+     6/12: $3\grant_next[3:0]
+     7/12: $2\grant_encoded_next[1:0]
+     8/12: $2\grant_next[3:0]
+     9/12: $2\grant_valid_next[0:0]
+    10/12: $1\grant_encoded_next[1:0]
+    11/12: $1\grant_next[3:0]
+    12/12: $1\grant_valid_next[0:0]
+Creating decoders for process `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:82$proc$40'.
+Creating decoders for process `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:76$proc$38'.
+Creating decoders for process `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:69$proc$37'.
+Creating decoders for process `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:63$proc$35'.
+Creating decoders for process `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:69$proc$34'.
+Creating decoders for process `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:63$proc$32'.
+
+5.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.\grant_next' from process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:100$proc$43'.
+No latch inferred for signal `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.\grant_valid_next' from process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:100$proc$43'.
+No latch inferred for signal `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.\grant_encoded_next' from process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:100$proc$43'.
+No latch inferred for signal `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.\mask_next' from process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:100$proc$43'.
+No latch inferred for signal `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.\stage_enc[1]' from process `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:82$proc$40'.
+No latch inferred for signal `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.\stage_valid[1] [0]' from process `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:76$proc$38'.
+No latch inferred for signal `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.\stage_enc[0] [1]' from process `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:69$proc$37'.
+No latch inferred for signal `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.\stage_valid[0] [1]' from process `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:63$proc$35'.
+No latch inferred for signal `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.\stage_enc[0] [0]' from process `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:69$proc$34'.
+No latch inferred for signal `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.\stage_valid[0] [0]' from process `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:63$proc$32'.
+
+5.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.\grant_reg' using process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:145$proc$50'.
+  created $dff cell `$procdff$144' with positive edge clock.
+Creating register for signal `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.\grant_valid_reg' using process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:145$proc$50'.
+  created $dff cell `$procdff$145' with positive edge clock.
+Creating register for signal `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.\grant_encoded_reg' using process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:145$proc$50'.
+  created $dff cell `$procdff$146' with positive edge clock.
+Creating register for signal `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.\mask_reg' using process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:145$proc$50'.
+  created $dff cell `$procdff$147' with positive edge clock.
+
+5.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+5.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:83$proc$54'.
+Removing empty process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:62$proc$53'.
+Removing empty process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:61$proc$52'.
+Removing empty process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:60$proc$51'.
+Found and cleaned up 1 empty switch in `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:145$proc$50'.
+Removing empty process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:145$proc$50'.
+Found and cleaned up 3 empty switches in `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:100$proc$43'.
+Removing empty process `$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.$benchmarks/external_hdl/vendor/arbiter.v:100$proc$43'.
+Removing empty process `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:82$proc$40'.
+Removing empty process `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:76$proc$38'.
+Removing empty process `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:69$proc$37'.
+Removing empty process `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:63$proc$35'.
+Removing empty process `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:69$proc$34'.
+Removing empty process `$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:63$proc$32'.
+Cleaned up 4 empty switches.
+
+5.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module check.
+Optimizing module tmr.
+Optimizing module base.
+Optimizing module core_arbiter4.
+Optimizing module $paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.
+<suppressed ~11 debug messages>
+Optimizing module $paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.
+
+6. Executing FLATTEN pass (flatten design).
+Deleting now unused module tmr.
+Deleting now unused module base.
+Deleting now unused module core_arbiter4.
+Deleting now unused module $paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\arbiter.
+Deleting now unused module $paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\priority_encoder.
+<suppressed ~9 debug messages>
+
+7. Executing OPT pass (performing simple optimizations).
+
+7.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module check.
+
+7.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\check'.
+Computing hashes of 188 cells of `\check'.
+Finding duplicate cells in `\check'.
+Computing hashes of 182 cells of `\check'.
+Finding duplicate cells in `\check'.
+Computing hashes of 179 cells of `\check'.
+Finding duplicate cells in `\check'.
+<suppressed ~27 debug messages>
+Removed a total of 9 cells.
+
+7.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \check..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+    dead port 2/2 on $mux $flatten\testdut.\replica0.\dut.$procmux$64.
+    dead port 1/2 on $mux $flatten\testdut.\replica0.\dut.$procmux$70.
+    dead port 2/2 on $mux $flatten\testdut.\replica0.\dut.$procmux$73.
+    dead port 1/2 on $mux $flatten\testdut.\replica0.\dut.$procmux$133.
+    dead port 1/2 on $mux $flatten\testdut.\replica0.\dut.$procmux$79.
+    dead port 2/2 on $mux $flatten\testdut.\replica0.\dut.$procmux$82.
+    dead port 1/2 on $mux $flatten\testdut.\replica0.\dut.$procmux$88.
+    dead port 1/2 on $mux $flatten\testdut.\replica0.\dut.$procmux$97.
+    dead port 1/2 on $mux $flatten\testdut.\replica0.\dut.$procmux$106.
+    dead port 1/2 on $mux $flatten\testdut.\replica0.\dut.$procmux$127.
+    dead port 1/2 on $mux $flatten\testdut.\replica0.\dut.$procmux$115.
+    dead port 1/2 on $mux $flatten\testdut.\replica0.\dut.$procmux$121.
+    dead port 2/2 on $mux $flatten\testdut.\replica1.\dut.$procmux$64.
+    dead port 1/2 on $mux $flatten\testdut.\replica1.\dut.$procmux$70.
+    dead port 2/2 on $mux $flatten\testdut.\replica1.\dut.$procmux$73.
+    dead port 1/2 on $mux $flatten\testdut.\replica1.\dut.$procmux$133.
+    dead port 1/2 on $mux $flatten\testdut.\replica1.\dut.$procmux$79.
+    dead port 2/2 on $mux $flatten\testdut.\replica1.\dut.$procmux$82.
+    dead port 1/2 on $mux $flatten\testdut.\replica1.\dut.$procmux$88.
+    dead port 1/2 on $mux $flatten\testdut.\replica1.\dut.$procmux$97.
+    dead port 1/2 on $mux $flatten\testdut.\replica1.\dut.$procmux$106.
+    dead port 1/2 on $mux $flatten\testdut.\replica1.\dut.$procmux$127.
+    dead port 1/2 on $mux $flatten\testdut.\replica1.\dut.$procmux$115.
+    dead port 1/2 on $mux $flatten\testdut.\replica1.\dut.$procmux$121.
+    dead port 2/2 on $mux $flatten\testdut.\replica2.\dut.$procmux$64.
+    dead port 1/2 on $mux $flatten\testdut.\replica2.\dut.$procmux$70.
+    dead port 2/2 on $mux $flatten\testdut.\replica2.\dut.$procmux$73.
+    dead port 1/2 on $mux $flatten\testdut.\replica2.\dut.$procmux$133.
+    dead port 1/2 on $mux $flatten\testdut.\replica2.\dut.$procmux$79.
+    dead port 2/2 on $mux $flatten\testdut.\replica2.\dut.$procmux$82.
+    dead port 1/2 on $mux $flatten\testdut.\replica2.\dut.$procmux$88.
+    dead port 1/2 on $mux $flatten\testdut.\replica2.\dut.$procmux$97.
+    dead port 1/2 on $mux $flatten\testdut.\replica2.\dut.$procmux$106.
+    dead port 1/2 on $mux $flatten\testdut.\replica2.\dut.$procmux$127.
+    dead port 1/2 on $mux $flatten\testdut.\replica2.\dut.$procmux$115.
+    dead port 1/2 on $mux $flatten\testdut.\replica2.\dut.$procmux$121.
+    dead port 2/2 on $mux $flatten\refdut.\dut.\dut.$procmux$64.
+    dead port 1/2 on $mux $flatten\refdut.\dut.\dut.$procmux$70.
+    dead port 2/2 on $mux $flatten\refdut.\dut.\dut.$procmux$73.
+    dead port 1/2 on $mux $flatten\refdut.\dut.\dut.$procmux$133.
+    dead port 1/2 on $mux $flatten\refdut.\dut.\dut.$procmux$79.
+    dead port 2/2 on $mux $flatten\refdut.\dut.\dut.$procmux$82.
+    dead port 1/2 on $mux $flatten\refdut.\dut.\dut.$procmux$88.
+    dead port 1/2 on $mux $flatten\refdut.\dut.\dut.$procmux$97.
+    dead port 1/2 on $mux $flatten\refdut.\dut.\dut.$procmux$106.
+    dead port 1/2 on $mux $flatten\refdut.\dut.\dut.$procmux$127.
+    dead port 1/2 on $mux $flatten\refdut.\dut.\dut.$procmux$115.
+    dead port 1/2 on $mux $flatten\refdut.\dut.\dut.$procmux$121.
+Removed 48 multiplexer ports.
+<suppressed ~120 debug messages>
+
+7.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \check.
+    New input vector for $reduce_or cell $flatten\refdut.\dut.\dut.\priority_encoder_masked.$benchmarks/external_hdl/vendor/priority_encoder.v:76$reduce_or$39: $flatten\refdut.\dut.\dut.$benchmarks/external_hdl/vendor/arbiter.v:94$and$42_Y
+    New input vector for $reduce_or cell $flatten\testdut.\replica0.\dut.\priority_encoder_masked.$benchmarks/external_hdl/vendor/priority_encoder.v:76$reduce_or$39: $flatten\testdut.\replica0.\dut.$benchmarks/external_hdl/vendor/arbiter.v:94$and$42_Y
+    New input vector for $reduce_or cell $flatten\testdut.\replica2.\dut.\priority_encoder_masked.$benchmarks/external_hdl/vendor/priority_encoder.v:76$reduce_or$39: $flatten\testdut.\replica2.\dut.$benchmarks/external_hdl/vendor/arbiter.v:94$and$42_Y
+    New input vector for $reduce_or cell $flatten\testdut.\replica0.\dut.\priority_encoder_inst.$benchmarks/external_hdl/vendor/priority_encoder.v:76$reduce_or$39: \a [3:0]
+    New input vector for $reduce_or cell $flatten\testdut.\replica1.\dut.\priority_encoder_masked.$benchmarks/external_hdl/vendor/priority_encoder.v:76$reduce_or$39: $flatten\testdut.\replica1.\dut.$benchmarks/external_hdl/vendor/arbiter.v:94$and$42_Y
+  Optimizing cells in module \check.
+Performed a total of 5 changes.
+
+7.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\check'.
+Computing hashes of 131 cells of `\check'.
+Finding duplicate cells in `\check'.
+Computing hashes of 125 cells of `\check'.
+Finding duplicate cells in `\check'.
+Computing hashes of 119 cells of `\check'.
+Finding duplicate cells in `\check'.
+Computing hashes of 116 cells of `\check'.
+Finding duplicate cells in `\check'.
+<suppressed ~45 debug messages>
+Removed a total of 15 cells.
+
+7.6. Executing OPT_DFF pass (perform DFF optimizations).
+Adding SRST signal on $flatten\testdut.\replica0.\dut.$procdff$145 ($dff) from module check (D = \testdut.replica0.dut.grant_valid_next, Q = \testdut.replica0.dut.grant_valid_reg, rval = 1'0).
+Adding SRST signal on $flatten\testdut.\replica0.\dut.$procdff$147 ($dff) from module check (D = \testdut.replica0.dut.mask_next, Q = \testdut.replica0.dut.mask_reg, rval = 4'0000).
+Adding SRST signal on $flatten\refdut.\dut.\dut.$procdff$144 ($dff) from module check (D = \refdut.dut.dut.grant_next, Q = \refdut.dut.dut.grant_reg, rval = 4'0000).
+Adding SRST signal on $flatten\testdut.\replica1.\dut.$procdff$145 ($dff) from module check (D = \testdut.replica1.dut.grant_valid_next, Q = \testdut.replica1.dut.grant_valid_reg, rval = 1'0).
+Adding SRST signal on $flatten\refdut.\dut.\dut.$procdff$145 ($dff) from module check (D = \refdut.dut.dut.grant_valid_next, Q = \refdut.dut.dut.grant_valid_reg, rval = 1'0).
+Adding SRST signal on $flatten\refdut.\dut.\dut.$procdff$146 ($dff) from module check (D = \refdut.dut.dut.grant_encoded_next, Q = \refdut.dut.dut.grant_encoded_reg, rval = 2'00).
+Adding SRST signal on $flatten\refdut.\dut.\dut.$procdff$147 ($dff) from module check (D = \refdut.dut.dut.mask_next, Q = \refdut.dut.dut.mask_reg, rval = 4'0000).
+Adding SRST signal on $flatten\testdut.\replica1.\dut.$procdff$146 ($dff) from module check (D = \testdut.replica1.dut.grant_encoded_next, Q = \testdut.replica1.dut.grant_encoded_reg, rval = 2'00).
+Adding SRST signal on $flatten\testdut.\replica2.\dut.$procdff$144 ($dff) from module check (D = \testdut.replica2.dut.grant_next, Q = \testdut.replica2.dut.grant_reg, rval = 4'0000).
+Adding SRST signal on $flatten\testdut.\replica2.\dut.$procdff$145 ($dff) from module check (D = \testdut.replica2.dut.grant_valid_next, Q = \testdut.replica2.dut.grant_valid_reg, rval = 1'0).
+Adding SRST signal on $flatten\testdut.\replica1.\dut.$procdff$147 ($dff) from module check (D = \testdut.replica1.dut.mask_next, Q = \testdut.replica1.dut.mask_reg, rval = 4'0000).
+Adding SRST signal on $flatten\testdut.\replica2.\dut.$procdff$146 ($dff) from module check (D = \testdut.replica2.dut.grant_encoded_next, Q = \testdut.replica2.dut.grant_encoded_reg, rval = 2'00).
+Adding SRST signal on $flatten\testdut.\replica2.\dut.$procdff$147 ($dff) from module check (D = \testdut.replica2.dut.mask_next, Q = \testdut.replica2.dut.mask_reg, rval = 4'0000).
+Adding SRST signal on $flatten\testdut.\replica0.\dut.$procdff$146 ($dff) from module check (D = \testdut.replica0.dut.grant_encoded_next, Q = \testdut.replica0.dut.grant_encoded_reg, rval = 2'00).
+Adding SRST signal on $flatten\testdut.\replica0.\dut.$procdff$144 ($dff) from module check (D = \testdut.replica0.dut.grant_next, Q = \testdut.replica0.dut.grant_reg, rval = 4'0000).
+Adding SRST signal on $flatten\testdut.\replica1.\dut.$procdff$144 ($dff) from module check (D = \testdut.replica1.dut.grant_next, Q = \testdut.replica1.dut.grant_reg, rval = 4'0000).
+
+7.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \check..
+Removed 53 unused cells and 506 unused wires.
+<suppressed ~110 debug messages>
+
+7.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module check.
+
+7.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+7.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \check..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~44 debug messages>
+
+7.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \check.
+Performed a total of 0 changes.
+
+7.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\check'.
+Computing hashes of 63 cells of `\check'.
+Finding duplicate cells in `\check'.
+Removed a total of 0 cells.
+
+7.13. Executing OPT_DFF pass (perform DFF optimizations).
+Adding EN signal on $auto$ff.cc:337:slice$166 ($sdff) from module check (D = $flatten\refdut.\dut.\dut.$2\grant_valid_next[0:0], Q = \testdut.replica2.dut.grant_valid_reg).
+Adding EN signal on $auto$ff.cc:337:slice$157 ($sdff) from module check (D = $flatten\refdut.\dut.\dut.$2\grant_valid_next[0:0], Q = \testdut.replica0.dut.grant_valid_reg).
+Adding EN signal on $auto$ff.cc:337:slice$168 ($sdff) from module check (D = $flatten\refdut.\dut.\dut.$2\grant_encoded_next[1:0], Q = \testdut.replica2.dut.grant_encoded_reg).
+Adding EN signal on $auto$ff.cc:337:slice$172 ($sdff) from module check (D = $flatten\refdut.\dut.\dut.$2\grant_next[3:0], Q = \testdut.replica1.dut.grant_reg).
+Adding EN signal on $auto$ff.cc:337:slice$165 ($sdff) from module check (D = $flatten\refdut.\dut.\dut.$2\grant_next[3:0], Q = \testdut.replica2.dut.grant_reg).
+Adding EN signal on $auto$ff.cc:337:slice$170 ($sdff) from module check (D = $flatten\refdut.\dut.\dut.$2\grant_encoded_next[1:0], Q = \testdut.replica0.dut.grant_encoded_reg).
+Adding EN signal on $auto$ff.cc:337:slice$159 ($sdff) from module check (D = $flatten\refdut.\dut.\dut.$2\grant_next[3:0], Q = \refdut.dut.dut.grant_reg).
+Adding EN signal on $auto$ff.cc:337:slice$160 ($sdff) from module check (D = $flatten\refdut.\dut.\dut.$2\grant_valid_next[0:0], Q = \testdut.replica1.dut.grant_valid_reg).
+Adding EN signal on $auto$ff.cc:337:slice$161 ($sdff) from module check (D = $flatten\refdut.\dut.\dut.$2\grant_valid_next[0:0], Q = \refdut.dut.dut.grant_valid_reg).
+Adding EN signal on $auto$ff.cc:337:slice$171 ($sdff) from module check (D = $flatten\refdut.\dut.\dut.$2\grant_next[3:0], Q = \testdut.replica0.dut.grant_reg).
+Adding EN signal on $auto$ff.cc:337:slice$162 ($sdff) from module check (D = $flatten\refdut.\dut.\dut.$2\grant_encoded_next[1:0], Q = \refdut.dut.dut.grant_encoded_reg).
+Adding EN signal on $auto$ff.cc:337:slice$164 ($sdff) from module check (D = $flatten\refdut.\dut.\dut.$2\grant_encoded_next[1:0], Q = \testdut.replica1.dut.grant_encoded_reg).
+
+7.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \check..
+Removed 12 unused cells and 12 unused wires.
+<suppressed ~24 debug messages>
+
+7.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module check.
+
+7.16. Rerunning OPT passes. (Maybe there is more to do..)
+
+7.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \check..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~8 debug messages>
+
+7.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \check.
+Performed a total of 0 changes.
+
+7.19. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\check'.
+Computing hashes of 51 cells of `\check'.
+Finding duplicate cells in `\check'.
+Removed a total of 0 cells.
+
+7.20. Executing OPT_DFF pass (perform DFF optimizations).
+
+7.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \check..
+
+7.22. Executing OPT_EXPR pass (perform const folding).
+Optimizing module check.
+
+7.23. Finished fast OPT passes. (There is nothing left to do.)
+
+8. Executing DFFUNMAP pass (unmap clock enable and synchronous reset from FFs).
+
+9. Executing SAT pass (solving SAT problems in the circuit).
+Using SAT solver `minisat`.
+
+Setting up time step 1:
+Final constraint equation: { } = { }
+Imported 75 cells to SAT database.
+Import set-constraint from init attribute: \testdut.replica1.dut.grant_encoded_reg = 2'00
+Import set-constraint from init attribute: \testdut.replica1.dut.grant_valid_reg = 1'0
+Import set-constraint from init attribute: \testdut.replica1.dut.grant_reg = 4'0000
+Import set-constraint from init attribute: \testdut.replica2.dut.grant_reg = 4'0000
+Import set-constraint from init attribute: \testdut.replica2.dut.grant_valid_reg = 1'0
+Import set-constraint from init attribute: \testdut.replica2.dut.grant_encoded_reg = 2'00
+Import set-constraint from init attribute: \refdut.dut.dut.grant_reg = 4'0000
+Import set-constraint from init attribute: \testdut.replica0.dut.grant_encoded_reg = 2'00
+Import set-constraint from init attribute: \testdut.replica0.dut.grant_valid_reg = 1'0
+Import set-constraint from init attribute: \testdut.replica0.dut.grant_reg = 4'0000
+Import set-constraint from init attribute: \refdut.dut.dut.grant_valid_reg = 1'0
+Import set-constraint from init attribute: \refdut.dut.dut.grant_encoded_reg = 2'00
+Final init constraint equation: { \refdut.dut.dut.grant_encoded_reg \refdut.dut.dut.grant_valid_reg \testdut.replica0.dut.grant_reg \testdut.replica0.dut.grant_valid_reg \testdut.replica0.dut.grant_encoded_reg \refdut.dut.dut.grant_reg \testdut.replica2.dut.grant_encoded_reg \testdut.replica2.dut.grant_valid_reg \testdut.replica2.dut.grant_reg \testdut.replica1.dut.grant_reg \testdut.replica1.dut.grant_valid_reg \testdut.replica1.dut.grant_encoded_reg } = 28'0000000000000000000000000000
+Import proof-constraint: \ok = 1'1
+Final proof equation: \ok = 1'1
+
+Setting up time step 2:
+Final constraint equation: { } = { }
+Imported 75 cells to SAT database.
+Import proof-constraint: \ok = 1'1
+Final proof equation: \ok = 1'1
+
+Setting up time step 3:
+Final constraint equation: { } = { }
+Imported 75 cells to SAT database.
+Import proof-constraint: \ok = 1'1
+Final proof equation: \ok = 1'1
+
+Setting up time step 4:
+Final constraint equation: { } = { }
+Imported 75 cells to SAT database.
+Import proof-constraint: \ok = 1'1
+Final proof equation: \ok = 1'1
+
+Setting up time step 5:
+Final constraint equation: { } = { }
+Imported 75 cells to SAT database.
+Import proof-constraint: \ok = 1'1
+Final proof equation: \ok = 1'1
+
+Setting up time step 6:
+Final constraint equation: { } = { }
+Imported 75 cells to SAT database.
+Import proof-constraint: \ok = 1'1
+Final proof equation: \ok = 1'1
+
+Setting up time step 7:
+Final constraint equation: { } = { }
+Imported 75 cells to SAT database.
+Import proof-constraint: \ok = 1'1
+Final proof equation: \ok = 1'1
+
+Setting up time step 8:
+Final constraint equation: { } = { }
+Imported 75 cells to SAT database.
+Import proof-constraint: \ok = 1'1
+Final proof equation: \ok = 1'1
+
+Setting up time step 9:
+Final constraint equation: { } = { }
+Imported 75 cells to SAT database.
+Import proof-constraint: \ok = 1'1
+Final proof equation: \ok = 1'1
+
+Setting up time step 10:
+Final constraint equation: { } = { }
+Imported 75 cells to SAT database.
+Import proof-constraint: \ok = 1'1
+Final proof equation: \ok = 1'1
+
+Setting up time step 11:
+Final constraint equation: { } = { }
+Imported 75 cells to SAT database.
+Import proof-constraint: \ok = 1'1
+Final proof equation: \ok = 1'1
+
+Setting up time step 12:
+Final constraint equation: { } = { }
+Imported 75 cells to SAT database.
+Import proof-constraint: \ok = 1'1
+Final proof equation: \ok = 1'1
+
+Solving problem with 11963 variables and 31516 clauses..
+SAT proof finished - no model found: SUCCESS!
+
+                  /$$$$$$      /$$$$$$$$     /$$$$$$$    
+                 /$$__  $$    | $$_____/    | $$__  $$   
+                | $$  \ $$    | $$          | $$  \ $$   
+                | $$  | $$    | $$$$$       | $$  | $$   
+                | $$  | $$    | $$__/       | $$  | $$   
+                | $$/$$ $$    | $$          | $$  | $$   
+                |  $$$$$$/ /$$| $$$$$$$$ /$$| $$$$$$$//$$
+                 \____ $$$|__/|________/|__/|_______/|__/
+                       \__/                              
+

@@ -1,0 +1,813 @@
+{
+  "creator": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+  "modules": {
+    "$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\\priority_encoder": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "hdlname": "priority_encoder",
+        "src": "benchmarks/external_hdl/vendor/priority_encoder.v:36.1-92.10"
+      },
+      "parameter_default_values": {
+        "LEVELS": "00000000000000000000000000000011",
+        "LSB_HIGH_PRIORITY": "00000000000000000000000000000000",
+        "W": "00000000000000000000000000001000",
+        "WIDTH": "00000000000000000000000000001000"
+      },
+      "ports": {
+        "input_unencoded": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9 ]
+        },
+        "output_valid": {
+          "direction": "output",
+          "bits": [ 10 ]
+        },
+        "output_encoded": {
+          "direction": "output",
+          "bits": [ 11, 12, 13 ]
+        },
+        "output_unencoded": {
+          "direction": "output",
+          "bits": [ 14, 15, 16, 17, 18, 19, 20, 21 ]
+        }
+      },
+      "cells": {
+        "$auto$simplemap.cc:157:simplemap_reduce$151": {
+          "hide_name": 1,
+          "type": "$_OR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:76.40-76.68"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 22 ],
+            "B": [ 23 ],
+            "Y": [ 13 ]
+          }
+        },
+        "$auto$simplemap.cc:157:simplemap_reduce$155": {
+          "hide_name": 1,
+          "type": "$_OR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:76.40-76.68"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 3 ],
+            "Y": [ 24 ]
+          }
+        },
+        "$auto$simplemap.cc:157:simplemap_reduce$156": {
+          "hide_name": 1,
+          "type": "$_OR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:76.40-76.68"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "B": [ 5 ],
+            "Y": [ 25 ]
+          }
+        },
+        "$auto$simplemap.cc:157:simplemap_reduce$157": {
+          "hide_name": 1,
+          "type": "$_OR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:76.40-76.68"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6 ],
+            "B": [ 7 ],
+            "Y": [ 22 ]
+          }
+        },
+        "$auto$simplemap.cc:157:simplemap_reduce$158": {
+          "hide_name": 1,
+          "type": "$_OR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:76.40-76.68"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 8 ],
+            "B": [ 9 ],
+            "Y": [ 23 ]
+          }
+        },
+        "$auto$simplemap.cc:157:simplemap_reduce$160": {
+          "hide_name": 1,
+          "type": "$_OR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:76.40-76.68"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 24 ],
+            "B": [ 25 ],
+            "Y": [ 26 ]
+          }
+        },
+        "$auto$simplemap.cc:157:simplemap_reduce$163": {
+          "hide_name": 1,
+          "type": "$_OR_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:76.40-76.68"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 26 ],
+            "B": [ 13 ],
+            "Y": [ 10 ]
+          }
+        },
+        "$auto$simplemap.cc:298:simplemap_mux$145": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:82.62-82.181"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 5 ],
+            "S": [ 25 ],
+            "Y": [ 27 ]
+          }
+        },
+        "$auto$simplemap.cc:298:simplemap_mux$152": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:82.62-82.181"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 7 ],
+            "B": [ 9 ],
+            "S": [ 23 ],
+            "Y": [ 28 ]
+          }
+        },
+        "$auto$simplemap.cc:298:simplemap_mux$164": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:82.62-82.181"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 27 ],
+            "B": [ 28 ],
+            "S": [ 13 ],
+            "Y": [ 11 ]
+          }
+        },
+        "$auto$simplemap.cc:298:simplemap_mux$165": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:82.62-82.181"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 25 ],
+            "B": [ 23 ],
+            "S": [ 13 ],
+            "Y": [ 12 ]
+          }
+        },
+        "$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$auto$simplemap.cc:298:simplemap_mux$100": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:90.27-90.46|/share/techmap.v:111.4-118.7|/share/techmap.v:111.8-111.12"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 29 ],
+            "B": [ "0" ],
+            "S": [ 13 ],
+            "Y": [ 15 ]
+          }
+        },
+        "$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$auto$simplemap.cc:298:simplemap_mux$101": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:90.27-90.46|/share/techmap.v:111.4-118.7|/share/techmap.v:111.8-111.12"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 30 ],
+            "B": [ "0" ],
+            "S": [ 13 ],
+            "Y": [ 16 ]
+          }
+        },
+        "$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$auto$simplemap.cc:298:simplemap_mux$102": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:90.27-90.46|/share/techmap.v:111.4-118.7|/share/techmap.v:111.8-111.12"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 31 ],
+            "B": [ "0" ],
+            "S": [ 13 ],
+            "Y": [ 17 ]
+          }
+        },
+        "$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$auto$simplemap.cc:298:simplemap_mux$103": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:90.27-90.46|/share/techmap.v:111.4-118.7|/share/techmap.v:111.8-111.12"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 32 ],
+            "S": [ 13 ],
+            "Y": [ 18 ]
+          }
+        },
+        "$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$auto$simplemap.cc:298:simplemap_mux$104": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:90.27-90.46|/share/techmap.v:111.4-118.7|/share/techmap.v:111.8-111.12"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 29 ],
+            "S": [ 13 ],
+            "Y": [ 19 ]
+          }
+        },
+        "$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$auto$simplemap.cc:298:simplemap_mux$105": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:90.27-90.46|/share/techmap.v:111.4-118.7|/share/techmap.v:111.8-111.12"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 30 ],
+            "S": [ 13 ],
+            "Y": [ 20 ]
+          }
+        },
+        "$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$auto$simplemap.cc:298:simplemap_mux$106": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:90.27-90.46|/share/techmap.v:111.4-118.7|/share/techmap.v:111.8-111.12"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 31 ],
+            "S": [ 13 ],
+            "Y": [ 21 ]
+          }
+        },
+        "$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$auto$simplemap.cc:298:simplemap_mux$115": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:90.27-90.46|/share/techmap.v:111.4-118.7|/share/techmap.v:111.8-111.12"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 33 ],
+            "B": [ "0" ],
+            "S": [ 12 ],
+            "Y": [ 32 ]
+          }
+        },
+        "$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$auto$simplemap.cc:298:simplemap_mux$116": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:90.27-90.46|/share/techmap.v:111.4-118.7|/share/techmap.v:111.8-111.12"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 11 ],
+            "B": [ "0" ],
+            "S": [ 12 ],
+            "Y": [ 29 ]
+          }
+        },
+        "$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$auto$simplemap.cc:298:simplemap_mux$117": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:90.27-90.46|/share/techmap.v:111.4-118.7|/share/techmap.v:111.8-111.12"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 33 ],
+            "S": [ 12 ],
+            "Y": [ 30 ]
+          }
+        },
+        "$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$auto$simplemap.cc:298:simplemap_mux$118": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:90.27-90.46|/share/techmap.v:111.4-118.7|/share/techmap.v:111.8-111.12"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 11 ],
+            "S": [ 12 ],
+            "Y": [ 31 ]
+          }
+        },
+        "$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$auto$simplemap.cc:298:simplemap_mux$131": {
+          "hide_name": 1,
+          "type": "$_NOT_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:90.27-90.46|/share/techmap.v:111.4-118.7|/share/techmap.v:111.8-111.12"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 11 ],
+            "Y": [ 33 ]
+          }
+        },
+        "$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$auto$simplemap.cc:298:simplemap_mux$99": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:90.27-90.46|/share/techmap.v:111.4-118.7|/share/techmap.v:111.8-111.12"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 32 ],
+            "B": [ "0" ],
+            "S": [ 13 ],
+            "Y": [ 14 ]
+          }
+        }
+      },
+      "netnames": {
+        "$auto$simplemap.cc:148:simplemap_reduce$147": {
+          "hide_name": 1,
+          "bits": [ 22, 23 ],
+          "attributes": {
+          }
+        },
+        "$auto$simplemap.cc:148:simplemap_reduce$154": {
+          "hide_name": 1,
+          "bits": [ 24, 25, 22, 23 ],
+          "attributes": {
+          }
+        },
+        "$auto$simplemap.cc:148:simplemap_reduce$159": {
+          "hide_name": 1,
+          "bits": [ 26, 13 ],
+          "attributes": {
+          }
+        },
+        "$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$1\\buffer[7:0]": {
+          "hide_name": 1,
+          "bits": [ 33, 11, "0", "0", "0", "0", "0", "0" ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:90.27-90.46|/share/techmap.v:106.2-119.5"
+          }
+        },
+        "$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$3\\buffer[7:0]": {
+          "hide_name": 1,
+          "bits": [ 32, 29, 30, 31, "0", "0", "0", "0" ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:90.27-90.46|/share/techmap.v:106.2-119.5"
+          }
+        },
+        "input_padded": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9 ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:53.14-53.26"
+          }
+        },
+        "input_unencoded": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9 ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:43.37-43.52"
+          }
+        },
+        "output_encoded": {
+          "hide_name": 0,
+          "bits": [ 11, 12, 13 ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:45.37-45.51"
+          }
+        },
+        "output_unencoded": {
+          "hide_name": 0,
+          "bits": [ 14, 15, 16, 17, 18, 19, 20, 21 ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:46.37-46.53"
+          }
+        },
+        "output_valid": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:44.37-44.49"
+          }
+        },
+        "stage_enc[0]": {
+          "hide_name": 0,
+          "bits": [ 3, 5, 7, 9 ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:56.16-56.25"
+          }
+        },
+        "stage_enc[1]": {
+          "hide_name": 0,
+          "bits": [ 27, 25, 28, 23 ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:56.16-56.25"
+          }
+        },
+        "stage_enc[2]": {
+          "hide_name": 0,
+          "bits": [ 11, 12, 13, "x" ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:56.16-56.25"
+          }
+        },
+        "stage_valid[0]": {
+          "hide_name": 0,
+          "bits": [ "x", 25, "x", 23 ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:55.16-55.27"
+          }
+        },
+        "stage_valid[1]": {
+          "hide_name": 0,
+          "bits": [ "x", 13 ],
+          "attributes": {
+          }
+        },
+        "stage_valid[2]": {
+          "hide_name": 0,
+          "bits": [ 10, "x", "x", "x" ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/vendor/priority_encoder.v:55.16-55.27"
+          }
+        }
+      }
+    },
+    "base": {
+      "attributes": {
+        "top": "00000000000000000000000000000001",
+        "src": "benchmarks/external_hdl/wrappers/priority_encoder8.v:5.1-5.123"
+      },
+      "ports": {
+        "clk": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "sel": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "a": {
+          "direction": "input",
+          "bits": [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ]
+        },
+        "b": {
+          "direction": "input",
+          "bits": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27 ]
+        },
+        "y": {
+          "direction": "output",
+          "bits": [ 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39 ]
+        }
+      },
+      "cells": {
+        "dut": {
+          "hide_name": 0,
+          "type": "core_priority_encoder8",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "benchmarks/external_hdl/wrappers/priority_encoder8.v:5.94-5.112"
+          },
+          "port_directions": {
+            "a": "input",
+            "b": "input",
+            "clk": "input",
+            "sel": "input",
+            "y": "output"
+          },
+          "connections": {
+            "a": [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ],
+            "b": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27 ],
+            "clk": [ 2 ],
+            "sel": [ 3 ],
+            "y": [ 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39 ]
+          }
+        }
+      },
+      "netnames": {
+        "a": {
+          "hide_name": 0,
+          "bits": [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/wrappers/priority_encoder8.v:5.48-5.49"
+          }
+        },
+        "b": {
+          "hide_name": 0,
+          "bits": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27 ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/wrappers/priority_encoder8.v:5.50-5.51"
+          }
+        },
+        "clk": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/wrappers/priority_encoder8.v:5.19-5.22"
+          }
+        },
+        "sel": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/wrappers/priority_encoder8.v:5.30-5.33"
+          }
+        },
+        "y": {
+          "hide_name": 0,
+          "bits": [ 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39 ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/wrappers/priority_encoder8.v:5.67-5.68"
+          }
+        }
+      }
+    },
+    "core_priority_encoder8": {
+      "attributes": {
+        "keep_hierarchy": "00000000000000000000000000000001",
+        "src": "benchmarks/external_hdl/wrappers/priority_encoder8.v:2.26-4.10"
+      },
+      "ports": {
+        "clk": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "sel": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "a": {
+          "direction": "input",
+          "bits": [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ]
+        },
+        "b": {
+          "direction": "input",
+          "bits": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27 ]
+        },
+        "y": {
+          "direction": "output",
+          "bits": [ 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39 ]
+        }
+      },
+      "cells": {
+        "dut": {
+          "hide_name": 0,
+          "type": "$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\\priority_encoder",
+          "parameters": {
+          },
+          "attributes": {
+            "src": "benchmarks/external_hdl/wrappers/priority_encoder8.v:3.54-3.157"
+          },
+          "port_directions": {
+            "input_unencoded": "input",
+            "output_encoded": "output",
+            "output_unencoded": "output",
+            "output_valid": "output"
+          },
+          "connections": {
+            "input_unencoded": [ 4, 5, 6, 7, 8, 9, 10, 11 ],
+            "output_encoded": [ 37, 38, 39 ],
+            "output_unencoded": [ 28, 29, 30, 31, 32, 33, 34, 35 ],
+            "output_valid": [ 36 ]
+          }
+        }
+      },
+      "netnames": {
+        "a": {
+          "hide_name": 0,
+          "bits": [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/wrappers/priority_encoder8.v:2.91-2.92"
+          }
+        },
+        "b": {
+          "hide_name": 0,
+          "bits": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27 ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/wrappers/priority_encoder8.v:2.93-2.94"
+          }
+        },
+        "clk": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/wrappers/priority_encoder8.v:2.62-2.65"
+          }
+        },
+        "sel": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/wrappers/priority_encoder8.v:2.73-2.76"
+          }
+        },
+        "y": {
+          "hide_name": 0,
+          "bits": [ 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39 ],
+          "attributes": {
+            "src": "benchmarks/external_hdl/wrappers/priority_encoder8.v:2.110-2.111"
+          }
+        }
+      }
+    }
+  }
+}

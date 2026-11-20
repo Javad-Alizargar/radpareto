@@ -210,7 +210,7 @@ class CLITests(unittest.TestCase):
             self.assertEqual(json.loads(out.read_text())["nominal_front"], ["a"])
             replay = json.loads(out.read_text())["replay"]
             self.assertEqual(replay["input_sha256"], hashlib.sha256(inp.read_bytes()).hexdigest())
-            self.assertEqual(replay["software_version"], "0.1.0a1")
+            self.assertEqual(replay["software_version"], "0.2.0a1")
             self.assertEqual(replay["command"], "compare")
             first_result = out.read_bytes()
             p = self.invoke("compare", inp, "--output", out)

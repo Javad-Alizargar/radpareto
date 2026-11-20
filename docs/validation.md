@@ -10,7 +10,7 @@ are run with `python -m unittest discover -s tests -v`.
 
 Original synthetic fixtures are software tests, not observed radiation data. Original HDL fixtures are new executable logic examples, not replications of Smith's designs. Generic synthesis validates an import workflow and logic metrics; it does not validate flash-device timing or physical radiation tolerance.
 
-The independent validation still needed for publication includes external installation/use, domain review of comparison rules, a meaningful researcher workflow comparison and a verified flash implementation if a flash-specific claim is retained. Passing automated tests does not establish novelty or publication readiness.
+Independent installation/use and domain review could strengthen evidence of practical utility. They are not asserted here as blanket journal requirements. A verified mapped flash implementation would be needed for any flash-specific performance claim. Passing automated tests does not establish novelty or publication readiness.
 
 This release contains original fixtures and makes no historical-table replication
 claim. The public package can be exercised with entirely original examples.

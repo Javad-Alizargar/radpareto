@@ -1,0 +1,875 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2026  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)
+
+-- Executing script file `benchmarks/external_hdl/generated/priority_encoder8_base.ys' --
+
+1. Executing Verilog-2005 frontend: benchmarks/external_hdl/vendor/priority_encoder.v
+Parsing Verilog input from `benchmarks/external_hdl/vendor/priority_encoder.v' to AST representation.
+Generating RTLIL representation for module `\priority_encoder'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: benchmarks/external_hdl/vendor/arbiter.v
+Parsing Verilog input from `benchmarks/external_hdl/vendor/arbiter.v' to AST representation.
+Generating RTLIL representation for module `\arbiter'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: benchmarks/external_hdl/wrappers/priority_encoder8.v
+Parsing Verilog input from `benchmarks/external_hdl/wrappers/priority_encoder8.v' to AST representation.
+Generating RTLIL representation for module `\core_priority_encoder8'.
+Generating RTLIL representation for module `\base'.
+Generating RTLIL representation for module `\tmr'.
+Generating RTLIL representation for module `\check'.
+Successfully finished Verilog frontend.
+
+4. Executing SYNTH pass.
+
+4.1. Executing HIERARCHY pass (managing design hierarchy).
+
+4.1.1. Analyzing design hierarchy..
+Top module:  \base
+Used module:     \core_priority_encoder8
+Used module:         \priority_encoder
+Parameter \WIDTH = 8
+Parameter \LSB_HIGH_PRIORITY = 0
+
+4.1.2. Executing AST frontend in derive mode using pre-parsed AST for module `\priority_encoder'.
+Parameter \WIDTH = 8
+Parameter \LSB_HIGH_PRIORITY = 0
+Generating RTLIL representation for module `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+
+4.1.3. Analyzing design hierarchy..
+Top module:  \base
+Used module:     \core_priority_encoder8
+Used module:         $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder
+
+4.1.4. Analyzing design hierarchy..
+Top module:  \base
+Used module:     \core_priority_encoder8
+Used module:         $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder
+Removing unused module `\check'.
+Removing unused module `\tmr'.
+Removing unused module `\arbiter'.
+Removing unused module `\priority_encoder'.
+Removed 4 unused modules.
+Mapping positional arguments of cell base.dut (core_priority_encoder8).
+
+4.2. Executing PROC pass (convert processes to netlists).
+
+4.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+4.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+4.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 14 assignments to connections.
+
+4.2.4. Executing PROC_INIT pass (extract init attributes).
+
+4.2.5. Executing PROC_ARST pass (detect async resets in processes).
+
+4.2.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+4.2.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:82$proc$54'.
+Creating decoders for process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:76$proc$52'.
+Creating decoders for process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:82$proc$50'.
+Creating decoders for process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:76$proc$48'.
+Creating decoders for process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:82$proc$46'.
+Creating decoders for process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:76$proc$44'.
+Creating decoders for process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:69$proc$43'.
+Creating decoders for process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:63$proc$41'.
+Creating decoders for process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:69$proc$40'.
+Creating decoders for process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:63$proc$38'.
+Creating decoders for process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:69$proc$37'.
+Creating decoders for process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:63$proc$35'.
+Creating decoders for process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:69$proc$34'.
+Creating decoders for process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:63$proc$32'.
+
+4.2.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.\stage_enc[2] [2:0]' from process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:82$proc$54'.
+No latch inferred for signal `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.\stage_valid[2] [0]' from process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:76$proc$52'.
+No latch inferred for signal `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.\stage_enc[1] [3:2]' from process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:82$proc$50'.
+No latch inferred for signal `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.\stage_valid[1] [1]' from process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:76$proc$48'.
+No latch inferred for signal `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.\stage_enc[1] [1:0]' from process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:82$proc$46'.
+No latch inferred for signal `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.\stage_valid[1] [0]' from process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:76$proc$44'.
+No latch inferred for signal `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.\stage_enc[0] [3]' from process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:69$proc$43'.
+No latch inferred for signal `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.\stage_valid[0] [3]' from process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:63$proc$41'.
+No latch inferred for signal `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.\stage_enc[0] [2]' from process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:69$proc$40'.
+No latch inferred for signal `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.\stage_valid[0] [2]' from process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:63$proc$38'.
+No latch inferred for signal `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.\stage_enc[0] [1]' from process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:69$proc$37'.
+No latch inferred for signal `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.\stage_valid[0] [1]' from process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:63$proc$35'.
+No latch inferred for signal `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.\stage_enc[0] [0]' from process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:69$proc$34'.
+No latch inferred for signal `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.\stage_valid[0] [0]' from process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:63$proc$32'.
+
+4.2.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+4.2.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+4.2.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:82$proc$54'.
+Removing empty process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:76$proc$52'.
+Removing empty process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:82$proc$50'.
+Removing empty process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:76$proc$48'.
+Removing empty process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:82$proc$46'.
+Removing empty process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:76$proc$44'.
+Removing empty process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:69$proc$43'.
+Removing empty process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:63$proc$41'.
+Removing empty process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:69$proc$40'.
+Removing empty process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:63$proc$38'.
+Removing empty process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:69$proc$37'.
+Removing empty process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:63$proc$35'.
+Removing empty process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:69$proc$34'.
+Removing empty process `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:63$proc$32'.
+Cleaned up 0 empty switches.
+
+4.2.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module core_priority_encoder8.
+Optimizing module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+Optimizing module base.
+
+4.3. Executing OPT_EXPR pass (perform const folding).
+Optimizing module core_priority_encoder8.
+Optimizing module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+Optimizing module base.
+
+4.4. Executing CHECK pass (checking for obvious problems).
+Checking module core_priority_encoder8...
+Checking module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder...
+Checking module base...
+Found and reported 0 problems.
+
+4.5. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \core_priority_encoder8..
+Finding unused cells or wires in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder..
+Finding unused cells or wires in module \base..
+Removed 0 unused cells and 24 unused wires.
+<suppressed ~1 debug messages>
+
+4.6. Executing OPT pass (performing simple optimizations).
+
+4.6.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module core_priority_encoder8.
+Optimizing module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+Optimizing module base.
+
+4.6.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\core_priority_encoder8'.
+Computing hashes of 1 cells of `\core_priority_encoder8'.
+Finding duplicate cells in `\core_priority_encoder8'.
+Finding identical cells in module `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Computing hashes of 11 cells of `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding duplicate cells in `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding identical cells in module `\base'.
+Computing hashes of 1 cells of `\base'.
+Finding duplicate cells in `\base'.
+Removed a total of 0 cells.
+
+4.6.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \core_priority_encoder8..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \base..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~4 debug messages>
+
+4.6.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \core_priority_encoder8.
+  Optimizing cells in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+    New input vector for $reduce_or cell $benchmarks/external_hdl/vendor/priority_encoder.v:76$reduce_or$45: \input_unencoded [3:0]
+    New input vector for $reduce_or cell $benchmarks/external_hdl/vendor/priority_encoder.v:76$reduce_or$49: \input_unencoded [7:4]
+    New input vector for $reduce_or cell $benchmarks/external_hdl/vendor/priority_encoder.v:76$reduce_or$53: \input_unencoded
+  Optimizing cells in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+  Optimizing cells in module \base.
+Performed a total of 3 changes.
+
+4.6.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\core_priority_encoder8'.
+Computing hashes of 1 cells of `\core_priority_encoder8'.
+Finding duplicate cells in `\core_priority_encoder8'.
+Finding identical cells in module `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Computing hashes of 11 cells of `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding duplicate cells in `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding identical cells in module `\base'.
+Computing hashes of 1 cells of `\base'.
+Finding duplicate cells in `\base'.
+Removed a total of 0 cells.
+
+4.6.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+4.6.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \core_priority_encoder8..
+Finding unused cells or wires in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder..
+Finding unused cells or wires in module \base..
+Removed 3 unused cells and 0 unused wires.
+<suppressed ~3 debug messages>
+
+4.6.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module core_priority_encoder8.
+Optimizing module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+Optimizing module base.
+
+4.6.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+4.6.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \core_priority_encoder8..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \base..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~4 debug messages>
+
+4.6.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \core_priority_encoder8.
+  Optimizing cells in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+  Optimizing cells in module \base.
+Performed a total of 0 changes.
+
+4.6.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\core_priority_encoder8'.
+Computing hashes of 1 cells of `\core_priority_encoder8'.
+Finding duplicate cells in `\core_priority_encoder8'.
+Finding identical cells in module `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Computing hashes of 8 cells of `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding duplicate cells in `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding identical cells in module `\base'.
+Computing hashes of 1 cells of `\base'.
+Finding duplicate cells in `\base'.
+Removed a total of 0 cells.
+
+4.6.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+4.6.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \core_priority_encoder8..
+Finding unused cells or wires in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder..
+Finding unused cells or wires in module \base..
+
+4.6.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module core_priority_encoder8.
+Optimizing module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+Optimizing module base.
+
+4.6.16. Finished fast OPT passes. (There is nothing left to do.)
+
+4.7. Executing FSM pass (extract and optimize FSM).
+
+4.7.1. Executing FSM_DETECT pass (finding FSMs in design).
+
+4.7.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+4.7.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+4.7.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \core_priority_encoder8..
+Finding unused cells or wires in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder..
+Finding unused cells or wires in module \base..
+
+4.7.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+4.7.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+4.7.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+4.7.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+4.8. Executing OPT pass (performing simple optimizations).
+
+4.8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module core_priority_encoder8.
+Optimizing module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+Optimizing module base.
+
+4.8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\core_priority_encoder8'.
+Computing hashes of 1 cells of `\core_priority_encoder8'.
+Finding duplicate cells in `\core_priority_encoder8'.
+Finding identical cells in module `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Computing hashes of 8 cells of `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding duplicate cells in `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding identical cells in module `\base'.
+Computing hashes of 1 cells of `\base'.
+Finding duplicate cells in `\base'.
+Removed a total of 0 cells.
+
+4.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \core_priority_encoder8..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \base..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~4 debug messages>
+
+4.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \core_priority_encoder8.
+  Optimizing cells in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+  Optimizing cells in module \base.
+Performed a total of 0 changes.
+
+4.8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\core_priority_encoder8'.
+Computing hashes of 1 cells of `\core_priority_encoder8'.
+Finding duplicate cells in `\core_priority_encoder8'.
+Finding identical cells in module `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Computing hashes of 8 cells of `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding duplicate cells in `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding identical cells in module `\base'.
+Computing hashes of 1 cells of `\base'.
+Finding duplicate cells in `\base'.
+Removed a total of 0 cells.
+
+4.8.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+4.8.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \core_priority_encoder8..
+Finding unused cells or wires in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder..
+Finding unused cells or wires in module \base..
+
+4.8.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module core_priority_encoder8.
+Optimizing module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+Optimizing module base.
+
+4.8.9. Finished fast OPT passes. (There is nothing left to do.)
+
+4.9. Executing WREDUCE pass (reducing word size of cells).
+Removed top 30 bits (of 32) from port A of cell $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31 ($shl).
+Removed top 24 bits (of 32) from port Y of cell $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31 ($shl).
+Removed top 2 bits (of 4) from wire $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.stage_valid[1].
+
+4.10. Executing PEEPOPT pass (run peephole optimizers).
+
+4.11. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \core_priority_encoder8..
+Finding unused cells or wires in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder..
+Finding unused cells or wires in module \base..
+Removed 0 unused cells and 2 unused wires.
+<suppressed ~1 debug messages>
+
+4.12. Executing ALUMACC pass (create $alu and $macc cells).
+Extracting $alu and $macc cells in module core_priority_encoder8:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module base:
+  created 0 $alu and 0 $macc cells.
+
+4.13. Executing SHARE pass (SAT-based resource sharing).
+
+4.14. Executing OPT pass (performing simple optimizations).
+
+4.14.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module core_priority_encoder8.
+Optimizing module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+Optimizing module base.
+
+4.14.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\core_priority_encoder8'.
+Computing hashes of 1 cells of `\core_priority_encoder8'.
+Finding duplicate cells in `\core_priority_encoder8'.
+Finding identical cells in module `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Computing hashes of 8 cells of `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding duplicate cells in `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding identical cells in module `\base'.
+Computing hashes of 1 cells of `\base'.
+Finding duplicate cells in `\base'.
+Removed a total of 0 cells.
+
+4.14.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \core_priority_encoder8..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \base..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~4 debug messages>
+
+4.14.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \core_priority_encoder8.
+  Optimizing cells in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+  Optimizing cells in module \base.
+Performed a total of 0 changes.
+
+4.14.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\core_priority_encoder8'.
+Computing hashes of 1 cells of `\core_priority_encoder8'.
+Finding duplicate cells in `\core_priority_encoder8'.
+Finding identical cells in module `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Computing hashes of 8 cells of `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding duplicate cells in `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding identical cells in module `\base'.
+Computing hashes of 1 cells of `\base'.
+Finding duplicate cells in `\base'.
+Removed a total of 0 cells.
+
+4.14.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+4.14.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \core_priority_encoder8..
+Finding unused cells or wires in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder..
+Finding unused cells or wires in module \base..
+
+4.14.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module core_priority_encoder8.
+Optimizing module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+Optimizing module base.
+
+4.14.9. Finished fast OPT passes. (There is nothing left to do.)
+
+4.15. Executing MEMORY pass.
+
+4.15.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+4.15.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+Performed a total of 0 transformations.
+
+4.15.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+
+4.15.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+
+4.15.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+
+4.15.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \core_priority_encoder8..
+Finding unused cells or wires in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder..
+Finding unused cells or wires in module \base..
+
+4.15.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+4.15.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+Performed a total of 0 transformations.
+
+4.15.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \core_priority_encoder8..
+Finding unused cells or wires in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder..
+Finding unused cells or wires in module \base..
+
+4.15.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+4.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \core_priority_encoder8..
+Finding unused cells or wires in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder..
+Finding unused cells or wires in module \base..
+
+4.17. Executing OPT pass (performing simple optimizations).
+
+4.17.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module core_priority_encoder8.
+Optimizing module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+<suppressed ~7 debug messages>
+Optimizing module base.
+
+4.17.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\core_priority_encoder8'.
+Computing hashes of 1 cells of `\core_priority_encoder8'.
+Finding duplicate cells in `\core_priority_encoder8'.
+Finding identical cells in module `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Computing hashes of 8 cells of `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding duplicate cells in `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding identical cells in module `\base'.
+Computing hashes of 1 cells of `\base'.
+Finding duplicate cells in `\base'.
+Removed a total of 0 cells.
+
+4.17.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+4.17.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \core_priority_encoder8..
+Finding unused cells or wires in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder..
+Finding unused cells or wires in module \base..
+
+4.17.5. Finished fast OPT passes.
+
+4.18. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+
+4.19. Executing OPT pass (performing simple optimizations).
+
+4.19.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module core_priority_encoder8.
+Optimizing module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+Optimizing module base.
+
+4.19.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\core_priority_encoder8'.
+Computing hashes of 1 cells of `\core_priority_encoder8'.
+Finding duplicate cells in `\core_priority_encoder8'.
+Finding identical cells in module `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Computing hashes of 8 cells of `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding duplicate cells in `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding identical cells in module `\base'.
+Computing hashes of 1 cells of `\base'.
+Finding duplicate cells in `\base'.
+Removed a total of 0 cells.
+
+4.19.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \core_priority_encoder8..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \base..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~4 debug messages>
+
+4.19.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \core_priority_encoder8.
+  Optimizing cells in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+  Optimizing cells in module \base.
+Performed a total of 0 changes.
+
+4.19.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\core_priority_encoder8'.
+Computing hashes of 1 cells of `\core_priority_encoder8'.
+Finding duplicate cells in `\core_priority_encoder8'.
+Finding identical cells in module `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Computing hashes of 8 cells of `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding duplicate cells in `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding identical cells in module `\base'.
+Computing hashes of 1 cells of `\base'.
+Finding duplicate cells in `\base'.
+Removed a total of 0 cells.
+
+4.19.6. Executing OPT_SHARE pass.
+
+4.19.7. Executing OPT_DFF pass (perform DFF optimizations).
+
+4.19.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \core_priority_encoder8..
+Finding unused cells or wires in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder..
+Finding unused cells or wires in module \base..
+
+4.19.9. Executing OPT_EXPR pass (perform const folding).
+Optimizing module core_priority_encoder8.
+Optimizing module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+Optimizing module base.
+
+4.19.10. Finished fast OPT passes. (There is nothing left to do.)
+
+4.20. Executing TECHMAP pass (map to technology primitives).
+
+4.20.1. Executing Verilog-2005 frontend: /share/techmap.v
+Parsing Verilog input from `/share/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `$__div_mod_u'.
+Generating RTLIL representation for module `$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Generating RTLIL representation for module `$connect'.
+Generating RTLIL representation for module `$input_port'.
+Successfully finished Verilog frontend.
+
+4.20.2. Continuing TECHMAP pass.
+Using template $paramod$constmap:2a788d09ac91a4f5c79b3aaca258910fc5ebb176$paramod$bc0ada8317992808a26d9434f659d5d0f7acd7e1\_90_shift_ops_shr_shl_sshl_sshr for cells of type $shl.
+Using extmapper simplemap for cells of type $reduce_or.
+No more expansions possible.
+<suppressed ~226 debug messages>
+
+4.21. Executing OPT pass (performing simple optimizations).
+
+4.21.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module core_priority_encoder8.
+Optimizing module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+<suppressed ~3 debug messages>
+Optimizing module base.
+
+4.21.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\core_priority_encoder8'.
+Computing hashes of 1 cells of `\core_priority_encoder8'.
+Finding duplicate cells in `\core_priority_encoder8'.
+Finding identical cells in module `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Computing hashes of 29 cells of `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding duplicate cells in `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Computing hashes of 25 cells of `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding duplicate cells in `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Computing hashes of 24 cells of `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+Finding duplicate cells in `$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder'.
+<suppressed ~15 debug messages>
+Finding identical cells in module `\base'.
+Computing hashes of 1 cells of `\base'.
+Finding duplicate cells in `\base'.
+Removed a total of 5 cells.
+
+4.21.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+4.21.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \core_priority_encoder8..
+Finding unused cells or wires in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder..
+Finding unused cells or wires in module \base..
+Removed 0 unused cells and 9 unused wires.
+<suppressed ~1 debug messages>
+
+4.21.5. Finished fast OPT passes.
+
+4.22. Executing HIERARCHY pass (managing design hierarchy).
+Attribute `top' found on module `base'. Setting top module to base.
+
+4.22.1. Analyzing design hierarchy..
+Top module:  \base
+Used module:     \core_priority_encoder8
+Used module:         $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder
+
+4.22.2. Analyzing design hierarchy..
+Top module:  \base
+Used module:     \core_priority_encoder8
+Used module:         $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder
+Removed 0 unused modules.
+
+4.23. Printing statistics.
+
+=== core_priority_encoder8 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        5 wires
+       38 wire bits
+        5 public wires
+       38 public wire bits
+        5 ports
+       38 port bits
+        1 submodules
+        1   $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder
+
+=== $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       16 wires
+       74 wire bits
+       11 public wires
+       50 public wire bits
+        4 ports
+       20 port bits
+       24 cells
+       16   $_MUX_
+        1   $_NOT_
+        7   $_OR_
+
+=== base ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        5 wires
+       38 wire bits
+        5 public wires
+       38 public wire bits
+        5 ports
+       38 port bits
+        1 submodules
+        1   core_priority_encoder8
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+       24 base
+       24   $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder
+
+        +----------Count including submodules.
+        | 
+       26 wires
+      150 wire bits
+       21 public wires
+      126 public wire bits
+       14 ports
+       96 port bits
+        - memories
+        - memory bits
+        - processes
+       24 cells
+       16   $_MUX_
+        1   $_NOT_
+        7   $_OR_
+        1 submodules
+        1   core_priority_encoder8
+
+4.24. Executing CHECK pass (checking for obvious problems).
+Checking module core_priority_encoder8...
+Checking module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder...
+Checking module base...
+Found and reported 0 problems.
+
+5. Executing DFFUNMAP pass (unmap clock enable and synchronous reset from FFs).
+
+6. Executing TECHMAP pass (map to technology primitives).
+
+6.1. Executing Verilog-2005 frontend: /share/techmap.v
+Parsing Verilog input from `/share/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `$__div_mod_u'.
+Generating RTLIL representation for module `$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Generating RTLIL representation for module `$connect'.
+Generating RTLIL representation for module `$input_port'.
+Successfully finished Verilog frontend.
+
+6.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~77 debug messages>
+
+7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \core_priority_encoder8..
+Finding unused cells or wires in module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder..
+Finding unused cells or wires in module \base..
+
+8. Executing CHECK pass (checking for obvious problems).
+Checking module core_priority_encoder8...
+Checking module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder...
+Checking module base...
+Found and reported 0 problems.
+
+9. Printing statistics.
+
+=== core_priority_encoder8 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        5 wires
+       38 wire bits
+        5 public wires
+       38 public wire bits
+        5 ports
+       38 port bits
+        1 submodules
+        1   $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder
+
+=== $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       16 wires
+       74 wire bits
+       11 public wires
+       50 public wire bits
+        4 ports
+       20 port bits
+       24 cells
+       16   $_MUX_
+        1   $_NOT_
+        7   $_OR_
+
+=== base ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        5 wires
+       38 wire bits
+        5 public wires
+       38 public wire bits
+        5 ports
+       38 port bits
+        1 submodules
+        1   core_priority_encoder8
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+       24 base
+       24   $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder
+
+        +----------Count including submodules.
+        | 
+       26 wires
+      150 wire bits
+       21 public wires
+      126 public wire bits
+       14 ports
+       96 port bits
+        - memories
+        - memory bits
+        - processes
+       24 cells
+       16   $_MUX_
+        1   $_NOT_
+        7   $_OR_
+        1 submodules
+        1   core_priority_encoder8
+
+10. Executing JSON backend.
+
+11. Executing FLATTEN pass (flatten design).
+Deleting now unused module $paramod$0a3971acdb14669928f6f12e815a81492eced9ce\priority_encoder.
+Deleting now unused module core_priority_encoder8.
+<suppressed ~2 debug messages>
+
+12. Executing LTP pass (find longest path).
+
+Longest topological path in base (length=6):
+    0: \a [7]
+    1: \dut.dut.stage_enc[1] [3] (via $flatten\dut.\dut.$auto$simplemap.cc:157:simplemap_reduce$158)
+    2: \dut.dut.stage_enc[1] [2] (via $flatten\dut.\dut.$auto$simplemap.cc:298:simplemap_mux$152)
+    3: \dut.dut.output_encoded [0] (via $flatten\dut.\dut.$auto$simplemap.cc:298:simplemap_mux$164)
+    4: $flatten\dut.\dut.$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$1\buffer[7:0] [0] (via $flatten\dut.\dut.$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$auto$simplemap.cc:298:simplemap_mux$131)
+    5: $flatten\dut.\dut.$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$3\buffer[7:0] [2] (via $flatten\dut.\dut.$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$auto$simplemap.cc:298:simplemap_mux$117)
+    6: \dut.dut.output_unencoded [6] (via $flatten\dut.\dut.$techmap$benchmarks/external_hdl/vendor/priority_encoder.v:90$shl$31.$auto$simplemap.cc:298:simplemap_mux$105)

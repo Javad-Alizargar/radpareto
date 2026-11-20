@@ -1,0 +1,218 @@
+[
+  {
+    "cell_count": 9,
+    "logic_depth": 4,
+    "flip_flops": 0,
+    "cell_types": {
+      "$_MUX_": 5,
+      "$_NOT_": 1,
+      "$_OR_": 3
+    },
+    "hierarchy_instances": {
+      "$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\\priority_encoder": 1,
+      "core_priority_encoder4": 1
+    },
+    "design": "priority_encoder4",
+    "module": "priority_encoder",
+    "parameters": {
+      "WIDTH": 4,
+      "LSB_HIGH_PRIORITY": 0
+    },
+    "method": "base",
+    "wrapper_sha256": "dd1806979a8422bb88379311f54679410376c7f7f6541aa943c42ae5d00dbcb0",
+    "netlist_sha256": "2e037c1c718f0fc5afd483a4f5f2890e6693aa2fdbc46a299948346bb83511c9",
+    "independent_yosys_stat_and_ltp_check": "passed"
+  },
+  {
+    "cell_count": 62,
+    "logic_depth": 7,
+    "flip_flops": 0,
+    "cell_types": {
+      "$_AND_": 21,
+      "$_MUX_": 15,
+      "$_NOT_": 3,
+      "$_OR_": 23
+    },
+    "hierarchy_instances": {
+      "$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\\priority_encoder": 3,
+      "core_priority_encoder4": 3
+    },
+    "design": "priority_encoder4",
+    "module": "priority_encoder",
+    "parameters": {
+      "WIDTH": 4,
+      "LSB_HIGH_PRIORITY": 0
+    },
+    "method": "tmr",
+    "wrapper_sha256": "dd1806979a8422bb88379311f54679410376c7f7f6541aa943c42ae5d00dbcb0",
+    "netlist_sha256": "8f190313ba64d35c2b5fdcbe20f9f868bcc72c3a4be666cb7f3ba54fe64a0609",
+    "independent_yosys_stat_and_ltp_check": "passed"
+  },
+  {
+    "cell_count": 24,
+    "logic_depth": 6,
+    "flip_flops": 0,
+    "cell_types": {
+      "$_MUX_": 16,
+      "$_NOT_": 1,
+      "$_OR_": 7
+    },
+    "hierarchy_instances": {
+      "$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\\priority_encoder": 1,
+      "core_priority_encoder8": 1
+    },
+    "design": "priority_encoder8",
+    "module": "priority_encoder",
+    "parameters": {
+      "WIDTH": 8,
+      "LSB_HIGH_PRIORITY": 0
+    },
+    "method": "base",
+    "wrapper_sha256": "f7158d115b0681c3b91440aceb02879c2c060abba49e49001518c0adb578a94f",
+    "netlist_sha256": "fe81fc72f657f5fa7a5cd22c4ff13a4a1f95417002249e7fd8baa4d4addf985b",
+    "independent_yosys_stat_and_ltp_check": "passed"
+  },
+  {
+    "cell_count": 132,
+    "logic_depth": 9,
+    "flip_flops": 0,
+    "cell_types": {
+      "$_AND_": 36,
+      "$_MUX_": 48,
+      "$_NOT_": 3,
+      "$_OR_": 45
+    },
+    "hierarchy_instances": {
+      "$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\\priority_encoder": 3,
+      "core_priority_encoder8": 3
+    },
+    "design": "priority_encoder8",
+    "module": "priority_encoder",
+    "parameters": {
+      "WIDTH": 8,
+      "LSB_HIGH_PRIORITY": 0
+    },
+    "method": "tmr",
+    "wrapper_sha256": "f7158d115b0681c3b91440aceb02879c2c060abba49e49001518c0adb578a94f",
+    "netlist_sha256": "c55b84bb4c20b17b726b2eabe2bc1bb81cddf485ce4b67062fd326c200f0ac86",
+    "independent_yosys_stat_and_ltp_check": "passed"
+  },
+  {
+    "cell_count": 25,
+    "logic_depth": 5,
+    "flip_flops": 7,
+    "cell_types": {
+      "$_DFF_P_": 7,
+      "$_MUX_": 12,
+      "$_NOT_": 2,
+      "$_OR_": 4
+    },
+    "hierarchy_instances": {
+      "$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\\arbiter": 1,
+      "$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\\priority_encoder": 1,
+      "core_arbiter4": 1
+    },
+    "design": "arbiter4",
+    "module": "arbiter",
+    "parameters": {
+      "PORTS": 4,
+      "ARB_TYPE_ROUND_ROBIN": 0,
+      "ARB_BLOCK": 0,
+      "ARB_BLOCK_ACK": 1,
+      "ARB_LSB_HIGH_PRIORITY": 0
+    },
+    "method": "base",
+    "wrapper_sha256": "c2ec6f799ba69a7bb9e9fa40d08a16cdc326199e966ae1461105e62d920147df",
+    "netlist_sha256": "57e6b11b59756e062c48cb9baa0fb81ca4011a1082b39b99f166c7d6b3f18d41",
+    "independent_yosys_stat_and_ltp_check": "passed"
+  },
+  {
+    "cell_count": 110,
+    "logic_depth": 5,
+    "flip_flops": 21,
+    "cell_types": {
+      "$_AND_": 21,
+      "$_DFF_P_": 21,
+      "$_MUX_": 36,
+      "$_NOT_": 6,
+      "$_OR_": 26
+    },
+    "hierarchy_instances": {
+      "$paramod$3bfb5cf558eccf99fe7b34d46ad84272e4436fb6\\arbiter": 3,
+      "$paramod$95efb9f064d3fdb304fabfd1cd672278f012a843\\priority_encoder": 3,
+      "core_arbiter4": 3
+    },
+    "design": "arbiter4",
+    "module": "arbiter",
+    "parameters": {
+      "PORTS": 4,
+      "ARB_TYPE_ROUND_ROBIN": 0,
+      "ARB_BLOCK": 0,
+      "ARB_BLOCK_ACK": 1,
+      "ARB_LSB_HIGH_PRIORITY": 0
+    },
+    "method": "tmr",
+    "wrapper_sha256": "c2ec6f799ba69a7bb9e9fa40d08a16cdc326199e966ae1461105e62d920147df",
+    "netlist_sha256": "c0ba7d0745bdfef21aa45aa16a259c32f6016c65a48ee1128e73a5f885987996",
+    "independent_yosys_stat_and_ltp_check": "passed"
+  },
+  {
+    "cell_count": 50,
+    "logic_depth": 7,
+    "flip_flops": 12,
+    "cell_types": {
+      "$_DFF_P_": 12,
+      "$_MUX_": 28,
+      "$_NOT_": 2,
+      "$_OR_": 8
+    },
+    "hierarchy_instances": {
+      "$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\\priority_encoder": 1,
+      "$paramod$6087ebb28a717c0f4ace78d79f1391d9a2468718\\arbiter": 1,
+      "core_arbiter8": 1
+    },
+    "design": "arbiter8",
+    "module": "arbiter",
+    "parameters": {
+      "PORTS": 8,
+      "ARB_TYPE_ROUND_ROBIN": 0,
+      "ARB_BLOCK": 0,
+      "ARB_BLOCK_ACK": 1,
+      "ARB_LSB_HIGH_PRIORITY": 0
+    },
+    "method": "base",
+    "wrapper_sha256": "65e076e0a02b32cc417a9b842d334ddd171dd2215245f2bbf3514b8b047daba2",
+    "netlist_sha256": "927d340145307ab1ccd5a87a39d6cb6e90c699103b47de3c047dd7b10a7fd2a0",
+    "independent_yosys_stat_and_ltp_check": "passed"
+  },
+  {
+    "cell_count": 210,
+    "logic_depth": 7,
+    "flip_flops": 36,
+    "cell_types": {
+      "$_AND_": 36,
+      "$_DFF_P_": 36,
+      "$_MUX_": 84,
+      "$_NOT_": 6,
+      "$_OR_": 48
+    },
+    "hierarchy_instances": {
+      "$paramod$0a3971acdb14669928f6f12e815a81492eced9ce\\priority_encoder": 3,
+      "$paramod$6087ebb28a717c0f4ace78d79f1391d9a2468718\\arbiter": 3,
+      "core_arbiter8": 3
+    },
+    "design": "arbiter8",
+    "module": "arbiter",
+    "parameters": {
+      "PORTS": 8,
+      "ARB_TYPE_ROUND_ROBIN": 0,
+      "ARB_BLOCK": 0,
+      "ARB_BLOCK_ACK": 1,
+      "ARB_LSB_HIGH_PRIORITY": 0
+    },
+    "method": "tmr",
+    "wrapper_sha256": "65e076e0a02b32cc417a9b842d334ddd171dd2215245f2bbf3514b8b047daba2",
+    "netlist_sha256": "43bb12e7662c71ce6293cccbc1c1d355f6d31c0264640768a8eaa7be052ca6aa",
+    "independent_yosys_stat_and_ltp_check": "passed"
+  }
+]

@@ -36,6 +36,16 @@ These commands are expected to refuse comparisons: the first mixes units and the
 
 All objectives are minimized. Different baselines, devices, toolchains, timing corners, source kinds, units or denominators are not silently merged. Protection-aware comparison requires compatible supplied evidence; no result establishes space qualification.
 
+## Stability analysis
+
+Version 0.2.0a1 adds exact rational transition certificates for a prescribed additive widening of each objective's bounds. Provide an explicit nonnegative scale for every objective. For example:
+
+```sh
+radpareto stability examples/stability.json --scale cost_0=1 --scale cost_1=1 --limit cost_0=25
+```
+
+The [stability guide](docs/stability.md) explains endpoint inclusion, rational JSON fields and the 128-record limit. This is conditional sensitivity analysis; scales do not estimate experimental uncertainty.
+
 ## Development and reproduction
 
 ```sh
@@ -49,4 +59,6 @@ scenarios and an independently implemented checked pandas reference. Both match
 all expected decisions; this supports reproducible implementation of the stated
 contract, not a claim of a new optimization algorithm or measured human benefit.
 
-This repository contains original code and original demonstration fixtures. Manuscripts, publication artwork, copied papers, credentials and private scientific review files are excluded. A future archived release will receive a verified DOI; none has been assigned to this alpha.
+The expanded validation includes 720 metamorphic properties, 1,625 response-surface cells, 66,960 finite certificate/oracle comparisons and [four external HDL configurations](docs/external_benchmarks.md). These are dependent constructed checks, not independent research observations or measured laboratory benefit.
+
+This repository contains original code, original demonstration fixtures and attributed MIT-licensed external HDL. Manuscripts, publication artwork, copied papers, credentials and private scientific review files are excluded. A future archived release will receive a verified DOI; none has been assigned to this alpha.

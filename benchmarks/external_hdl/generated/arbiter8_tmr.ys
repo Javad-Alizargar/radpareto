@@ -1,0 +1,12 @@
+read_verilog benchmarks/external_hdl/vendor/priority_encoder.v benchmarks/external_hdl/vendor/arbiter.v benchmarks/external_hdl/wrappers/arbiter8.v
+synth -top tmr -noabc
+dffunmap
+techmap
+opt_clean
+check -assert
+stat
+write_json benchmarks/external_hdl/generated/arbiter8_tmr.json
+setattr -mod -unset keep_hierarchy
+setattr -unset keep_hierarchy
+flatten
+ltp -noff

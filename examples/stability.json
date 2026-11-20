@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "id": "r0",
+      "design": "three-alternative-stability-example",
+      "method": "alternative-0",
+      "context": {
+        "baseline_id": "original-certificate-fixture",
+        "device": "synthetic-device",
+        "toolchain": "exact-rational-oracle",
+        "tool_version": "1.0",
+        "implementation": "synthetic-closed-boxes",
+        "constraints_id": "certificate-domain-v1",
+        "timing_corner": "nonphysical-cost-coordinates",
+        "workload_id": "declared-additive-dilation",
+        "source_kind": "synthetic_example"
+      },
+      "metrics": {
+        "cost_0": {
+          "lower": 20,
+          "value": 20,
+          "upper": 20,
+          "unit": "synthetic_cost",
+          "denominator": "same_fixture_baseline",
+          "uncertainty_kind": "bounded"
+        },
+        "cost_1": {
+          "lower": 40,
+          "value": 40,
+          "upper": 40,
+          "unit": "synthetic_cost",
+          "denominator": "same_fixture_baseline",
+          "uncertainty_kind": "bounded"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/stability_source.json",
+        "source_sha256": "e986ed17306e24e6441df1136aab332996384414a67fcdd9f164fd944fd1039b",
+        "locator": "/metrics/0",
+        "extraction": "Original constructed integer endpoints; direct rational oracle retained separately."
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "unverified",
+        "scope": "synthetic costs only",
+        "evidence_uri": "unverified"
+      }
+    },
+    {
+      "id": "r1",
+      "design": "three-alternative-stability-example",
+      "method": "alternative-1",
+      "context": {
+        "baseline_id": "original-certificate-fixture",
+        "device": "synthetic-device",
+        "toolchain": "exact-rational-oracle",
+        "tool_version": "1.0",
+        "implementation": "synthetic-closed-boxes",
+        "constraints_id": "certificate-domain-v1",
+        "timing_corner": "nonphysical-cost-coordinates",
+        "workload_id": "declared-additive-dilation",
+        "source_kind": "synthetic_example"
+      },
+      "metrics": {
+        "cost_0": {
+          "lower": 22,
+          "value": 22,
+          "upper": 22,
+          "unit": "synthetic_cost",
+          "denominator": "same_fixture_baseline",
+          "uncertainty_kind": "bounded"
+        },
+        "cost_1": {
+          "lower": 50,
+          "value": 50,
+          "upper": 50,
+          "unit": "synthetic_cost",
+          "denominator": "same_fixture_baseline",
+          "uncertainty_kind": "bounded"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/stability_source.json",
+        "source_sha256": "e986ed17306e24e6441df1136aab332996384414a67fcdd9f164fd944fd1039b",
+        "locator": "/metrics/1",
+        "extraction": "Original constructed integer endpoints; direct rational oracle retained separately."
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "unverified",
+        "scope": "synthetic costs only",
+        "evidence_uri": "unverified"
+      }
+    },
+    {
+      "id": "r2",
+      "design": "three-alternative-stability-example",
+      "method": "alternative-2",
+      "context": {
+        "baseline_id": "original-certificate-fixture",
+        "device": "synthetic-device",
+        "toolchain": "exact-rational-oracle",
+        "tool_version": "1.0",
+        "implementation": "synthetic-closed-boxes",
+        "constraints_id": "certificate-domain-v1",
+        "timing_corner": "nonphysical-cost-coordinates",
+        "workload_id": "declared-additive-dilation",
+        "source_kind": "synthetic_example"
+      },
+      "metrics": {
+        "cost_0": {
+          "lower": 30,
+          "value": 30,
+          "upper": 30,
+          "unit": "synthetic_cost",
+          "denominator": "same_fixture_baseline",
+          "uncertainty_kind": "bounded"
+        },
+        "cost_1": {
+          "lower": 30,
+          "value": 30,
+          "upper": 30,
+          "unit": "synthetic_cost",
+          "denominator": "same_fixture_baseline",
+          "uncertainty_kind": "bounded"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/stability_source.json",
+        "source_sha256": "e986ed17306e24e6441df1136aab332996384414a67fcdd9f164fd944fd1039b",
+        "locator": "/metrics/2",
+        "extraction": "Original constructed integer endpoints; direct rational oracle retained separately."
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "unverified",
+        "scope": "synthetic costs only",
+        "evidence_uri": "unverified"
+      }
+    }
+  ]
+}

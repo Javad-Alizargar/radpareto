@@ -36,6 +36,18 @@ def read_document(path):
     return _read_document_with_hash(path)[0]
 
 
+def _assignments(specs, option):
+    values = {}
+    for spec in specs:
+        name, sep, value = spec.partition("=")
+        if not sep or not name or name in values:
+            raise ValueError(f"Each {option} must name a unique objective as OBJECTIVE=VALUE")
+        # Preserve exact integer JSON tokens above 2**53.
+        values[name] = json.loads(value, parse_constant=lambda v: (
+            _ for _ in ()).throw(ValueError(f"Nonfinite {option} value: {v}")))
+    return values
+
+
 def _emit(result, output):
     payload = json.dumps(result, indent=2, ensure_ascii=False, allow_nan=False)+"\n"
     if output is None:
@@ -58,13 +70,16 @@ def _emit(result, output):
 def main(argv=None):
     parser = argparse.ArgumentParser(prog="radpareto", description="Compare source-located cost evidence; no radiation qualification.")
     sub = parser.add_subparsers(dest="command", required=True)
-    for command in ("validate", "compare", "batch"):
+    for command in ("validate", "compare", "batch", "stability"):
         p = sub.add_parser(command)
         p.add_argument("input", help="UTF-8 evidence JSON")
         p.add_argument("--output", help="Write JSON result to this file")
-        if command == "compare":
+        if command in {"compare", "stability"}:
             p.add_argument("--limit", action="append", default=[], metavar="OBJECTIVE=MAX")
             p.add_argument("--require-verified-protection", action="store_true")
+        if command == "stability":
+            p.add_argument("--scale", action="append", required=True, metavar="OBJECTIVE=UNITS_PER_T",
+                           help="Explicit nonnegative widening scale; provide every objective")
     args = parser.parse_args(argv)
     input_sha256 = None
     input_schema_version = None
@@ -80,13 +95,13 @@ def main(argv=None):
         elif args.command == "batch":
             result = batch_compare(records)
         else:
-            limits = {}
-            for spec in args.limit:
-                name, sep, value = spec.partition("=")
-                if not sep or not name or name in limits:
-                    raise ValueError("Each --limit must name a unique objective as OBJECTIVE=MAX")
-                limits[name] = float(value)
-            result = compare(records, limits=limits, require_verified_protection=args.require_verified_protection)
+            limits = _assignments(args.limit, "--limit")
+            if args.command == "stability":
+                from .stability import stability
+                result = stability(records, scales=_assignments(args.scale, "--scale"),
+                                   limits=limits, require_verified_protection=args.require_verified_protection)
+            else:
+                result = compare(records, limits=limits, require_verified_protection=args.require_verified_protection)
         code = 0 if result["status"] == "accepted" else 2
     except EvidenceError as exc:
         result, code = {"status": "refused", "reasons": [exc.as_dict()]}, 2
@@ -98,6 +113,7 @@ def main(argv=None):
                         "result_schema_version": "1.0", "input_schema_version": input_schema_version,
                         "input_sha256": input_sha256, "command": args.command,
                         "options": {"limits": getattr(args, "limit", []),
+                                    "scales": getattr(args, "scale", []),
                                     "require_verified_protection": getattr(args, "require_verified_protection", False)}}
     try:
         # Never overwrite input even with an error report.

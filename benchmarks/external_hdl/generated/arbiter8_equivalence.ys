@@ -1,0 +1,9 @@
+read_verilog benchmarks/external_hdl/vendor/priority_encoder.v benchmarks/external_hdl/vendor/arbiter.v benchmarks/external_hdl/wrappers/arbiter8.v
+hierarchy -top check
+proc
+setattr -mod -unset keep_hierarchy
+setattr -unset keep_hierarchy
+flatten
+opt
+dffunmap
+sat -verify -prove ok 1 -seq 12 -set-init-zero
