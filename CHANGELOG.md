@@ -1,5 +1,10 @@
 # Changes
 
+## Documentation correction (21 November 2026)
+
+- Correct the validation guide's unit/regression-test count to 58 and distinguish the published-summary reanalysis from hardware reproduction.
+- Software remains 0.2.1a1; no source, test, input or numerical-result file changes.
+
 ## 0.2.1a1
 
 - Add a source-attributed six-design ProASIC3 cost example, all 72 budget decisions, architecture-subset screens and exact conditional boundaries.
