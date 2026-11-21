@@ -1,0 +1,32 @@
+[Unit]
+Description=RadPareto published-evidence comparison interface
+After=network.target
+
+[Service]
+Type=simple
+DynamicUser=yes
+WorkingDirectory=/opt/radpareto-smith/current
+Environment=PYTHONDONTWRITEBYTECODE=1
+EnvironmentFile=/opt/radpareto-smith/service.env
+ExecStart=/opt/radpareto-smith/venv/bin/gunicorn --bind 127.0.0.1:8766 --workers 2 --timeout 15 --max-requests 500 --max-requests-jitter 50 --worker-tmp-dir /run/radpareto-smith --no-control-socket --access-logfile - --error-logfile - web.app:application
+Restart=on-failure
+RestartSec=3
+RuntimeDirectory=radpareto-smith
+RuntimeDirectoryMode=0700
+UMask=0027
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictSUIDSGID=yes
+CapabilityBoundingSet=
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+MemoryMax=256M
+CPUQuota=100%
+TasksMax=32
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>RadPareto · Evidence to decisions</title>
+  <meta name="description" content="Explore published FPGA resource and timing evidence with explicit budgets, observed ranges and traceable RadPareto decisions.">
+  <link rel="stylesheet" href="./styles.css"><script src="./app.js" defer></script>
+</head>
+<body>
+<header class="topbar"><a class="brand" href="https://statwhy.com/">STATWHY <span>/ RESEARCH SOFTWARE</span></a><nav><a href="https://github.com/Javad-Alizargar/radpareto" target="_blank" rel="noopener">Code &amp; methods ↗</a><a href="#method">How it works</a></nav></header>
+<main>
+  <section class="hero"><div class="eyebrow"><span class="dot"></span> RADPARETO <span id="version" class="version">LOADING</span></div>
+    <h1>Make the assumptions<br><em>part of the decision.</em></h1>
+    <p class="intro">Explore how resource budgets and timing requirements change a design comparison. Every result comes from the RadPareto engine and retains the evidence behind it.</p>
+    <div class="evidence-tag"><span>PUBLICATION-BASED EXAMPLE</span><strong>6 FPGA designs</strong><span>Ma et al. · Tables 9–10 · 2026</span></div>
+  </section>
+  <div class="workspace">
+    <aside class="controls card"><div class="section-label">01 / YOUR QUESTION</div><h2>Set the constraints</h2>
+      <form id="controls">
+        <label for="cells">Resource cap <span>VersaTiles per bit</span></label><div class="input-row"><input id="cells" name="cells" type="number" min="0" max="1000000" step="any" value="40" required><span>≤</span></div>
+        <label for="frequency">Required clock <span>MHz</span></label><div class="input-row"><input id="frequency" name="frequency" type="number" min="0.001" max="1000000" step="any" value="32" required><span>≥</span></div>
+        <label for="scope">Candidate set</label><select id="scope"><option value="all_six">All six designs</option><option value="tmr_based_five">Five TMR-based designs</option><option value="set_suppression_architectures_four">Four SET-suppression architectures</option></select>
+        <label class="check"><input id="protection" type="checkbox"><span>Require declared protection equivalence</span></label>
+        <button class="primary" type="submit">Run comparison <span aria-hidden="true">→</span></button>
+      </form>
+      <button id="reset" class="text-button">Restore the 32 MHz example</button>
+      <div class="control-note"><strong>What is being tested?</strong><p>Whether the supplied resource costs and reported timing ranges satisfy your chosen limits. These analyst-selected limits are not recommendations.</p></div>
+      <a class="source-link" href="./api/source.csv" download>↓ Download the source numbers</a>
+    </aside>
+    <section class="results" aria-label="Analysis results">
+      <div id="error" class="error" hidden role="alert"></div><div id="busy" class="busy" role="status">Loading the published example…</div>
+      <div id="refusal" class="refusal card" hidden><div class="section-label">COMPARISON REFUSED</div><h2>The evidence does not establish this premise.</h2><p>Protection-required mode needs explicit, compatible protection-model evidence. The published cost example does not provide verified equivalence; a cost frontier cannot supply it.</p><ul id="reasons"></ul></div>
+      <div id="accepted">
+        <div class="summary"><div class="metric feasible"><span>Range satisfies limits</span><strong id="yes-count">—</strong><small>Definitely feasible, conditional on supplied bounds</small></div><div class="metric uncertain"><span>Range crosses a limit</span><strong id="maybe-count">—</strong><small>Uncertain from these summaries</small></div><div class="metric infeasible"><span>Range fails a limit</span><strong id="no-count">—</strong><small>Definitely infeasible within supplied bounds</small></div></div>
+        <div class="card chart-card"><div class="panel-heading"><div><div class="section-label">02 / OBSERVED TIMING</div><h2>Look beyond the mean</h2></div><span class="live-label">ENGINE RESULTS</span></div>
+          <p class="chart-description">A dot marks the reported mean maximum frequency; each line spans the minimum to maximum across three implementation runs. The vertical line is your clock requirement.</p>
+          <div id="range-chart" class="chart" aria-label="Reported maximum-frequency ranges by design"></div>
+          <div class="legend"><span><i class="swatch green"></i>Range satisfies limits</span><span><i class="swatch amber"></i>Uncertain</span><span><i class="swatch red"></i>Range fails a limit</span><span>● Reported mean</span></div>
+          <div id="insight" class="insight"></div>
+        </div>
+        <div class="card table-card"><div class="panel-heading"><div><div class="section-label">03 / TRACEABLE OUTPUT</div><h2>Every design, every decision</h2></div><button id="export" class="secondary">Export analysis ↓</button></div>
+          <div class="table-scroll"><table><thead><tr><th>Design</th><th>Resources<br><span>VersaTiles/bit</span></th><th>Mean [min, max]<br><span>MHz</span></th><th>Mean-only screen</th><th>Range-based decision</th></tr></thead><tbody id="rows"></tbody></table></div>
+          <p id="front" class="footnote"></p>
+          <details><summary>Inspect the exact sensitivity boundaries</summary><p class="footnote">Optional interval widening uses a scale of 1 VersaTile per bit and 1 ns per unit of <i>t</i>. These are declared sensitivity assumptions, not measured uncertainties. Boundaries are computed by the engine with exact rational arithmetic over the supplied numeric values.</p><button id="stability" class="secondary">Compute boundaries</button><pre id="stability-output" hidden></pre></details>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section id="method" class="method-grid"><div><div class="section-label">METHOD &amp; INTERPRETATION</div><h2>A comparison you can inspect.</h2><p>RadPareto checks record compatibility before comparing minimized costs. The web view calls the same Python functions used by the command-line tool; it does not use a separate visual approximation.</p><a href="https://github.com/Javad-Alizargar/radpareto/tree/main/docs" target="_blank" rel="noopener">Read the software documentation ↗</a></div><div class="method-list"><article><b>1</b><div><h3>Start from attributed numbers</h3><p>Source: <a href="https://doi.org/10.3390/electronics15225390" target="_blank" rel="noopener">Ma et al., Electronics 15(22), 5390</a>, Tables 9–10, CC BY 4.0. This is analysis of published summaries; individual implementation runs and source HDL were not obtained.</p></div></article><article><b>2</b><div><h3>Keep the transformation explicit</h3><p>The minimized timing cost is 1000 divided by mean maximum frequency. Reciprocal endpoints are reversed. This is not the mean of individual periods or measured critical-path delay.</p></div></article><article><b>3</b><div><h3>Read conclusions within their scope</h3><p>Observed three-run ranges are not confidence intervals or guarantees about future runs. Cost dominance does not establish radiation protection, mission reliability, or a recommendation to replace a hardened design with a baseline.</p></div></article></div></section>
+  <section class="card custom"><div><div class="section-label">YOUR OWN EVIDENCE</div><h2>Compare compatible records</h2><p>Load a RadPareto JSON object containing <code>records</code> and optional objective <code>limits</code>. Up to 128 records and 512 KiB. Results are returned as JSON; units and context must match. Submitted records are processed in memory, not saved by the application.</p></div><div><label for="custom-file" class="file-label">Choose a JSON file<input id="custom-file" type="file" accept="application/json,.json"></label><button id="custom-run" class="secondary">Validate &amp; compare</button><p id="custom-status" role="status"></p></div></section>
+</main>
+<footer><span>RadPareto · Javad Alizargar</span><span>MIT software · Attributed source data · No Smith endorsement implied</span><a id="revision-link" href="https://github.com/Javad-Alizargar/radpareto">Versioned source ↗</a></footer>
+</body></html>
