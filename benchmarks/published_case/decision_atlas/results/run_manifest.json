@@ -1,0 +1,75 @@
+{
+  "analysis_script_sha256": "35d6d478c03c9fe3557d094260757ba0796174422c03e3679108a6758969f2b2",
+  "command": [
+    "benchmarks/published_case/decision_atlas/analyze.py",
+    "--engine-src",
+    "src",
+    "--out",
+    "benchmarks/published_case/decision_atlas/results"
+  ],
+  "engine_files_sha256": {
+    "__init__.py": "703ba0aded9158346c62b0c0f79a33d07da857db8a1ed30e21203a9421869cf2",
+    "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "cli.py": "44aba843eab81ba64436510502eff78e66e49a68cbb160e54ab543a66078406c",
+    "compare.py": "ea8984a92f856dc248332c9b8bf48503acc926d0819e6a47b0311a7d930fb459",
+    "stability.py": "6f40072504340ec61af286804b1120eaeaee676be8653f925dcc9872af5302d5",
+    "units.py": "083f0f0f6f3ffaa61058b040c5480a1a5d2c995e6b3ac445c65d3d767847be41",
+    "validation.py": "06113188359003cecbdc3fe10a93502cdd481c1201c715e78ec97310f15d60a7",
+    "yosys.py": "6e181f16ca2ad6a9ea2f2cad0af11dfa096d259f1bd3eba1460666664e26d01b"
+  },
+  "input_sha256": {
+    "../source_exact.json": "5ba62e4323d4de0ab1d76466273fd704e80887b8dee1e0a837044a2ecfc2fdd5",
+    "../source_metadata.json": "b0ba6b4c18389c2ec4836024c49111a83b61e980ac75b609400deabaf1fc8fec",
+    "../source_tables.csv": "7a0bc97b49de401352c2e67e6f6105d131c12b87760f8d41f55c336f2a07d441",
+    "merged_context.csv": "1bef6fe281d2196166fdb5dc015d10440befc8309d4d6f6664b4367adde21aa8",
+    "study_plan.json": "e0d21b3563381e8c093c5e9ad1aa998f43fcd34d884377b295bd2a5b2728bcd9"
+  },
+  "python": "3.12.10",
+  "results": {
+    "context_batch_partitions.json": {
+      "bytes": 20460,
+      "sha256": "8fbeebd36f606f905e889158deae3073a1945149cbc2755dd6e104e49a64571f"
+    },
+    "context_comparison.csv": {
+      "bytes": 610,
+      "sha256": "db9edd5d2095cafb30759c6307653d95d9bef942417ee2008643589ca10ecdb9"
+    },
+    "context_mixing_refusal.json": {
+      "bytes": 6287,
+      "sha256": "828b5d36815c2d3110b2ba6ae73594a3420672de7f0f2c65d721e5eba81d9874"
+    },
+    "context_pair_orders.csv": {
+      "bytes": 605,
+      "sha256": "6820dafe3f729c15e8cb35d911388383f070773922279f2b9be7c61c89529ad9"
+    },
+    "context_records.json": {
+      "bytes": 20753,
+      "sha256": "16e476608655e41f0e85747af2826619f604ea1d483f067bc08b45235f3dca36"
+    },
+    "conversion_boundary_audit.csv": {
+      "bytes": 2461,
+      "sha256": "9259f4a6ef40e451a665d2ab5ed5252852ed6cb06b22a1e72d89ffb5bcff515e"
+    },
+    "design_metrics.csv": {
+      "bytes": 1405,
+      "sha256": "0ccb75dcaa379ac9d8791cdc366b29b6e3e0734cbc1dbe3b1bc2012da77f3169"
+    },
+    "exact_atlas.csv": {
+      "bytes": 42378,
+      "sha256": "b5970f193beab02100a53eee53a71d80d00ba5266387b10fd8d35592f539f57f"
+    },
+    "old_scenario_recheck.csv": {
+      "bytes": 5979,
+      "sha256": "75a6a462761eaacd85e0c79925bf9a89dfd9824d814a14fd2f575a7d17489401"
+    },
+    "precision_changed_regions.csv": {
+      "bytes": 1706,
+      "sha256": "4ae78f3010bc9646ec359d70f425e399e56f231f9899196c8a853b2c99157391"
+    },
+    "summary.json": {
+      "bytes": 591,
+      "sha256": "a584fb7a248265341f283bca9826ddd6b03c87d0aa3921ba4a209b93b5456333"
+    }
+  },
+  "scope": "Printed numerical summaries and specified computational decisions; no raw hardware, radiation inference or causal context comparison"
+}

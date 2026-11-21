@@ -1,0 +1,7 @@
+structure,domain,merged_worst_fmax_mhz,source_table,source_locator
+BL-DFF,CLKA,49.288,11,Achievable fmax per domain CLKA-CLKF
+TMR-DFF,CLKB,43.910,11,Achievable fmax per domain CLKA-CLKF
+DF-TMR-DFF-1.28,CLKC,32.298,11,Achievable fmax per domain CLKA-CLKF
+DF-TMR-DFF-2.56,CLKD,32.141,11,Achievable fmax per domain CLKA-CLKF
+DF-TMR-DFF-5.12,CLKE,33.718,11,Achievable fmax per domain CLKA-CLKF
+DCLR-TMR-DFF,CLKF,40.631,11,Achievable fmax per domain CLKA-CLKF

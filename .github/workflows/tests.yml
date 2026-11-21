@@ -21,6 +21,8 @@ jobs:
       - run: radpareto validate examples/rounded_costs.json
       - run: radpareto batch examples/generated/evidence.json
       - run: python benchmarks/published_case/analyze_case.py --engine-src src --out case-replay
+      - run: python benchmarks/published_case/decision_atlas/analyze.py --engine-src src --out atlas-replay
+      - run: python benchmarks/published_case/decision_atlas/verify_outputs.py --case-dir benchmarks/published_case --results atlas-replay --out atlas-replay-check.json
   generic-synthesis:
     runs-on: ubuntu-latest
     steps:

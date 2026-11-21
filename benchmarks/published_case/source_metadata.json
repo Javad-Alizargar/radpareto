@@ -72,7 +72,7 @@
     "period_warning": "Reciprocal of mean frequency is neither mean period nor source mean critical-path delay; those quantities are not substituted",
     "base_scope": "all six published designs, cost only",
     "secondary_scopes": "TMR-based five designs and SET-suppression four designs are explicitly selected architecture portfolios; they do not assert equal radiation performance or verified coverage",
-    "budget_grid": "cells caps 20,30,40 bracket reported costs 11-37 in round 10-cell tiers; frequency requirements 30,32,40,50 MHz span reported performance. 30 MHz is source reference; 32,40,50 MHz and all cell caps are analyst-selected what-if requirements, not certified device/mission limits",
+    "budget_grid": "Cells caps20,30,40 sample three stated budget tiers;40 exceeds the largest reported cost37. Frequency requirements30,32,40,50MHz are analyst-selected what-if scenarios; only30MHz is the source reference. Neither cap nor frequency is a certified mission limit.",
     "stability_scales": {
       "cells": 1,
       "period_ns": 1

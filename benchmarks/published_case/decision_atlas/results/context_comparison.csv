@@ -1,0 +1,7 @@
+structure,standalone_mean_mhz,standalone_min_mhz,standalone_max_mhz,merged_worst_mhz,standalone_rank,merged_rank,descriptive_difference_mhz,descriptive_relative_difference_percent
+BL-DFF,59.034,57.458,59.877,49.288,1,1,-9.746,-16.509130331673273
+TMR-DFF,52.384,51.483,53.183,43.91,2,2,-8.474,-16.17669517409896
+DF-TMR-DFF-1.28,40.827,40.578,40.975,32.298,4,5,-8.529,-20.89058711147035
+DF-TMR-DFF-2.56,37.686,37.344,37.982,32.141,5,6,-5.545,-14.713686780236692
+DF-TMR-DFF-5.12,32.083,31.715,32.698,33.718,6,4,1.635,5.096156843187981
+DCLR-TMR-DFF,43.092,42.860,43.378,40.631,3,3,-2.461,-5.711036851387728

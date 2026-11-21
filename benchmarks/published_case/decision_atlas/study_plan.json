@@ -1,0 +1,22 @@
+{
+  "study_id": "ma2026-exact-budget-and-context-atlas-v1",
+  "source": "https://doi.org/10.3390/electronics15225390",
+  "source_license": "CC-BY-4.0",
+  "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Jinlong Ma, Weike Liu, Wenxun Wei, Xin Chen, Danfeng Qiu, Zongguang Yu, Daiyin Zhu; Electronics 2026,15(22),5390",
+  "existing_data": "Six structures; 78 exact-string numerical cells from Tables9-10, retained unchanged in the parent published_case package",
+  "new_data": "Six original transcribed decimal strings from Table11 Achievable fmax per domain, linked by CLKA-CLKF mapping in the table note",
+  "budget_atlas": "Partition the exact printed-decimal reference problem over nonnegative resource caps at six source counts and frequency requirements at 18 unique lower/mean/upper source frequencies. Include equality faces and one rational representative per open band. Test engine agreement at these representatives, not all arbitrarily close decimal inputs. No sample-frequency distribution or probability is assumed.",
+  "precision_scenario": "If each displayed range endpoint was rounded to nearest 0.001 MHz, enclose its unknown pre-rounding value by printed value plus/minus 0.0005 MHz. Ties are conservatively included on both sides; the displayed mean remains the central summary. This is a reporting-precision sensitivity assumption, not additional run variability or a confidence interval.",
+  "context_diagnostic": "Compare descriptive ordering of Table10 standalone three-run means versus Table11 merged-project worst-case summaries. Keep contexts and summary statistics distinct; do not pool timing with standalone resource counts, infer paired trial effects, or produce significance tests.",
+  "validation": "Independent Fraction-based direct-MHz ordering/feasibility versus reciprocal cost adapter at 3192 representatives; old 72 scenarios retained; exact printed boundaries and selected rational neighbors/precision scenarios tested. Binary64 may collapse distinct nearby decimals, so finite checks do not prove continuum-wide exactness. Mean/std/individual runs are not reconstructed.",
+  "limitations": [
+    "Published numerical summaries and post-layout static timing estimates, not new hardware measurements",
+    "Three-run minima/maxima have no prospective or simultaneous coverage guarantee",
+    "No protection-equivalence claim, radiation inference, raw-run reconstruction or usability estimate",
+    "Exact rational reference values describe printed decimals; core outputs remain binary64",
+    "Context rank reversals compare different summaries and implementations and are not causal estimates",
+    "Binary64 output can collapse distinct arbitrarily close decimal inputs, including near source thresholds; atlas coverage is an exact-reference statement and engine agreement is tested at finite representatives."
+  ],
+  "precision_row_interpretation": "The 24 changed design/region rows enumerate point and open faces, not probability or area-weighted prevalence. Displayed means are held fixed; no nominal mean-rounding robustness claim."
+}

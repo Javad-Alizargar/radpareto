@@ -1,0 +1,21 @@
+{
+  "title": "RadPareto: evidence-aware resource comparison",
+  "description": "RadPareto is a Python library and command-line workflow for checking comparison premises, screening supplied cost intervals against budgets, computing conditional Pareto sets, and reporting exact transition boundaries under a declared widening model. The source distribution contains reproducible analysis scripts, attributed published numerical inputs, licensed HDL examples, tests, and machine-readable validation outputs. Published numerical summaries are not raw hardware measurements, and cost comparisons do not establish radiation protection. Software is MIT licensed; reused numerical source material and external HDL retain the separate licenses and attribution documented alongside each dataset.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Alizargar, Javad",
+      "orcid": "0000-0003-2966-1315"
+    }
+  ],
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "research software",
+    "FPGA",
+    "interval analysis",
+    "Pareto comparison",
+    "provenance",
+    "reproducibility"
+  ]
+}

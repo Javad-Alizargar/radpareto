@@ -5,6 +5,7 @@ import unittest
 
 from web.app import RECORDS, analyze, application
 from radpareto import compare
+from radpareto.units import period_ns_from_mhz
 
 
 def call(path, method="GET", payload=None, **extra):
@@ -30,7 +31,13 @@ class WebTests(unittest.TestCase):
         for cap, clock in [(20, 30), (30, 40), (40, 32), (0, 70)]:
             with self.subTest(cap=cap, clock=clock):
                 data = analyze({"cells_cap": cap, "frequency_mhz": clock})
-                self.assertEqual(data["comparison"], compare(RECORDS, limits={"cells": cap, "period_ns": 1000 / clock}))
+                self.assertEqual(data["comparison"], compare(RECORDS, limits={"cells": cap, "period_ns": period_ns_from_mhz(clock)}))
+
+    def test_published_equality_boundaries_use_consistent_conversion(self):
+        for frequency, expected in [(40.578, "definitely_feasible"), (40.975, "uncertain")]:
+            with self.subTest(frequency=frequency):
+                result = analyze({"cells_cap": 40, "frequency_mhz": frequency})
+                self.assertEqual(result["comparison"]["feasibility"]["DF-TMR-DFF-1.28"]["status"], expected)
 
     def test_protection_requirement_refuses_unverified_example(self):
         data = analyze({"require_protection": True})

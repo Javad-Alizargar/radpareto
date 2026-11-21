@@ -54,6 +54,7 @@ def main():
     from radpareto.compare import compare
     from radpareto.stability import stability
     from radpareto.validation import validate_document
+    from radpareto.units import period_ns_from_mhz
     args.out.mkdir(parents=True, exist_ok=False)
     records, derived = [], []
     for row in rows:
@@ -82,7 +83,7 @@ def main():
                 'workload_id': metadata['context']['workload'], 'source_kind': 'published_table'},
             'metrics': {
                 'cells': {'value': cells, 'lower': cells, 'upper': cells, 'unit': 'VersaTiles', 'denominator': 'logic_bit_excluding_one_off_project_overhead', 'uncertainty_kind': 'exact'},
-                'period_ns': {'value': float(per), 'lower': float(lo), 'upper': float(hi), 'unit': 'ns', 'denominator': 'clock_cycle_reciprocal_of_standalone_fmax', 'uncertainty_kind': 'bounded'}},
+                'period_ns': {'value': period_ns_from_mhz(row['fmax_mean_mhz']), 'lower': period_ns_from_mhz(row['fmax_max_mhz']), 'upper': period_ns_from_mhz(row['fmax_min_mhz']), 'unit': 'ns', 'denominator': 'clock_cycle_reciprocal_of_standalone_fmax', 'uncertainty_kind': 'bounded'}},
             'provenance': {'source_uri': 'benchmarks/published_case/source_tables.csv', 'source_sha256': digest(here/'source_tables.csv'),
                 'locator': f"Tables 9 and 10, row {row['structure']}; SHA-256 identifies source_tables.csv original transcription, not publisher bytes",
                 'extraction': 'Cell-checked original transcription; period=1000/mean MHz; closed box uses reversed reciprocal observed three-run min-max endpoints; exact source decimals in source_exact.json'},
@@ -109,7 +110,7 @@ def main():
     limits_grid, outcomes = [], []
     for cells_cap in (20, 30, 40):
         for frequency in (30, 32, 40, 50):
-            limits = {'cells': cells_cap, 'period_ns': 1000/frequency}
+            limits = {'cells': cells_cap, 'period_ns': period_ns_from_mhz(frequency)}
             result = compare(records, limits=limits)
             assert result['status'] == 'accepted'
             limits_grid.append({'cells_cap': cells_cap, 'frequency_requirement_mhz': frequency, 'result': result})
@@ -121,7 +122,7 @@ def main():
                     'timing_status': state['per_limit']['period_ns'],
                     'on_definitely_feasible_cost_front': record['id'] in result['definitely_feasible_nominal_front']})
     scales = {'cells': 1, 'period_ns': 1}
-    selected_limits = {'cells': 40, 'period_ns': 1000/30}
+    selected_limits = {'cells': 40, 'period_ns': period_ns_from_mhz(30)}
     cert = stability(records, scales=scales, limits=selected_limits)
     assert cert['status'] == 'accepted'
     dominance_rows = [{'dominant_id': c['dominant_id'], 'dominated_id': c['dominated_id'],
@@ -204,7 +205,7 @@ def main():
             'independent_dominance_threshold_max_error': max_threshold_error, 'tolerance': 1e-12},
         'limitations': metadata['verification']['unresolved'],
         'interval_semantics': 'bounded is a computational closed-box representation of observed three-run range only; no coverage guarantee',
-        'results': {p.name: {'sha256': digest(p), 'bytes': p.stat().st_size} for p in sorted(args.out.iterdir()) if p.is_file()}})
+        'results': {p.name: {'sha256': digest(p), 'bytes': p.stat().st_size} for p in sorted(args.out.iterdir()) if p.is_file() and p.name != 'run_manifest.json'}})
     print(json.dumps({'status': 'complete_with_limitations', 'output': str(args.out),
         'nominal_front': base['nominal_front'], 'interval_screen': base['not_certainly_dominated'],
         'dominance_certificates': len(dominance_rows), 'budget_rows': len(outcomes)}, indent=2))

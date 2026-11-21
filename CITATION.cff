@@ -1,8 +1,20 @@
 cff-version: 1.2.0
-message: "Please cite the exact software version used. This alpha has no assigned DOI."
-title: "RadPareto evidence-aware resource comparison"
+message: "Please cite the exact tagged release used. Add its verified Zenodo DOI when available."
+title: "RadPareto: evidence-aware resource comparison"
 type: software
-version: 0.2.1a1
-license: MIT
+version: "0.3.0"
+date-released: "2026-11-21"
 authors:
-  - name: "RadPareto contributors"
+  - family-names: "Alizargar"
+    given-names: "Javad"
+    orcid: "https://orcid.org/0000-0003-2966-1315"
+repository-code: "https://github.com/Javad-Alizargar/radpareto"
+license: MIT
+abstract: "A reproducible workflow for checking comparison premises, screening supplied cost intervals, computing conditional Pareto sets, and reporting exact transition boundaries under a declared widening model. Published numerical summaries and generic synthesis examples do not establish radiation protection. Reused data and HDL retain the licenses and attribution documented alongside them."
+keywords:
+  - research software
+  - FPGA
+  - interval analysis
+  - Pareto comparison
+  - provenance
+  - reproducibility

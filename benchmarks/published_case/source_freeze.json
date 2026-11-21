@@ -10,8 +10,8 @@
       "bytes": 3278
     },
     "source_metadata.json": {
-      "sha256": "69e40dc996b7d1c71478e2abe3d160d991d7c7ddd80c43cc8304abb0fbc5d152",
-      "bytes": 5662
+      "sha256": "b0ba6b4c18389c2ec4836024c49111a83b61e980ac75b609400deabaf1fc8fec",
+      "bytes": 5645
     }
   },
   "release_note": "Public metadata removes private audit paths; numerical CSV/JSON unchanged. Frozen before public replay."

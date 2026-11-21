@@ -18,6 +18,7 @@ from urllib.parse import urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 from radpareto import __version__, compare, stability
+from radpareto.units import period_ns_from_mhz
 
 PREFIX = "/Smith"
 STATIC = Path(__file__).resolve().parent / "static"
@@ -47,7 +48,7 @@ def _load_case():
         if metrics["cells"]["value"] != int(row["versatiles_per_bit"]):
             raise RuntimeError("Published-case resource mismatch")
         for field, source in (("value", "fmax_mean_mhz"), ("lower", "fmax_max_mhz"), ("upper", "fmax_min_mhz")):
-            if not math.isclose(metrics["period_ns"][field], 1000 / float(row[source]), rel_tol=1e-15):
+            if metrics["period_ns"][field] != period_ns_from_mhz(row[source]):
                 raise RuntimeError("Published-case reciprocal-frequency mismatch")
     return records, exact
 
@@ -96,7 +97,7 @@ def analyze(payload):
         start = SCOPES[scope] or 0
         records = copy.deepcopy(RECORDS[start:])
         rows = copy.deepcopy(EXACT[start:])
-        limits = {"cells": cells, "period_ns": 1000 / frequency}
+        limits = {"cells": cells, "period_ns": period_ns_from_mhz(frequency)}
     result = compare(records, limits=limits, require_verified_protection=protect)
     output = {
         "software": "RadPareto", "version": __version__, "source_revision": SOURCE_REVISION,

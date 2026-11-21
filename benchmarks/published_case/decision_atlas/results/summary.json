@@ -1,0 +1,23 @@
+{
+  "atlas_regions": 532,
+  "consistent_conversion_class_mismatches": 0,
+  "context_groups": [
+    6,
+    6
+  ],
+  "context_mixing_refused": true,
+  "context_pair_reversals": 2,
+  "context_pairs": 15,
+  "designs": 6,
+  "direct_mhz_engine_comparisons": 3192,
+  "direct_mhz_engine_mismatches": 0,
+  "frequency_faces": 38,
+  "naive_conversion_class_mismatches": 2,
+  "new_source_values": 6,
+  "old_scenarios_unchanged": 72,
+  "precision_changed_region_rows": 24,
+  "precision_scenario_checks": 516,
+  "resource_faces": 14,
+  "source_endpoint_checks": 18,
+  "source_frequency_breakpoints": 18
+}

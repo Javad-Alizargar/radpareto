@@ -1,0 +1,41 @@
+{
+  "analyzed_result_hashes": {
+    "context_batch_partitions.json": "8fbeebd36f606f905e889158deae3073a1945149cbc2755dd6e104e49a64571f",
+    "context_comparison.csv": "db9edd5d2095cafb30759c6307653d95d9bef942417ee2008643589ca10ecdb9",
+    "context_mixing_refusal.json": "828b5d36815c2d3110b2ba6ae73594a3420672de7f0f2c65d721e5eba81d9874",
+    "context_pair_orders.csv": "6820dafe3f729c15e8cb35d911388383f070773922279f2b9be7c61c89529ad9",
+    "context_records.json": "16e476608655e41f0e85747af2826619f604ea1d483f067bc08b45235f3dca36",
+    "conversion_boundary_audit.csv": "9259f4a6ef40e451a665d2ab5ed5252852ed6cb06b22a1e72d89ffb5bcff515e",
+    "design_metrics.csv": "0ccb75dcaa379ac9d8791cdc366b29b6e3e0734cbc1dbe3b1bc2012da77f3169",
+    "exact_atlas.csv": "b5970f193beab02100a53eee53a71d80d00ba5266387b10fd8d35592f539f57f",
+    "old_scenario_recheck.csv": "75a6a462761eaacd85e0c79925bf9a89dfd9824d814a14fd2f575a7d17489401",
+    "precision_changed_regions.csv": "4ae78f3010bc9646ec359d70f425e399e56f231f9899196c8a853b2c99157391",
+    "run_manifest.json": "4298296c7caa74b1218500c4bd27fd9aca4be0c37a9c23349ddb0c0f99a9a18e",
+    "summary.json": "a584fb7a248265341f283bca9826ddd6b03c87d0aa3921ba4a209b93b5456333"
+  },
+  "arithmetic": "Python Decimal; neither analyzer nor engine imported",
+  "atlas_regions": 532,
+  "checker_sha256": "cfff129e645628762ef221fee3218ce317f57c7903a1eb88dbbf3ce567989f02",
+  "complete_unique_precision_changes": true,
+  "complete_unique_representative_product": true,
+  "context_pairs": 15,
+  "design_metric_rows": 6,
+  "direct_classifications": 3192,
+  "exact_decimal_fields_tolerance": "zero",
+  "floating_ratio_tolerance": "1e-12 absolute percentage points",
+  "precision_changed_rows": 24,
+  "precision_reference_checks": 516,
+  "reversed_pairs": [
+    [
+      "DF-TMR-DFF-1.28",
+      "DF-TMR-DFF-5.12"
+    ],
+    [
+      "DF-TMR-DFF-2.56",
+      "DF-TMR-DFF-5.12"
+    ]
+  ],
+  "scope": "Separate finite numerical implementation; not blinded external/human validation or continuum-wide binary64 proof",
+  "source_manifest_sha256": "519865ab0d00522dfea3008be8c6122c796b9de6fee91c444e9c19b46ca08e12",
+  "status": "passed"
+}

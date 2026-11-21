@@ -1,0 +1,220 @@
+{
+  "definitely_feasible_nominal_front": [],
+  "feasibility": {},
+  "nominal_front": [],
+  "not_certainly_dominated": [],
+  "reasons": [
+    {
+      "code": "CONTEXT_MISMATCH",
+      "field": "implementation",
+      "message": "Comparison context differs",
+      "record": "BL-DFF__merged",
+      "reference": "BL-DFF__standalone"
+    },
+    {
+      "code": "CONTEXT_MISMATCH",
+      "field": "constraints_id",
+      "message": "Comparison context differs",
+      "record": "BL-DFF__merged",
+      "reference": "BL-DFF__standalone"
+    },
+    {
+      "code": "CONTEXT_MISMATCH",
+      "field": "workload_id",
+      "message": "Comparison context differs",
+      "record": "BL-DFF__merged",
+      "reference": "BL-DFF__standalone"
+    },
+    {
+      "code": "METRIC_SEMANTICS_MISMATCH",
+      "field": "denominator",
+      "message": "Metric semantics differ",
+      "metric": "period_ns",
+      "record": "BL-DFF__merged"
+    },
+    {
+      "code": "METRIC_SEMANTICS_MISMATCH",
+      "field": "uncertainty_kind",
+      "message": "Metric semantics differ",
+      "metric": "period_ns",
+      "record": "BL-DFF__merged"
+    },
+    {
+      "code": "CONTEXT_MISMATCH",
+      "field": "implementation",
+      "message": "Comparison context differs",
+      "record": "TMR-DFF__merged",
+      "reference": "BL-DFF__standalone"
+    },
+    {
+      "code": "CONTEXT_MISMATCH",
+      "field": "constraints_id",
+      "message": "Comparison context differs",
+      "record": "TMR-DFF__merged",
+      "reference": "BL-DFF__standalone"
+    },
+    {
+      "code": "CONTEXT_MISMATCH",
+      "field": "workload_id",
+      "message": "Comparison context differs",
+      "record": "TMR-DFF__merged",
+      "reference": "BL-DFF__standalone"
+    },
+    {
+      "code": "METRIC_SEMANTICS_MISMATCH",
+      "field": "denominator",
+      "message": "Metric semantics differ",
+      "metric": "period_ns",
+      "record": "TMR-DFF__merged"
+    },
+    {
+      "code": "METRIC_SEMANTICS_MISMATCH",
+      "field": "uncertainty_kind",
+      "message": "Metric semantics differ",
+      "metric": "period_ns",
+      "record": "TMR-DFF__merged"
+    },
+    {
+      "code": "CONTEXT_MISMATCH",
+      "field": "implementation",
+      "message": "Comparison context differs",
+      "record": "DF-TMR-DFF-1.28__merged",
+      "reference": "BL-DFF__standalone"
+    },
+    {
+      "code": "CONTEXT_MISMATCH",
+      "field": "constraints_id",
+      "message": "Comparison context differs",
+      "record": "DF-TMR-DFF-1.28__merged",
+      "reference": "BL-DFF__standalone"
+    },
+    {
+      "code": "CONTEXT_MISMATCH",
+      "field": "workload_id",
+      "message": "Comparison context differs",
+      "record": "DF-TMR-DFF-1.28__merged",
+      "reference": "BL-DFF__standalone"
+    },
+    {
+      "code": "METRIC_SEMANTICS_MISMATCH",
+      "field": "denominator",
+      "message": "Metric semantics differ",
+      "metric": "period_ns",
+      "record": "DF-TMR-DFF-1.28__merged"
+    },
+    {
+      "code": "METRIC_SEMANTICS_MISMATCH",
+      "field": "uncertainty_kind",
+      "message": "Metric semantics differ",
+      "metric": "period_ns",
+      "record": "DF-TMR-DFF-1.28__merged"
+    },
+    {
+      "code": "CONTEXT_MISMATCH",
+      "field": "implementation",
+      "message": "Comparison context differs",
+      "record": "DF-TMR-DFF-2.56__merged",
+      "reference": "BL-DFF__standalone"
+    },
+    {
+      "code": "CONTEXT_MISMATCH",
+      "field": "constraints_id",
+      "message": "Comparison context differs",
+      "record": "DF-TMR-DFF-2.56__merged",
+      "reference": "BL-DFF__standalone"
+    },
+    {
+      "code": "CONTEXT_MISMATCH",
+      "field": "workload_id",
+      "message": "Comparison context differs",
+      "record": "DF-TMR-DFF-2.56__merged",
+      "reference": "BL-DFF__standalone"
+    },
+    {
+      "code": "METRIC_SEMANTICS_MISMATCH",
+      "field": "denominator",
+      "message": "Metric semantics differ",
+      "metric": "period_ns",
+      "record": "DF-TMR-DFF-2.56__merged"
+    },
+    {
+      "code": "METRIC_SEMANTICS_MISMATCH",
+      "field": "uncertainty_kind",
+      "message": "Metric semantics differ",
+      "metric": "period_ns",
+      "record": "DF-TMR-DFF-2.56__merged"
+    },
+    {
+      "code": "CONTEXT_MISMATCH",
+      "field": "implementation",
+      "message": "Comparison context differs",
+      "record": "DF-TMR-DFF-5.12__merged",
+      "reference": "BL-DFF__standalone"
+    },
+    {
+      "code": "CONTEXT_MISMATCH",
+      "field": "constraints_id",
+      "message": "Comparison context differs",
+      "record": "DF-TMR-DFF-5.12__merged",
+      "reference": "BL-DFF__standalone"
+    },
+    {
+      "code": "CONTEXT_MISMATCH",
+      "field": "workload_id",
+      "message": "Comparison context differs",
+      "record": "DF-TMR-DFF-5.12__merged",
+      "reference": "BL-DFF__standalone"
+    },
+    {
+      "code": "METRIC_SEMANTICS_MISMATCH",
+      "field": "denominator",
+      "message": "Metric semantics differ",
+      "metric": "period_ns",
+      "record": "DF-TMR-DFF-5.12__merged"
+    },
+    {
+      "code": "METRIC_SEMANTICS_MISMATCH",
+      "field": "uncertainty_kind",
+      "message": "Metric semantics differ",
+      "metric": "period_ns",
+      "record": "DF-TMR-DFF-5.12__merged"
+    },
+    {
+      "code": "CONTEXT_MISMATCH",
+      "field": "implementation",
+      "message": "Comparison context differs",
+      "record": "DCLR-TMR-DFF__merged",
+      "reference": "BL-DFF__standalone"
+    },
+    {
+      "code": "CONTEXT_MISMATCH",
+      "field": "constraints_id",
+      "message": "Comparison context differs",
+      "record": "DCLR-TMR-DFF__merged",
+      "reference": "BL-DFF__standalone"
+    },
+    {
+      "code": "CONTEXT_MISMATCH",
+      "field": "workload_id",
+      "message": "Comparison context differs",
+      "record": "DCLR-TMR-DFF__merged",
+      "reference": "BL-DFF__standalone"
+    },
+    {
+      "code": "METRIC_SEMANTICS_MISMATCH",
+      "field": "denominator",
+      "message": "Metric semantics differ",
+      "metric": "period_ns",
+      "record": "DCLR-TMR-DFF__merged"
+    },
+    {
+      "code": "METRIC_SEMANTICS_MISMATCH",
+      "field": "uncertainty_kind",
+      "message": "Metric semantics differ",
+      "metric": "period_ns",
+      "record": "DCLR-TMR-DFF__merged"
+    }
+  ],
+  "status": "refused",
+  "warnings": []
+}

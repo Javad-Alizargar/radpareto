@@ -1,0 +1,475 @@
+{
+  "groups": [
+    {
+      "record_ids": [
+        "BL-DFF__standalone",
+        "TMR-DFF__standalone",
+        "DF-TMR-DFF-1.28__standalone",
+        "DF-TMR-DFF-2.56__standalone",
+        "DF-TMR-DFF-5.12__standalone",
+        "DCLR-TMR-DFF__standalone"
+      ],
+      "result": {
+        "comparison_context": {
+          "context": {
+            "baseline_id": "Ma2026_BL-DFF_11_VersaTiles_per_logic_bit",
+            "constraints_id": "Ma2026_standalone_common_flow_30MHz_reference_33.333ns",
+            "device": "A3PE3000 ProASIC3, 130 nm, FG484",
+            "implementation": "native primitives, one structure per standalone project; post-layout STA with back-annotated delays",
+            "source_kind": "published_table",
+            "timing_corner": "worst-case corner, 1.425 V, 125 deg C",
+            "tool_version": "11.8 SP1 (11.8.1.12)",
+            "toolchain": "Libero SoC",
+            "workload_id": "complete dual 243-bit shift-register test chain (486 logic bits), common 10-stage BUFD upstream-chain design, one calibration ring oscillator per project"
+          },
+          "design": "dual_243_bit_shift_register_486_logic_bits",
+          "metric_semantics": {
+            "period_ns": {
+              "denominator": "clock_cycle_reciprocal_of_standalone_fmax",
+              "uncertainty_kind": "bounded",
+              "unit": "ns"
+            }
+          }
+        },
+        "definitely_feasible_nominal_front": [
+          "BL-DFF__standalone"
+        ],
+        "feasibility": {
+          "BL-DFF__standalone": {
+            "per_limit": {},
+            "status": "definitely_feasible"
+          },
+          "DCLR-TMR-DFF__standalone": {
+            "per_limit": {},
+            "status": "definitely_feasible"
+          },
+          "DF-TMR-DFF-1.28__standalone": {
+            "per_limit": {},
+            "status": "definitely_feasible"
+          },
+          "DF-TMR-DFF-2.56__standalone": {
+            "per_limit": {},
+            "status": "definitely_feasible"
+          },
+          "DF-TMR-DFF-5.12__standalone": {
+            "per_limit": {},
+            "status": "definitely_feasible"
+          },
+          "TMR-DFF__standalone": {
+            "per_limit": {},
+            "status": "definitely_feasible"
+          }
+        },
+        "front_scope": "all_input_records_before_limits",
+        "limits": {},
+        "nominal_front": [
+          "BL-DFF__standalone"
+        ],
+        "not_certainly_dominated": [
+          "BL-DFF__standalone"
+        ],
+        "objective_direction": "minimize",
+        "reasons": [],
+        "record_evidence": {
+          "BL-DFF__standalone": {
+            "method": "BL-DFF",
+            "metrics": {
+              "period_ns": {
+                "denominator": "clock_cycle_reciprocal_of_standalone_fmax",
+                "lower": 16.70090351888037,
+                "uncertainty_kind": "bounded",
+                "unit": "ns",
+                "upper": 17.404016847088307,
+                "value": 16.93939085950469
+              }
+            },
+            "protection": {
+              "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390",
+              "fault_model": "not_assessed",
+              "scope": "cost_only_no_protection_equivalence",
+              "status": "unverified"
+            },
+            "provenance": {
+              "extraction": "Original exact-decimal numerical transcription; reciprocal summary/range costs, no raw-run reconstruction",
+              "locator": "Tables 9 and 10, row BL-DFF",
+              "source_sha256": "7a0bc97b49de401352c2e67e6f6105d131c12b87760f8d41f55c336f2a07d441",
+              "source_uri": "benchmarks/published_case/source_tables.csv"
+            }
+          },
+          "DCLR-TMR-DFF__standalone": {
+            "method": "DCLR-TMR-DFF",
+            "metrics": {
+              "period_ns": {
+                "denominator": "clock_cycle_reciprocal_of_standalone_fmax",
+                "lower": 23.053160588316658,
+                "uncertainty_kind": "bounded",
+                "unit": "ns",
+                "upper": 23.33177788147457,
+                "value": 23.20616355704075
+              }
+            },
+            "protection": {
+              "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390",
+              "fault_model": "not_assessed",
+              "scope": "cost_only_no_protection_equivalence",
+              "status": "unverified"
+            },
+            "provenance": {
+              "extraction": "Original exact-decimal numerical transcription; reciprocal summary/range costs, no raw-run reconstruction",
+              "locator": "Tables 9 and 10, row DCLR-TMR-DFF",
+              "source_sha256": "7a0bc97b49de401352c2e67e6f6105d131c12b87760f8d41f55c336f2a07d441",
+              "source_uri": "benchmarks/published_case/source_tables.csv"
+            }
+          },
+          "DF-TMR-DFF-1.28__standalone": {
+            "method": "DF-TMR-DFF-1.28",
+            "metrics": {
+              "period_ns": {
+                "denominator": "clock_cycle_reciprocal_of_standalone_fmax",
+                "lower": 24.405125076266017,
+                "uncertainty_kind": "bounded",
+                "unit": "ns",
+                "upper": 24.64389570703337,
+                "value": 24.49359492492713
+              }
+            },
+            "protection": {
+              "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390",
+              "fault_model": "not_assessed",
+              "scope": "cost_only_no_protection_equivalence",
+              "status": "unverified"
+            },
+            "provenance": {
+              "extraction": "Original exact-decimal numerical transcription; reciprocal summary/range costs, no raw-run reconstruction",
+              "locator": "Tables 9 and 10, row DF-TMR-DFF-1.28",
+              "source_sha256": "7a0bc97b49de401352c2e67e6f6105d131c12b87760f8d41f55c336f2a07d441",
+              "source_uri": "benchmarks/published_case/source_tables.csv"
+            }
+          },
+          "DF-TMR-DFF-2.56__standalone": {
+            "method": "DF-TMR-DFF-2.56",
+            "metrics": {
+              "period_ns": {
+                "denominator": "clock_cycle_reciprocal_of_standalone_fmax",
+                "lower": 26.32826075509452,
+                "uncertainty_kind": "bounded",
+                "unit": "ns",
+                "upper": 26.778063410454156,
+                "value": 26.535052804755082
+              }
+            },
+            "protection": {
+              "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390",
+              "fault_model": "not_assessed",
+              "scope": "cost_only_no_protection_equivalence",
+              "status": "unverified"
+            },
+            "provenance": {
+              "extraction": "Original exact-decimal numerical transcription; reciprocal summary/range costs, no raw-run reconstruction",
+              "locator": "Tables 9 and 10, row DF-TMR-DFF-2.56",
+              "source_sha256": "7a0bc97b49de401352c2e67e6f6105d131c12b87760f8d41f55c336f2a07d441",
+              "source_uri": "benchmarks/published_case/source_tables.csv"
+            }
+          },
+          "DF-TMR-DFF-5.12__standalone": {
+            "method": "DF-TMR-DFF-5.12",
+            "metrics": {
+              "period_ns": {
+                "denominator": "clock_cycle_reciprocal_of_standalone_fmax",
+                "lower": 30.58291026974127,
+                "uncertainty_kind": "bounded",
+                "unit": "ns",
+                "upper": 31.530821377896896,
+                "value": 31.169155004207838
+              }
+            },
+            "protection": {
+              "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390",
+              "fault_model": "not_assessed",
+              "scope": "cost_only_no_protection_equivalence",
+              "status": "unverified"
+            },
+            "provenance": {
+              "extraction": "Original exact-decimal numerical transcription; reciprocal summary/range costs, no raw-run reconstruction",
+              "locator": "Tables 9 and 10, row DF-TMR-DFF-5.12",
+              "source_sha256": "7a0bc97b49de401352c2e67e6f6105d131c12b87760f8d41f55c336f2a07d441",
+              "source_uri": "benchmarks/published_case/source_tables.csv"
+            }
+          },
+          "TMR-DFF__standalone": {
+            "method": "TMR-DFF",
+            "metrics": {
+              "period_ns": {
+                "denominator": "clock_cycle_reciprocal_of_standalone_fmax",
+                "lower": 18.80300095895305,
+                "uncertainty_kind": "bounded",
+                "unit": "ns",
+                "upper": 19.42388749684362,
+                "value": 19.089798411728772
+              }
+            },
+            "protection": {
+              "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390",
+              "fault_model": "not_assessed",
+              "scope": "cost_only_no_protection_equivalence",
+              "status": "unverified"
+            },
+            "provenance": {
+              "extraction": "Original exact-decimal numerical transcription; reciprocal summary/range costs, no raw-run reconstruction",
+              "locator": "Tables 9 and 10, row TMR-DFF",
+              "source_sha256": "7a0bc97b49de401352c2e67e6f6105d131c12b87760f8d41f55c336f2a07d441",
+              "source_uri": "benchmarks/published_case/source_tables.csv"
+            }
+          }
+        },
+        "status": "accepted",
+        "warnings": [
+          "All objectives are minimized; maximize-type metrics must be explicitly transformed before import.",
+          "Source URI and SHA-256 are declared provenance; this engine does not retrieve or authenticate source files.",
+          "Cost/time frontiers do not establish radiation superiority, physical reliability, or mission qualification.",
+          "Interval results are conditional on the supplied closed bounds; they are not statistical guarantees.",
+          "Cost-only comparison: protection equivalence is not assessed, including when records declare verification.",
+          "No limits supplied: feasibility is unconstrained and does not assert practical implementability."
+        ]
+      }
+    },
+    {
+      "record_ids": [
+        "BL-DFF__merged",
+        "TMR-DFF__merged",
+        "DF-TMR-DFF-1.28__merged",
+        "DF-TMR-DFF-2.56__merged",
+        "DF-TMR-DFF-5.12__merged",
+        "DCLR-TMR-DFF__merged"
+      ],
+      "result": {
+        "comparison_context": {
+          "context": {
+            "baseline_id": "Ma2026_BL-DFF_11_VersaTiles_per_logic_bit",
+            "constraints_id": "Ma2026_merged_CLKA_to_CLKF_30MHz_timing_closure",
+            "device": "A3PE3000 ProASIC3, 130 nm, FG484",
+            "implementation": "merged_six_structure_irradiation_project_post_layout_STA",
+            "source_kind": "published_table",
+            "timing_corner": "worst-case corner, 1.425 V, 125 deg C",
+            "tool_version": "11.8 SP1 (11.8.1.12)",
+            "toolchain": "Libero SoC",
+            "workload_id": "six_domains_on_one_A3PE3000_merged_project_Table11"
+          },
+          "design": "dual_243_bit_shift_register_486_logic_bits",
+          "metric_semantics": {
+            "period_ns": {
+              "denominator": "reciprocal_of_reported_worst_merged_project_fmax_summary",
+              "uncertainty_kind": "exact",
+              "unit": "ns"
+            }
+          }
+        },
+        "definitely_feasible_nominal_front": [
+          "BL-DFF__merged"
+        ],
+        "feasibility": {
+          "BL-DFF__merged": {
+            "per_limit": {},
+            "status": "definitely_feasible"
+          },
+          "DCLR-TMR-DFF__merged": {
+            "per_limit": {},
+            "status": "definitely_feasible"
+          },
+          "DF-TMR-DFF-1.28__merged": {
+            "per_limit": {},
+            "status": "definitely_feasible"
+          },
+          "DF-TMR-DFF-2.56__merged": {
+            "per_limit": {},
+            "status": "definitely_feasible"
+          },
+          "DF-TMR-DFF-5.12__merged": {
+            "per_limit": {},
+            "status": "definitely_feasible"
+          },
+          "TMR-DFF__merged": {
+            "per_limit": {},
+            "status": "definitely_feasible"
+          }
+        },
+        "front_scope": "all_input_records_before_limits",
+        "limits": {},
+        "nominal_front": [
+          "BL-DFF__merged"
+        ],
+        "not_certainly_dominated": [
+          "BL-DFF__merged"
+        ],
+        "objective_direction": "minimize",
+        "reasons": [],
+        "record_evidence": {
+          "BL-DFF__merged": {
+            "method": "BL-DFF",
+            "metrics": {
+              "period_ns": {
+                "denominator": "reciprocal_of_reported_worst_merged_project_fmax_summary",
+                "lower": 20.28891413731537,
+                "uncertainty_kind": "exact",
+                "unit": "ns",
+                "upper": 20.28891413731537,
+                "value": 20.28891413731537
+              }
+            },
+            "protection": {
+              "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390",
+              "fault_model": "not_assessed",
+              "scope": "cost_only_no_protection_equivalence",
+              "status": "unverified"
+            },
+            "provenance": {
+              "extraction": "Exact printed worst-case summary only; no uncertainty interval or individual runs supplied",
+              "locator": "Table11 Achievable fmax per domain, CLKA",
+              "source_sha256": "1bef6fe281d2196166fdb5dc015d10440befc8309d4d6f6664b4367adde21aa8",
+              "source_uri": "benchmarks/published_case/decision_atlas/merged_context.csv"
+            }
+          },
+          "DCLR-TMR-DFF__merged": {
+            "method": "DCLR-TMR-DFF",
+            "metrics": {
+              "period_ns": {
+                "denominator": "reciprocal_of_reported_worst_merged_project_fmax_summary",
+                "lower": 24.61174964928257,
+                "uncertainty_kind": "exact",
+                "unit": "ns",
+                "upper": 24.61174964928257,
+                "value": 24.61174964928257
+              }
+            },
+            "protection": {
+              "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390",
+              "fault_model": "not_assessed",
+              "scope": "cost_only_no_protection_equivalence",
+              "status": "unverified"
+            },
+            "provenance": {
+              "extraction": "Exact printed worst-case summary only; no uncertainty interval or individual runs supplied",
+              "locator": "Table11 Achievable fmax per domain, CLKF",
+              "source_sha256": "1bef6fe281d2196166fdb5dc015d10440befc8309d4d6f6664b4367adde21aa8",
+              "source_uri": "benchmarks/published_case/decision_atlas/merged_context.csv"
+            }
+          },
+          "DF-TMR-DFF-1.28__merged": {
+            "method": "DF-TMR-DFF-1.28",
+            "metrics": {
+              "period_ns": {
+                "denominator": "reciprocal_of_reported_worst_merged_project_fmax_summary",
+                "lower": 30.961669453216917,
+                "uncertainty_kind": "exact",
+                "unit": "ns",
+                "upper": 30.961669453216917,
+                "value": 30.961669453216917
+              }
+            },
+            "protection": {
+              "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390",
+              "fault_model": "not_assessed",
+              "scope": "cost_only_no_protection_equivalence",
+              "status": "unverified"
+            },
+            "provenance": {
+              "extraction": "Exact printed worst-case summary only; no uncertainty interval or individual runs supplied",
+              "locator": "Table11 Achievable fmax per domain, CLKC",
+              "source_sha256": "1bef6fe281d2196166fdb5dc015d10440befc8309d4d6f6664b4367adde21aa8",
+              "source_uri": "benchmarks/published_case/decision_atlas/merged_context.csv"
+            }
+          },
+          "DF-TMR-DFF-2.56__merged": {
+            "method": "DF-TMR-DFF-2.56",
+            "metrics": {
+              "period_ns": {
+                "denominator": "reciprocal_of_reported_worst_merged_project_fmax_summary",
+                "lower": 31.11290874583865,
+                "uncertainty_kind": "exact",
+                "unit": "ns",
+                "upper": 31.11290874583865,
+                "value": 31.11290874583865
+              }
+            },
+            "protection": {
+              "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390",
+              "fault_model": "not_assessed",
+              "scope": "cost_only_no_protection_equivalence",
+              "status": "unverified"
+            },
+            "provenance": {
+              "extraction": "Exact printed worst-case summary only; no uncertainty interval or individual runs supplied",
+              "locator": "Table11 Achievable fmax per domain, CLKD",
+              "source_sha256": "1bef6fe281d2196166fdb5dc015d10440befc8309d4d6f6664b4367adde21aa8",
+              "source_uri": "benchmarks/published_case/decision_atlas/merged_context.csv"
+            }
+          },
+          "DF-TMR-DFF-5.12__merged": {
+            "method": "DF-TMR-DFF-5.12",
+            "metrics": {
+              "period_ns": {
+                "denominator": "reciprocal_of_reported_worst_merged_project_fmax_summary",
+                "lower": 29.657749569962633,
+                "uncertainty_kind": "exact",
+                "unit": "ns",
+                "upper": 29.657749569962633,
+                "value": 29.657749569962633
+              }
+            },
+            "protection": {
+              "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390",
+              "fault_model": "not_assessed",
+              "scope": "cost_only_no_protection_equivalence",
+              "status": "unverified"
+            },
+            "provenance": {
+              "extraction": "Exact printed worst-case summary only; no uncertainty interval or individual runs supplied",
+              "locator": "Table11 Achievable fmax per domain, CLKE",
+              "source_sha256": "1bef6fe281d2196166fdb5dc015d10440befc8309d4d6f6664b4367adde21aa8",
+              "source_uri": "benchmarks/published_case/decision_atlas/merged_context.csv"
+            }
+          },
+          "TMR-DFF__merged": {
+            "method": "TMR-DFF",
+            "metrics": {
+              "period_ns": {
+                "denominator": "reciprocal_of_reported_worst_merged_project_fmax_summary",
+                "lower": 22.77385561375541,
+                "uncertainty_kind": "exact",
+                "unit": "ns",
+                "upper": 22.77385561375541,
+                "value": 22.77385561375541
+              }
+            },
+            "protection": {
+              "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390",
+              "fault_model": "not_assessed",
+              "scope": "cost_only_no_protection_equivalence",
+              "status": "unverified"
+            },
+            "provenance": {
+              "extraction": "Exact printed worst-case summary only; no uncertainty interval or individual runs supplied",
+              "locator": "Table11 Achievable fmax per domain, CLKB",
+              "source_sha256": "1bef6fe281d2196166fdb5dc015d10440befc8309d4d6f6664b4367adde21aa8",
+              "source_uri": "benchmarks/published_case/decision_atlas/merged_context.csv"
+            }
+          }
+        },
+        "status": "accepted",
+        "warnings": [
+          "All objectives are minimized; maximize-type metrics must be explicitly transformed before import.",
+          "Source URI and SHA-256 are declared provenance; this engine does not retrieve or authenticate source files.",
+          "Cost/time frontiers do not establish radiation superiority, physical reliability, or mission qualification.",
+          "Interval results are conditional on the supplied closed bounds; they are not statistical guarantees.",
+          "Cost-only comparison: protection equivalence is not assessed, including when records declare verification.",
+          "No limits supplied: feasibility is unconstrained and does not assert practical implementability."
+        ]
+      }
+    }
+  ],
+  "reasons": [],
+  "status": "accepted",
+  "warnings": [
+    "Each group has its own frontier. No cross-group ranking or protection comparison is performed."
+  ]
+}

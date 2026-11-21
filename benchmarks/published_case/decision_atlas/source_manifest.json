@@ -1,0 +1,12 @@
+{
+  "input_sha256": {
+    "../source_exact.json": "5ba62e4323d4de0ab1d76466273fd704e80887b8dee1e0a837044a2ecfc2fdd5",
+    "../source_tables.csv": "7a0bc97b49de401352c2e67e6f6105d131c12b87760f8d41f55c336f2a07d441",
+    "../source_metadata.json": "b0ba6b4c18389c2ec4836024c49111a83b61e980ac75b609400deabaf1fc8fec",
+    "merged_context.csv": "1bef6fe281d2196166fdb5dc015d10440befc8309d4d6f6664b4367adde21aa8",
+    "study_plan.json": "e0d21b3563381e8c093c5e9ad1aa998f43fcd34d884377b295bd2a5b2728bcd9"
+  },
+  "source_url": "https://www.mdpi.com/2079-9292/15/22/5390",
+  "license": "CC-BY-4.0",
+  "new_transcription_locator": "Table11 Achievable fmax per domain and following domain-to-structure note"
+}
