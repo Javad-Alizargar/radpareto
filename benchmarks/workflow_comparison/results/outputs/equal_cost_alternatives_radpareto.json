@@ -1,0 +1,139 @@
+{
+  "input_sha256": "709012c18807ddc90d763ecbe290206c8c24412135f6bcbde2fcb9ce064aaa52",
+  "software_version": "0.4.0",
+  "options": {
+    "limits": {},
+    "require_verified_protection": false
+  },
+  "result": {
+    "status": "accepted",
+    "reasons": [],
+    "objective_direction": "minimize",
+    "comparison_context": {
+      "context": {
+        "baseline_id": "Ma2026_BL-DFF_11_VersaTiles_per_logic_bit",
+        "constraints_id": "Ma2026_standalone_common_flow_30MHz_reference_33.333ns",
+        "device": "A3PE3000 ProASIC3, 130 nm, FG484",
+        "implementation": "native primitives, one structure per standalone project; post-layout STA with back-annotated delays",
+        "source_kind": "published_table",
+        "timing_corner": "worst-case corner, 1.425 V, 125 deg C",
+        "tool_version": "11.8 SP1 (11.8.1.12)",
+        "toolchain": "Libero SoC",
+        "workload_id": "complete dual 243-bit shift-register test chain (486 logic bits), common 10-stage BUFD upstream-chain design, one calibration ring oscillator per project"
+      },
+      "design": "dual_243_bit_shift_register_486_logic_bits",
+      "metric_semantics": {
+        "cells": {
+          "denominator": "logic_bit_excluding_one_off_project_overhead",
+          "uncertainty_kind": "exact",
+          "unit": "VersaTiles"
+        },
+        "period_ns": {
+          "denominator": "clock_cycle_reciprocal_of_standalone_fmax",
+          "uncertainty_kind": "bounded",
+          "unit": "ns"
+        }
+      }
+    },
+    "record_evidence": {
+      "tie_probe_A": {
+        "method": "DF-TMR-DFF-1.28",
+        "metrics": {
+          "cells": {
+            "value": 28,
+            "lower": 28,
+            "upper": 28,
+            "unit": "VersaTiles",
+            "denominator": "logic_bit_excluding_one_off_project_overhead",
+            "uncertainty_kind": "exact"
+          },
+          "period_ns": {
+            "value": 24.49359492492713,
+            "lower": 24.405125076266017,
+            "upper": 24.64389570703337,
+            "unit": "ns",
+            "denominator": "clock_cycle_reciprocal_of_standalone_fmax",
+            "uncertainty_kind": "bounded"
+          }
+        },
+        "provenance": {
+          "source_uri": "benchmarks/published_case/source_tables.csv",
+          "source_sha256": "7a0bc97b49de401352c2e67e6f6105d131c12b87760f8d41f55c336f2a07d441",
+          "locator": "Tables 9 and 10, row DF-TMR-DFF-1.28; SHA-256 identifies source_tables.csv original transcription, not publisher bytes",
+          "extraction": "Cell-checked original transcription; period=1000/mean MHz; closed box uses reversed reciprocal observed three-run min-max endpoints; exact source decimals in source_exact.json; artificial duplicate-record tie fixture, not an additional published observation"
+        },
+        "protection": {
+          "status": "unverified",
+          "fault_model": "not_assessed",
+          "scope": "cost_only_no_protection_equivalence",
+          "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390"
+        }
+      },
+      "tie_probe_B": {
+        "method": "DF-TMR-DFF-1.28",
+        "metrics": {
+          "cells": {
+            "value": 28,
+            "lower": 28,
+            "upper": 28,
+            "unit": "VersaTiles",
+            "denominator": "logic_bit_excluding_one_off_project_overhead",
+            "uncertainty_kind": "exact"
+          },
+          "period_ns": {
+            "value": 24.49359492492713,
+            "lower": 24.405125076266017,
+            "upper": 24.64389570703337,
+            "unit": "ns",
+            "denominator": "clock_cycle_reciprocal_of_standalone_fmax",
+            "uncertainty_kind": "bounded"
+          }
+        },
+        "provenance": {
+          "source_uri": "benchmarks/published_case/source_tables.csv",
+          "source_sha256": "7a0bc97b49de401352c2e67e6f6105d131c12b87760f8d41f55c336f2a07d441",
+          "locator": "Tables 9 and 10, row DF-TMR-DFF-1.28; SHA-256 identifies source_tables.csv original transcription, not publisher bytes",
+          "extraction": "Cell-checked original transcription; period=1000/mean MHz; closed box uses reversed reciprocal observed three-run min-max endpoints; exact source decimals in source_exact.json; artificial duplicate-record tie fixture, not an additional published observation"
+        },
+        "protection": {
+          "status": "unverified",
+          "fault_model": "not_assessed",
+          "scope": "cost_only_no_protection_equivalence",
+          "evidence_uri": "https://www.mdpi.com/2079-9292/15/22/5390"
+        }
+      }
+    },
+    "nominal_front": [
+      "tie_probe_A",
+      "tie_probe_B"
+    ],
+    "not_certainly_dominated": [
+      "tie_probe_A",
+      "tie_probe_B"
+    ],
+    "front_scope": "all_input_records_before_limits",
+    "feasibility": {
+      "tie_probe_A": {
+        "status": "definitely_feasible",
+        "per_limit": {}
+      },
+      "tie_probe_B": {
+        "status": "definitely_feasible",
+        "per_limit": {}
+      }
+    },
+    "definitely_feasible_nominal_front": [
+      "tie_probe_A",
+      "tie_probe_B"
+    ],
+    "limits": {},
+    "warnings": [
+      "All objectives are minimized; maximize-type metrics must be explicitly transformed before import.",
+      "Source URI and SHA-256 are declared provenance; this engine does not retrieve or authenticate source files.",
+      "Cost/time frontiers do not establish radiation superiority, physical reliability, or mission qualification.",
+      "Interval results are conditional on the supplied closed bounds; they are not statistical guarantees.",
+      "Cost-only comparison: protection equivalence is not assessed, including when records declare verification.",
+      "No limits supplied: feasibility is unconstrained and does not assert practical implementability."
+    ]
+  }
+}

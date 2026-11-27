@@ -1,0 +1,15 @@
+
+9. Executing LTP pass (find longest path).
+
+Longest topological path in priority_encoder (length=10):
+    0: \input_unencoded [15]
+    1: $abc$292$new_n53 (via $abc$292$blif$292$15)
+    2: $abc$292$new_n54 (via $abc$292$blif$292$16)
+    3: $abc$292$new_n55 (via $abc$292$blif$292$17)
+    4: $abc$292$new_n63 (via $abc$292$blif$292$25)
+    5: $abc$292$new_n117 (via $abc$292$blif$292$79)
+    6: $abc$292$new_n118 (via $abc$292$blif$292$80)
+    7: $abc$292$new_n126 (via $abc$292$blif$292$88)
+    8: $abc$292$new_n132 (via $abc$292$blif$292$94)
+    9: $abc$292$new_n138 (via $abc$292$blif$292$100)
+   10: \output_unencoded [6] (via $abc$292$blif$292$108)

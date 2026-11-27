@@ -1,0 +1,31 @@
+{
+  "kind": "synthetic_functionality_probe",
+  "input": [
+    {
+      "cells": 1,
+      "period": 4,
+      "group": "A"
+    },
+    {
+      "cells": 2,
+      "period": 3,
+      "group": "A"
+    },
+    {
+      "cells": 0,
+      "period": 0,
+      "group": "B"
+    }
+  ],
+  "native_paretoset_diff_group_mask": [
+    true,
+    true,
+    true
+  ],
+  "unpartitioned_mask": [
+    false,
+    false,
+    true
+  ],
+  "interpretation": "paretoset natively partitions on supplied diff columns; deciding which context fields define valid groups remains caller configuration"
+}

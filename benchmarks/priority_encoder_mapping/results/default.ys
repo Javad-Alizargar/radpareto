@@ -1,0 +1,9 @@
+read_verilog priority_encoder.v
+chparam -set WIDTH 16 -set LSB_HIGH_PRIORITY 0 priority_encoder
+synth -top priority_encoder -flatten -noabc
+abc -g simple
+opt_clean
+check -assert
+tee -o default.stat stat
+write_json default.json
+tee -o default.ltp ltp -noff

@@ -2,20 +2,28 @@
 
 RadPareto checks whether research evidence can be compared before computing resource trade-offs. It preserves source locations, units, denominators, implementation context and uncertainty bounds. Its Python library and command line interface return explanations when records are incompatible.
 
-Version **0.3.0** is an **alpha research prototype**. It compares stated costs, not physical radiation hardness. The initial synthesis examples use generic logic cells and logic depth; depth is not propagation time or maximum clock frequency. There is no verified flash-device backend in this version.
+Version **0.4.0** is an **alpha research prototype**. It compares stated costs, not physical radiation hardness. The initial synthesis examples use generic logic cells and logic depth; depth is not propagation time or maximum clock frequency. There is no verified flash-device backend in this version.
 
 ## Install and try
 
+Start with the [complete quickstart](docs/quickstart.md) for a bundled published
+input, installation, accepted and refused outputs, a minimal complete schema
+example, a Python API call, and guidance after an uncertain result.
+
 Python 3.11 or later is required. The comparison engine has no runtime dependencies. From a copy of this repository:
 
-```sh
-python -m venv .venv
-# Windows PowerShell
+```powershell
+# Windows PowerShell: explicitly choose Python 3.12
+py -3.12 --version
+py -3.12 -m venv .venv
 .venv/Scripts/python -m pip install .
 .venv/Scripts/radpareto validate examples/rounded_costs.json
 .venv/Scripts/radpareto compare examples/rounded_costs.json --limit area_ratio=3.5
-# Linux/macOS: use .venv/bin/python and .venv/bin/radpareto
 ```
+
+Linux/macOS: first confirm `python3 --version` is at least 3.11, create the
+environment with `python3 -m venv .venv`, and use `.venv/bin/python` and
+`.venv/bin/radpareto`. The complete quickstart gives both command sequences.
 
 The original synthetic example deliberately contains rounded costs. Its nominal cost/time ranking differs from what can be guaranteed over the representation intervals. Bounds from decimal rounding are not confidence intervals.
 
@@ -25,6 +33,12 @@ radpareto compare examples/rounded_costs.json --require-verified-protection
 ```
 
 These commands are expected to refuse comparisons: the first mixes units and the second lacks verified protection evidence. Nonzero exit status is intentional. A refusal is a useful result and includes reasons.
+
+## Reproducible engineering applications
+
+- [Architectural portfolio and fair conventional workflow](benchmarks/workflow_comparison/README.md): source-linked budget decisions, 23 declared comparisons against pandas/NumPy/paretoset, explicit native/custom responsibilities, and two widening-scale scenarios.
+- [Same-function priority-encoder mapping](benchmarks/priority_encoder_mapping/README.md): eight recipe candidates, seven unique netlists, common generic gate basis, independent count/depth checks and eight SAT equivalence proofs. These are structural costs, not physical device area or timing.
+- [Reproduction guide](docs/reproduction.md): public inputs, methods, expected numerical outputs and local plot/table generators. No human usability or time-saving benefit is inferred from these execution checks.
 
 ## Outputs and interpretation
 
@@ -69,7 +83,7 @@ The [bounded mutation study](benchmarks/mutation/README.md) preserves twelve del
 python -m unittest discover -s tests -v
 ```
 
-The current release has 79 unit/regression test methods. Historical benchmark counts retain their original versions and denominators. See [reproduction commands and retained outputs](docs/reproduction.md), [comparison semantics](docs/semantics.md), [validation scope](docs/validation.md) and the [original HDL benchmark instructions](docs/open_benchmarks.md). A separate tool environment is needed for synthesis; the comparison engine itself stays dependency-free.
+The current release has 79 unit/regression test methods. Historical benchmark counts retain their original versions and denominators. The [validation lineage](docs/validation_versions.md) distinguishes production checks, unchanged-module evidence and frozen historical experiments. See [reproduction commands and retained outputs](docs/reproduction.md), [comparison semantics](docs/semantics.md), [validation scope](docs/validation.md) and the [original HDL benchmark instructions](docs/open_benchmarks.md). A separate tool environment is needed for synthesis; the comparison engine itself stays dependency-free.
 
 The [matched contract study](benchmarks/contracts/README.md) includes 60 original
 scenarios and an independently implemented checked pandas reference. Both match

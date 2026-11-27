@@ -1,0 +1,199 @@
+[
+  {
+    "name": "six_designs_cost_only",
+    "limits": {},
+    "require_verified_protection": false,
+    "kind": "engineering_application",
+    "purpose": "Retain full-set BL cost advantage; do not infer admissibility for a protection goal"
+  },
+  {
+    "name": "six_designs_32MHz",
+    "limits": {
+      "cells": 40,
+      "period_ns": 31.25
+    },
+    "require_verified_protection": false,
+    "kind": "engineering_application",
+    "purpose": "Observed-range uncertainty of DF5.12"
+  },
+  {
+    "name": "set_subset_unconstrained",
+    "limits": {},
+    "require_verified_protection": false,
+    "kind": "engineering_application",
+    "purpose": "SET-suppression architectural investigation; membership is not verified protection equivalence"
+  },
+  {
+    "name": "set_subset_area_priority",
+    "limits": {
+      "cells": 35,
+      "period_ns": 25.0
+    },
+    "require_verified_protection": false,
+    "kind": "engineering_application",
+    "purpose": "35 VersaTiles/bit cap and40MHz require the lower-resource frontier alternative"
+  },
+  {
+    "name": "set_subset_frequency_priority",
+    "limits": {
+      "cells": 40,
+      "period_ns": 23.80952380952381
+    },
+    "require_verified_protection": false,
+    "kind": "engineering_application",
+    "purpose": "42MHz requirement permits only the faster higher-resource alternative"
+  },
+  {
+    "name": "set_subset_ambiguous",
+    "limits": {
+      "cells": 40,
+      "period_ns": 24.57002457002457
+    },
+    "require_verified_protection": false,
+    "kind": "engineering_application",
+    "purpose": "DF1.28 nominally passes but range straddles budget; DCLR is definitely feasible under supplied bounds"
+  },
+  {
+    "name": "minimum_frequency_equality",
+    "limits": {
+      "cells": 40,
+      "period_ns": 24.64389570703337
+    },
+    "require_verified_protection": false,
+    "kind": "numeric_boundary_probe",
+    "purpose": "Same represented endpoint/adjacent limit supplied to both workflows"
+  },
+  {
+    "name": "maximum_frequency_equality",
+    "limits": {
+      "cells": 40,
+      "period_ns": 24.405125076266017
+    },
+    "require_verified_protection": false,
+    "kind": "numeric_boundary_probe",
+    "purpose": "Same represented endpoint/adjacent limit supplied to both workflows"
+  },
+  {
+    "name": "one_binary64_step_below_upper",
+    "limits": {
+      "cells": 40,
+      "period_ns": 24.643895707033366
+    },
+    "require_verified_protection": false,
+    "kind": "numeric_boundary_probe",
+    "purpose": "Same represented endpoint/adjacent limit supplied to both workflows"
+  },
+  {
+    "name": "one_binary64_step_above_lower",
+    "limits": {
+      "cells": 40,
+      "period_ns": 24.40512507626602
+    },
+    "require_verified_protection": false,
+    "kind": "numeric_boundary_probe",
+    "purpose": "Same represented endpoint/adjacent limit supplied to both workflows"
+  },
+  {
+    "name": "protection_required",
+    "limits": {
+      "cells": 40,
+      "period_ns": 25
+    },
+    "require_verified_protection": true,
+    "kind": "engineering_application",
+    "purpose": "Refuse unsupported protection comparison rather than interpreting architecture labels as evidence"
+  },
+  {
+    "name": "context_mismatch",
+    "limits": {},
+    "require_verified_protection": false,
+    "kind": "diagnostic_fixture",
+    "purpose": "One deliberately changed device declaration must be diagnosed"
+  },
+  {
+    "name": "unknown_context",
+    "limits": {},
+    "require_verified_protection": false,
+    "kind": "diagnostic_fixture",
+    "purpose": "Unknown required context cannot be treated as a shared known condition"
+  },
+  {
+    "name": "unit_semantics_mismatch",
+    "limits": {},
+    "require_verified_protection": false,
+    "kind": "diagnostic_fixture",
+    "purpose": "No implicit unit conversion; mismatched supplied semantics refuse"
+  },
+  {
+    "name": "duplicate_identifier",
+    "limits": {},
+    "require_verified_protection": false,
+    "kind": "diagnostic_fixture",
+    "purpose": "Reject ambiguous record identity"
+  },
+  {
+    "name": "reversed_interval",
+    "limits": {},
+    "require_verified_protection": false,
+    "kind": "diagnostic_fixture",
+    "purpose": "Reject malformed interval"
+  },
+  {
+    "name": "missing_source_locator",
+    "limits": {},
+    "require_verified_protection": false,
+    "kind": "diagnostic_fixture",
+    "purpose": "Reject missing required traceability field"
+  },
+  {
+    "name": "equal_cost_alternatives",
+    "limits": {},
+    "require_verified_protection": false,
+    "kind": "diagnostic_fixture",
+    "purpose": "Preserve tied alternatives using weak-all/strict-one dominance and paretoset distinct=False"
+  },
+  {
+    "name": "mapping_unconstrained",
+    "limits": {},
+    "require_verified_protection": false,
+    "kind": "engineering_application",
+    "purpose": "Same Boolean function/tool/gate basis; mapped generic structural costs only"
+  },
+  {
+    "name": "mapping_area_budget",
+    "limits": {
+      "cell_count": 60,
+      "logic_depth": 8
+    },
+    "require_verified_protection": false,
+    "kind": "engineering_application",
+    "purpose": "Same Boolean function/tool/gate basis; mapped generic structural costs only"
+  },
+  {
+    "name": "mapping_depth_budget",
+    "limits": {
+      "cell_count": 90,
+      "logic_depth": 7
+    },
+    "require_verified_protection": false,
+    "kind": "engineering_application",
+    "purpose": "Same Boolean function/tool/gate basis; mapped generic structural costs only"
+  },
+  {
+    "name": "mapping_joint_infeasible",
+    "limits": {
+      "cell_count": 60,
+      "logic_depth": 7
+    },
+    "require_verified_protection": false,
+    "kind": "engineering_application",
+    "purpose": "Same Boolean function/tool/gate basis; mapped generic structural costs only"
+  },
+  {
+    "name": "mapping_context_mismatch",
+    "limits": {},
+    "require_verified_protection": false,
+    "kind": "diagnostic_fixture",
+    "purpose": "Do not pool different declared synthesis-tool versions"
+  }
+]

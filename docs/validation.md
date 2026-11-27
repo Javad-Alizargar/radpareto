@@ -6,9 +6,15 @@ Run `python scripts/evaluate_contract.py` after installing the package. Its 58
 contract checks include 40 seeded interval cases evaluated by exhaustive
 endpoint-corner enumeration. This is an alternative software oracle, not an
 external human review or a complete proof for arbitrary inputs. Separately,
-release 0.3.0 has 79 unit/regression test methods, run with
+release 0.4.0 has 79 unit/regression test methods, run with
 `python -m unittest discover -s tests -v`. The earlier 0.2.1a1 release had 58
 unit/regression methods; those historical and current counts are not pooled.
+
+The [version and module-identity table](validation_versions.md) makes the
+current-versus-historical scope explicit. The existing full core suite
+already detects the M01 tie defect that survived the four selected historical
+families. A separate post-study regression probe records this current
+coverage without changing the original 11/12 detection result.
 
 ## Published-summary calculations in 0.3.0
 

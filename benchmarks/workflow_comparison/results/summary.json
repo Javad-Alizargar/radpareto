@@ -1,0 +1,39 @@
+{
+  "cases": 23,
+  "accepted": 15,
+  "refused": 8,
+  "agreements": 23,
+  "accepted_traceability_checks": 15,
+  "all_traceability_equal": true,
+  "cli_executions": 4,
+  "native_grouping_probe": "passed",
+  "scale_scenarios": 2,
+  "radpareto_version": "0.4.0",
+  "python": "3.12.10",
+  "dependencies": {
+    "numpy": "2.3.2",
+    "pandas": "2.2.2",
+    "paretoset": "1.2.5"
+  },
+  "compared_fields": [
+    "acceptance/refusal",
+    "reason-code classes",
+    "nominal frontier",
+    "certain-dominance screening set",
+    "per-limit and overall interval feasibility",
+    "feasible-only frontier",
+    "accepted source evidence",
+    "input hash"
+  ],
+  "not_compared": [
+    "exact diagnostic wording/order",
+    "all possible malformed inputs",
+    "arbitrary-precision inputs",
+    "runtime/user time",
+    "human usability"
+  ],
+  "differentiation": "Identical specified decisions are achievable with custom conventional code. RadPareto packages those domain rules, diagnostics, source-linked outputs and conditional certificates behind a maintained schema/API/CLI; no algorithmic superiority or measured time saving is inferred.",
+  "selected_subset": "Four source-labelled SET-suppression architectures, chosen as an architectural investigation scope, not verified protection-equivalent alternatives",
+  "scale_interpretation": "A widens cells by1 and period by0.1ns per unit t; B fixes counts and widens period by0.5ns per unit t. Analyst-selected stress scenarios, not data-estimated uncertainty or intrinsic robustness. Counts may be fixed when treating only timing perturbations.",
+  "baseline_custom_code_sha256": "07860cf11842dbcb3bc5c48f6b63ece5f4c20fa652cd93d63c8da16b9cb400b5"
+}

@@ -11,3 +11,4 @@ APIS/
 apis/
 *.key
 *.pem
+analysis-output*/

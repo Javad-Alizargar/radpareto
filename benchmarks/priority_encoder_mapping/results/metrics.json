@@ -1,0 +1,117 @@
+[
+  {
+    "method": "simple_map",
+    "abc_script": "strash; map",
+    "cells": 84,
+    "logic_depth": 7,
+    "cell_types": {
+      "$_AND_": 32,
+      "$_MUX_": 22,
+      "$_NOT_": 15,
+      "$_OR_": 15
+    },
+    "netlist_sha256": "9271027815dd8eec857b4991258c73907e79848c3d6651633dbd51b5c0ab55d2",
+    "importer_matches_stat_and_ltp": true,
+    "source_function_sat_equivalence": "passed"
+  },
+  {
+    "method": "area_map",
+    "abc_script": "strash; map -a",
+    "cells": 58,
+    "logic_depth": 8,
+    "cell_types": {
+      "$_AND_": 28,
+      "$_MUX_": 11,
+      "$_NOT_": 4,
+      "$_OR_": 15
+    },
+    "netlist_sha256": "3546f3dee99e1eacf4bc993d68044bc772e2953d2c8d030754f8338dc01fc729",
+    "importer_matches_stat_and_ltp": true,
+    "source_function_sat_equivalence": "passed"
+  },
+  {
+    "method": "dc2_map",
+    "abc_script": "strash; dc2; map",
+    "cells": 111,
+    "logic_depth": 10,
+    "cell_types": {
+      "$_AND_": 59,
+      "$_NOT_": 16,
+      "$_OR_": 36
+    },
+    "netlist_sha256": "24df2cb5b032ad00c1f7695001b04379ddc4ddf7c5afd7bc856cdf7f94b6d379",
+    "importer_matches_stat_and_ltp": true,
+    "source_function_sat_equivalence": "passed"
+  },
+  {
+    "method": "balance_map",
+    "abc_script": "strash; balance; map",
+    "cells": 84,
+    "logic_depth": 7,
+    "cell_types": {
+      "$_AND_": 32,
+      "$_MUX_": 22,
+      "$_NOT_": 15,
+      "$_OR_": 15
+    },
+    "netlist_sha256": "9271027815dd8eec857b4991258c73907e79848c3d6651633dbd51b5c0ab55d2",
+    "importer_matches_stat_and_ltp": true,
+    "source_function_sat_equivalence": "passed"
+  },
+  {
+    "method": "rewrite_map",
+    "abc_script": "strash; rewrite; refactor; balance; rewrite -z; refactor -z; balance; map",
+    "cells": 113,
+    "logic_depth": 10,
+    "cell_types": {
+      "$_AND_": 59,
+      "$_NOT_": 18,
+      "$_OR_": 36
+    },
+    "netlist_sha256": "24b48522857ebbe2396df1c82cab616ead1bc47d2a97cf6ad800d8baa610aafa",
+    "importer_matches_stat_and_ltp": true,
+    "source_function_sat_equivalence": "passed"
+  },
+  {
+    "method": "dch_map",
+    "abc_script": "strash; dch; map",
+    "cells": 101,
+    "logic_depth": 10,
+    "cell_types": {
+      "$_AND_": 45,
+      "$_NOT_": 21,
+      "$_OR_": 35
+    },
+    "netlist_sha256": "481d2b19042de80f96163bff7a480806b887979d0ffbb5b0c2071e677cc9956c",
+    "importer_matches_stat_and_ltp": true,
+    "source_function_sat_equivalence": "passed"
+  },
+  {
+    "method": "dch_area_map",
+    "abc_script": "strash; dch; map -a",
+    "cells": 79,
+    "logic_depth": 13,
+    "cell_types": {
+      "$_AND_": 42,
+      "$_NOT_": 19,
+      "$_OR_": 18
+    },
+    "netlist_sha256": "cfc6e4be46d6f151d4e2c86835f7f294b156ef8026579cb259be8ac5be466dde",
+    "importer_matches_stat_and_ltp": true,
+    "source_function_sat_equivalence": "passed"
+  },
+  {
+    "method": "default",
+    "abc_script": "pinned Yosys default",
+    "cells": 80,
+    "logic_depth": 12,
+    "cell_types": {
+      "$_AND_": 39,
+      "$_NOT_": 18,
+      "$_OR_": 23
+    },
+    "netlist_sha256": "b448f73b9e6d4055dd1bcd32d21e4996dcf698c10cc10fc1f37fc4218a4da18f",
+    "importer_matches_stat_and_ltp": true,
+    "source_function_sat_equivalence": "passed"
+  }
+]

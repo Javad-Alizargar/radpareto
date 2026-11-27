@@ -1,0 +1,331 @@
+{
+  "input_sha256": "5efaab17e0ea307d158dd759f6a503b82b28ad93b01756dff30c7de343235adc",
+  "options": {
+    "limits": {},
+    "require_verified_protection": false
+  },
+  "result": {
+    "status": "accepted",
+    "reasons": [],
+    "nominal_front": [
+      "simple_map",
+      "area_map",
+      "balance_map"
+    ],
+    "not_certainly_dominated": [
+      "simple_map",
+      "area_map",
+      "balance_map"
+    ],
+    "feasibility": {
+      "simple_map": {
+        "status": "definitely_feasible",
+        "per_limit": {}
+      },
+      "area_map": {
+        "status": "definitely_feasible",
+        "per_limit": {}
+      },
+      "dc2_map": {
+        "status": "definitely_feasible",
+        "per_limit": {}
+      },
+      "balance_map": {
+        "status": "definitely_feasible",
+        "per_limit": {}
+      },
+      "rewrite_map": {
+        "status": "definitely_feasible",
+        "per_limit": {}
+      },
+      "dch_map": {
+        "status": "definitely_feasible",
+        "per_limit": {}
+      },
+      "dch_area_map": {
+        "status": "definitely_feasible",
+        "per_limit": {}
+      },
+      "default": {
+        "status": "definitely_feasible",
+        "per_limit": {}
+      }
+    },
+    "definitely_feasible_nominal_front": [
+      "simple_map",
+      "area_map",
+      "balance_map"
+    ],
+    "record_evidence": {
+      "simple_map": {
+        "method": "simple_map",
+        "metrics": {
+          "cell_count": {
+            "value": 84,
+            "lower": 84,
+            "upper": 84,
+            "unit": "generic_cells",
+            "denominator": "absolute",
+            "uncertainty_kind": "exact"
+          },
+          "logic_depth": {
+            "value": 7,
+            "lower": 7,
+            "upper": 7,
+            "unit": "logic_levels",
+            "denominator": "absolute",
+            "uncertainty_kind": "exact"
+          }
+        },
+        "provenance": {
+          "source_uri": "benchmarks/priority_encoder_mapping/results/simple_map.json",
+          "source_sha256": "9271027815dd8eec857b4991258c73907e79848c3d6651633dbd51b5c0ab55d2",
+          "locator": "modules.priority_encoder; recursively expanded generic primitives",
+          "extraction": "radpareto.yosys strict generic importer v0.1"
+        },
+        "protection": {
+          "status": "unverified",
+          "fault_model": "not_tested",
+          "scope": "resource and logic-depth measurement only",
+          "evidence_uri": "not_available"
+        }
+      },
+      "area_map": {
+        "method": "area_map",
+        "metrics": {
+          "cell_count": {
+            "value": 58,
+            "lower": 58,
+            "upper": 58,
+            "unit": "generic_cells",
+            "denominator": "absolute",
+            "uncertainty_kind": "exact"
+          },
+          "logic_depth": {
+            "value": 8,
+            "lower": 8,
+            "upper": 8,
+            "unit": "logic_levels",
+            "denominator": "absolute",
+            "uncertainty_kind": "exact"
+          }
+        },
+        "provenance": {
+          "source_uri": "benchmarks/priority_encoder_mapping/results/area_map.json",
+          "source_sha256": "3546f3dee99e1eacf4bc993d68044bc772e2953d2c8d030754f8338dc01fc729",
+          "locator": "modules.priority_encoder; recursively expanded generic primitives",
+          "extraction": "radpareto.yosys strict generic importer v0.1"
+        },
+        "protection": {
+          "status": "unverified",
+          "fault_model": "not_tested",
+          "scope": "resource and logic-depth measurement only",
+          "evidence_uri": "not_available"
+        }
+      },
+      "dc2_map": {
+        "method": "dc2_map",
+        "metrics": {
+          "cell_count": {
+            "value": 111,
+            "lower": 111,
+            "upper": 111,
+            "unit": "generic_cells",
+            "denominator": "absolute",
+            "uncertainty_kind": "exact"
+          },
+          "logic_depth": {
+            "value": 10,
+            "lower": 10,
+            "upper": 10,
+            "unit": "logic_levels",
+            "denominator": "absolute",
+            "uncertainty_kind": "exact"
+          }
+        },
+        "provenance": {
+          "source_uri": "benchmarks/priority_encoder_mapping/results/dc2_map.json",
+          "source_sha256": "24df2cb5b032ad00c1f7695001b04379ddc4ddf7c5afd7bc856cdf7f94b6d379",
+          "locator": "modules.priority_encoder; recursively expanded generic primitives",
+          "extraction": "radpareto.yosys strict generic importer v0.1"
+        },
+        "protection": {
+          "status": "unverified",
+          "fault_model": "not_tested",
+          "scope": "resource and logic-depth measurement only",
+          "evidence_uri": "not_available"
+        }
+      },
+      "balance_map": {
+        "method": "balance_map",
+        "metrics": {
+          "cell_count": {
+            "value": 84,
+            "lower": 84,
+            "upper": 84,
+            "unit": "generic_cells",
+            "denominator": "absolute",
+            "uncertainty_kind": "exact"
+          },
+          "logic_depth": {
+            "value": 7,
+            "lower": 7,
+            "upper": 7,
+            "unit": "logic_levels",
+            "denominator": "absolute",
+            "uncertainty_kind": "exact"
+          }
+        },
+        "provenance": {
+          "source_uri": "benchmarks/priority_encoder_mapping/results/balance_map.json",
+          "source_sha256": "9271027815dd8eec857b4991258c73907e79848c3d6651633dbd51b5c0ab55d2",
+          "locator": "modules.priority_encoder; recursively expanded generic primitives",
+          "extraction": "radpareto.yosys strict generic importer v0.1"
+        },
+        "protection": {
+          "status": "unverified",
+          "fault_model": "not_tested",
+          "scope": "resource and logic-depth measurement only",
+          "evidence_uri": "not_available"
+        }
+      },
+      "rewrite_map": {
+        "method": "rewrite_map",
+        "metrics": {
+          "cell_count": {
+            "value": 113,
+            "lower": 113,
+            "upper": 113,
+            "unit": "generic_cells",
+            "denominator": "absolute",
+            "uncertainty_kind": "exact"
+          },
+          "logic_depth": {
+            "value": 10,
+            "lower": 10,
+            "upper": 10,
+            "unit": "logic_levels",
+            "denominator": "absolute",
+            "uncertainty_kind": "exact"
+          }
+        },
+        "provenance": {
+          "source_uri": "benchmarks/priority_encoder_mapping/results/rewrite_map.json",
+          "source_sha256": "24b48522857ebbe2396df1c82cab616ead1bc47d2a97cf6ad800d8baa610aafa",
+          "locator": "modules.priority_encoder; recursively expanded generic primitives",
+          "extraction": "radpareto.yosys strict generic importer v0.1"
+        },
+        "protection": {
+          "status": "unverified",
+          "fault_model": "not_tested",
+          "scope": "resource and logic-depth measurement only",
+          "evidence_uri": "not_available"
+        }
+      },
+      "dch_map": {
+        "method": "dch_map",
+        "metrics": {
+          "cell_count": {
+            "value": 101,
+            "lower": 101,
+            "upper": 101,
+            "unit": "generic_cells",
+            "denominator": "absolute",
+            "uncertainty_kind": "exact"
+          },
+          "logic_depth": {
+            "value": 10,
+            "lower": 10,
+            "upper": 10,
+            "unit": "logic_levels",
+            "denominator": "absolute",
+            "uncertainty_kind": "exact"
+          }
+        },
+        "provenance": {
+          "source_uri": "benchmarks/priority_encoder_mapping/results/dch_map.json",
+          "source_sha256": "481d2b19042de80f96163bff7a480806b887979d0ffbb5b0c2071e677cc9956c",
+          "locator": "modules.priority_encoder; recursively expanded generic primitives",
+          "extraction": "radpareto.yosys strict generic importer v0.1"
+        },
+        "protection": {
+          "status": "unverified",
+          "fault_model": "not_tested",
+          "scope": "resource and logic-depth measurement only",
+          "evidence_uri": "not_available"
+        }
+      },
+      "dch_area_map": {
+        "method": "dch_area_map",
+        "metrics": {
+          "cell_count": {
+            "value": 79,
+            "lower": 79,
+            "upper": 79,
+            "unit": "generic_cells",
+            "denominator": "absolute",
+            "uncertainty_kind": "exact"
+          },
+          "logic_depth": {
+            "value": 13,
+            "lower": 13,
+            "upper": 13,
+            "unit": "logic_levels",
+            "denominator": "absolute",
+            "uncertainty_kind": "exact"
+          }
+        },
+        "provenance": {
+          "source_uri": "benchmarks/priority_encoder_mapping/results/dch_area_map.json",
+          "source_sha256": "cfc6e4be46d6f151d4e2c86835f7f294b156ef8026579cb259be8ac5be466dde",
+          "locator": "modules.priority_encoder; recursively expanded generic primitives",
+          "extraction": "radpareto.yosys strict generic importer v0.1"
+        },
+        "protection": {
+          "status": "unverified",
+          "fault_model": "not_tested",
+          "scope": "resource and logic-depth measurement only",
+          "evidence_uri": "not_available"
+        }
+      },
+      "default": {
+        "method": "default",
+        "metrics": {
+          "cell_count": {
+            "value": 80,
+            "lower": 80,
+            "upper": 80,
+            "unit": "generic_cells",
+            "denominator": "absolute",
+            "uncertainty_kind": "exact"
+          },
+          "logic_depth": {
+            "value": 12,
+            "lower": 12,
+            "upper": 12,
+            "unit": "logic_levels",
+            "denominator": "absolute",
+            "uncertainty_kind": "exact"
+          }
+        },
+        "provenance": {
+          "source_uri": "benchmarks/priority_encoder_mapping/results/default.json",
+          "source_sha256": "b448f73b9e6d4055dd1bcd32d21e4996dcf698c10cc10fc1f37fc4218a4da18f",
+          "locator": "modules.priority_encoder; recursively expanded generic primitives",
+          "extraction": "radpareto.yosys strict generic importer v0.1"
+        },
+        "protection": {
+          "status": "unverified",
+          "fault_model": "not_tested",
+          "scope": "resource and logic-depth measurement only",
+          "evidence_uri": "not_available"
+        }
+      }
+    },
+    "limits": {},
+    "warnings": [
+      "Source fields are declarations, not authentication.",
+      "All supplied boxes and scale scenarios are conditional, not physical reliability guarantees."
+    ]
+  }
+}

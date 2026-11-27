@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "Please cite the exact tagged release used. Add its verified Zenodo DOI when available."
 title: "RadPareto: evidence-aware resource comparison"
 type: software
-version: "0.3.0"
-date-released: "2026-11-21"
+version: "0.4.0"
+date-released: "2026-11-27"
 authors:
   - family-names: "Alizargar"
     given-names: "Javad"

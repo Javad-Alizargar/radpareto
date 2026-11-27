@@ -1,0 +1,373 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "id": "simple_map",
+      "design": "priority_encoder_width16_msb",
+      "method": "simple_map",
+      "context": {
+        "baseline_id": "priority_encoder_width16_msb_df28220d95b4",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys synth -noabc plus ABC; common gate basis AND OR XOR MUX NOT",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "flattened generic Boolean gates; mapping recipe varies explicitly as method",
+        "constraints_id": "same WIDTH16 MSB-priority function and generic gate library; no physical constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all 65536 Boolean input vectors; source output behavior preserved",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 84,
+          "lower": 84,
+          "upper": 84,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 7,
+          "lower": 7,
+          "upper": 7,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "benchmarks/priority_encoder_mapping/results/simple_map.json",
+        "source_sha256": "9271027815dd8eec857b4991258c73907e79848c3d6651633dbd51b5c0ab55d2",
+        "locator": "modules.priority_encoder; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "area_map",
+      "design": "priority_encoder_width16_msb",
+      "method": "area_map",
+      "context": {
+        "baseline_id": "priority_encoder_width16_msb_df28220d95b4",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys synth -noabc plus ABC; common gate basis AND OR XOR MUX NOT",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "flattened generic Boolean gates; mapping recipe varies explicitly as method",
+        "constraints_id": "same WIDTH16 MSB-priority function and generic gate library; no physical constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all 65536 Boolean input vectors; source output behavior preserved",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 58,
+          "lower": 58,
+          "upper": 58,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 8,
+          "lower": 8,
+          "upper": 8,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "benchmarks/priority_encoder_mapping/results/area_map.json",
+        "source_sha256": "3546f3dee99e1eacf4bc993d68044bc772e2953d2c8d030754f8338dc01fc729",
+        "locator": "modules.priority_encoder; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "dc2_map",
+      "design": "priority_encoder_width16_msb",
+      "method": "dc2_map",
+      "context": {
+        "baseline_id": "priority_encoder_width16_msb_df28220d95b4",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys synth -noabc plus ABC; common gate basis AND OR XOR MUX NOT",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "flattened generic Boolean gates; mapping recipe varies explicitly as method",
+        "constraints_id": "same WIDTH16 MSB-priority function and generic gate library; no physical constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all 65536 Boolean input vectors; source output behavior preserved",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 111,
+          "lower": 111,
+          "upper": 111,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 10,
+          "lower": 10,
+          "upper": 10,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "benchmarks/priority_encoder_mapping/results/dc2_map.json",
+        "source_sha256": "24df2cb5b032ad00c1f7695001b04379ddc4ddf7c5afd7bc856cdf7f94b6d379",
+        "locator": "modules.priority_encoder; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "balance_map",
+      "design": "priority_encoder_width16_msb",
+      "method": "balance_map",
+      "context": {
+        "baseline_id": "priority_encoder_width16_msb_df28220d95b4",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys synth -noabc plus ABC; common gate basis AND OR XOR MUX NOT",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "flattened generic Boolean gates; mapping recipe varies explicitly as method",
+        "constraints_id": "same WIDTH16 MSB-priority function and generic gate library; no physical constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all 65536 Boolean input vectors; source output behavior preserved",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 84,
+          "lower": 84,
+          "upper": 84,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 7,
+          "lower": 7,
+          "upper": 7,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "benchmarks/priority_encoder_mapping/results/balance_map.json",
+        "source_sha256": "9271027815dd8eec857b4991258c73907e79848c3d6651633dbd51b5c0ab55d2",
+        "locator": "modules.priority_encoder; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "rewrite_map",
+      "design": "priority_encoder_width16_msb",
+      "method": "rewrite_map",
+      "context": {
+        "baseline_id": "priority_encoder_width16_msb_df28220d95b4",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys synth -noabc plus ABC; common gate basis AND OR XOR MUX NOT",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "flattened generic Boolean gates; mapping recipe varies explicitly as method",
+        "constraints_id": "same WIDTH16 MSB-priority function and generic gate library; no physical constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all 65536 Boolean input vectors; source output behavior preserved",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 113,
+          "lower": 113,
+          "upper": 113,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 10,
+          "lower": 10,
+          "upper": 10,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "benchmarks/priority_encoder_mapping/results/rewrite_map.json",
+        "source_sha256": "24b48522857ebbe2396df1c82cab616ead1bc47d2a97cf6ad800d8baa610aafa",
+        "locator": "modules.priority_encoder; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "dch_map",
+      "design": "priority_encoder_width16_msb",
+      "method": "dch_map",
+      "context": {
+        "baseline_id": "priority_encoder_width16_msb_df28220d95b4",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys synth -noabc plus ABC; common gate basis AND OR XOR MUX NOT",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "flattened generic Boolean gates; mapping recipe varies explicitly as method",
+        "constraints_id": "same WIDTH16 MSB-priority function and generic gate library; no physical constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all 65536 Boolean input vectors; source output behavior preserved",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 101,
+          "lower": 101,
+          "upper": 101,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 10,
+          "lower": 10,
+          "upper": 10,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "benchmarks/priority_encoder_mapping/results/dch_map.json",
+        "source_sha256": "481d2b19042de80f96163bff7a480806b887979d0ffbb5b0c2071e677cc9956c",
+        "locator": "modules.priority_encoder; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "dch_area_map",
+      "design": "priority_encoder_width16_msb",
+      "method": "dch_area_map",
+      "context": {
+        "baseline_id": "priority_encoder_width16_msb_df28220d95b4",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys synth -noabc plus ABC; common gate basis AND OR XOR MUX NOT",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "flattened generic Boolean gates; mapping recipe varies explicitly as method",
+        "constraints_id": "same WIDTH16 MSB-priority function and generic gate library; no physical constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all 65536 Boolean input vectors; source output behavior preserved",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 79,
+          "lower": 79,
+          "upper": 79,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 13,
+          "lower": 13,
+          "upper": 13,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "benchmarks/priority_encoder_mapping/results/dch_area_map.json",
+        "source_sha256": "cfc6e4be46d6f151d4e2c86835f7f294b156ef8026579cb259be8ac5be466dde",
+        "locator": "modules.priority_encoder; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    },
+    {
+      "id": "default",
+      "design": "priority_encoder_width16_msb",
+      "method": "default",
+      "context": {
+        "baseline_id": "priority_encoder_width16_msb_df28220d95b4",
+        "device": "abstract_generic_logic",
+        "toolchain": "Yosys synth -noabc plus ABC; common gate basis AND OR XOR MUX NOT",
+        "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+        "implementation": "flattened generic Boolean gates; mapping recipe varies explicitly as method",
+        "constraints_id": "same WIDTH16 MSB-priority function and generic gate library; no physical constraints",
+        "timing_corner": "not_applicable_logic_depth_surrogate",
+        "workload_id": "all 65536 Boolean input vectors; source output behavior preserved",
+        "source_kind": "synthesis"
+      },
+      "metrics": {
+        "cell_count": {
+          "value": 80,
+          "lower": 80,
+          "upper": 80,
+          "unit": "generic_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        },
+        "logic_depth": {
+          "value": 12,
+          "lower": 12,
+          "upper": 12,
+          "unit": "logic_levels",
+          "denominator": "absolute",
+          "uncertainty_kind": "exact"
+        }
+      },
+      "provenance": {
+        "source_uri": "benchmarks/priority_encoder_mapping/results/default.json",
+        "source_sha256": "b448f73b9e6d4055dd1bcd32d21e4996dcf698c10cc10fc1f37fc4218a4da18f",
+        "locator": "modules.priority_encoder; recursively expanded generic primitives",
+        "extraction": "radpareto.yosys strict generic importer v0.1"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_tested",
+        "scope": "resource and logic-depth measurement only",
+        "evidence_uri": "not_available"
+      }
+    }
+  ]
+}

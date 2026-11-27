@@ -1,0 +1,22 @@
+{
+  "input_sha256": "1d5e78380c99e886b1350fcfa2eff1583354053cafb61d0c9e1db121e0098fe4",
+  "workflow": "pandas-numpy-paretoset-custom-domain-rules",
+  "options": {
+    "limits": {
+      "cells": 40.0,
+      "period_ns": 24.57002457002457
+    },
+    "require_verified_protection": false
+  },
+  "result": {
+    "status": "refused",
+    "reasons": [
+      {
+        "code": "CONTEXT_MISMATCH",
+        "message": "Comparison context differs",
+        "record": "DCLR-TMR-DFF",
+        "field": "device"
+      }
+    ]
+  }
+}

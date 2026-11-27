@@ -1,0 +1,12 @@
+read_verilog priority_encoder.v
+chparam -set WIDTH 16 -set LSB_HIGH_PRIORITY 0 priority_encoder
+hierarchy -top priority_encoder
+proc
+flatten
+opt
+rename priority_encoder gold
+read_json dch_area_map.json
+rename priority_encoder gate
+miter -equiv -flatten gold gate equivalence
+hierarchy -top equivalence
+tee -o dch_area_map.sat sat -verify -prove trigger 0 -set-def-inputs

@@ -1,0 +1,82 @@
+[
+  {
+    "case": "set_subset_ambiguous",
+    "implementation": "radpareto",
+    "command": [
+      "python",
+      "-m",
+      "radpareto",
+      "compare",
+      "benchmarks/workflow_comparison/results/inputs/set_subset_ambiguous.json",
+      "--limit",
+      "cells=40",
+      "--limit",
+      "period_ns=24.57002457002457",
+      "--output",
+      "benchmarks/workflow_comparison/results/set_subset_ambiguous_rad_cli.json"
+    ],
+    "returncode": 0,
+    "path_policy": "Executed absolute paths are expressed as equivalent repository-relative reproduction paths; Python executable is represented as python",
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "case": "set_subset_ambiguous",
+    "implementation": "conventional",
+    "command": [
+      "python",
+      "benchmarks/workflow_comparison/conventional.py",
+      "benchmarks/workflow_comparison/results/inputs/set_subset_ambiguous.json",
+      "--limit",
+      "cells=40",
+      "--limit",
+      "period_ns=24.57002457002457",
+      "--output",
+      "benchmarks/workflow_comparison/results/set_subset_ambiguous_conventional_cli.json"
+    ],
+    "returncode": 0,
+    "path_policy": "Executed absolute paths are expressed as equivalent repository-relative reproduction paths; Python executable is represented as python",
+    "stdout": "{\"status\": \"accepted\", \"output\": \"benchmarks/workflow_comparison/results//set_subset_ambiguous_conventional_cli.json\"}\n",
+    "stderr": ""
+  },
+  {
+    "case": "context_mismatch",
+    "implementation": "radpareto",
+    "command": [
+      "python",
+      "-m",
+      "radpareto",
+      "compare",
+      "benchmarks/workflow_comparison/results/inputs/context_mismatch.json",
+      "--limit",
+      "cells=40",
+      "--limit",
+      "period_ns=24.57002457002457",
+      "--output",
+      "benchmarks/workflow_comparison/results/context_mismatch_rad_cli.json"
+    ],
+    "returncode": 2,
+    "path_policy": "Executed absolute paths are expressed as equivalent repository-relative reproduction paths; Python executable is represented as python",
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "case": "context_mismatch",
+    "implementation": "conventional",
+    "command": [
+      "python",
+      "benchmarks/workflow_comparison/conventional.py",
+      "benchmarks/workflow_comparison/results/inputs/context_mismatch.json",
+      "--limit",
+      "cells=40",
+      "--limit",
+      "period_ns=24.57002457002457",
+      "--output",
+      "benchmarks/workflow_comparison/results/context_mismatch_conventional_cli.json"
+    ],
+    "returncode": 0,
+    "path_policy": "Executed absolute paths are expressed as equivalent repository-relative reproduction paths; Python executable is represented as python",
+    "stdout": "{\"status\": \"refused\", \"output\": \"benchmarks/workflow_comparison/results//context_mismatch_conventional_cli.json\"}\n",
+    "stderr": ""
+  }
+]

@@ -17,8 +17,11 @@ jobs:
       - run: python -m pip install .
       - run: python -m unittest discover -s tests -v
       - run: python scripts/evaluate_contract.py
+      - run: python scripts/check_tie_regression.py --output tie-regression.json
+      - run: python scripts/validation_lineage.py --output lineage.json
       - run: python scripts/verify_retained_artifacts.py
       - run: radpareto validate examples/rounded_costs.json
+      - run: radpareto validate examples/minimal_bounded.json
       - run: radpareto batch examples/generated/evidence.json
       - run: python benchmarks/published_case/analyze_case.py --engine-src src --out case-replay
       - run: python benchmarks/published_case/decision_atlas/analyze.py --engine-src src --out atlas-replay
@@ -56,3 +59,25 @@ jobs:
         with:
           python-version: '3.12'
       - run: python benchmarks/mutation/replay.py --output mutation-replay
+  data-plots:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-figures.txt
+      - run: python scripts/plot_results.py --out analysis-output-plots
+      - run: python scripts/plot_applications.py --out application-output-plots
+  engineering-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install . -r benchmarks/workflow_comparison/requirements.txt -r benchmarks/priority_encoder_mapping/requirements.txt
+      - run: python benchmarks/workflow_comparison/check_baseline_scope.py --output baseline-scope.json
+      - run: python benchmarks/priority_encoder_mapping/run_synthesis.py --engine-src src --out mapping-replay
+      - run: python benchmarks/workflow_comparison/run_comparison.py --engine-src src --synthesis-records mapping-replay/records.json --out workflow-replay
+      - run: python -c "import json; r=json.load(open('workflow-replay/summary.json')); assert r['cases']==23 and r['agreements']==23 and r['accepted']==15 and r['refused']==8 and r['all_traceability_equal']"

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "id": "synthetic_one",
+      "design": "synthetic_schema_example",
+      "method": "original_fixture",
+      "context": {
+        "baseline_id": "synthetic_v1",
+        "device": "abstract_logic",
+        "toolchain": "hand_defined",
+        "tool_version": "1",
+        "implementation": "abstract_cost",
+        "constraints_id": "schema_example_v1",
+        "timing_corner": "not_applicable_abstract",
+        "workload_id": "schema_example_v1",
+        "source_kind": "synthetic_example"
+      },
+      "metrics": {
+        "cells": {
+          "value": 10,
+          "lower": 9,
+          "upper": 11,
+          "unit": "abstract_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "bounded"
+        }
+      },
+      "provenance": {
+        "source_uri": "examples/minimal_bounded_source.csv",
+        "source_sha256": "43ffcc7a791eef2456406d17e2cdcd29423aa8eced704abacd1bdecbe0a2453f",
+        "locator": "row synthetic_one",
+        "extraction": "Original synthetic schema fixture, not measured FPGA data"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_assessed",
+        "scope": "cost_only",
+        "evidence_uri": "not_assessed"
+      }
+    }
+  ]
+}

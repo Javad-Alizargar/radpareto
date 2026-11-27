@@ -1,0 +1,17 @@
+scenario,record,objective,scale,initial_status,transition_t,exact_numerator,exact_denominator,boundary_included
+A_count_and_timing_stress,DF-TMR-DFF-1.28,cells,1,definitely_feasible,7.0,7,1,True
+A_count_and_timing_stress,DF-TMR-DFF-1.28,period_ns,0.1,definitely_feasible,3.561042929666307,986923791452032,277144592453569,True
+A_count_and_timing_stress,DF-TMR-DFF-2.56,cells,1,definitely_feasible,5.0,5,1,True
+A_count_and_timing_stress,DF-TMR-DFF-2.56,period_ns,0.1,definitely_infeasible,13.282607550945187,47855637133556224,3602879701896397,False
+A_count_and_timing_stress,DF-TMR-DFF-5.12,cells,1,definitely_feasible,1.0,1,1,True
+A_count_and_timing_stress,DF-TMR-DFF-5.12,period_ns,0.1,definitely_infeasible,55.829102697412694,201145540883597568,3602879701896397,False
+A_count_and_timing_stress,DCLR-TMR-DFF,cells,1,definitely_infeasible,2.0,2,1,False
+A_count_and_timing_stress,DCLR-TMR-DFF,period_ns,0.1,definitely_feasible,16.682221185254313,60104036090898816,3602879701896397,True
+B_timing_only_stress,DF-TMR-DFF-1.28,cells,0,definitely_feasible,,,,
+B_timing_only_stress,DF-TMR-DFF-1.28,period_ns,0.5,definitely_feasible,0.7122085859332614,100234447569347,140737488355328,True
+B_timing_only_stress,DF-TMR-DFF-2.56,cells,0,definitely_feasible,,,,
+B_timing_only_stress,DF-TMR-DFF-2.56,period_ns,0.5,definitely_infeasible,2.6565215101890374,93468041276477,35184372088832,False
+B_timing_only_stress,DF-TMR-DFF-5.12,cells,0,definitely_feasible,,,,
+B_timing_only_stress,DF-TMR-DFF-5.12,period_ns,0.5,definitely_infeasible,11.165820539482539,785724769076553,70368744177664,False
+B_timing_only_stress,DCLR-TMR-DFF,cells,0,definitely_infeasible,,,,
+B_timing_only_stress,DCLR-TMR-DFF,period_ns,0.5,definitely_feasible,3.3364442370508627,469562781960147,140737488355328,True

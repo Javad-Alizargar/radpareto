@@ -1,0 +1,45 @@
+{
+  "input_sha256": "0636e76e54cf936e31998c91eb0eb6e7a4c076d2047b10d248ef4ca95dd56969",
+  "software_version": "0.4.0",
+  "options": {
+    "limits": {},
+    "require_verified_protection": false
+  },
+  "result": {
+    "status": "refused",
+    "reasons": [
+      {
+        "code": "UNKNOWN_CONTEXT",
+        "message": "Required context is unknown",
+        "record": "DF-TMR-DFF-1.28",
+        "field": "tool_version"
+      },
+      {
+        "code": "CONTEXT_MISMATCH",
+        "message": "Comparison context differs",
+        "record": "DF-TMR-DFF-2.56",
+        "reference": "DF-TMR-DFF-1.28",
+        "field": "tool_version"
+      },
+      {
+        "code": "CONTEXT_MISMATCH",
+        "message": "Comparison context differs",
+        "record": "DF-TMR-DFF-5.12",
+        "reference": "DF-TMR-DFF-1.28",
+        "field": "tool_version"
+      },
+      {
+        "code": "CONTEXT_MISMATCH",
+        "message": "Comparison context differs",
+        "record": "DCLR-TMR-DFF",
+        "reference": "DF-TMR-DFF-1.28",
+        "field": "tool_version"
+      }
+    ],
+    "nominal_front": [],
+    "not_certainly_dominated": [],
+    "feasibility": {},
+    "definitely_feasible_nominal_front": [],
+    "warnings": []
+  }
+}

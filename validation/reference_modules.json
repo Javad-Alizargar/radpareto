@@ -1,0 +1,45 @@
+{
+  "provenance": "SHA-256 of exact Git blob bytes from the stated public commits; source creator remains in software metadata.",
+  "releases": [
+    {
+      "version": "0.2.0a1",
+      "commit": "e2df9989c25ad85084adb7d0e50a2cb388f4b881",
+      "modules_sha256": {
+        "__init__.py": "d27ab9eabc1b96b6455a74b5c0c3f484586059c8910b6372b5be952f491a8d91",
+        "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+        "cli.py": "44aba843eab81ba64436510502eff78e66e49a68cbb160e54ab543a66078406c",
+        "compare.py": "ea8984a92f856dc248332c9b8bf48503acc926d0819e6a47b0311a7d930fb459",
+        "stability.py": "6f40072504340ec61af286804b1120eaeaee676be8653f925dcc9872af5302d5",
+        "validation.py": "06113188359003cecbdc3fe10a93502cdd481c1201c715e78ec97310f15d60a7",
+        "yosys.py": "6e181f16ca2ad6a9ea2f2cad0af11dfa096d259f1bd3eba1460666664e26d01b"
+      }
+    },
+    {
+      "version": "0.2.1a1",
+      "commit": "5485414a9ba3728ffe8526e42b4f27761452871f",
+      "modules_sha256": {
+        "__init__.py": "bfdec7893a8e1ea1a53d2702423713f1212928881cd3b343e75e09ff01048090",
+        "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+        "cli.py": "44aba843eab81ba64436510502eff78e66e49a68cbb160e54ab543a66078406c",
+        "compare.py": "ea8984a92f856dc248332c9b8bf48503acc926d0819e6a47b0311a7d930fb459",
+        "stability.py": "6f40072504340ec61af286804b1120eaeaee676be8653f925dcc9872af5302d5",
+        "validation.py": "06113188359003cecbdc3fe10a93502cdd481c1201c715e78ec97310f15d60a7",
+        "yosys.py": "6e181f16ca2ad6a9ea2f2cad0af11dfa096d259f1bd3eba1460666664e26d01b"
+      }
+    },
+    {
+      "version": "0.3.0",
+      "commit": "4953ab6aa46794f41b0eb069ee8eade5014eb5ae",
+      "modules_sha256": {
+        "__init__.py": "703ba0aded9158346c62b0c0f79a33d07da857db8a1ed30e21203a9421869cf2",
+        "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+        "cli.py": "44aba843eab81ba64436510502eff78e66e49a68cbb160e54ab543a66078406c",
+        "compare.py": "ea8984a92f856dc248332c9b8bf48503acc926d0819e6a47b0311a7d930fb459",
+        "stability.py": "6f40072504340ec61af286804b1120eaeaee676be8653f925dcc9872af5302d5",
+        "units.py": "083f0f0f6f3ffaa61058b040c5480a1a5d2c995e6b3ac445c65d3d767847be41",
+        "validation.py": "06113188359003cecbdc3fe10a93502cdd481c1201c715e78ec97310f15d60a7",
+        "yosys.py": "6e181f16ca2ad6a9ea2f2cad0af11dfa096d259f1bd3eba1460666664e26d01b"
+      }
+    }
+  ]
+}

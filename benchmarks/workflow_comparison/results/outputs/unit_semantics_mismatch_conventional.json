@@ -1,0 +1,19 @@
+{
+  "input_sha256": "e0e50a450d53441eda7205f337cd2b90224d6df05f60914aff5c469afd565c73",
+  "options": {
+    "limits": {},
+    "require_verified_protection": false
+  },
+  "result": {
+    "status": "refused",
+    "reasons": [
+      {
+        "code": "METRIC_SEMANTICS_MISMATCH",
+        "message": "Objective semantics differ",
+        "record": "DCLR-TMR-DFF",
+        "metric": "period_ns",
+        "field": "unit"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "input_sha256": "e9c4a38c53eed18667517e218b4967b3a1b236d46d6ad9b2363174f99fd55bba",
+  "software_version": "0.4.0",
+  "options": {
+    "limits": {},
+    "require_verified_protection": false
+  },
+  "result": {
+    "status": "refused",
+    "reasons": [
+      {
+        "code": "INVALID_INTERVAL",
+        "path": "records[0].metrics.period_ns",
+        "message": "Require lower <= value <= upper"
+      }
+    ],
+    "nominal_front": [],
+    "not_certainly_dominated": [],
+    "feasibility": {},
+    "definitely_feasible_nominal_front": [],
+    "warnings": []
+  }
+}

@@ -1,0 +1,16 @@
+case,records,source_fields_identical,input_hashes_identical
+six_designs_cost_only,6,True,True
+six_designs_32MHz,6,True,True
+set_subset_unconstrained,4,True,True
+set_subset_area_priority,4,True,True
+set_subset_frequency_priority,4,True,True
+set_subset_ambiguous,4,True,True
+minimum_frequency_equality,4,True,True
+maximum_frequency_equality,4,True,True
+one_binary64_step_below_upper,4,True,True
+one_binary64_step_above_lower,4,True,True
+equal_cost_alternatives,2,True,True
+mapping_unconstrained,8,True,True
+mapping_area_budget,8,True,True
+mapping_depth_budget,8,True,True
+mapping_joint_infeasible,8,True,True

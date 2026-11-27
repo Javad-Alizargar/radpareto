@@ -1,0 +1,18 @@
+
+7. Printing statistics.
+
+=== priority_encoder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      103 wires
+      183 wire bits
+       11 public wires
+       91 public wire bits
+        4 ports
+       37 port bits
+      113 cells
+       59   $_AND_
+       18   $_NOT_
+       36   $_OR_
+

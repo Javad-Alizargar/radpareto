@@ -1,0 +1,25 @@
+{
+  "input_sha256": "c94f3c5793935140a8ffe8b643113ad9735171abb686c06b3af6f00348ddb76a",
+  "software_version": "0.4.0",
+  "options": {
+    "limits": {},
+    "require_verified_protection": false
+  },
+  "result": {
+    "status": "refused",
+    "reasons": [
+      {
+        "code": "CONTEXT_MISMATCH",
+        "message": "Comparison context differs",
+        "record": "default",
+        "reference": "simple_map",
+        "field": "tool_version"
+      }
+    ],
+    "nominal_front": [],
+    "not_certainly_dominated": [],
+    "feasibility": {},
+    "definitely_feasible_nominal_front": [],
+    "warnings": []
+  }
+}

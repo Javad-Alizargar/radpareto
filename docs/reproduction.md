@@ -1,4 +1,4 @@
-# Reproducing release 0.3.0
+# Reproducing release 0.4.0
 
 Use a checkout of the release tag or its pinned commit. Python 3.11 or later
 is required; the scientific engine and published-number analysis use only
@@ -11,6 +11,8 @@ python -m pip install .
 python -m unittest discover -s tests -v
 python scripts/evaluate_contract.py
 python scripts/verify_retained_artifacts.py
+python scripts/validation_lineage.py --output lineage.json
+python scripts/check_tie_regression.py --output tie-regression.json
 python benchmarks/published_case/analyze_case.py --engine-src src --out case-replay
 python benchmarks/published_case/decision_atlas/analyze.py --engine-src src --out atlas-replay
 python benchmarks/published_case/decision_atlas/verify_outputs.py --case-dir benchmarks/published_case --results atlas-replay --out atlas-check.json
@@ -21,6 +23,35 @@ contract script evaluates 58 specified checks. The CI engine matrix runs
 these commands on Python 3.11 and 3.12 on Ubuntu and Windows. A workflow
 definition alone is not evidence that a particular remote run passed;
 inspect the run associated with the release commit.
+
+The [complete quickstart](quickstart.md) covers installation, real bundled
+inputs, output interpretation and expected refusals. The [validation lineage
+table](validation_versions.md) identifies which evidence executes current
+production modules and which commands always execute frozen historical code.
+Software-creator metadata in CITATION.cff/.zenodo.json is distinct from a
+manuscript's author list; this release does not infer new software creators
+from manuscript authorship.
+
+## Regenerating analysis plots and tables
+
+The optional plot dependencies are separate from the dependency-free core.
+From the repository root, choose a fresh local output directory:
+
+```sh
+python -m pip install -r requirements-figures.txt
+python scripts/plot_results.py --out analysis-output-plots
+```
+
+This generates six PDF/SVG/PNG data plots and four table CSVs from the
+permitted retained numerical results, including the conversion diagnostic,
+context comparison and unchanged historical mutation matrix. To plot a
+fresh atlas replay instead, add `--atlas-dir atlas-replay`. The script records
+input hashes, its own hash, dependency versions and generated-output hashes.
+It contains no manuscript text or private-review imports. Generated artwork
+is excluded from the source release and remains a local output; all inputs
+and plotting methods are included. Scientific interpretation remains the
+responsibility of the analyst, including historical denominators and interval
+meaning. Source tables retain their stated licenses and attribution.
 
 ## Inputs and derived outputs
 
@@ -85,10 +116,25 @@ worst-case summaries; two reversed pair orders are descriptive, not causal.
 See [validation scope](validation.md) and the
 [atlas methods](../benchmarks/published_case/decision_atlas/README.md).
 
+## New common-information engineering workflows
+
+Select Python 3.11+ explicitly (`py -3.12` on Windows if `python` names an older interpreter). From the repository root:
+
+```sh
+python -m pip install . -r benchmarks/workflow_comparison/requirements.txt -r benchmarks/priority_encoder_mapping/requirements.txt -r requirements-figures.txt
+python benchmarks/priority_encoder_mapping/run_synthesis.py --engine-src src --out mapping-replay
+python benchmarks/workflow_comparison/run_comparison.py --engine-src src --synthesis-records mapping-replay/records.json --out workflow-replay
+python benchmarks/workflow_comparison/check_baseline_scope.py --output baseline-scope.json
+python scripts/plot_results.py --out numerical-plots
+python scripts/plot_applications.py --out application-plots
+```
+
+The final two commands regenerate diagrams, numerical panels and table CSVs from the committed retained results; they do not create new observations. The first two rerun upstream synthesis and the same-information decision comparison into fresh directories. Compare numerical output fields with the committed results while retaining run/version/hash differences. Nine artificial baseline-scope probes are separate from the 23 application/diagnostic comparisons. Generated images remain local products and are not committed here.
+
 ## Replaying retained historical experiments
 
 The following methods retain the stated historical study versions and
-denominators. Fresh runs with 0.3.0 are current software replays, not new
+denominators. Fresh runs with 0.4.0 are current software replays, not new
 hardware observations or replacements for the retained timing measurements.
 The reference implementation needs its separately pinned dependencies.
 
@@ -101,7 +147,7 @@ python benchmarks/mutation/replay.py --output mutation-replay
 ```
 
 The mutation command copies and executes the frozen 0.2.0a1 baseline and
-variants. It does not mutate the installed 0.3.0 package. Eleven of the twelve
+variants. It does not mutate the installed 0.4.0 package. Eleven of the twelve
 specified mutants were detected by the frozen diagnostic families; the
 surviving tie-handling mutant remains in the denominator. See the
 [mutation protocol](../benchmarks/mutation/README.md).

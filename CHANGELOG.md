@@ -1,5 +1,16 @@
 # Changes
 
+## 0.4.0
+
+- Add an architectural-subset engineering decision and a same-function, common-gate-basis priority-encoder mapping application with eight recipe candidates, seven unique netlists and retained SAT equivalence proofs.
+- Add a fair conventional pandas/NumPy/paretoset workflow: 23 specified decision comparisons, explicit native/configured/custom responsibilities, source-evidence checks and a separately checked baseline numeric scope.
+- Add two declared widening-scale scenarios and on-demand workflow/application plots; no measured human time saving or physical FPGA timing/radiation claim is inferred.
+- Add complete installation/input/API/output/refusal guidance and an original minimal schema fixture; explain operational follow-up after an uncertain result.
+- Add public data-plot/table regeneration with pinned optional dependencies and source/output hashes; generated artwork remains a local product.
+- Link validation families to historical commits and current module hashes. Keep frozen mutation experiments and historical timing distinct from current production checks.
+- Demonstrate existing current regression coverage of retained M01/M02 defects without changing the historical 11/12 detection score. The CLI version assertion is updated for 0.4.0.
+- Preserve software-creator metadata separately from manuscript authorship. No verified archival DOI is invented.
+
 ## 0.3.0
 
 - Use one decimal-frequency conversion path for published source values and requirements, correcting two one-ULP equality decisions at 40.578 and 40.975 MHz. The original 72 scenario classifications remain unchanged.

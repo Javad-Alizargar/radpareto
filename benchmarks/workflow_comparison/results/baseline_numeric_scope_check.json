@@ -1,0 +1,63 @@
+{
+  "probe_count": 9,
+  "all_passed": true,
+  "main_workflow_cases_unchanged": 23,
+  "probes": [
+    {
+      "probe": "zero",
+      "status": "accepted",
+      "reason_code": null,
+      "passed": true
+    },
+    {
+      "probe": "largest_declared_integer",
+      "status": "accepted",
+      "reason_code": null,
+      "passed": true
+    },
+    {
+      "probe": "first_outside_integer",
+      "status": "refused",
+      "reason_code": "BASELINE_NUMERIC_SCOPE",
+      "passed": true
+    },
+    {
+      "probe": "positive_huge_integer",
+      "status": "refused",
+      "reason_code": "BASELINE_NUMERIC_SCOPE",
+      "passed": true
+    },
+    {
+      "probe": "negative_huge_integer",
+      "status": "refused",
+      "reason_code": "INVALID_NUMBER",
+      "passed": true
+    },
+    {
+      "probe": "negative_integer",
+      "status": "refused",
+      "reason_code": "INVALID_NUMBER",
+      "passed": true
+    },
+    {
+      "probe": "positive_infinity",
+      "status": "refused",
+      "reason_code": "INVALID_NUMBER",
+      "passed": true
+    },
+    {
+      "probe": "nan",
+      "status": "refused",
+      "reason_code": "INVALID_NUMBER",
+      "passed": true
+    },
+    {
+      "probe": "boolean",
+      "status": "refused",
+      "reason_code": "INVALID_NUMBER",
+      "passed": true
+    }
+  ],
+  "conventional_sha256": "07860cf11842dbcb3bc5c48f6b63ece5f4c20fa652cd93d63c8da16b9cb400b5",
+  "scope": "Artificial baseline-adapter numeric contract checks, not RadPareto superiority or additional application observations"
+}

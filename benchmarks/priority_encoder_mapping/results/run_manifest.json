@@ -1,0 +1,243 @@
+{
+  "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+  "radpareto_version": "0.4.0",
+  "python": "3.12.10",
+  "source_sha256": "df28220d95b47df349a72803a9751aad331eb8e1435416e8686d00572a974dd5",
+  "source_commit": "48ff7a7e2ef782cf778d47910cf85835c64b1bce",
+  "source_repository": "https://github.com/alexforencich/verilog-axis",
+  "source_license": "MIT; original notice in priority_encoder.v and external_hdl/vendor/COPYING",
+  "conditions": {
+    "baseline_id": "priority_encoder_width16_msb_df28220d95b4",
+    "device": "abstract_generic_logic",
+    "toolchain": "Yosys synth -noabc plus ABC; common gate basis AND OR XOR MUX NOT",
+    "tool_version": "Yosys 0.71 (git sha1 b4c586fd3, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+    "implementation": "flattened generic Boolean gates; mapping recipe varies explicitly as method",
+    "constraints_id": "same WIDTH16 MSB-priority function and generic gate library; no physical constraints",
+    "timing_corner": "not_applicable_logic_depth_surrogate",
+    "workload_id": "all 65536 Boolean input vectors; source output behavior preserved",
+    "source_kind": "synthesis"
+  },
+  "recipes": {
+    "simple_map": "strash; map",
+    "area_map": "strash; map -a",
+    "dc2_map": "strash; dc2; map",
+    "balance_map": "strash; balance; map",
+    "rewrite_map": "strash; rewrite; refactor; balance; rewrite -z; refactor -z; balance; map",
+    "dch_map": "strash; dch; map",
+    "dch_area_map": "strash; dch; map -a",
+    "default": null
+  },
+  "runs": [
+    {
+      "stem": "simple_map",
+      "command": [
+        "yowasp-yosys",
+        "-T",
+        "-l",
+        "simple_map.full.log",
+        "-s",
+        "simple_map.ys"
+      ],
+      "returncode": 0,
+      "script_sha256": "5a8ade8f54d5d48cc0bd2aa69cadeb66450aac1797cafc5ab224741c3491c203"
+    },
+    {
+      "stem": "simple_map_equivalence",
+      "command": [
+        "yowasp-yosys",
+        "-T",
+        "-l",
+        "simple_map_equivalence.full.log",
+        "-s",
+        "simple_map_equivalence.ys"
+      ],
+      "returncode": 0,
+      "script_sha256": "1a70354d044e12ba3c2a8e65015c075b5e2c711398811a43144546d3f8d551af"
+    },
+    {
+      "stem": "area_map",
+      "command": [
+        "yowasp-yosys",
+        "-T",
+        "-l",
+        "area_map.full.log",
+        "-s",
+        "area_map.ys"
+      ],
+      "returncode": 0,
+      "script_sha256": "59e5a28b40fa046a93185c9eadc7322ba52e0ae1f0ce9a2a40229182519ad89d"
+    },
+    {
+      "stem": "area_map_equivalence",
+      "command": [
+        "yowasp-yosys",
+        "-T",
+        "-l",
+        "area_map_equivalence.full.log",
+        "-s",
+        "area_map_equivalence.ys"
+      ],
+      "returncode": 0,
+      "script_sha256": "91974e3df11ad85763178d18f00ed557c475df449a11b974bbbfa4d3c850584c"
+    },
+    {
+      "stem": "dc2_map",
+      "command": [
+        "yowasp-yosys",
+        "-T",
+        "-l",
+        "dc2_map.full.log",
+        "-s",
+        "dc2_map.ys"
+      ],
+      "returncode": 0,
+      "script_sha256": "d543f1c426cff62c912a88c20edaf16e5592e3deea9ac71b671d251951a6f386"
+    },
+    {
+      "stem": "dc2_map_equivalence",
+      "command": [
+        "yowasp-yosys",
+        "-T",
+        "-l",
+        "dc2_map_equivalence.full.log",
+        "-s",
+        "dc2_map_equivalence.ys"
+      ],
+      "returncode": 0,
+      "script_sha256": "adfadda65b8b26e516874328aad53363af3a7425eec16407910c7f941f6b7bbc"
+    },
+    {
+      "stem": "balance_map",
+      "command": [
+        "yowasp-yosys",
+        "-T",
+        "-l",
+        "balance_map.full.log",
+        "-s",
+        "balance_map.ys"
+      ],
+      "returncode": 0,
+      "script_sha256": "c7700739cbe5dc126b8c326b294f7b0b2ca62855ce57e6e13ea78e7a86d7e2e4"
+    },
+    {
+      "stem": "balance_map_equivalence",
+      "command": [
+        "yowasp-yosys",
+        "-T",
+        "-l",
+        "balance_map_equivalence.full.log",
+        "-s",
+        "balance_map_equivalence.ys"
+      ],
+      "returncode": 0,
+      "script_sha256": "9bb01c0475212dece3bddb1459c460f19de9d2ea254f6a39f40b8758bd4eb0b7"
+    },
+    {
+      "stem": "rewrite_map",
+      "command": [
+        "yowasp-yosys",
+        "-T",
+        "-l",
+        "rewrite_map.full.log",
+        "-s",
+        "rewrite_map.ys"
+      ],
+      "returncode": 0,
+      "script_sha256": "76431be6d92d3ff1a6be6efce2c734afb460ddca648a0310ea0e47b29ba452f9"
+    },
+    {
+      "stem": "rewrite_map_equivalence",
+      "command": [
+        "yowasp-yosys",
+        "-T",
+        "-l",
+        "rewrite_map_equivalence.full.log",
+        "-s",
+        "rewrite_map_equivalence.ys"
+      ],
+      "returncode": 0,
+      "script_sha256": "3e2a3bc6eda05fb721ce4a9365192e61481a2fa79c21a020bfafc0133416bb2d"
+    },
+    {
+      "stem": "dch_map",
+      "command": [
+        "yowasp-yosys",
+        "-T",
+        "-l",
+        "dch_map.full.log",
+        "-s",
+        "dch_map.ys"
+      ],
+      "returncode": 0,
+      "script_sha256": "99cacf8b18e1ff6c2ec90a24352e71f6d085fa5f932352785ff3763890136b11"
+    },
+    {
+      "stem": "dch_map_equivalence",
+      "command": [
+        "yowasp-yosys",
+        "-T",
+        "-l",
+        "dch_map_equivalence.full.log",
+        "-s",
+        "dch_map_equivalence.ys"
+      ],
+      "returncode": 0,
+      "script_sha256": "5079150f29cb9d0365efa1494b2353bc443ced0d8f0449628bde4dfedaf907b8"
+    },
+    {
+      "stem": "dch_area_map",
+      "command": [
+        "yowasp-yosys",
+        "-T",
+        "-l",
+        "dch_area_map.full.log",
+        "-s",
+        "dch_area_map.ys"
+      ],
+      "returncode": 0,
+      "script_sha256": "5fa580facb65a41b7811a9648ff915b46eb2cc109c4308d11150b4bc527751e9"
+    },
+    {
+      "stem": "dch_area_map_equivalence",
+      "command": [
+        "yowasp-yosys",
+        "-T",
+        "-l",
+        "dch_area_map_equivalence.full.log",
+        "-s",
+        "dch_area_map_equivalence.ys"
+      ],
+      "returncode": 0,
+      "script_sha256": "b93c89d13a8297319c64b7a5c4d7915591008a2fb7506b33663b6434e8cfe88d"
+    },
+    {
+      "stem": "default",
+      "command": [
+        "yowasp-yosys",
+        "-T",
+        "-l",
+        "default.full.log",
+        "-s",
+        "default.ys"
+      ],
+      "returncode": 0,
+      "script_sha256": "4c2d9306434f79c34776b29d901c2748f972b70ba1d40f49b934b66add5a7f74"
+    },
+    {
+      "stem": "default_equivalence",
+      "command": [
+        "yowasp-yosys",
+        "-T",
+        "-l",
+        "default_equivalence.full.log",
+        "-s",
+        "default_equivalence.ys"
+      ],
+      "returncode": 0,
+      "script_sha256": "a821890735742540a6685e3888387d327f8f88842395b4a35bdf2405bf25f720"
+    }
+  ],
+  "generated_utc": "2026-11-27T06:51:19.110007+00:00",
+  "selection": "Eight recipes retained after exploratory WIDTH16/32 sweep; illustrative demonstration, not a preregistered optimization benchmark",
+  "limits": "Generic cell count and graph depth only; no target FPGA mapping, place-and-route, physical timing, power or radiation result"
+}
