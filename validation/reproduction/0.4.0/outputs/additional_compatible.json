@@ -1,0 +1,127 @@
+{
+  "status": "accepted",
+  "reasons": [],
+  "objective_direction": "minimize",
+  "comparison_context": {
+    "context": {
+      "baseline_id": "synthetic_v1",
+      "constraints_id": "schema_example_v1",
+      "device": "abstract_logic",
+      "implementation": "abstract_cost",
+      "source_kind": "synthetic_example",
+      "timing_corner": "not_applicable_abstract",
+      "tool_version": "1",
+      "toolchain": "hand_defined",
+      "workload_id": "schema_example_v1"
+    },
+    "design": "synthetic_schema_example",
+    "metric_semantics": {
+      "cells": {
+        "denominator": "absolute",
+        "uncertainty_kind": "bounded",
+        "unit": "abstract_cells"
+      }
+    }
+  },
+  "record_evidence": {
+    "fresh_alpha": {
+      "method": "original_fixture",
+      "metrics": {
+        "cells": {
+          "value": 10,
+          "lower": 9,
+          "upper": 11,
+          "unit": "abstract_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "bounded"
+        }
+      },
+      "provenance": {
+        "source_uri": "inputs/additional_source.csv",
+        "source_sha256": "a12e3c4727ac9a1353325911945733889c0e1d6b31414a462731a84faf45ea95",
+        "locator": "row fresh_alpha",
+        "extraction": "Fresh synthetic input derived from documented complete schema; not measured FPGA data"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_assessed",
+        "scope": "cost_only",
+        "evidence_uri": "not_assessed"
+      }
+    },
+    "fresh_beta": {
+      "method": "original_fixture",
+      "metrics": {
+        "cells": {
+          "value": 13,
+          "lower": 12,
+          "upper": 14,
+          "unit": "abstract_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "bounded"
+        }
+      },
+      "provenance": {
+        "source_uri": "inputs/additional_source.csv",
+        "source_sha256": "a12e3c4727ac9a1353325911945733889c0e1d6b31414a462731a84faf45ea95",
+        "locator": "row fresh_beta",
+        "extraction": "Fresh synthetic input derived from documented complete schema; not measured FPGA data"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_assessed",
+        "scope": "cost_only",
+        "evidence_uri": "not_assessed"
+      }
+    }
+  },
+  "nominal_front": [
+    "fresh_alpha"
+  ],
+  "not_certainly_dominated": [
+    "fresh_alpha"
+  ],
+  "front_scope": "all_input_records_before_limits",
+  "feasibility": {
+    "fresh_alpha": {
+      "status": "definitely_feasible",
+      "per_limit": {
+        "cells": "definitely_feasible"
+      }
+    },
+    "fresh_beta": {
+      "status": "uncertain",
+      "per_limit": {
+        "cells": "uncertain"
+      }
+    }
+  },
+  "definitely_feasible_nominal_front": [
+    "fresh_alpha"
+  ],
+  "limits": {
+    "cells": 12
+  },
+  "warnings": [
+    "All objectives are minimized; maximize-type metrics must be explicitly transformed before import.",
+    "Source URI and SHA-256 are declared provenance; this engine does not retrieve or authenticate source files.",
+    "Cost/time frontiers do not establish radiation superiority, physical reliability, or mission qualification.",
+    "Interval results are conditional on the supplied closed bounds; they are not statistical guarantees.",
+    "Cost-only comparison: protection equivalence is not assessed, including when records declare verification."
+  ],
+  "replay": {
+    "software": "radpareto",
+    "software_version": "0.4.0",
+    "result_schema_version": "1.0",
+    "input_schema_version": "1.0",
+    "input_sha256": "2968db0aa7c5d47961b779e1ae0fdf0e1b5178f378feccd2abd4bfb2f83bde96",
+    "command": "compare",
+    "options": {
+      "limits": [
+        "cells=12"
+      ],
+      "scales": [],
+      "require_verified_protection": false
+    }
+  }
+}

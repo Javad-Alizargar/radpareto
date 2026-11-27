@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "id": "fresh_alpha",
+      "design": "synthetic_schema_example",
+      "method": "original_fixture",
+      "context": {
+        "baseline_id": "synthetic_v1",
+        "device": "abstract_logic",
+        "toolchain": "hand_defined",
+        "tool_version": "1",
+        "implementation": "abstract_cost",
+        "constraints_id": "schema_example_v1",
+        "timing_corner": "not_applicable_abstract",
+        "workload_id": "schema_example_v1",
+        "source_kind": "synthetic_example"
+      },
+      "metrics": {
+        "cells": {
+          "value": 10,
+          "lower": 9,
+          "upper": 11,
+          "unit": "abstract_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "bounded"
+        }
+      },
+      "provenance": {
+        "source_uri": "inputs/additional_source.csv",
+        "source_sha256": "a12e3c4727ac9a1353325911945733889c0e1d6b31414a462731a84faf45ea95",
+        "locator": "row fresh_alpha",
+        "extraction": "Fresh synthetic input derived from documented complete schema; not measured FPGA data"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_assessed",
+        "scope": "cost_only",
+        "evidence_uri": "not_assessed"
+      }
+    },
+    {
+      "id": "fresh_beta",
+      "design": "synthetic_schema_example",
+      "method": "original_fixture",
+      "context": {
+        "baseline_id": "synthetic_v1",
+        "device": "abstract_logic",
+        "toolchain": "hand_defined",
+        "tool_version": "1",
+        "implementation": "abstract_cost",
+        "constraints_id": "schema_example_v1",
+        "timing_corner": "deliberately_different_abstract_corner",
+        "workload_id": "schema_example_v1",
+        "source_kind": "synthetic_example"
+      },
+      "metrics": {
+        "cells": {
+          "value": 13,
+          "lower": 12,
+          "upper": 14,
+          "unit": "abstract_cells",
+          "denominator": "absolute",
+          "uncertainty_kind": "bounded"
+        }
+      },
+      "provenance": {
+        "source_uri": "inputs/additional_source.csv",
+        "source_sha256": "a12e3c4727ac9a1353325911945733889c0e1d6b31414a462731a84faf45ea95",
+        "locator": "row fresh_beta",
+        "extraction": "Fresh synthetic context-mismatch injection; changed timing_corner only, numeric costs retain additional_source.csv provenance"
+      },
+      "protection": {
+        "status": "unverified",
+        "fault_model": "not_assessed",
+        "scope": "cost_only",
+        "evidence_uri": "not_assessed"
+      }
+    }
+  ]
+}

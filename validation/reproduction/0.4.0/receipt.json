@@ -1,0 +1,72 @@
+{
+  "receipt_schema_version": "1.0",
+  "exercise_date": "2026-11-27",
+  "exercise_timezone": "Asia/Taipei",
+  "exercise_kind": "automated_AI_assisted_public_artifact_reproduction",
+  "human_usability_study": false,
+  "repository": "https://github.com/Javad-Alizargar/radpareto",
+  "software_version": "0.4.0",
+  "tested_commit": "eed14559444b9fc3e493ec59d1cc5e37f289f436",
+  "receipt_publication": "Documentation added after the tested release; the executable release tag is unchanged.",
+  "evaluator_scope": "Fresh task context for the initial candidate exercise; the same AI evaluator repeated tasks on the exact release commit. Public documentation, inputs and CLI help were used; private manuscripts, other reviewers' conclusions and implementation internals were not consulted to resolve tasks.",
+  "ai_model_build": "not_recorded",
+  "environment": {
+    "os": "Windows 10 build 19045",
+    "architecture": "AMD64",
+    "shell": "PowerShell 7.6.9",
+    "python": "3.12.10",
+    "pip": "25.0.1",
+    "build_generator": "setuptools 84.2.1",
+    "runtime_dependencies": [],
+    "installed_into_new_virtual_environment": true,
+    "installed_source_modules_checked": 8,
+    "installed_source_modules_matching": 8,
+    "checkout_clean_after_execution": true
+  },
+  "command_convention": "Direct executable invocations from retained receipts; original relative paths retained. exercise denotes final_commit/ below exercise_parent and contains source/, .venv/, inputs/, outputs/. Logging and stopwatch wrappers are omitted; no private absolute path is published.",
+  "commands": [
+    {"task": "remote_clone", "cwd": "exercise_parent", "command": "git clone --no-checkout https://github.com/Javad-Alizargar/radpareto.git final_commit/source", "exit_code": 0},
+    {"task": "exact_commit_checkout", "cwd": "exercise_parent", "command": "git -C final_commit/source checkout --detach eed14559444b9fc3e493ec59d1cc5e37f289f436", "exit_code": 0},
+    {"task": "create_venv", "cwd": "exercise", "command": "py -3.12 -m venv .venv", "exit_code": 0},
+    {"task": "pip_install", "cwd": "exercise", "command": ".venv/Scripts/python -m pip install --no-cache-dir ./source", "exit_code": 0},
+    {"task": "published_compare", "cwd": "exercise/source", "command": "../.venv/Scripts/python -m radpareto compare benchmarks/published_case/results/records.json --limit cells=40 --limit period_ns=31.25 --output ../outputs/published_40cells_32mhz.json", "exit_code": 0},
+    {"task": "protection_required", "cwd": "exercise/source", "command": "../.venv/Scripts/python -m radpareto compare benchmarks/published_case/results/records.json --limit cells=40 --limit period_ns=31.25 --require-verified-protection --output ../outputs/protection_required.json", "exit_code": 2},
+    {"task": "source_analyzer", "cwd": "exercise/source", "command": "../.venv/Scripts/python benchmarks/published_case/analyze_case.py --engine-src src --out ../outputs/source_replay", "exit_code": 0},
+    {"task": "regenerated_compare", "cwd": "exercise/source", "command": "../.venv/Scripts/python -m radpareto compare ../outputs/source_replay/records.json --limit cells=40 --limit period_ns=31.25 --output ../outputs/replayed_40cells_32mhz.json", "exit_code": 0},
+    {"task": "additional_validate", "cwd": "exercise", "command": ".venv/Scripts/python -m radpareto validate inputs/additional_compatible.json", "exit_code": 0},
+    {"task": "additional_compare", "cwd": "exercise", "command": ".venv/Scripts/python -m radpareto compare inputs/additional_compatible.json --limit cells=12 --output outputs/additional_compatible.json", "exit_code": 0},
+    {"task": "context_mismatch_compare", "cwd": "exercise", "command": ".venv/Scripts/python -m radpareto compare inputs/deliberate_context_mismatch.json --limit cells=12 --output outputs/context_mismatch.json", "exit_code": 2},
+    {"task": "batch_help", "cwd": "exercise", "command": ".venv/Scripts/python -m radpareto batch --help", "exit_code": 0},
+    {"task": "context_mismatch_batch", "cwd": "exercise", "command": ".venv/Scripts/python -m radpareto batch inputs/deliberate_context_mismatch.json --output outputs/context_mismatch_batch.json", "exit_code": 0},
+    {"task": "api_comparison", "cwd": "exercise", "command": ".venv/Scripts/python -c \"import json; from pathlib import Path; from radpareto import compare,validate_document; from radpareto.units import period_ns_from_mhz; path=Path('source/benchmarks/published_case/results/records.json'); records=validate_document(json.loads(path.read_text(encoding='utf-8'))); result=compare(records,limits={'cells':40,'period_ns':period_ns_from_mhz('32')}); print(json.dumps(result['feasibility']['DF-TMR-DFF-5.12'],indent=2))\"", "exit_code": 0},
+    {"task": "decimal_source_check", "cwd": "exercise", "command": ".venv/Scripts/python -c \"import csv,json; from decimal import Decimal as D; row=next(r for r in csv.DictReader(open('source/benchmarks/published_case/source_tables.csv',encoding='utf-8')) if r['structure']=='DF-TMR-DFF-5.12'); print(json.dumps({'source_row':row,'selected_requirement_mhz':'32','selected_limit_ns':str(D(1000)/D(32)),'reciprocal_mean_ns':str(D(1000)/D(row['fmax_mean_mhz'])),'reciprocal_lower_ns':str(D(1000)/D(row['fmax_max_mhz'])),'reciprocal_upper_ns':str(D(1000)/D(row['fmax_min_mhz'])),'mean_meets_32':D(row['fmax_mean_mhz'])>=D(32),'range_crosses_32':D(row['fmax_min_mhz'])<D(32)<D(row['fmax_max_mhz'])},indent=2))\"", "exit_code": 0}
+  ],
+  "observed_results": {
+    "published": {"status": "accepted", "nominal_front": ["BL-DFF"], "not_certainly_dominated": ["BL-DFF"], "definitely_feasible_designs": 5, "uncertain_design": "DF-TMR-DFF-5.12", "uncertain_metric": "period_ns"},
+    "api_selected_decision": {"status": "uncertain", "cells": "definitely_feasible", "period_ns": "uncertain"},
+    "source_replay": {"status": "complete_with_limitations", "budget_rows": 72, "dominance_certificates": 12, "regenerated_records_byte_identical_to_bundled": true, "repeated_comparison_byte_identical": true},
+    "additional_import": {"data_kind": "original_synthetic_schema_example", "status": "accepted", "cells_limit": 12, "fresh_alpha": "definitely_feasible", "fresh_beta": "uncertain", "nominal_front": ["fresh_alpha"]},
+    "context_mismatch": {"status": "refused", "code": "CONTEXT_MISMATCH", "field": "timing_corner", "record": "fresh_beta", "reference": "fresh_alpha"},
+    "batch": {"status": "accepted", "singleton_groups": 2, "cross_group_ranking": false, "supports_budget_limits": false},
+    "protection_required": {"status": "refused", "reason_code": "PROTECTION_UNVERIFIED", "reason_count": 6},
+    "candidate_to_exact_commit_outputs": {"comparable_files": 21, "byte_identical_files": 21}
+  },
+  "source_identifiers": {
+    "published_records_sha256": "61c4ad0c641fc5bd58ba3f3ee245e2406fe7e35fe8405b36c6eb24e4329b002f",
+    "original_transcription_sha256": "7a0bc97b49de401352c2e67e6f6105d131c12b87760f8d41f55c336f2a07d441",
+    "selected_comparison_sha256": "0ed16c8b7ee86528b7d60de40b31338a4989d678bccfde725212cba267424950",
+    "selected_record": "DF-TMR-DFF-5.12",
+    "source_locator": "Tables 9 and 10; source_tables.csv row DF-TMR-DFF-5.12",
+    "source_hash_scope": "Original transcription bytes, not publisher bytes"
+  },
+  "assistance_and_corrections": [
+    "Explicit py -3.12 selection resolved bare python selecting 2.7.11; release documentation was updated with the Windows launcher.",
+    "Initial staging path typo was corrected by preserving and moving the unused copy after a cleanup was blocked. Exact-commit repetition used a new remote clone.",
+    "Initial installation used the default pip cache. Exact-commit repetition used local temporary/cache directories and --no-cache-dir.",
+    "An initial source-row query used design; public header inspection corrected it to structure.",
+    "CLI --help supplied batch syntax and established that it has no --limit option.",
+    "Explicit output JSON, run manifests and exit-code receipts supplemented incomplete native subprocess capture by PowerShell transcription."
+  ],
+  "not_measured": ["human_usability", "human_task_duration", "time_savings", "adoption", "improved_decision_quality", "physical_FPGA_timing", "radiation_protection"],
+  "limits": "Selected automated public-workflow execution only. Not an independent human participant, hardware reproduction, full synthesis rerun, exhaustive test, publisher-data authentication or proof of all scientific claims. Expected exit-2 refusals are successful diagnostics."
+}

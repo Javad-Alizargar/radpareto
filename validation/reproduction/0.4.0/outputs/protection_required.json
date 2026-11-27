@@ -1,0 +1,56 @@
+{
+  "status": "refused",
+  "reasons": [
+    {
+      "code": "PROTECTION_UNVERIFIED",
+      "message": "Protection-aware comparison requires explicit model evidence",
+      "record": "BL-DFF"
+    },
+    {
+      "code": "PROTECTION_UNVERIFIED",
+      "message": "Protection-aware comparison requires explicit model evidence",
+      "record": "TMR-DFF"
+    },
+    {
+      "code": "PROTECTION_UNVERIFIED",
+      "message": "Protection-aware comparison requires explicit model evidence",
+      "record": "DF-TMR-DFF-1.28"
+    },
+    {
+      "code": "PROTECTION_UNVERIFIED",
+      "message": "Protection-aware comparison requires explicit model evidence",
+      "record": "DF-TMR-DFF-2.56"
+    },
+    {
+      "code": "PROTECTION_UNVERIFIED",
+      "message": "Protection-aware comparison requires explicit model evidence",
+      "record": "DF-TMR-DFF-5.12"
+    },
+    {
+      "code": "PROTECTION_UNVERIFIED",
+      "message": "Protection-aware comparison requires explicit model evidence",
+      "record": "DCLR-TMR-DFF"
+    }
+  ],
+  "nominal_front": [],
+  "not_certainly_dominated": [],
+  "feasibility": {},
+  "definitely_feasible_nominal_front": [],
+  "warnings": [],
+  "replay": {
+    "software": "radpareto",
+    "software_version": "0.4.0",
+    "result_schema_version": "1.0",
+    "input_schema_version": "1.0",
+    "input_sha256": "61c4ad0c641fc5bd58ba3f3ee245e2406fe7e35fe8405b36c6eb24e4329b002f",
+    "command": "compare",
+    "options": {
+      "limits": [
+        "cells=40",
+        "period_ns=31.25"
+      ],
+      "scales": [],
+      "require_verified_protection": true
+    }
+  }
+}

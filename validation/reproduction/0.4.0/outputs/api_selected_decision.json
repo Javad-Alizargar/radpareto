@@ -1,0 +1,7 @@
+{
+  "status": "uncertain",
+  "per_limit": {
+    "cells": "definitely_feasible",
+    "period_ns": "uncertain"
+  }
+}

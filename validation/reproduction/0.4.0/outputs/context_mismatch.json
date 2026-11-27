@@ -1,0 +1,32 @@
+{
+  "status": "refused",
+  "reasons": [
+    {
+      "code": "CONTEXT_MISMATCH",
+      "message": "Comparison context differs",
+      "record": "fresh_beta",
+      "reference": "fresh_alpha",
+      "field": "timing_corner"
+    }
+  ],
+  "nominal_front": [],
+  "not_certainly_dominated": [],
+  "feasibility": {},
+  "definitely_feasible_nominal_front": [],
+  "warnings": [],
+  "replay": {
+    "software": "radpareto",
+    "software_version": "0.4.0",
+    "result_schema_version": "1.0",
+    "input_schema_version": "1.0",
+    "input_sha256": "dae2245d68f14a25f50855db991a98e3d672ff40b9c402fe32d309072de2f715",
+    "command": "compare",
+    "options": {
+      "limits": [
+        "cells=12"
+      ],
+      "scales": [],
+      "require_verified_protection": false
+    }
+  }
+}

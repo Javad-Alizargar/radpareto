@@ -32,6 +32,12 @@ Software-creator metadata in CITATION.cff/.zenodo.json is distinct from a
 manuscript's author list; this release does not infer new software creators
 from manuscript authorship.
 
+The [sanitized AI-assisted reproduction receipt](../validation/reproduction/0.4.0/README.md)
+records a selected public-workflow exercise at the exact 0.4.0 commit, including
+environment, commands, results and assistance/corrections. The receipt was added
+in a later documentation commit; it does not change the release tag or establish
+independent human usability, time savings or adoption.
+
 ## Regenerating analysis plots and tables
 
 The optional plot dependencies are separate from the dependency-free core.

@@ -1,0 +1,25 @@
+{
+  "source_row": {
+    "structure": "DF-TMR-DFF-5.12",
+    "dfn1c1": "1458",
+    "comb_versatiles": "15090",
+    "public_versatiles": "24",
+    "structure_only_versatiles": "16524",
+    "versatiles_per_bit": "34",
+    "model_versatiles_per_bit": "34",
+    "resource_ratio": "3.09",
+    "k_dly": "8",
+    "fmax_mean_mhz": "32.083",
+    "fmax_min_mhz": "31.715",
+    "fmax_max_mhz": "32.698",
+    "critical_path_delay_mean_ns": "30.569",
+    "critical_path_slack_mean_at_30mhz_ns": "2.158"
+  },
+  "selected_requirement_mhz": "32",
+  "selected_limit_ns": "31.25",
+  "reciprocal_mean_ns": "31.16915500420783592556805785",
+  "reciprocal_lower_ns": "30.58291026974126857911798887",
+  "reciprocal_upper_ns": "31.53082137789689421409427716",
+  "mean_meets_32": true,
+  "range_crosses_32": true
+}
